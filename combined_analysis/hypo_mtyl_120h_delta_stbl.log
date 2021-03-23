@@ -1,0 +1,39 @@
+The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
+Tue Mar 23 22:38:01 UTC 2021
+Remove duplicates, create RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt
+Quantizing the input file.
+step 2: seed optimization.
+Expfile loaded: 2775 values...
+Adding small values...
+Quantizing the input vector...Done
+Number of clusters: 7
+calculating the p-value matrix.
+Allocating memory ... Done
+doing stats: mi = 0.000143
+pass = 0.997300
+z = -1.560926
+freq 0: 0.126263	50	396	333	2775
+freq 1: 0.113636	45	396	333	2775
+freq 2: 0.123737	49	396	333	2775
+freq 3: 0.121212	48	396	333	2775
+freq 4: 0.116162	46	396	333	2775
+freq 5: 0.123737	49	396	333	2775
+freq 6: 0.115288	46	399	333	2775
+step 7: drawing matrix.
+Option suffix requires an argument
+Reading MI data ... Done.
+Start drawing
+0.54	-0.54
+0
+Outputing EPS file RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.eps
+Convert to PDF RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.eps RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.pdf
+Finished.
+Reading MI data ... Done.
+Start drawing
+0.54	-0.54
+0
+Outputing EPS file combined_analysis/hypo_mtyl_120h_delta_stbl_GENESET/120h_delta_stbl.txt.summary.eps
+Convert to PDF combined_analysis/hypo_mtyl_120h_delta_stbl_GENESET/120h_delta_stbl.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None combined_analysis/hypo_mtyl_120h_delta_stbl_GENESET/120h_delta_stbl.txt.summary.eps combined_analysis/hypo_mtyl_120h_delta_stbl_GENESET/120h_delta_stbl.txt.summary.pdf
+Finished.

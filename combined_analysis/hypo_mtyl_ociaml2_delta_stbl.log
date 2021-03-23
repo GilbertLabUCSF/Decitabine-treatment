@@ -1,0 +1,39 @@
+The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
+Tue Mar 23 22:40:29 UTC 2021
+Remove duplicates, create RNA-seq/other-stbl/ociaml2_delta_stbl.txt_GENESET/ociaml2_delta_stbl.txt
+Quantizing the input file.
+step 2: seed optimization.
+Expfile loaded: 2775 values...
+Adding small values...
+Quantizing the input vector...Done
+Number of clusters: 7
+calculating the p-value matrix.
+Allocating memory ... Done
+doing stats: mi = 0.000676
+pass = 0.860800
+z = -0.988197
+freq 0: 0.138889	55	396	333	2775
+freq 1: 0.128788	51	396	333	2775
+freq 2: 0.108586	43	396	333	2775
+freq 3: 0.118687	47	396	333	2775
+freq 4: 0.108586	43	396	333	2775
+freq 5: 0.118687	47	396	333	2775
+freq 6: 0.117794	47	399	333	2775
+step 7: drawing matrix.
+Option suffix requires an argument
+Reading MI data ... Done.
+Start drawing
+0.94	-1.16
+0
+Outputing EPS file RNA-seq/other-stbl/ociaml2_delta_stbl.txt_GENESET/ociaml2_delta_stbl.txt.summary.eps
+Convert to PDF RNA-seq/other-stbl/ociaml2_delta_stbl.txt_GENESET/ociaml2_delta_stbl.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None RNA-seq/other-stbl/ociaml2_delta_stbl.txt_GENESET/ociaml2_delta_stbl.txt.summary.eps RNA-seq/other-stbl/ociaml2_delta_stbl.txt_GENESET/ociaml2_delta_stbl.txt.summary.pdf
+Finished.
+Reading MI data ... Done.
+Start drawing
+0.94	-1.16
+0
+Outputing EPS file combined_analysis/hypo_mtyl_ociaml2_delta_stbl_GENESET/ociaml2_delta_stbl.txt.summary.eps
+Convert to PDF combined_analysis/hypo_mtyl_ociaml2_delta_stbl_GENESET/ociaml2_delta_stbl.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None combined_analysis/hypo_mtyl_ociaml2_delta_stbl_GENESET/ociaml2_delta_stbl.txt.summary.eps combined_analysis/hypo_mtyl_ociaml2_delta_stbl_GENESET/ociaml2_delta_stbl.txt.summary.pdf
+Finished.
