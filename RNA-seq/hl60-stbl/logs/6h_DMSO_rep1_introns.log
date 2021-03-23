@@ -1,0 +1,42 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v1.6.0
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S hl60-bam//6h_DMSO_rep1.bam                     ||
+||                                                                            ||
+||             Output file : hl60-stbl//counts/6h_DMSO_rep1_introns.txt       ||
+||                 Summary : hl60-stbl//counts/6h_DMSO_rep1_introns.txt.s ... ||
+||              Annotation : /rumi/shams/genomes/hg38/hg38_ensemble_intro ... ||
+||      Dir for temp files : hl60-stbl//counts                                ||
+||                                                                            ||
+||                 Threads : 18                                               ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /rumi/shams/genomes/hg38/hg38_ensemble_introns.gt ... ||
+||    Features : 164937                                                       ||
+||    Meta-features : 16498                                                   ||
+||    Chromosomes/contigs : 24                                                ||
+||                                                                            ||
+|| Process BAM file hl60-bam//6h_DMSO_rep1.bam...                             ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+
+
+Received a terminal signal. The temporary files were removed.

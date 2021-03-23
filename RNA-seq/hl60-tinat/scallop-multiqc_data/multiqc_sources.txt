@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+Salmon	all_sections	72h_DMSO_rep2	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/72h_DMSO_rep2/libParams/flenDist.txt
+Salmon	all_sections	120h_DMSO_rep2	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/120h_DMSO_rep2/libParams/flenDist.txt
+Salmon	all_sections	72h_DMSO_rep1	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/72h_DMSO_rep1/libParams/flenDist.txt
+Salmon	all_sections	120h_DMSO_rep1	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/120h_DMSO_rep1/libParams/flenDist.txt
+Salmon	all_sections	6h_treated_rep1	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/6h_treated_rep1/libParams/flenDist.txt
+Salmon	all_sections	120h_treated_rep1	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/120h_treated_rep1/libParams/flenDist.txt
+Salmon	all_sections	72h_treated_rep1	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/72h_treated_rep1/libParams/flenDist.txt
+Salmon	all_sections	6h_DMSO_rep2	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/6h_DMSO_rep2/libParams/flenDist.txt
+Salmon	all_sections	6h_treated_rep2	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/6h_treated_rep2/libParams/flenDist.txt
+Salmon	all_sections	120h_treated_rep2	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/120h_treated_rep2/libParams/flenDist.txt
+Salmon	all_sections	72h_treated_rep2	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/72h_treated_rep2/libParams/flenDist.txt
+Salmon	all_sections	6h_DMSO_rep1	/rumi/shams/abe/Gilbertlab/Decitabine_treatment/RNA-seq/hl60-exp/scallop/quants/6h_DMSO_rep1/libParams/flenDist.txt
