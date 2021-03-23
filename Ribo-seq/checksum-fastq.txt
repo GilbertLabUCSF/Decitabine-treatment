@@ -1,0 +1,5 @@
+90ad55930705869ccff1864361e00ab4  fastq/1_RiboSeq_S25_L006_R1_001.fastq.gz
+9edc97e06e31bb1f50375392b77213dc  fastq/2_DMSO_1_S26_L006_R1_001.fastq.gz
+be67d7e78a760325bada08d67c7c6f70  fastq/3_DMSO_2_S27_L006_R1_001.fastq.gz
+bce56b39fece7d5ed0ddb8b37e210d76  fastq/4_Drug_1_S28_L006_R1_001.fastq.gz
+11adb81ad753216a2d661834373aa997  fastq/5_Drug_2_S29_L006_R1_001.fastq.gz

@@ -1,0 +1,219 @@
+---
+title: "Decitabine"
+author: "Hossein Asgharian"
+date: "5/13/2020"
+output: pdf_document
+---
+```{r message=FALSE, warning=FALSE}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=60),tidy=TRUE)
+opts_chunk$set(root.dir = "C:/Science/Projects/Ribosome profiling/People/Abe/")
+library(Ribolog)
+library(riboWaltz)
+library(xlsx)
+library(EnhancedVolcano)
+
+```
+
+### Input RPF data
+
+```{r}
+annotation_human_cDNA <- Ribolog::read_annotation("./Human.GRC38.96_annotation.txt")
+reads_list_deci <- Ribolog::bamtolist_rW(bamfolder = "./bam/RPF", annotation = annotation_human_cDNA)
+psite_offset_deci <- Ribolog::psite_rW(reads_list_deci)
+reads_psite_list_deci <- Ribolog::psite_info_rW(reads_list_deci, psite_offset_deci)
+
+```
+
+### Check periodicity and choose readlength range
+```{r}
+Ribolog::print_read_ldist(reads_list_deci, "./deci_RPF_Read_length_distributions.pdf")
+
+Ribolog::print_read_end_heatmap(reads_list_deci, annotation_human_cDNA, "./deci_RPF_read_end_heatmaps.pdf")
+
+Ribolog::print_rop(reads_psite_list_deci, annotation_human_cDNA, "./RPF_ribosome_occupancy_profiles_from_annotation.pdf")
+
+Ribolog::print_period_region(reads_psite_list_deci, "./Periodicity_by_region.pdf")
+
+Ribolog::print_period_region_length(reads_psite_list_deci, "./Periodicity_by_length_region.pdf")
+
+```
+
+Check what read lengths will be retained by a periodicity filter:
+
+```{r}
+filtered_list_deci <- length_filter(data = reads_list_deci, length_filter_mode = "periodicity", periodicity_threshold = 40)
+```
+
+With the default of threshold = 50, all reads were removed. Threshold = 40 still removes 60-70% of reads.
+
+```{r}
+lapply(filtered_list_deci, function(x) summary(as.factor(x$length)))
+```
+
+From this output and the plots generated above, the choice of read length 29-40 seems reasonable. 
+
+```{r message=FALSE, warning=FALSE}
+tr_codon_read_count_deci <- Ribolog::psite_to_codon_count(reads_psite_list_deci, c(29:40), annotation_human_cDNA,  "./Human.GRC38.96_cDNA_longest_CDS.txt")
+
+```
+
+```{r message=FALSE, warning=FALSE}
+tr_codon_bias_coeff_loess_corrected_count_deci <- Ribolog::CELP_bias(tr_codon_read_count_deci, loess_method = "direct")
+
+```
+
+```{r message=FALSE, warning=FALSE}
+rpf_corrected_sum_deci <- Ribolog::codon2transcript(tr_codon_bias_coeff_loess_corrected_count_deci$tr_codon_read_count_loess_corrected, count.type = "corrected_count")
+head(rpf_corrected_sum_deci)
+
+```
+
+```{r}
+rpf_observed_sum_deci <- Ribolog::codon2transcript(tr_codon_bias_coeff_loess_corrected_count_deci$tr_codon_read_count_loess_corrected, count.type = "observed_count")
+head(rpf_observed_sum_deci)
+
+```
+
+```{r}
+rna_count_deci <- Ribolog::bam2count(bamfolder = "./bam/RNA", annotation = annotation_human_cDNA)
+rna_CELP_rpf_count_deci <- merge(rna_count_deci, rpf_corrected_sum_deci, by = "transcript")
+head(rna_CELP_rpf_count_deci)
+
+```
+
+Rename columns for convenience.
+```{r}
+names(rna_CELP_rpf_count_deci)[c(2:5)] <- c("dmso_r1_rna", "dmso_r2_rna", "drug_r1_rna", "drug_r2_rna")
+head(rna_CELP_rpf_count_deci)
+```
+
+This is now ready for normalization and filtering.
+
+```{r}
+# Normalize RNA counts
+rna_CELP_rpf_count_norm1_deci <- Ribolog::normalize_median_of_ratios(rna_CELP_rpf_count_deci, c(2:5))
+# Normalize RPF counts
+rna_CELP_rpf_count_norm2_deci <- Ribolog::normalize_median_of_ratios(rna_CELP_rpf_count_norm1_deci, c(6:9))
+
+```
+
+
+
+```{r}
+# Filter for RNA>=5 in all samples
+rr_deci.v1 <- Ribolog::min_count_filter(rna_CELP_rpf_count_norm2_deci, mincount = 10, columns = c(2:5), method = "all") 
+# Filter for average RPF>=5 across samples
+rr_deci.v2 <- Ribolog::min_count_filter(rr_deci.v1, mincount = 5, columns = c(6:9), method = "average") 
+dim(rna_CELP_rpf_count_norm2_deci)
+dim(rr_deci.v1)
+dim(rr_deci.v2)
+
+```
+
+### QC
+
+```{r}
+te_deci.v2 <- Ribolog::create_te(rr_deci.v2, idcolumns = 1, rnacolumns = c(2:5), rpfcolumns = c(6:9))
+head(te_deci.v2)
+```
+
+```{r}
+te_deci.v2.cent <- row_center(te_deci.v2, columns = c(2:5))
+te_deci.v2.stnd <- row_standardize(te_deci.v2, columns = c(2:5))
+sample_attributes_deci <- read.xlsx("./sample_attributes_deci.xlsx", sheetIndex = 1, header = TRUE)
+print(sample_attributes_deci)
+Ribolog::pca_qc(te_deci.v2[, -1], n = 2, ID = sample_attributes_deci$treatment[c(1:4)])
+Ribolog::pca_qc(te_deci.v2.cent[, -1], n = 2, ID = sample_attributes_deci$treatment[c(1:4)])
+Ribolog::pca_qc(te_deci.v2.stnd[, -1], n = 2, ID = sample_attributes_deci$treatment[c(1:4)])
+
+```
+
+
+```{r}
+rr_deci.v2.split <- Ribolog::partition_to_uniques(x = rr_deci.v2[,-1], design = sample_attributes_deci, uniqueID = "replicate_name")
+names(rr_deci.v2.split)
+
+```
+
+```{r}
+rr_deci.v2.pairwise <- Ribolog::TER_all_pairs(x = rr_deci.v2.split, design = sample_attributes_deci, outcome = "read_type", uniqueID = "replicate_name", groupID = "treatment")
+pi0df_deci <- Ribolog::pairs2pi0s(rr_deci.v2.pairwise)
+print(pi0df_deci)
+
+
+```
+
+```{r results='hide'}
+rr_deci.v2.correlograms <- pairs2correlograms(rr_deci.v2.pairwise)
+
+```
+
+```{r message = FALSE, warning = FALSE}
+fit1_deci <- Ribolog::logit_seq(rr_deci.v2[,-1], sample_attributes_deci, read_type ~ treatment, as.vector(rr_deci.v2$transcript)) 
+head(fit1_deci)
+hist(fit1_deci[,4], n=50, main = "p-value distribution", xlab = "p-value")
+
+```
+
+P-value distribution looks good.
+
+```{r}
+pdf("./QC and volcano plots.pdf")
+Ribolog::pca_qc(te_deci.v2[, -1], n = 2, ID = sample_attributes_deci$treatment[c(1:4)])
+Ribolog::pca_qc(te_deci.v2.cent[, -1], n = 2, ID = sample_attributes_deci$treatment[c(1:4)])
+Ribolog::pca_qc(te_deci.v2.stnd[, -1], n = 2, ID = sample_attributes_deci$treatment[c(1:4)])
+pi0df_deci <- Ribolog::pairs2pi0s(rr_deci.v2.pairwise)
+rr_deci.v2.correlograms <- pairs2correlograms(rr_deci.v2.pairwise)
+print(vplot2)
+dev.off()
+```
+
+
+```{r}
+fit1_deci_FDR <- Ribolog::adj_TER_p(fit1_deci, pcols = 4, adj_method = "fdr")
+fit1_deci_qval <- Ribolog::adj_TER_p(fit1_deci, pcols = 4, adj_method = "qvalue")
+fit1_deci_fdr_qval <- Ribolog::adj_TER_p(fit1_deci_FDR, pcols = 4, adj_method = "qvalue")
+fit1_deci_fdr_qval$transcript <- rownames(fit1_deci_fdr_qval)
+fit1_deci_fdr_qval_g <- merge(human_id_mapper, fit1_deci_fdr_qval, by = "transcript")
+write.table(fit1_deci_fdr_qval_g, "C:/Science/Projects/Ribosome profiling/People/Abe/fit1_deci_fdr_qval_g.txt", row.names = FALSE)
+write.csv(fit1_deci_fdr_qval_g, "C:/Science/Projects/Ribosome profiling/People/Abe/fit1_deci_fdr_qval_g.csv", row.names = FALSE)
+
+```
+
+```{r message = FALSE, warning = FALSE, fig.width = 6, fig.height = 7}
+vplot1 <- EnhancedVolcano(fit1_deci_fdr_qval_g,
+                lab = fit1_deci_fdr_qval_g$gene_name,
+                x = 'Estimate_treatmentDRUG',
+                xlab = 'Ln fold change',
+                y = 'fdr_Pr...z.._treatmentDRUG',
+                ylab = '-Log10 FDR',
+                title = 'Decitabine data, Drug vs DMSO',
+                titleLabSize = 12,
+                border = 'full',
+                pCutoff = 0.05,
+                FCcutoff = log(2),
+                xlim = c(-5, 5), ylim = c(0, 10)) 
+vplot1
+
+```
+
+
+```{r message = FALSE, warning = FALSE, fig.width = 6, fig.height = 7}
+pdf("./Decitabine treatment effect volcano plot, qvalue.pdf")
+vplot2 <- EnhancedVolcano(fit1_deci_fdr_qval_g,
+                lab = fit1_deci_fdr_qval_g$gene_name,
+                x = 'Estimate_treatmentDRUG',
+                xlab = 'Ln fold change',
+                y = 'qvalue_Pr...z.._treatmentDRUG',
+                ylab = '-Log10 q value',
+                title = 'Decitabine data, Drug vs DMSO',
+                titleLabSize = 12,
+                border = 'full',
+                pCutoff = 0.05,
+                FCcutoff = log(2),
+                xlim = c(-3, 3), ylim = c(0, 6)) 
+vplot2
+dev.off()
+```
+
