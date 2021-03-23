@@ -1,0 +1,8 @@
+531834f0cecdb168912c156c2828a53f  fastq/Input_T1_S43_L006_R1_001.fastq.gz
+93b8eb3a6d3bf2bc0e42d106c477ee04  fastq/Input_T2_S44_L006_R1_001.fastq.gz
+f762077dbcf45998037e719d935bdf7e  fastq/Input_U1_S41_L006_R1_001.fastq.gz
+17d6187645aa8fe4e85cfcea06fc7892  fastq/Input_U2_S42_L006_R1_001.fastq.gz
+e8aac0f5a0a40461077d9f6f17e9084e  fastq/IP_T1_S47_L006_R1_001.fastq.gz
+3b0b0b23fc7991db1a2f4e5bf952f3ca  fastq/IP_T2_S48_L006_R1_001.fastq.gz
+04557edd86c6c549e0600728c57de98b  fastq/IP_U1_S45_L006_R1_001.fastq.gz
+fd13dec7c52250d3c8c60f07b3cfda27  fastq/IP_U2_S46_L006_R1_001.fastq.gz
