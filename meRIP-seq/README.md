@@ -30,9 +30,6 @@ __Results from [FIRE](https://github.com/goodarzilab/FIRE)__ shown above indicat
 # Drug-induced methylation enrichment analysis 
 https://github.com/goodarzilab/PAGE
 
-### msigdb_hallmarks
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_h.all.png" title="msigdb_c1" width='600'>
-
 ### msigdb_c3
 <img src="hl60_delta_mtyl/human_ensembl_msigdb_c3.R.png" title="msigdb_c3" width='600'>
 
