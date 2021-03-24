@@ -33,12 +33,6 @@ https://github.com/goodarzilab/PAGE
 ### msigdb_hallmarks
 <img src="hl60_delta_mtyl/human_ensembl_msigdb_h.all.png" title="msigdb_c1" width='600'>
 
-<!-- ### msigdb_c1
-<img src="hl60_delta_mtyl/human_ensembl_msigdb_c1.all.png" title="msigdb_c1" width='600'>
- -->
-<!-- ### msigdb_c2 -->
-<!-- <img src="hl60_delta_mtyl/human_ensembl_msigdb_c2.all.png" title="msigdb_c2" width='600'> -->
-
 ### msigdb_c3
 <img src="hl60_delta_mtyl/human_ensembl_msigdb_c3.R.png" title="msigdb_c3" width='600'>
 
@@ -47,10 +41,10 @@ https://github.com/goodarzilab/PAGE
 cat hl60_delta_mtyl/human_ensembl_msigdb_c3/pvmatrix.txt.killed 
 ```
 
-MIR4666B, MIR4666B
+- MIR4666B, MIR4666B
 	- MIR6730_3P, MIR6730_3P
 	- MIR3064_3P, MIR3064_3P
-MIR671_5P, MIR671_5P
+- MIR671_5P, MIR671_5P
 	- HIVEP1_TARGET_GENES, HIVEP1_TARGET_GENES
 
 ### msigdb_c5
@@ -61,7 +55,7 @@ MIR671_5P, MIR671_5P
 ```python
 cat hl60_delta_mtyl/human_ensembl_msigdb_c5/pvmatrix.txt.killed 
 ```
-GO_PROTEIN_DESTABILIZATION, GO_PROTEIN_DESTABILIZATION
+- GO_PROTEIN_DESTABILIZATION, GO_PROTEIN_DESTABILIZATION
 	- GO_PEPTIDYL_LYSINE_ACETYLATION, GO_PEPTIDYL_LYSINE_ACETYLATION
 	- GO_TRANSCRIPTION_INITIATION_FROM_RNA_POLYMERASE_II_PROMOTER, GO_TRANSCRIPTION_INITIATION_FROM_RNA_POLYMERASE_II_PROMOTER
 	- GO_PROTEIN_ACETYLATION, GO_PROTEIN_ACETYLATION
