@@ -1,0 +1,16 @@
+Type	Names	Functional classification	Functions in m6A regulation and RNA metabolism	References (Pubmed ID)
+m6A writer	METTL3	Catalytic m6A methyltransferase	"Create m6A sites (most near 3_ UTRs, catalytic site is aa 395Ð398, DPPW), promote mRNA translation (independent of its catalytic function)"	24316715
+m6A writer	METTL14	Subunit of METTL3 m6A methyltransferase complex	Help METTL3 to recognize substrate	27373337
+m6A writer	WTAP	Subunit of METTL3 m6A methyltransferase complex	Adaptor protein to lead METTL3ÐMETTL14 heterodimer to mRNAs	24981863
+m6A writer	KIAA1429	Subunit of METTL3 m6A methyltransferase complex	Adaptor protein to lead METTL3ÐMETTL14 heterodimer to mRNAs	24981863
+m6A writer	RBM15 and its paralogue RBM15B	Subunit of METTL3 m6A methyltransferase complex	Determine which DRACH sites are methylated	27602518
+m6A writer	METTL16	Catalytic m6A methyltransferase	"m6A sitesÊcreation (most in introns, catalytic site is PP185/186 and F187), mRNA splicing, regulation ofÊS-adenosylmethionine homeostasis"	28525753
+m6A eraser	FTO	m6A demethylase (catalytic site is H231 and D233)	"RNA demethylation, mRNA splicing"	25412662
+m6A eraser	ALKBH5	m6A demethylase (catalytic site is H204 or H266)	"RNA demethylation, mRNA processing, mRNA exporting, pre-mRNA stability in nuclearÊspeckles"	"23177736, 28344040"
+m6A reader	YTHDC1	Direct reader	mRNA splicing	26876937
+m6A reader	YTHDF1	Direct reader	mRNA translation	26046440
+m6A reader	YTHDF2	Direct reader	mRNA decay	27558897
+m6A reader	YTHDF3	Direct reader	Interacted with YTHDF1 and YTHDF2 to facilitate mRNA translation and mRNA degradation	28106072
+m6A reader	HNRNPA2B1	Direct reader	miRNA splicing	26321680
+m6A reader	EIF3	Direct reader	Promote mRNA translation	26046440
+m6A reader	HNRNPC	Indirect m6A reader	mRNA splicing	25719671
