@@ -109,13 +109,13 @@ for std,ax in zip(studies,chain(top_axs, bot_axs)):
 
 
     
-![png](output_6_0.png)
+![png](img/venn_1.png)
     
 
 
 
     
-![png](output_6_1.png)
+![png](img/venn_2.png)
     
 
 
