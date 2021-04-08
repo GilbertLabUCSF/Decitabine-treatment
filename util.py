@@ -5,7 +5,6 @@ from operator import itemgetter
 import matplotlib.pyplot as plt
 
 wd='/rumi/shams/abe/Gilbertlab/Decitabine-treatment/'
-global indir
 
 
 def make_score_df(screen, score, rep='ave_Rep1_Rep2'):
