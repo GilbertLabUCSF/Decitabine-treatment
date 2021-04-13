@@ -4,8 +4,6 @@ import numpy as np
 from operator import itemgetter
 import matplotlib.pyplot as plt
 
-wd='/rumi/shams/abe/Gilbertlab/Decitabine-treatment/'
-
 
 def make_score_df(screen, score, rep='ave_Rep1_Rep2'):
     '''
@@ -53,7 +51,7 @@ def read_genetable_collapsed(PATH, SCORE):
     return out
 
 
-def find_top(df,value, value_thr, stat, stat_thr,n_line=None, drop_dup=False):
+def find_top(df,value, value_thr, stat, stat_thr,n_line=None, drop_dup=False,silent=False):
     # Select rows (genes) which has value >= value_thr & stat < stat_thr 
     if n_line==None:
         up = df.iloc[
@@ -90,8 +88,9 @@ def find_top(df,value, value_thr, stat, stat_thr,n_line=None, drop_dup=False):
         up = up.sort_values(stat).drop_duplicates(subset='gene_id', keep="last")
         dn = dn.sort_values(stat).drop_duplicates(subset='gene_id', keep="last")
     
-    print ('up: ', up.shape[0])
-    print ('down:', dn.shape[0])
+    if not silent:
+        print ('up: ', up.shape[0])
+        print ('down:', dn.shape[0])
 
     return up, dn
 
@@ -100,7 +99,7 @@ def raw_dict(cells):
     data = dict(((c,{}) for c in cells))
     return data
 
-def load_data(comparisons=False, screenings=False):
+def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Gilbertlab/Decitabine-treatment/'):
     '''Read data into Pandas dataframes'''
     cwd = os.getcwd()
     os.chdir(wd)
@@ -144,13 +143,13 @@ def load_data(comparisons=False, screenings=False):
 
         data['hl60']['delta_te'] = data['hl60']['delta_te'][
             ['gene_id','gene_name','Estimate_treatmentDRUG','fdr_Pr...z.._treatmentDRUG']
-        ]
+        ].set_index('gene_id')
         data['hl60']['delta_mtyl'] = data['hl60']['delta_mtyl'][['ensembl','name','logFC','p_value']]
         data['hl60']['delta_mtyl'].columns = ['gene_id','gene_name','logFC','pval']
 
     # include CRISPR screening scores 
-    if screenings==True:
-        screenings = [
+    if screens==True:
+        screens = [
         'CRISPRi-screen/hl60_exp1/hl60_DAC_processing_output_genetable_collapsed.xlsx',
         'CRISPRi-screen/hl60_exp2/hl60_DAC_processing_output_genetable_collapsed.txt',
         'CRISPRi-screen/hl60_exp2/hl60_GSK_processing_output_genetable_collapsed.txt',
@@ -158,7 +157,7 @@ def load_data(comparisons=False, screenings=False):
         'CRISPRi-screen/molm13_exp/molm13_GSK_processing_output_genetable_collapsed.txt'
         ]
 
-        labels = [itemgetter(0,1,3)(f.replace('CRISPRi-screen/','').replace('/','_').split('_')) for f in screenings] 
+        labels = [itemgetter(0,1,3)(f.replace('CRISPRi-screen/','').replace('/','_').split('_')) for f in screens] 
         cells = set([l[0] for l in labels])
         
         if data == None:
@@ -167,7 +166,7 @@ def load_data(comparisons=False, screenings=False):
         for i,x  in enumerate(labels):
             cell, exp, drug = x
             for score in ['rho','gamma']:
-                data[cell]['_'.join([exp, drug, score])] = read_genetable_collapsed (screenings[i],score)
+                data[cell]['_'.join([exp, drug, score])] = read_genetable_collapsed (screens[i],score)
     os.chdir(cwd)
     
     return data
@@ -176,7 +175,7 @@ def load_data(comparisons=False, screenings=False):
 def merge_stbl_data(data=None):
     # Extract and merge experssion data for 6 AML cell lines:
     if data==None:
-        data = load_data()
+        data = load_data(comparisons=True)
     S_gene_names = data['hl60']['delta_stbl'].set_index('ensembl_id')[['gene_name']]
     S1 = data['hl60']['delta_stbl'].set_index('ensembl_id')[['logFC_120h','P.Value_120h']].rename(columns={
         'logFC_120h':'logFC',
@@ -195,7 +194,7 @@ def merge_stbl_data(data=None):
 def merge_exp_data(data=None):    
     # Extract and merge experssion data for 6 AML cell lines:
     if data==None:
-        data = load_data()
+        data = load_data(comparisons=True)
     E_gene_names = data['hl60']['delta_exp'].set_index('gene_id')[['gene_name']]
     E1 = data['hl60']['delta_exp'].set_index('gene_id')[['log2FC_120h','pval_120h']].add_prefix('hl60.')
     E2, E3, E4, E5, E6 = [
@@ -255,7 +254,7 @@ def set_Top_Exp(fc_thr, pv_thr, n_line,data=None):
 def set_Top_Mtyl(fc_thr,pv_thr,data=None):
     print ('Subset Top Mtyl data frame:')
     if data==None:
-        data = load_data()
+        data = load_data(comparisons=True)
     out = {}
     out['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
     out['up'], out['down'] = find_top(
@@ -272,7 +271,7 @@ def set_Top_Mtyl(fc_thr,pv_thr,data=None):
 def set_Top_TE(te_thr,fdr_thr,data=None):
     print ('Subset Top TE data frame:')
     if data==None:
-        data = load_data()
+        data = load_data(comparisons=True)
     out = {}
     out['threshold'] = [['te_thr',te_thr],['fdr_thr',fdr_thr]]
 
@@ -285,19 +284,54 @@ def set_Top_TE(te_thr,fdr_thr,data=None):
     return out 
 
 
-# # Rho score
-# def set_Top_Rho(sc_thr,pv_thr,data=None):
-#     print ('Subset Top Rho data frame:')
-#     data = load_data()
-#     out = {}
-#     out['threshold'] = [['sc_thr',sc_thr],['pv_thr',pv_thr]]
-#     out['up'], out['down']  = find_top(
-#         data['hl60']['rho'], 
-#         'rho score', sc_thr,'Mann-Whitney p-value', pv_thr)
+def merge_screen_data(cell, score, data=None):
+    if data==None:
+        data = load_data(screens=True)
+    # find uniq gene names 
+    genes = [data[cell][i].index.tolist() for i in data[cell].keys() if score in i]
+    genes = set(genes[0]).intersection(*genes[1:])
+    # merge data frames 
+    dfs = [data[cell][i].loc[genes,:].rename(columns={
+        f'{score} score': f'{cell} {i} score'.replace(' ','_'), 'Mann-Whitney p-value': f'{cell} {i} p-value'.replace(' ','_')
+    }).astype(float)
+           for i in data[cell].keys() if score in i]
+    score_df = pd.concat(dfs, axis=1)
+    return score_df
+
+
+# Rho score
+def set_Top_Rho(sc_thr,pv_thr,data=None):
+    print ('Subset Top Rho data frame:')
+    if data==None:
+        data = load_data(screens=True)
     
-#     print (f'(sc_thr={sc_thr}, pv_thr={pv_thr})')
+    dfs = []
+    dfs.append(merge_screen_data('molm13','rho',data=data).filter(like='DAC').astype(float))
+    dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp1').astype(float))
+    dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp2').astype(float))
+
+    top = []
+    for df in dfs: 
+        score,pval = df.columns
+        up,dn = find_top (df,score,sc_thr,pval,pv_thr,silent=True)
+        top.append([up,dn])
     
-#     return out 
+    up_genes = [up.index.tolist() for up,_ in top]
+    up_genes = set(up_genes[0]).intersection(*up_genes[1:])
+    dn_genes = [dn.index.tolist() for _,dn in top]
+    dn_genes = set(dn_genes[0]).intersection(*dn_genes[1:])
+    
+    up = pd.concat([df.loc[up_genes,:] for df in dfs],axis=1)
+    dn = pd.concat([df.loc[dn_genes,:] for df in dfs],axis=1)
+    
+    out = {}
+    out['threshold'] = [['sc_thr',sc_thr],['pv_thr',pv_thr]]
+    out['up'], out['down']  = up, dn
+    print ('up: ', up.shape[0])
+    print ('down:', dn.shape[0])
+
+    print (f'(sc_thr={sc_thr}, pv_thr={pv_thr}) in both molm13 and hl60 (2 replicates) cell lines')
+    return out 
 
 
 def plot_corr(df):
