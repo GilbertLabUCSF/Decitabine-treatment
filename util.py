@@ -289,6 +289,7 @@ def merge_screen_data(cell, score, data=None):
         data = load_data(screens=True)
     # find uniq gene names 
     genes = [data[cell][i].index.tolist() for i in data[cell].keys() if score in i]
+    
     genes = set(genes[0]).intersection(*genes[1:])
     # merge data frames 
     dfs = [data[cell][i].loc[genes,:].rename(columns={
@@ -297,7 +298,6 @@ def merge_screen_data(cell, score, data=None):
            for i in data[cell].keys() if score in i]
     score_df = pd.concat(dfs, axis=1)
     return score_df
-
 
 # Rho score
 def set_Top_Rho(sc_thr,pv_thr,data=None):
