@@ -189,12 +189,12 @@ cat fit1_deci_fdr_qval_g_0.csv | awk -F, '{print $2"\t"$4}' > plots.txt
   <img src=plots/human_ensembl_msigdb_full.L.png style="width:600px">
   <tr>
 <table>
-<table>
+<!-- <table>
   <tr>
   <h2>human_ensembl_msigdb_h<h2>
   <img src=plots/human_ensembl_msigdb_h.all.png style="width:600px">
   <tr>
-<table>
+<table> -->
 <!-- <table>
   <tr>
   <h2>human_ensembl_RBPs_all_gene_ids<h2>
@@ -219,12 +219,12 @@ cat fit1_deci_fdr_qval_g_0.csv | awk -F, '{print $2"\t"$4}' > plots.txt
   <img src=plots/human_ensembl_RBPs_coding_gene_ids_by_3UTR.all.png style="width:600px">
   <tr>
 <table> -->
-<table>
+<!-- <table>
   <tr>
   <h2>human_ensembl_RBPs_coding_gene_ids_by_5UTR<h2>
   <img src=plots/human_ensembl_RBPs_coding_gene_ids_by_5UTR.all.png style="width:600px">
   <tr>
-<table>
+<table> -->
 <!-- <table>
   <tr>
   <h2>human_ensembl_RBPs_coding_gene_ids_by_coding_exons<h2>
