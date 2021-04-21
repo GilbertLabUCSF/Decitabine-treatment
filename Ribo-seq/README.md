@@ -10,20 +10,20 @@ cat fit1_deci_fdr_qval_g_0.csv | awk -F, '{print $2"\t"$4}' > plots.txt
 
 <table>
     <tr>
-    <td><img src="plots/QC_and_volcano_plots-0.png" style="width:500px">
-    <td><img src="plots/QC_and_volcano_plots-1.png" style="width:500px">
+    <td><img src="plots/QC-and-volcano-plots-0.png" style="width:500px">
+    <td><img src="plots/QC-and-volcano-plots-1.png" style="width:500px">
     <tr>
 <table>
 <table>
     <tr>
-    <td><img src="plots/QC_and_volcano_plots-2.png" style="width:500px">
-    <td><img src="plots/QC_and_volcano_plots-3.png" style="width:500px">
+    <td><img src="plots/QC-and-volcano-plots-2.png" style="width:500px">
+    <td><img src="plots/QC-and-volcano-plots-3.png" style="width:500px">
     <tr>
 <table>
 <table>
     <tr>
-    <td><img src="plots/QC_and_volcano_plots-4.png" style="width:500px">
-    <td><img src="plots/QC_and_volcano_plots-5.png" style="width:500px">
+    <td><img src="plots/QC-and-volcano-plots-4.png" style="width:500px">
+    <td><img src="plots/QC-and-volcano-plots-5.png" style="width:500px">
     <tr>
 <table>
 
