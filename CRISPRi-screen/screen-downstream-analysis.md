@@ -59,20 +59,6 @@ Exploring correlations, differences, and intersections among the screens.
 > Dai, D., Wang, H., Zhu, L. et al. N6-methyladenosine links RNA metabolism to cancer progression. _Cell Death Dis_ **9**, 124 (2018). https://doi.org/10.1038/s41419-017-0129-x
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -209,7 +195,8 @@ Exploring correlations, differences, and intersections among the screens.
 </table>
 </div>
 
+### Rho score of DAC drug in m6A genes 
 ![png](img/screen-downstream-analysis-pic5.png)
     
-    
+### Rho score of GSK drug in m6A genes 
 ![png](img/screen-downstream-analysis-pic6.png)
