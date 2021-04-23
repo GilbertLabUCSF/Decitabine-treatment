@@ -4,16 +4,6 @@ Here, we aim to integrate differential analysis results (treated vs. non-treated
 => table of these genes with all logFCs, pvalues and screening scores.
 
 
-```python
-import pandas as pd 
-import numpy as np
-from matplotlib.pyplot import subplots
-from itertools import chain, product
-from venn import venn 
-
-from util import *
-```
-
 ### Load data
 Comparing treated with Decitabine vs. non-treated:
 - **$\Delta$RNA methylation**  (hl60 cell line)
@@ -23,28 +13,8 @@ Comparing treated with Decitabine vs. non-treated:
 - **$\Delta$Phenotype, CRISPRi-screen $\rho$(rho) score** (hl60 and molm13 cell lines) 
 
 
-```python
-comps = load_data(comparisons=True)
-```
-
-
-```python
-scrns = load_data(screens=True)
-```
 
 Find top genes across all cell lines and high throughput experiments:
-
-
-
-```python
-Top = {}
-
-Top['TE']   = set_Top_TE  (0,0.05,comps)
-Top['Mtyl'] = set_Top_Mtyl(0,0.05,comps)
-Top['Exp']  = set_Top_Exp (0,0.05, 2,comps)
-Top['Stbl'] = set_Top_Stbl(0,0.05, 2,comps)
-Top['Rho'] = set_Top_Rho(0.1,1,scrns)
-```
 
     Subset Top TE data frame:
     up:  40
@@ -74,146 +44,15 @@ Top['Rho'] = set_Top_Rho(0.1,1,scrns)
 
 Select top gene names 
 
-
-```python
-Exp_up = Top['Exp']['up'].gene_name.tolist()
-Stbl_up = Top['Stbl']['up'].gene_name.tolist()
-TE_up = Top['TE']['up'].gene_name.tolist()
-Rho_up = Top['Rho']['up'].index.tolist()
-Hyper_m6A = Top['Mtyl']['up'].gene_name.tolist()
-
-Exp_down = Top['Exp']['down'].gene_name.tolist()
-Stbl_down = Top['Stbl']['down'].gene_name.tolist()
-TE_down = Top['TE']['down'].gene_name.tolist()
-Rho_down = Top['Rho']['down'].index.tolist()
-Hypo_m6A = Top['Mtyl']['down'].gene_name.tolist()
-```
-
-
-```python
-def iter_by_two(input1,input2,input3):
-    # inputs are variable names 
-    # it will give 8 combinations 
-    out = []
-    for comb in list(product(input1,input2,input3)):
-        a,b,c = comb
-        out.append([a,b,c])
-    return out 
-
-studies = iter_by_two(['Exp_up', 'Exp_down'],['Rho_up', 'Rho_down'],['Hyper_m6A', 'Hypo_m6A'])
-studies = [[s[0].replace('Exp','Stbl'),s[0],s[1],s[2]] for s in studies]
-
-_, top_axs = subplots(ncols=4, nrows=1, figsize=(18, 8))
-_, bot_axs = subplots(ncols=4, nrows=1, figsize=(18, 8))
-# cmaps = ["cool", list("rgb"), "plasma", "viridis", "Set1"]
-# letters = iter(ascii_uppercase)
-
-for std,ax in zip(studies,chain(top_axs, bot_axs)):
-    data = {}
-    data = dict([[a,set(eval(a))] for a in std])
-    venn(data,fontsize=10,legend_loc="upper left", ax=ax)
-```
-
-
     
 ![png](img/venn_1.png)
     
-
-
-
-    
 ![png](img/venn_2.png)
-    
-
 
 # Final merged table
 
-
-```python
-# comps = load_data(comparisons=True)
-# scrns = load_data(screens=True)
-```
-
-
-```python
-def get_intersect_df(intersect_genes, data, key=None):
-    # get intersects 
-    # Note: change intersect_genes based on the biological question
-    if key is not None: 
-        df = data[key]
-    else: 
-        df = data
-
-    out = df.iloc[[i for i, g in enumerate (df.gene_name) if g in list(intersect_genes)],]
-
-    return out
-
-
-def filter_genes(genes,df):
-    genes = [gene for gene in genes if gene in df.index.tolist()]
-    out = df.loc[genes,:]
-    return out
-
-
-def make_comp_final_table(genes,data):
-    exp_df = merge_exp_data(data=data)
-    stbl_df = merge_stbl_data(data=data)
-    
-    E = get_intersect_df(genes, exp_df)
-    S = get_intersect_df(genes, stbl_df)
-    M = get_intersect_df(genes, data['hl60'],'delta_mtyl')
-    T = get_intersect_df(genes, data['hl60'],'delta_te')
-
-    out = pd.DataFrame(index=genes)
-
-    out = pd.concat([
-        out,
-        # Expression
-        E.reset_index(drop=True).set_index('gene_name').add_prefix('Exp.'),
-        # Stability 
-        S.reset_index(drop=True).set_index('gene_name').add_prefix('Stbl.'),
-        # Translational Efficiency
-        T.reset_index(drop=True).set_index('gene_name').add_prefix('TE.'),
-    ],axis=1)
-    
-    out = out.round(3)
-    return out
-
-def make_scrn_final_table(genes,data):
-    
-    R = merge_screen_data('hl60','rho', data=data)
-    R = filter_genes(genes,R)
-    G = merge_screen_data('molm13','gamma', data=data)
-    G = filter_genes(genes,G)
-    
-    out = pd.DataFrame(index=genes)
-    
-    out = pd.concat([
-        out,
-        # CRISPR Screen Rho score
-        R,
-        # CRISPR Screen Gamma score
-        G,
-    ],axis=1)
-    
-    out = out.round(3)
-    return out
-```
-
-# Hypothesis 1
+## Hypothesis 1
 ### Rho_down & Exp_down & Stbl_down & Hyper_m6A
-
-
-```python
-hypothesis1 = list(set(Rho_down).intersection(Exp_down,Stbl_down,Hyper_m6A))
-```
-
-
-```python
-make_comp_final_table(hypothesis1,data=comps)
-```
-
-
 
 
 <table border="1" class="dataframe">
@@ -300,12 +139,6 @@ make_comp_final_table(hypothesis1,data=comps)
 
 
 
-```python
-make_scrn_final_table(hypothesis1,data=scrns)
-```
-
-
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -355,20 +188,8 @@ make_scrn_final_table(hypothesis1,data=scrns)
 
 
 
-# Hypothesis 2
+## Hypothesis 2
 ### Rho_down & Exp_down & Hyper_m6A
-
-
-```python
-hypothesis2 = list(set(Rho_down).intersection(Exp_down,Hyper_m6A))
-```
-
-
-```python
-make_comp_final_table(hypothesis2,data=comps)
-```
-
-
 
 
 <table border="1" class="dataframe">
@@ -501,15 +322,6 @@ make_comp_final_table(hypothesis2,data=comps)
 </div>
 
 
-
-
-```python
-make_scrn_final_table(hypothesis2,data=scrns)
-```
-
-
-
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -598,19 +410,9 @@ make_scrn_final_table(hypothesis2,data=scrns)
 
 
 
-# Hypothesis 3
+## Hypothesis 3
 
 ### Rho_up & Exp_down & Stbl_down & Hyper_m6A
-
-
-```python
-hypothesis3 = list(set(Rho_up).intersection(Exp_down,Stbl_down,Hyper_m6A))
-```
-
-
-```python
-make_comp_final_table(hypothesis3,data=comps).shape[0]
-```
 
 
 
@@ -619,25 +421,8 @@ make_comp_final_table(hypothesis3,data=comps).shape[0]
 
 
 
-
-```python
-make_scrn_final_table(hypothesis3,data=scrns)
-```
-
-# Hypothesis 4
+## Hypothesis 4
 ### Rho_up & Exp_down & Hyper_m6A
-
-
-```python
-hypothesis4 = list(set(Rho_up).intersection(Exp_down,Hyper_m6A))
-```
-
-
-```python
-make_comp_final_table(hypothesis4,data=comps)
-```
-
-
 
 
 <table border="1" class="dataframe">
@@ -818,15 +603,6 @@ make_comp_final_table(hypothesis4,data=comps)
 </div>
 
 
-
-
-```python
-make_scrn_final_table(hypothesis4,data=scrns)
-```
-
-
-
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -944,22 +720,6 @@ make_scrn_final_table(hypothesis4,data=scrns)
 # m6A reader and writer genes 
 [Table 1](https://www.nature.com/articles/s41419-017-0129-x/tables/1) at
 > Dai, D., Wang, H., Zhu, L. et al. N6-methyladenosine links RNA metabolism to cancer progression. _Cell Death Dis_ **9**, 124 (2018). https://doi.org/10.1038/s41419-017-0129-x
-
-
-```python
-table = pd.read_csv('m6A-genes.tsv', sep = '\t')
-m6A_genes = table.Names.tolist()
-RBMs = m6A_genes[4].split(' and its paralogue ')
-m6A_genes.remove(m6A_genes[4])
-m6A_genes = m6A_genes+RBMs
-```
-
-
-```python
-make_comp_final_table(m6A_genes,data=comps)
-```
-
-
 
 
 <table border="1" class="dataframe">
@@ -1378,15 +1138,6 @@ make_comp_final_table(m6A_genes,data=comps)
 </table>
 <p>16 rows × 26 columns</p>
 </div>
-
-
-
-
-```python
-make_scrn_final_table(m6A_genes,data=scrns)
-```
-
-
 
 
 <table border="1" class="dataframe">
