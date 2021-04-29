@@ -179,7 +179,8 @@ def merge_exp_data(data=None):
     if data==None:
         data = load_data(comparisons=True)
     E_gene_names = data['hl60']['delta_exp'].set_index('gene_id')[['gene_name']]
-    E1 = data['hl60']['delta_exp'].set_index('gene_id')[['log2FC_120h','pval_120h']].add_prefix('hl60.')
+    E1 = data['hl60']['delta_exp'].set_index('gene_id')[
+        ['log2FC_120h','pval_120h']].rename(columns={"log2FC_120h": "log2FC", "pval_120h": "pval"}).add_prefix('hl60.')
     E2, E3, E4, E5, E6 = [
         data[cell_line]['delta_exp'].set_index('gene_id').loc[
             E1.index,
@@ -192,50 +193,50 @@ def merge_exp_data(data=None):
 
 
 def set_Top_Stbl(fc_thr, pv_thr, cell_lines='hl60',data=None):
-    '''
-    Define top genes in delta(RNA-stability) data space: 
-    genes with log2FC >= `fc_thr` and P-Value < `pv_thr` 
-    
-    cell_lines = comma-seprated cell line names 
-    '''
     print ('Subset Top Stbl data frame:')
-    stbl_df = merge_stbl_data(data)
-    
+    stbl_df = merge_stbl_data(data).set_index('gene_name')
     cell_lines = cell_lines.split(',')
     
-    out = {}
-    out['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
-    out['up'], out['down'] = find_top(
-        stbl_df, 
-        [c for c in stbl_df.columns if 'logFC' in c], fc_thr,
-        [c for c in stbl_df.columns if 'pval' in c], pv_thr,
-        n_line=n_line
-    )
-    
-    print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}) in more than {n_line} cell lines')
+    out = []
+    for cl in cell_lines:
+        dic = {}
+        dic['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
+        df = stbl_df.filter(like=cl)
 
-    return out 
+        dic['up'], dic['down'] = find_top(df, f'{cl}.logFC', fc_thr,f'{cl}.pval', pv_thr)
+
+        print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}) in {cl} cell line')
+        out.append(dic)
+    if len(out) == 1: 
+        return out[0]
+    else: 
+        return out
 
 
 def set_Top_Exp(fc_thr, pv_thr, cell_lines='hl60',data=None):
-    '''
-    Define top genes in delta(RNA-expression) data space: 
-    genes with log2FC >= `fc_thr` and P-Value < `pv_thr` 
-    '''
-    print ('Subset Top Exp data frame:')
-    exp_df = merge_exp_data(data)
-    out = {}
-    out['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
-    out['up'], out['down'] = find_top(
-        exp_df, 
-        [c for c in exp_df.columns if 'log2FC' in c], fc_thr,
-        [c for c in exp_df.columns if 'pval' in c], pv_thr,
-        n_line=n_line
-    )
     
-    print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}) in more than {n_line} cell lines')
+    print ('Subset Top Exp data frame:')
+    exp_df = merge_exp_data(data).set_index('gene_name')
+    cell_lines = cell_lines.split(',')
+    
+    out = []
+    for cl in cell_lines:
+        dic = {}
+        dic['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
+        df = exp_df.filter(like=cl)
 
-    return out 
+        dic['up'], dic['down'] = find_top(
+            df, 
+            f'{cl}.log2FC', fc_thr,
+            f'{cl}.pval', pv_thr
+        )
+
+        print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}) in {cl} cell line')
+        out.append(dic)
+    if len(out) == 1: 
+        return out[0]
+    else: 
+        return out
 
 
 # RNA methylation    
@@ -288,15 +289,17 @@ def merge_screen_data(cell, score, data=None):
     return score_df
 
 # Rho score
-def set_Top_Rho(sc_thr,pv_thr,data=None):
+def set_Top_Rho(sc_thr,pv_thr,cell_line='hl60', data=None):
     print ('Subset Top Rho data frame:')
     if data==None:
         data = load_data(screens=True)
     
     dfs = []
-    dfs.append(merge_screen_data('molm13','rho',data=data).filter(like='DAC').astype(float))
-    dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp1').astype(float))
-    dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp2').astype(float))
+    if cell_line=='molm13': 
+        dfs.append(merge_screen_data('molm13','rho',data=data).filter(like='DAC').astype(float))
+    if cell_line=='hl60':
+        dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp1').astype(float))
+#     dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp2').astype(float))
 
     top = []
     for df in dfs: 
@@ -318,7 +321,7 @@ def set_Top_Rho(sc_thr,pv_thr,data=None):
     print ('up: ', up.shape[0])
     print ('down:', dn.shape[0])
 
-    print (f'(sc_thr={sc_thr}, pv_thr={pv_thr}) in both molm13 and hl60 (2 replicates) cell lines')
+    print (f'(sc_thr={sc_thr}, pv_thr={pv_thr}) in {cell_line} cell line')
     return out 
 
 
