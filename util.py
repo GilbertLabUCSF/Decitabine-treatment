@@ -51,38 +51,21 @@ def read_genetable_collapsed(PATH, SCORE):
     return out
 
 
-def find_top(df,value, value_thr, stat, stat_thr,n_line=None, drop_dup=False,silent=False):
+def find_top(df,value, value_thr, stat, stat_thr, drop_dup=False,silent=False):
     # Select rows (genes) which has value >= value_thr & stat < stat_thr 
-    if n_line==None:
-        up = df.iloc[
-            [i for i,l in enumerate(
-                np.array([
-                    np.array(df.loc[:,value] >= value_thr),
-                    np.array(df.loc[:,stat] < stat_thr)]).all(axis=0)) if l == 1]
-                ,:] 
-        dn = df.iloc[
-            [i for i,l in enumerate(
-                np.array([
-                    np.array(df.loc[:,value] <= -1*(value_thr)),
-                    np.array(df.loc[:,stat] < stat_thr)]).all(axis=0)) if l == 1]
-                ,:] 
-        
-    # found in more than n_line cell lines 
-    else:
-        up = df.iloc[
-            [i for i,l in enumerate(
-                np.array([
-                    np.array(df.loc[:,value] >= value_thr).sum(axis=1) >= n_line,
-                    np.array(df.loc[:,stat] < stat_thr).sum(axis=1) >= n_line]
-                ).all(axis=0)) if l == 1]
-                ,:]
-        dn = df.iloc[
-            [i for i,l in enumerate(
-                np.array([
-                    np.array(df.loc[:,value] <= -1*(value_thr)).sum(axis=1) >= n_line,
-                    np.array(df.loc[:,stat] < stat_thr).sum(axis=1) >= n_line,]
-                ).all(axis=0)) if l == 1]
-                ,:] 
+#     if n_line==None:
+    up = df.iloc[
+        [i for i,l in enumerate(
+            np.array([
+                np.array(df.loc[:,value] >= value_thr),
+                np.array(df.loc[:,stat] < stat_thr)]).all(axis=0)) if l == 1]
+            ,:] 
+    dn = df.iloc[
+        [i for i,l in enumerate(
+            np.array([
+                np.array(df.loc[:,value] <= -1*(value_thr)),
+                np.array(df.loc[:,stat] < stat_thr)]).all(axis=0)) if l == 1]
+            ,:] 
         
     if drop_dup==True:
         up = up.sort_values(stat).drop_duplicates(subset='gene_id', keep="last")
@@ -208,13 +191,18 @@ def merge_exp_data(data=None):
     return exp_df
 
 
-def set_Top_Stbl(fc_thr, pv_thr, n_line,data=None):
+def set_Top_Stbl(fc_thr, pv_thr, cell_lines='hl60',data=None):
     '''
     Define top genes in delta(RNA-stability) data space: 
-    > genes with log2FC >= `fc_thr` and P-Value < `pv_thr` acrross `n_line` number of cell lines. 
+    genes with log2FC >= `fc_thr` and P-Value < `pv_thr` 
+    
+    cell_lines = comma-seprated cell line names 
     '''
     print ('Subset Top Stbl data frame:')
     stbl_df = merge_stbl_data(data)
+    
+    cell_lines = cell_lines.split(',')
+    
     out = {}
     out['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
     out['up'], out['down'] = find_top(
@@ -229,10 +217,10 @@ def set_Top_Stbl(fc_thr, pv_thr, n_line,data=None):
     return out 
 
 
-def set_Top_Exp(fc_thr, pv_thr, n_line,data=None):
+def set_Top_Exp(fc_thr, pv_thr, cell_lines='hl60',data=None):
     '''
     Define top genes in delta(RNA-expression) data space: 
-    genes with log2FC >= `fc_thr` and P-Value < `pv_thr` acrross `n_line` number of cell lines. 
+    genes with log2FC >= `fc_thr` and P-Value < `pv_thr` 
     '''
     print ('Subset Top Exp data frame:')
     exp_df = merge_exp_data(data)
