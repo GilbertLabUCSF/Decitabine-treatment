@@ -4,7 +4,6 @@
 *fastq/
 *counts/
 *quants/
-*_delta_*/
 
 combined_analysis/*.log
 meRIP-seq/arxiv/
@@ -16,6 +15,7 @@ RNA-seq/scallop-genome/
 RNA-seq/stbl-counts/
 RNA-seq/stbl-output/
 Ribo-seq/Ribolog/
+CRISPRi-screen/*/process_screen_output/
 
 *__pycache__/
 *.ipynb_checkpoints/
