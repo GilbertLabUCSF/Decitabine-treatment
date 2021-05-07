@@ -325,18 +325,21 @@ def set_Top_Rho(sc_thr,pv_thr,cell_line='hl60', data=None):
     return out 
 
 
-def plot_corr(df):
+def plot_corr(df,title,vmin=None,vmax=None,sub=111):
     fig = plt.figure()
-    ax = fig.add_subplot(111)
+    ax = fig.add_subplot(sub)
+    
     alpha = df.columns.values
     cax = ax.matshow(df.corr()) #, interpolation='nearest')
     fig.colorbar(cax)
+    cax.set_clim(vmin,vmax)
     
     xaxis = np.arange(len(alpha))
     ax.set_xticks(xaxis)
     ax.set_yticks(xaxis)
-    
     ax.set_xticklabels(alpha, rotation=45)
     ax.set_yticklabels(alpha, rotation=45)
+    ax.set_title(title, fontsize=15)
+    
     
     plt.show()
