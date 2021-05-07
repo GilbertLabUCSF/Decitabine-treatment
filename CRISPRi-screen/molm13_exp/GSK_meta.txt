@@ -1,0 +1,6 @@
+sample	fastq	lib.type	sample.type	sample.rep
+T0_Rep1	fastq/T0_Rep1.fastq.gz	F	T0	1
+GSK_Rep1	fastq/GSK_Rep1.fastq.gz	F	GSK	1
+GSK_Rep2	fastq/GSK_Rep2.fastq.gz	F	GSK	2
+DMSO_Rep1	fastq/DMSO_Rep1.fastq.gz	F	DMSO	1
+DMSO_Rep2	fastq/DMSO_Rep2.fastq.gz	F	DMSO	2

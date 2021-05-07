@@ -1,0 +1,6 @@
+sample	fastq	lib.type	sample.type	sample.rep
+T0_Rep1	fastq/T0_Rep1.fastq.gz	F	T0	1
+DAC_Rep1	fastq/DAC_Rep1.fastq.gz	F	DAC	1
+DAC_Rep2	fastq/DAC_Rep2.fastq.gz	F	DAC	2
+DMSO_Rep1	fastq/DMSO_Rep1.fastq.gz	F	DMSO	1
+DMSO_Rep2	fastq/DMSO_Rep2.fastq.gz	F	DMSO	2

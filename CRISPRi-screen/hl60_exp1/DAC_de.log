@@ -1,0 +1,36 @@
+
+── Column specification ────────────────────────────────────────────────────────
+cols(
+  sample = col_character(),
+  fastq = col_character(),
+  lib.type = col_logical(),
+  sample.type = col_character(),
+  sample.rep = col_double()
+)
+
+[1] "count/T0.cnt"        "count/DAC_Rep1.cnt"  "count/DAC_Rep2.cnt" 
+[4] "count/DMSO_Rep1.cnt" "count/DMSO_Rep2.cnt"
+[1] "Count matrix was filtered down to 5299 rows (initially 29680)."
+Best Normalizing transformation with 109 Observations
+ Estimated Normality Statistics (Pearson P / df, lower => more normal):
+ - arcsinh(x): 2.0816
+ - Center+scale: 1.6896
+ - Exp(x): 7.9005
+ - Log_b(x+a): 1.2807
+ - orderNorm (ORQ): 1.435
+ - sqrt(x + a): 1.1185
+ - Yeo-Johnson: 1.1594
+Estimation method: Out-of-sample via CV with 10 folds and 5 repeats
+ 
+Based off these, bestNormalize chose:
+Standardized sqrt(x + a) Transformation with 109 nonmissing obs.:
+ Relevant statistics:
+ - a = 4.400555 
+ - mean (before standardization) = 1.824216 
+ - sd (before standardization) = 0.5102007 
+Warning message:
+In sqrt(newdata + object$a) : NaNs produced
+Saving 7 x 7 in image
+Warning message:
+Removed 60 rows containing missing values (geom_point). 
+[1] "Empirical FDR = 0.054"
