@@ -41,10 +41,10 @@ def make_score_df(screen, score, rep='ave_Rep1_Rep2'):
     return df
 
 def read_genetable_collapsed(PATH, SCORE):
-    if '.xlsx' in PATH:
-        raw = pd.read_excel(PATH)
-    else:
-        raw = pd.read_csv(PATH,sep='\t', low_memory=False) 
+#     if '.xlsx' in PATH:
+#         raw = pd.read_excel(PATH)
+#     else:
+    raw = pd.read_csv(PATH,sep='\t', low_memory=False) 
     df = make_score_df(raw, SCORE).set_index('gene_name').drop_duplicates()
     out = df.loc[:,[f'{SCORE} score','Mann-Whitney p-value']]
     
@@ -133,14 +133,14 @@ def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Gilbertlab/D
     # include CRISPR screening scores 
     if screens==True:
         screens = [
-        'CRISPRi-screen/hl60_exp1/hl60_DAC_processing_output_genetable_collapsed.xlsx',
-        'CRISPRi-screen/hl60_exp2/hl60_DAC_processing_output_genetable_collapsed.txt',
-        'CRISPRi-screen/hl60_exp2/hl60_GSK_processing_output_genetable_collapsed.txt',
-        'CRISPRi-screen/molm13_exp/molm13_DAC_processing_output_genetable_collapsed.txt',
-        'CRISPRi-screen/molm13_exp/molm13_GSK_processing_output_genetable_collapsed.txt'
+        'CRISPRi-screen/hl60_exp1/DAC_processing_output_genetable_collapsed.txt',
+        'CRISPRi-screen/hl60_exp2/DAC_processing_output_genetable_collapsed.txt',
+        'CRISPRi-screen/hl60_exp2/GSK_processing_output_genetable_collapsed.txt',
+        'CRISPRi-screen/molm13_exp/DAC_processing_output_genetable_collapsed.txt',
+        'CRISPRi-screen/molm13_exp/GSK_processing_output_genetable_collapsed.txt'
         ]
 
-        labels = [itemgetter(0,1,3)(f.replace('CRISPRi-screen/','').replace('/','_').split('_')) for f in screens] 
+        labels = [itemgetter(0,1,2)(f.replace('CRISPRi-screen/','').replace('/','_').split('_')) for f in screens] 
         cells = set([l[0] for l in labels])
         
         if data == None:
@@ -299,7 +299,7 @@ def set_Top_Rho(sc_thr,pv_thr,cell_line='hl60', data=None):
         dfs.append(merge_screen_data('molm13','rho',data=data).filter(like='DAC').astype(float))
     if cell_line=='hl60':
         dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp1').astype(float))
-#     dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp2').astype(float))
+        dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp2').astype(float))
 
     top = []
     for df in dfs: 
