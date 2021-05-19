@@ -4,8 +4,10 @@
 *fastq/
 *counts/
 *quants/
+*_delta_*/
 
-combined_analysis/*.log
+combined_analysis/mtyl_enrichment/*_GENESET
+combined_analysis/mtyl_enrichment/*.log
 meRIP-seq/arxiv/
 meRIP-seq/radar/
 meRIP-seq/meRIP-multiqc_data/
