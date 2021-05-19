@@ -1,0 +1,31 @@
+The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
+Wed May 19 19:33:50 UTC 2021
+Remove duplicates, create ../RNA-seq/other-exp/ociaml2_delta_exp.txt_GENESET/ociaml2_delta_exp.txt
+Quantizing the input file.
+step 2: seed optimization.
+Expfile loaded: 60239 values...
+Adding small values...
+Quantizing the input vector...Done
+Number of clusters: 7
+calculating the p-value matrix.
+Allocating memory ... Done
+doing stats: mi = 0.024266
+pass = 0.000000
+z = 582.820801
+freq 0: 0.009063	78	8606	1167	60239
+freq 1: 0.066233	570	8606	1167	60239
+freq 2: 0.000000	0	8606	1167	60239
+freq 3: 0.000000	0	8606	1167	60239
+freq 4: 0.000349	3	8606	1167	60239
+freq 5: 0.050895	438	8606	1167	60239
+freq 6: 0.009067	78	8603	1167	60239
+step 7: drawing matrix.
+Option suffix requires an argument
+Reading MI data ... Done.
+Start drawing
+0.8	-0.72
+0
+Outputing EPS file ../RNA-seq/other-exp/ociaml2_delta_exp.txt_GENESET/ociaml2_delta_exp.txt.summary.eps
+Convert to PDF ../RNA-seq/other-exp/ociaml2_delta_exp.txt_GENESET/ociaml2_delta_exp.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None ../RNA-seq/other-exp/ociaml2_delta_exp.txt_GENESET/ociaml2_delta_exp.txt.summary.eps ../RNA-seq/other-exp/ociaml2_delta_exp.txt_GENESET/ociaml2_delta_exp.txt.summary.pdf
+Finished.

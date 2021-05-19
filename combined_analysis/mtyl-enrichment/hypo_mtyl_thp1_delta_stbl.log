@@ -1,0 +1,39 @@
+The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
+Wed May 19 19:35:45 UTC 2021
+Remove duplicates, create ../RNA-seq/other-stbl/thp1_delta_stbl.txt_GENESET/thp1_delta_stbl.txt
+Quantizing the input file.
+step 2: seed optimization.
+Expfile loaded: 2775 values...
+Adding small values...
+Quantizing the input vector...Done
+Number of clusters: 7
+calculating the p-value matrix.
+Allocating memory ... Done
+doing stats: mi = 0.000538
+pass = 0.915300
+z = -1.137540
+freq 0: 0.136364	54	396	333	2775
+freq 1: 0.111111	44	396	333	2775
+freq 2: 0.118687	47	396	333	2775
+freq 3: 0.111111	44	396	333	2775
+freq 4: 0.121212	48	396	333	2775
+freq 5: 0.128788	51	396	333	2775
+freq 6: 0.112782	45	399	333	2775
+step 7: drawing matrix.
+Option suffix requires an argument
+Reading MI data ... Done.
+Start drawing
+0.72	-0.92
+0
+Outputing EPS file ../RNA-seq/other-stbl/thp1_delta_stbl.txt_GENESET/thp1_delta_stbl.txt.summary.eps
+Convert to PDF ../RNA-seq/other-stbl/thp1_delta_stbl.txt_GENESET/thp1_delta_stbl.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None ../RNA-seq/other-stbl/thp1_delta_stbl.txt_GENESET/thp1_delta_stbl.txt.summary.eps ../RNA-seq/other-stbl/thp1_delta_stbl.txt_GENESET/thp1_delta_stbl.txt.summary.pdf
+Finished.
+Reading MI data ... Done.
+Start drawing
+0.72	-0.92
+0
+Outputing EPS file mtyl_enrichment/hypo_mtyl_thp1_delta_stbl_GENESET/thp1_delta_stbl.txt.summary.eps
+Convert to PDF mtyl_enrichment/hypo_mtyl_thp1_delta_stbl_GENESET/thp1_delta_stbl.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None mtyl_enrichment/hypo_mtyl_thp1_delta_stbl_GENESET/thp1_delta_stbl.txt.summary.eps mtyl_enrichment/hypo_mtyl_thp1_delta_stbl_GENESET/thp1_delta_stbl.txt.summary.pdf
+Finished.

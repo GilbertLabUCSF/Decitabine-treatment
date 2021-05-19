@@ -1,0 +1,32 @@
+The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
+WARNING: your file might not contain a header line (0.0151001620633903).
+Wed May 19 19:33:17 UTC 2021
+Remove duplicates, create ../RNA-seq/other-exp/molm14_delta_exp.txt_GENESET/molm14_delta_exp.txt
+Quantizing the input file.
+step 2: seed optimization.
+Expfile loaded: 60239 values...
+Adding small values...
+Quantizing the input vector...Done
+Number of clusters: 7
+calculating the p-value matrix.
+Allocating memory ... Done
+doing stats: mi = 0.021114
+pass = 0.000000
+z = 509.343018
+freq 0: 0.014409	124	8606	1167	60239
+freq 1: 0.055775	480	8606	1167	60239
+freq 2: 0.000000	0	8606	1167	60239
+freq 3: 0.000000	0	8606	1167	60239
+freq 4: 0.001162	10	8606	1167	60239
+freq 5: 0.054148	466	8606	1167	60239
+freq 6: 0.010113	87	8603	1167	60239
+step 7: drawing matrix.
+Option suffix requires an argument
+Reading MI data ... Done.
+Start drawing
+1.2	-0.92
+0
+Outputing EPS file ../RNA-seq/other-exp/molm14_delta_exp.txt_GENESET/molm14_delta_exp.txt.summary.eps
+Convert to PDF ../RNA-seq/other-exp/molm14_delta_exp.txt_GENESET/molm14_delta_exp.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None ../RNA-seq/other-exp/molm14_delta_exp.txt_GENESET/molm14_delta_exp.txt.summary.eps ../RNA-seq/other-exp/molm14_delta_exp.txt_GENESET/molm14_delta_exp.txt.summary.pdf
+Finished.
