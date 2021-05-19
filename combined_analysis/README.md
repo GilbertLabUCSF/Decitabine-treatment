@@ -1,4 +1,6 @@
-Here, we aim to test the enrichment of hyper methylated genes (logFC >= 2) and hypo methylated genes (logFC <= -2) in all datasets.
+Here, we aim to test the enrichment of hyper methylated genes with:
+- Δmethylation >= 1  as hyper-methylation sites (P-Value < 0.01)
+- Δmethylation <= -1 as hypo-methylation sites  (P-Value < 0.01)
 
 ## HL-60 cell line - Time series experiment
 ### Differential RNA Expression
