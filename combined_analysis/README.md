@@ -3,7 +3,7 @@ Here, we aim to test the enrichment of hyper methylated genes (logFC >= 2) and h
 ## HL-60 cell line - Time series experiment
 ### Differential RNA Expression
 #### hyper_mtyl_6h_delta_exp
-<img src="mtyl_enrichment/mtyl_enrichment/plots/hyper_mtyl_6h_delta_exp.png" title="hyper_mtyl_6h_delta_exp" width='800'>
+<img src="mtyl_enrichment/plots/hyper_mtyl_6h_delta_exp.png" title="hyper_mtyl_6h_delta_exp" width='800'>
 
 #### hypo_mtyl_6h_delta_exp
 <img src="mtyl_enrichment/plots/hypo_mtyl_6h_delta_exp.png" title="hypo_mtyl_6h_delta_exp" width='800'>
