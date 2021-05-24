@@ -82,7 +82,7 @@ def raw_dict(cells):
     data = dict(((c,{}) for c in cells))
     return data
 
-def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Gilbertlab/Decitabine-treatment/'):
+def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Projects/Decitabine-treatment/'):
     '''Read data into Pandas dataframes'''
     cwd = os.getcwd()
     os.chdir(wd)
@@ -325,7 +325,7 @@ def set_Top_Rho(sc_thr,pv_thr,cell_line='hl60', data=None):
     return out 
 
 
-def two_sided_mtyl(fcthr=1,pvthr=0.01,wd='/rumi/shams/abe/Gilbertlab/Decitabine-treatment/'):
+def two_sided_mtyl(fcthr=1,pvthr=0.01,wd='/rumi/shams/abe/Projects/Decitabine-treatment/'):
     '''Read meRIP-seq data into two data frames'''
     cwd = os.getcwd()
     os.chdir(wd)
