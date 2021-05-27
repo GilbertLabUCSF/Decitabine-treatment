@@ -1,0 +1,111 @@
+GO	[-9.50 -0.51]	[-0.51 -0.23]	[-0.23 -0.03]	[-0.03 0.00]	[0.00 0.00]	[0.00 0.00]	[0.00 0.00]	[0.00 0.20]	[0.20 0.46]	[0.46 0.87]	[0.87 21.18]
+GO:0005911 cell-cell junction	-0.858	-0.293	2.780	-0.858	-7.089	-4.873	-4.873	2.186	4.557	0.413	2.188
+GO:0007411 axon guidance	-0.811	-1.502	2.034	-0.388	-4.153	-5.687	-5.687	2.873	0.648	2.034	5.360
+GO:0005516 calmodulin binding	-0.278	-0.483	1.841	-0.370	-3.485	-7.920	-5.613	4.301	1.385	0.542	2.365
+GO:0004713 protein tyrosine kinase activity	-0.920	0.292	1.003	-3.154	-2.619	-6.716	-2.619	5.064	1.667	1.205	2.504
+GO:0007156 homophilic cell adhesion via plasma membrane adhesion molecules	0.475	0.475	0.613	-3.550	-5.206	-3.550	-2.418	-0.348	0.773	3.112	6.912
+GO:0018108 peptidyl-tyrosine phosphorylation	-0.796	-0.261	1.775	-3.312	-2.296	-6.923	-2.296	4.776	1.529	0.906	2.041
+GO:0030335 positive regulation of cell migration	-1.502	-1.008	2.034	-1.807	-1.807	-2.560	-4.153	3.510	3.184	-0.645	4.209
+GO:0051321 meiotic cell cycle	-0.357	-0.357	5.255	-2.734	-2.127	-3.516	-2.734	1.641	1.107	-0.948	3.017
+GO:0043235 receptor complex	-0.256	-0.256	0.997	-1.459	-2.856	-4.394	-4.394	1.460	0.477	2.014	4.612
+GO:0001822 kidney development	-0.368	0.859	-0.521	-2.158	-3.554	-2.768	-2.768	5.686	1.081	-0.368	3.364
+GO:0005088 Ras guanyl-nucleotide exchange factor activity	-0.772	-1.032	-0.405	-2.871	-1.755	-3.668	-1.355	1.797	1.244	2.111	5.967
+GO:0006816 calcium ion transport	-1.701	1.428	0.257	-1.358	-3.893	-2.111	-3.893	1.428	2.570	1.683	2.572
+GO:0032496 response to lipopolysaccharide	-1.807	0.309	3.184	-1.237	-3.020	-2.560	-3.020	3.850	0.960	0.405	2.036
+GO:0030018 Z disc	0.515	1.085	1.592	-3.079	-1.923	-3.896	-3.896	0.869	1.085	0.679	2.535
+GO:0007169 transmembrane receptor protein tyrosine kinase signaling pathway	0.413	-0.612	1.162	-1.839	-2.975	-3.782	-2.345	1.414	0.561	1.692	3.855
+GO:0008237 metallopeptidase activity	-0.920	0.395	1.926	-1.159	-2.163	-2.163	-3.786	4.249	-0.920	1.426	2.207
+GO:0005604 basement membrane	-1.930	0.782	0.267	-1.417	-2.617	-2.617	-1.930	0.404	1.602	2.706	3.590
+GO:0070588 calcium ion transmembrane transport	-0.624	0.677	0.518	-1.388	-2.758	-2.211	-4.279	1.296	1.066	1.296	3.939
+GO:0071805 potassium ion transmembrane transport	0.813	-1.336	-0.465	-1.336	-2.568	-2.083	-2.568	0.370	1.456	2.610	4.930
+GO:0008076 voltage-gated potassium channel complex	0.940	-0.377	0.940	-2.728	-2.728	-2.028	-2.728	0.714	-0.247	2.953	2.545
+GO:0006814 sodium ion transport	0.518	0.384	0.518	-1.388	-2.758	-3.430	-2.758	-0.331	1.826	2.445	2.789
+GO:0038083 peptidyl-tyrosine autophosphorylation	-0.728	0.370	0.597	-1.946	-1.946	-1.946	-1.946	3.099	0.597	0.597	2.066
+GO:0050731 positive regulation of peptidyl-tyrosine phosphorylation	-0.749	0.390	1.563	-1.051	-1.446	-1.962	-3.646	2.651	0.994	-0.749	2.653
+GO:0034765 regulation of ion transmembrane transport	-0.310	0.395	0.659	-1.441	-3.154	-1.441	-3.154	0.292	0.517	3.149	3.868
+GO:0005912 adherens junction	0.357	0.763	1.029	-1.960	-1.960	-2.858	-1.960	-0.251	0.539	0.539	4.496
+GO:0045471 response to ethanol	-0.596	-0.301	2.716	-1.074	-0.596	-3.744	-2.940	2.362	-0.430	0.301	2.718
+GO:0042391 regulation of membrane potential	0.435	-0.473	-0.690	-1.361	-2.543	-2.543	-0.313	0.289	-0.313	1.682	6.462
+GO:0016529 sarcoplasmic reticulum	0.691	0.691	0.691	-1.395	-2.195	-2.195	-2.195	2.136	0.272	-0.555	2.614
+GO:0048514 blood vessel morphogenesis	-0.609	-1.201	0.572	-1.201	-1.201	-1.201	-1.201	1.364	0.303	0.303	5.431
+GO:0007605 sensory perception of sound	-0.538	-0.717	1.631	-1.530	-2.388	-1.530	-2.953	0.932	1.376	0.932	3.611
+GO:0001501 skeletal system development	-1.190	1.057	1.508	-0.726	-3.382	-2.277	-1.190	2.040	-0.413	-0.301	3.714
+GO:0006935 chemotaxis	-1.377	0.428	0.875	-0.870	-3.060	-1.101	-1.101	2.310	-0.387	-0.517	5.690
+GO:0007409 axonogenesis	-0.290	0.447	0.611	-1.118	-3.289	-1.944	-2.529	1.556	0.804	0.447	3.780
+GO:0005262 calcium channel activity	-0.432	0.839	-0.290	-1.199	-2.160	-1.199	-3.894	0.632	0.839	1.651	3.145
+GO:0008081 phosphoric diester hydrolase activity	0.435	0.435	1.274	-1.430	-2.236	-2.236	-2.236	1.274	0.664	0.259	2.075
+GO:0006812 cation transport	-0.730	-1.063	0.878	-1.063	-2.140	-2.140	-1.515	1.813	1.152	0.642	3.549
+GO:0006813 potassium ion transport	1.776	-0.782	0.392	-1.627	-2.028	-2.028	-2.508	0.283	1.512	1.270	3.042
+GO:0048666 neuron development	-1.710	-0.761	3.455	-0.761	-1.150	-1.150	-1.710	1.283	-0.761	0.701	2.947
+GO:0005244 voltage-gated ion channel activity	-0.301	0.410	0.691	-1.190	-2.781	-1.492	-2.781	-0.301	0.691	3.340	2.654
+GO:0005249 voltage-gated potassium channel activity	0.445	-0.730	0.445	-2.140	-2.140	-1.063	-1.063	-0.488	0.445	2.197	4.605
+GO:0005261 cation channel activity	-0.702	-0.363	-0.363	-1.325	-1.325	-1.325	-1.325	0.793	0.480	2.176	3.424
+GO:0007417 central nervous system development	-1.554	-0.692	0.644	-0.692	-1.206	-1.980	-1.980	0.827	2.797	0.486	3.568
+GO:0043406 positive regulation of MAP kinase activity	-1.499	-0.976	1.550	-1.499	-0.976	-1.499	-1.499	1.190	1.955	0.397	2.404
+GO:0004714 transmembrane receptor protein tyrosine kinase activity	0.691	-0.332	0.455	-2.195	-1.395	-2.195	-1.395	0.691	0.272	1.318	3.132
+GO:0008201 heparin binding	-2.058	0.439	1.299	-2.058	-1.678	-0.853	-1.678	1.087	0.722	0.570	4.072
+GO:0060021 palate development	-1.833	-0.301	0.451	0.301	-1.333	-2.506	-1.833	3.325	0.451	0.636	2.080
+GO:0034332 adherens junction organization	0.584	-0.892	-0.500	-0.892	-1.574	-1.574	-1.574	1.720	0.584	0.898	2.779
+GO:0014068 positive regulation of phosphatidylinositol 3-kinase signaling	-1.300	-0.585	-0.374	-1.888	-0.374	-1.300	-1.300	1.774	0.239	1.096	4.684
+GO:0005178 integrin binding	-0.464	0.280	-0.650	-0.650	-1.564	-3.402	-1.187	2.782	1.748	0.406	2.069
+GO:0001570 vasculogenesis	0.346	0.346	-0.260	-1.062	-1.604	-1.062	-2.444	3.710	0.346	-0.434	2.212
+GO:0050839 cell adhesion molecule binding	0.239	-0.585	-0.374	-0.374	-1.888	-0.883	-2.775	0.581	2.605	0.239	3.076
+GO:0042734 presynaptic membrane	-0.858	0.604	0.405	-0.565	-1.270	-1.270	-1.852	0.604	0.405	-0.565	6.028
+GO:0005903 brush border	0.316	0.316	-0.287	-0.287	-1.675	-2.526	-2.526	1.324	1.003	0.498	2.093
+GO:0031594 neuromuscular junction	-0.365	0.246	0.910	-1.464	-1.464	-2.278	-1.464	0.910	0.246	2.013	2.014
+GO:0035584 calcium-mediated signaling using intracellular calcium source	-0.828	-0.351	0.991	-0.828	-0.351	-0.828	-0.828	0.991	-0.828	-0.351	4.556
+GO:0035725 sodium ion transmembrane transport	-0.605	-0.279	0.651	-0.853	-1.589	-2.127	-1.589	-0.418	0.863	2.390	3.205
+GO:0035987 endodermal cell differentiation	-0.579	1.961	-0.579	-1.159	-1.159	-1.159	-1.159	0.324	0.324	0.978	2.564
+GO:0046934 phosphatidylinositol-4,5-bisphosphate 3-kinase activity	-0.359	-1.270	0.846	-2.734	-0.858	-1.270	-0.858	1.131	0.604	1.131	2.671
+GO:0060079 excitatory postsynaptic potential	0.500	-0.437	-0.276	-2.032	-0.985	-2.032	-1.422	0.965	0.500	1.258	3.276
+GO:0051591 response to cAMP	-0.782	0.814	-0.471	-0.782	-1.258	-1.258	-1.258	0.334	0.814	-0.270	5.419
+GO:0010951 negative regulation of endopeptidase activity	-0.551	0.321	-0.742	-0.980	-1.631	-0.399	-3.254	1.437	0.594	1.708	2.662
+GO:0008009 chemokine activity	-0.755	-1.988	-0.755	-1.224	-0.451	1.179	0.571	-0.451	0.351	-0.451	4.857
+GO:0031225 anchored component of membrane	-0.749	-1.249	1.095	0.301	-1.579	-1.249	-1.974	-0.301	0.415	3.133	2.449
+GO:0003341 cilium movement	0.614	0.940	-0.476	-1.532	-0.860	-1.532	-1.532	0.940	-0.250	0.359	2.875
+GO:0010718 positive regulation of epithelial to mesenchymal transition	0.240	-0.650	0.240	-0.373	-1.822	-0.650	-1.822	2.275	0.684	-0.650	2.806
+GO:0030593 neutrophil chemotaxis	-0.546	-0.834	0.627	-0.344	-2.692	0.422	-0.546	1.874	0.422	-1.817	2.737
+GO:0048167 regulation of synaptic plasticity	-0.860	0.614	2.302	-0.860	-0.860	-1.532	-1.532	0.359	-0.250	0.359	2.303
+GO:0006968 cellular defense response	-1.534	-0.644	0.587	0.587	-1.005	-1.534	-1.534	0.845	0.587	-0.235	3.893
+GO:0030507 spectrin binding	-0.520	1.088	-1.076	-1.076	-0.520	-1.076	-1.076	1.088	0.371	0.371	2.791
+GO:0007611 learning or memory	-0.836	0.302	1.816	-0.836	-2.112	-0.836	-0.836	-0.300	-0.513	1.816	2.269
+GO:0008584 male gonad development	-1.564	-0.323	0.951	-0.887	-2.035	-1.564	-0.323	2.412	0.559	-0.323	2.414
+GO:0005272 sodium channel activity	-0.407	0.716	0.427	-1.408	-0.764	-1.408	-0.764	-0.764	0.216	2.569	2.010
+GO:0005201 extracellular matrix structural constituent	-0.344	0.875	0.422	-0.344	-2.692	-1.817	-0.344	-0.834	0.262	1.167	2.737
+GO:0001974 blood vessel remodeling	-0.702	-0.363	1.646	-0.363	-1.325	-0.363	-1.325	0.247	-0.363	-0.363	4.137
+GO:0007163 establishment or maintenance of cell polarity	-0.300	-1.201	1.876	-0.609	-0.609	-1.201	-1.201	0.572	0.572	-0.300	2.459
+GO:0007205 protein kinase C-activating G-protein coupled receptor signaling pathway	-0.609	-0.609	0.572	1.364	-0.609	-1.201	-1.201	0.928	-0.609	-0.609	3.109
+GO:0001656 metanephros development	-0.407	0.427	0.216	-1.408	-1.408	-0.407	-1.408	1.079	-0.407	1.079	2.570
+GO:0023014 signal transduction by protein phosphorylation	0.272	0.455	0.980	-0.555	-1.395	-1.395	-2.195	1.704	-0.332	-0.332	2.138
+GO:0014066 regulation of phosphatidylinositol 3-kinase signaling	-0.426	-0.909	0.909	-1.278	-1.278	-1.768	-1.278	0.909	1.175	1.175	2.177
+GO:0008217 regulation of blood pressure	-0.625	-1.361	0.763	-1.960	-1.960	-0.405	-0.251	0.357	0.539	2.062	2.063
+GO:0042476 odontogenesis	0.480	-0.702	-0.363	-0.702	-0.702	-1.325	-1.325	1.646	-0.363	0.793	2.770
+GO:0019233 sensory perception of pain	0.233	-0.381	-0.381	0.233	-1.499	-1.499	-1.499	0.397	-0.381	2.402	2.893
+GO:0009611 response to wounding	-1.546	0.277	1.767	-0.752	-0.505	-1.089	-2.177	-0.327	0.620	0.850	2.557
+GO:0031430 M band	0.303	0.928	1.364	-1.201	-1.201	-0.609	-1.201	-0.609	-0.300	0.303	2.459
+GO:0019933 cAMP-mediated signaling	0.303	0.303	-0.300	-1.201	-0.609	-1.201	-1.201	-0.609	1.364	0.928	2.459
+GO:0004867 serine-type endopeptidase inhibitor activity	-0.623	0.313	-0.874	-1.199	-0.623	-0.290	-2.160	0.456	0.839	0.456	4.544
+GO:0033198 response to ATP	-0.787	-0.787	0.609	-0.787	-0.324	-0.787	-0.787	0.609	1.613	-0.324	2.269
+GO:0050850 positive regulation of calcium-mediated signaling	-0.787	-0.324	-0.324	-0.324	-0.324	-0.787	-0.787	1.057	-0.324	-0.324	4.779
+GO:0005267 potassium channel activity	0.882	-0.651	0.313	-1.306	-2.469	-0.933	-0.933	0.313	1.143	0.882	2.520
+GO:0031226 intrinsic component of plasma membrane	-0.320	-0.640	1.301	-0.640	-1.242	-1.242	-0.640	0.880	0.880	-0.640	2.360
+GO:0000795 synaptonemal complex	0.347	-0.550	1.502	-0.550	-1.118	-1.118	-1.118	-0.550	1.031	0.347	2.052
+GO:0010524 positive regulation of calcium ion transport into cytosol	-0.538	-0.176	0.967	-0.538	-0.538	-0.538	-0.538	-0.176	-0.176	-0.538	4.273
+GO:0030818 negative regulation of cAMP biosynthetic process	-0.662	-0.247	-0.247	-0.662	-0.662	-0.662	-0.247	-0.662	0.362	1.291	3.556
+GO:0048786 presynaptic active zone	-0.320	-0.640	0.880	-0.320	-1.242	-1.242	-0.640	-0.640	1.301	0.283	2.990
+GO:0035249 synaptic transmission, glutamatergic	0.527	-0.378	2.036	-0.869	-0.869	-0.869	-0.869	-0.378	0.527	-0.378	2.036
+GO:0007157 heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules	-0.300	-0.513	-0.300	0.499	-2.112	-0.513	-0.300	-0.300	-0.513	-0.300	5.165
+GO:0019838 growth factor binding	0.501	-0.990	-0.318	-0.573	-1.698	-0.573	-0.990	0.783	0.285	0.501	3.698
+GO:0071356 cellular response to tumor necrosis factor	-0.311	-0.442	1.414	-1.096	-1.839	-0.311	-1.096	1.692	0.291	-1.096	2.671
+GO:0006939 smooth muscle contraction	-0.351	-0.351	-0.351	-0.828	-0.828	-0.828	-0.828	0.991	0.256	0.991	2.866
+GO:0003148 outflow tract septum morphogenesis	0.236	-0.869	0.236	-0.378	-0.869	-0.378	-0.869	2.036	-0.869	0.527	2.036
+GO:0051966 regulation of synaptic transmission, glutamatergic	-0.222	-0.491	1.149	-1.035	-1.035	-1.035	-0.491	-0.491	0.398	1.149	2.249
+GO:0035912 dorsal aorta morphogenesis	-0.331	-0.331	2.451	-0.331	-0.331	-0.331	-0.331	-0.331	-0.331	-0.331	2.452
+GO:0004435 phosphatidylinositol phospholipase C activity	-0.260	1.031	-0.550	-0.550	-1.118	-1.118	-1.118	0.347	0.347	1.031	2.052
+GO:0030325 adrenal gland development	-0.828	-0.351	0.991	-0.828	-0.828	-0.828	-0.351	0.256	0.256	0.566	2.866
+GO:0051145 smooth muscle cell differentiation	-0.580	-0.580	-0.199	-0.580	0.434	-0.580	-0.580	-0.199	0.434	-0.199	4.007
+GO:0004702 signal transducer, downstream of receptor, with serine/threonine kinase activity	-0.621	-0.621	-0.223	-0.223	-0.621	-0.621	-0.621	2.068	-0.223	0.396	2.069
+GO:0060644 mammary gland epithelial cell differentiation	-0.176	-0.538	-0.538	-0.538	-0.538	-0.538	-0.538	0.477	1.602	-0.176	2.370
+GO:0004970 ionotropic glutamate receptor activity	0.655	0.304	-0.745	-0.745	-0.298	-0.745	-0.745	-0.298	-0.298	0.655	3.182
+GO:0005234 extracellular-glutamate-gated ion channel activity	0.655	0.304	-0.745	-0.745	-0.298	-0.745	-0.745	-0.298	-0.298	0.655	3.182
+GO:0043116 negative regulation of vascular permeability	0.167	-0.497	0.524	-0.497	-0.497	-0.497	-0.497	-0.497	0.167	0.524	3.495

@@ -1,0 +1,1715 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (72h_delta_exp_dependent1.txt_PAGE/72h_delta_exp_dependent1.txt.summary.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Wed May 26 22:15:12 2021
+%%For: abe
+%%Orientation: Portrait
+%%BoundingBox: 0 0 996 1603
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+/box {
+  newpath 3 copy pop exch 4 copy pop pop
+  8 copy pop pop pop pop exch pop exch
+  3 copy pop pop exch moveto lineto
+  lineto lineto pop pop pop pop closepath
+} bind def
+%%EndResource
+%%EndProlog
+0.5 u setlinewidth
+0 0 0 setrgbcolor
+60 ux 1560 uy 105 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+105 ux 1560 uy moveto
+105 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+60 ux 1534.23529411765 uy 105 ux 1515 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+93.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+105 ux 1560 uy 150 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+150 ux 1560 uy moveto
+150 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+105 ux 1534.82773109244 uy 150 ux 1534.23529411765 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+138.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+150 ux 1560 uy 195 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+195 ux 1560 uy moveto
+195 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+150 ux 1535.05462184874 uy 195 ux 1534.82773109244 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+183.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+195 ux 1560 uy 240 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+240 ux 1560 uy moveto
+240 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+195 ux 1535.20588235294 uy 240 ux 1535.05462184874 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+228.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+240 ux 1560 uy 285 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+285 ux 1560 uy moveto
+285 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+240 ux 1535.28151260504 uy 285 ux 1535.20588235294 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+273.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+285 ux 1560 uy 330 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+330 ux 1560 uy moveto
+330 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+285 ux 1535.31932773109 uy 330 ux 1535.28151260504 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+318.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+330 ux 1560 uy 375 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+375 ux 1560 uy moveto
+375 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+330 ux 1535.49579831933 uy 375 ux 1535.31932773109 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+363.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+375 ux 1560 uy 420 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+420 ux 1560 uy moveto
+420 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+375 ux 1535.76050420168 uy 420 ux 1535.49579831933 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+408.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+420 ux 1560 uy 465 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+465 ux 1560 uy moveto
+465 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+420 ux 1536.10084033613 uy 465 ux 1535.76050420168 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+453.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+465 ux 1560 uy 510 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+510 ux 1560 uy moveto
+510 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+465 ux 1536.71848739496 uy 510 ux 1536.10084033613 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+498.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+510 ux 1560 uy 555 ux 1515 uy box fill
+1 1 1 setrgbcolor
+newpath
+555 ux 1560 uy moveto
+555 ux 1515 uy lineto stroke
+0.8 0 0 setrgbcolor
+510 ux 1560 uy 555 ux 1536.71848739496 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+543.75 ux 1560 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0.5 u setlinewidth
+1 1 1 setrgbcolor
+newpath
+105 ux 1560 uy moveto
+105 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+150 ux 1560 uy moveto
+150 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+195 ux 1560 uy moveto
+195 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+240 ux 1560 uy moveto
+240 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+285 ux 1560 uy moveto
+285 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+330 ux 1560 uy moveto
+330 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+375 ux 1560 uy moveto
+375 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+420 ux 1560 uy moveto
+420 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+465 ux 1560 uy moveto
+465 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+510 ux 1560 uy moveto
+510 ux 1515 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+555 ux 1560 uy moveto
+555 ux 1515 uy lineto stroke
+/Arial findfont 8 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+59 ux 1556 uy moveto
+(19.61)   dup stringwidth pop neg 0 rmoveto show 
+newpath
+59 ux 1514 uy moveto
+(-16.09)   dup stringwidth pop neg 0 rmoveto show 
+0 0 0 setrgbcolor
+/Arial findfont 8 scalefont setfont
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+60 ux 1510 uy 105 ux 1480 uy box fill
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+105 ux 1510 uy 150 ux 1480 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+150 ux 1510 uy 195 ux 1480 uy box fill
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+195 ux 1510 uy 240 ux 1480 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+240 ux 1510 uy 285 ux 1480 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+285 ux 1510 uy 330 ux 1480 uy box fill
+0.294117647058824 0.545098039215686 0.745098039215686 setrgbcolor
+330 ux 1510 uy 375 ux 1480 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+375 ux 1510 uy 420 ux 1480 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+420 ux 1510 uy 465 ux 1480 uy box fill
+0.803921568627451 0.435294117647059 0.474509803921569 setrgbcolor
+465 ux 1510 uy 510 ux 1480 uy box fill
+0.890196078431372 0.0901960784313725 0.0901960784313725 setrgbcolor
+510 ux 1510 uy 555 ux 1480 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1491 uy moveto
+(GO_PRERIBOSOME)   show stroke 
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+60 ux 1480 uy 105 ux 1450 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+105 ux 1480 uy 150 ux 1450 uy box fill
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+150 ux 1480 uy 195 ux 1450 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+195 ux 1480 uy 240 ux 1450 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+240 ux 1480 uy 285 ux 1450 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+285 ux 1480 uy 330 ux 1450 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+330 ux 1480 uy 375 ux 1450 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+375 ux 1480 uy 420 ux 1450 uy box fill
+0.854901960784314 0.0588235294117647 0.0588235294117647 setrgbcolor
+420 ux 1480 uy 465 ux 1450 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+465 ux 1480 uy 510 ux 1450 uy box fill
+0.784313725490196 0 0 setrgbcolor
+510 ux 1480 uy 555 ux 1450 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1461 uy moveto
+(GO_POTASSIUM_ION_TRANSMEMBRANE_TRANSPORTER_ACTIVITY)   show stroke 
+0.784313725490196 0 0 setrgbcolor
+60 ux 1450 uy 105 ux 1420 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+105 ux 1450 uy 150 ux 1420 uy box fill
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+150 ux 1450 uy 195 ux 1420 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+195 ux 1450 uy 240 ux 1420 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+240 ux 1450 uy 285 ux 1420 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+285 ux 1450 uy 330 ux 1420 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+330 ux 1450 uy 375 ux 1420 uy box fill
+0.254901960784314 0.552941176470588 0.764705882352941 setrgbcolor
+375 ux 1450 uy 420 ux 1420 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+420 ux 1450 uy 465 ux 1420 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+465 ux 1450 uy 510 ux 1420 uy box fill
+0.784313725490196 0 0 setrgbcolor
+510 ux 1450 uy 555 ux 1420 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1431 uy moveto
+(GO_EXTRACELLULAR_MATRIX_STRUCTURAL_CONSTITUENT)   show stroke 
+0.843137254901961 0.427450980392157 0.454901960784314 setrgbcolor
+60 ux 1420 uy 105 ux 1390 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+105 ux 1420 uy 150 ux 1390 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+150 ux 1420 uy 195 ux 1390 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+195 ux 1420 uy 240 ux 1390 uy box fill
+0.145098039215686 0.576470588235294 0.823529411764706 setrgbcolor
+240 ux 1420 uy 285 ux 1390 uy box fill
+0.219607843137255 0.56078431372549 0.784313725490196 setrgbcolor
+285 ux 1420 uy 330 ux 1390 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+330 ux 1420 uy 375 ux 1390 uy box fill
+0.294117647058824 0.545098039215686 0.745098039215686 setrgbcolor
+375 ux 1420 uy 420 ux 1390 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+420 ux 1420 uy 465 ux 1390 uy box fill
+0.784313725490196 0 0 setrgbcolor
+465 ux 1420 uy 510 ux 1390 uy box fill
+0.784313725490196 0 0 setrgbcolor
+510 ux 1420 uy 555 ux 1390 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1401 uy moveto
+(GO_HOMOPHILIC_CELL_ADHESION_VIA_PLASMA_MEMBRANE_ADHESION_MOLECULES)   show stroke 
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+60 ux 1390 uy 105 ux 1360 uy box fill
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+105 ux 1390 uy 150 ux 1360 uy box fill
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+150 ux 1390 uy 195 ux 1360 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+195 ux 1390 uy 240 ux 1360 uy box fill
+0.803921568627451 0.435294117647059 0.474509803921569 setrgbcolor
+240 ux 1390 uy 285 ux 1360 uy box fill
+0.803921568627451 0.435294117647059 0.474509803921569 setrgbcolor
+285 ux 1390 uy 330 ux 1360 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+330 ux 1390 uy 375 ux 1360 uy box fill
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+375 ux 1390 uy 420 ux 1360 uy box fill
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+420 ux 1390 uy 465 ux 1360 uy box fill
+0.913725490196078 0.411764705882353 0.415686274509804 setrgbcolor
+465 ux 1390 uy 510 ux 1360 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+510 ux 1390 uy 555 ux 1360 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1371 uy moveto
+(GO_SIGNAL_TRANSDUCTION_INVOLVED_IN_CELLULAR_RESPONSE_TO_AMMONIUM_ION)   show stroke 
+0 0.607843137254902 0.901960784313726 setrgbcolor
+60 ux 1360 uy 105 ux 1330 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+105 ux 1360 uy 150 ux 1330 uy box fill
+0.858823529411765 0.423529411764706 0.447058823529412 setrgbcolor
+150 ux 1360 uy 195 ux 1330 uy box fill
+0.713725490196078 0.454901960784314 0.525490196078431 setrgbcolor
+195 ux 1360 uy 240 ux 1330 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+240 ux 1360 uy 285 ux 1330 uy box fill
+0.219607843137255 0.56078431372549 0.784313725490196 setrgbcolor
+285 ux 1360 uy 330 ux 1330 uy box fill
+0.294117647058824 0.545098039215686 0.745098039215686 setrgbcolor
+330 ux 1360 uy 375 ux 1330 uy box fill
+0.294117647058824 0.545098039215686 0.745098039215686 setrgbcolor
+375 ux 1360 uy 420 ux 1330 uy box fill
+0.713725490196078 0.454901960784314 0.525490196078431 setrgbcolor
+420 ux 1360 uy 465 ux 1330 uy box fill
+0.784313725490196 0 0 setrgbcolor
+465 ux 1360 uy 510 ux 1330 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+510 ux 1360 uy 555 ux 1330 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1341 uy moveto
+(GO_MITOCHONDRIAL_TRANSLATION)   show stroke 
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+60 ux 1330 uy 105 ux 1300 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+105 ux 1330 uy 150 ux 1300 uy box fill
+0.733333333333333 0.450980392156863 0.513725490196078 setrgbcolor
+150 ux 1330 uy 195 ux 1300 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+195 ux 1330 uy 240 ux 1300 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+240 ux 1330 uy 285 ux 1300 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+285 ux 1330 uy 330 ux 1300 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+330 ux 1330 uy 375 ux 1300 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+375 ux 1330 uy 420 ux 1300 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+420 ux 1330 uy 465 ux 1300 uy box fill
+0.784313725490196 0 0 setrgbcolor
+465 ux 1330 uy 510 ux 1300 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+510 ux 1330 uy 555 ux 1300 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1311 uy moveto
+(GO_TRNA_WOBBLE_URIDINE_MODIFICATION)   show stroke 
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+60 ux 1300 uy 105 ux 1270 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+105 ux 1300 uy 150 ux 1270 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+150 ux 1300 uy 195 ux 1270 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+195 ux 1300 uy 240 ux 1270 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+240 ux 1300 uy 285 ux 1270 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+285 ux 1300 uy 330 ux 1270 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+330 ux 1300 uy 375 ux 1270 uy box fill
+0.0549019607843137 0.596078431372549 0.874509803921569 setrgbcolor
+375 ux 1300 uy 420 ux 1270 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+420 ux 1300 uy 465 ux 1270 uy box fill
+0.988235294117647 0.215686274509804 0.215686274509804 setrgbcolor
+465 ux 1300 uy 510 ux 1270 uy box fill
+0.988235294117647 0.215686274509804 0.215686274509804 setrgbcolor
+510 ux 1300 uy 555 ux 1270 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1281 uy moveto
+(GO_NEURAL_RETINA_DEVELOPMENT)   show stroke 
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+60 ux 1270 uy 105 ux 1240 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+105 ux 1270 uy 150 ux 1240 uy box fill
+0.23921568627451 0.556862745098039 0.776470588235294 setrgbcolor
+150 ux 1270 uy 195 ux 1240 uy box fill
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+195 ux 1270 uy 240 ux 1240 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+240 ux 1270 uy 285 ux 1240 uy box fill
+0.843137254901961 0.427450980392157 0.454901960784314 setrgbcolor
+285 ux 1270 uy 330 ux 1240 uy box fill
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+330 ux 1270 uy 375 ux 1240 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+375 ux 1270 uy 420 ux 1240 uy box fill
+0.784313725490196 0 0 setrgbcolor
+420 ux 1270 uy 465 ux 1240 uy box fill
+0.898039215686275 0.415686274509804 0.427450980392157 setrgbcolor
+465 ux 1270 uy 510 ux 1240 uy box fill
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+510 ux 1270 uy 555 ux 1240 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1251 uy moveto
+(GO_PEPTIDE_RECEPTOR_ACTIVITY)   show stroke 
+0.87843137254902 0.419607843137255 0.435294117647059 setrgbcolor
+60 ux 1240 uy 105 ux 1210 uy box fill
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+105 ux 1240 uy 150 ux 1210 uy box fill
+0.184313725490196 0.568627450980392 0.803921568627451 setrgbcolor
+150 ux 1240 uy 195 ux 1210 uy box fill
+0.184313725490196 0.568627450980392 0.803921568627451 setrgbcolor
+195 ux 1240 uy 240 ux 1210 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+240 ux 1240 uy 285 ux 1210 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+285 ux 1240 uy 330 ux 1210 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+330 ux 1240 uy 375 ux 1210 uy box fill
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+375 ux 1240 uy 420 ux 1210 uy box fill
+0.784313725490196 0 0 setrgbcolor
+420 ux 1240 uy 465 ux 1210 uy box fill
+0.768627450980392 0.443137254901961 0.494117647058824 setrgbcolor
+465 ux 1240 uy 510 ux 1210 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+510 ux 1240 uy 555 ux 1210 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1221 uy moveto
+(GO_DIENCEPHALON_DEVELOPMENT)   show stroke 
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+60 ux 1210 uy 105 ux 1180 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+105 ux 1210 uy 150 ux 1180 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+150 ux 1210 uy 195 ux 1180 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+195 ux 1210 uy 240 ux 1180 uy box fill
+0.109803921568627 0.584313725490196 0.843137254901961 setrgbcolor
+240 ux 1210 uy 285 ux 1180 uy box fill
+0.219607843137255 0.56078431372549 0.784313725490196 setrgbcolor
+285 ux 1210 uy 330 ux 1180 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+330 ux 1210 uy 375 ux 1180 uy box fill
+0.988235294117647 0.215686274509804 0.215686274509804 setrgbcolor
+375 ux 1210 uy 420 ux 1180 uy box fill
+0.843137254901961 0.427450980392157 0.454901960784314 setrgbcolor
+420 ux 1210 uy 465 ux 1180 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+465 ux 1210 uy 510 ux 1180 uy box fill
+0.788235294117647 0.43921568627451 0.486274509803922 setrgbcolor
+510 ux 1210 uy 555 ux 1180 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1191 uy moveto
+(GO_FATTY_ACID_CATABOLIC_PROCESS)   show stroke 
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+60 ux 1180 uy 105 ux 1150 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+105 ux 1180 uy 150 ux 1150 uy box fill
+0.768627450980392 0.443137254901961 0.494117647058824 setrgbcolor
+150 ux 1180 uy 195 ux 1150 uy box fill
+0.898039215686275 0.415686274509804 0.427450980392157 setrgbcolor
+195 ux 1180 uy 240 ux 1150 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+240 ux 1180 uy 285 ux 1150 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+285 ux 1180 uy 330 ux 1150 uy box fill
+0.968627450980392 0.294117647058824 0.294117647058824 setrgbcolor
+330 ux 1180 uy 375 ux 1150 uy box fill
+0.784313725490196 0 0 setrgbcolor
+375 ux 1180 uy 420 ux 1150 uy box fill
+0.403921568627451 0.52156862745098 0.690196078431373 setrgbcolor
+420 ux 1180 uy 465 ux 1150 uy box fill
+0.0901960784313725 0.588235294117647 0.854901960784314 setrgbcolor
+465 ux 1180 uy 510 ux 1150 uy box fill
+0.364705882352941 0.529411764705882 0.709803921568627 setrgbcolor
+510 ux 1180 uy 555 ux 1150 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1161 uy moveto
+(GO_MEMBRANE_DOCKING)   show stroke 
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+60 ux 1150 uy 105 ux 1120 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+105 ux 1150 uy 150 ux 1120 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+150 ux 1150 uy 195 ux 1120 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+195 ux 1150 uy 240 ux 1120 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+240 ux 1150 uy 285 ux 1120 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+285 ux 1150 uy 330 ux 1120 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+330 ux 1150 uy 375 ux 1120 uy box fill
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+375 ux 1150 uy 420 ux 1120 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+420 ux 1150 uy 465 ux 1120 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+465 ux 1150 uy 510 ux 1120 uy box fill
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+510 ux 1150 uy 555 ux 1120 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1131 uy moveto
+(GO_ALPHA_BETA_T_CELL_PROLIFERATION)   show stroke 
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+60 ux 1120 uy 105 ux 1090 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+105 ux 1120 uy 150 ux 1090 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+150 ux 1120 uy 195 ux 1090 uy box fill
+0.964705882352941 0.149019607843137 0.149019607843137 setrgbcolor
+195 ux 1120 uy 240 ux 1090 uy box fill
+0.713725490196078 0.454901960784314 0.525490196078431 setrgbcolor
+240 ux 1120 uy 285 ux 1090 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+285 ux 1120 uy 330 ux 1090 uy box fill
+0.784313725490196 0 0 setrgbcolor
+330 ux 1120 uy 375 ux 1090 uy box fill
+0.913725490196078 0.411764705882353 0.415686274509804 setrgbcolor
+375 ux 1120 uy 420 ux 1090 uy box fill
+0.145098039215686 0.576470588235294 0.823529411764706 setrgbcolor
+420 ux 1120 uy 465 ux 1090 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+465 ux 1120 uy 510 ux 1090 uy box fill
+0.0549019607843137 0.596078431372549 0.874509803921569 setrgbcolor
+510 ux 1120 uy 555 ux 1090 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1101 uy moveto
+(GO_SISTER_CHROMATID_SEGREGATION)   show stroke 
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+60 ux 1090 uy 105 ux 1060 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+105 ux 1090 uy 150 ux 1060 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+150 ux 1090 uy 195 ux 1060 uy box fill
+0.858823529411765 0.423529411764706 0.447058823529412 setrgbcolor
+195 ux 1090 uy 240 ux 1060 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+240 ux 1090 uy 285 ux 1060 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+285 ux 1090 uy 330 ux 1060 uy box fill
+0.968627450980392 0.294117647058824 0.294117647058824 setrgbcolor
+330 ux 1090 uy 375 ux 1060 uy box fill
+0.768627450980392 0.443137254901961 0.494117647058824 setrgbcolor
+375 ux 1090 uy 420 ux 1060 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+420 ux 1090 uy 465 ux 1060 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+465 ux 1090 uy 510 ux 1060 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+510 ux 1090 uy 555 ux 1060 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1071 uy moveto
+(GO_ENDOPLASMIC_RETICULUM_TUBULAR_NETWORK)   show stroke 
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+60 ux 1060 uy 105 ux 1030 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+105 ux 1060 uy 150 ux 1030 uy box fill
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+150 ux 1060 uy 195 ux 1030 uy box fill
+0.913725490196078 0.411764705882353 0.415686274509804 setrgbcolor
+195 ux 1060 uy 240 ux 1030 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+240 ux 1060 uy 285 ux 1030 uy box fill
+0.403921568627451 0.52156862745098 0.690196078431373 setrgbcolor
+285 ux 1060 uy 330 ux 1030 uy box fill
+0.854901960784314 0.0588235294117647 0.0588235294117647 setrgbcolor
+330 ux 1060 uy 375 ux 1030 uy box fill
+0.403921568627451 0.52156862745098 0.690196078431373 setrgbcolor
+375 ux 1060 uy 420 ux 1030 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+420 ux 1060 uy 465 ux 1030 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+465 ux 1060 uy 510 ux 1030 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+510 ux 1060 uy 555 ux 1030 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1041 uy moveto
+(GO_AP_TYPE_MEMBRANE_COAT_ADAPTOR_COMPLEX)   show stroke 
+0.843137254901961 0.427450980392157 0.454901960784314 setrgbcolor
+60 ux 1030 uy 105 ux 1000 uy box fill
+0.403921568627451 0.52156862745098 0.690196078431373 setrgbcolor
+105 ux 1030 uy 150 ux 1000 uy box fill
+0.788235294117647 0.43921568627451 0.486274509803922 setrgbcolor
+150 ux 1030 uy 195 ux 1000 uy box fill
+0.945098039215686 0.368627450980392 0.368627450980392 setrgbcolor
+195 ux 1030 uy 240 ux 1000 uy box fill
+0.403921568627451 0.52156862745098 0.690196078431373 setrgbcolor
+240 ux 1030 uy 285 ux 1000 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+285 ux 1030 uy 330 ux 1000 uy box fill
+0.819607843137255 0.0313725490196078 0.0313725490196078 setrgbcolor
+330 ux 1030 uy 375 ux 1000 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+375 ux 1030 uy 420 ux 1000 uy box fill
+0.2 0.564705882352941 0.796078431372549 setrgbcolor
+420 ux 1030 uy 465 ux 1000 uy box fill
+0.2 0.564705882352941 0.796078431372549 setrgbcolor
+465 ux 1030 uy 510 ux 1000 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+510 ux 1030 uy 555 ux 1000 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 1011 uy moveto
+(GO_ENDOPLASMIC_RETICULUM_GOLGI_INTERMEDIATE_COMPARTMENT)   show stroke 
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+60 ux 1000 uy 105 ux 970 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+105 ux 1000 uy 150 ux 970 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+150 ux 1000 uy 195 ux 970 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+195 ux 1000 uy 240 ux 970 uy box fill
+0.733333333333333 0.450980392156863 0.513725490196078 setrgbcolor
+240 ux 1000 uy 285 ux 970 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+285 ux 1000 uy 330 ux 970 uy box fill
+0.929411764705882 0.117647058823529 0.117647058823529 setrgbcolor
+330 ux 1000 uy 375 ux 970 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+375 ux 1000 uy 420 ux 970 uy box fill
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+420 ux 1000 uy 465 ux 970 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+465 ux 1000 uy 510 ux 970 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+510 ux 1000 uy 555 ux 970 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 981 uy moveto
+(GO_REGULATION_OF_CELL_CELL_ADHESION_MEDIATED_BY_CADHERIN)   show stroke 
+0.254901960784314 0.552941176470588 0.764705882352941 setrgbcolor
+60 ux 970 uy 105 ux 940 uy box fill
+0.145098039215686 0.576470588235294 0.823529411764706 setrgbcolor
+105 ux 970 uy 150 ux 940 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+150 ux 970 uy 195 ux 940 uy box fill
+0.145098039215686 0.576470588235294 0.823529411764706 setrgbcolor
+195 ux 970 uy 240 ux 940 uy box fill
+0.784313725490196 0 0 setrgbcolor
+240 ux 970 uy 285 ux 940 uy box fill
+0.784313725490196 0 0 setrgbcolor
+285 ux 970 uy 330 ux 940 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+330 ux 970 uy 375 ux 940 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+375 ux 970 uy 420 ux 940 uy box fill
+0.364705882352941 0.529411764705882 0.709803921568627 setrgbcolor
+420 ux 970 uy 465 ux 940 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+465 ux 970 uy 510 ux 940 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+510 ux 970 uy 555 ux 940 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 951 uy moveto
+(GO_RNA_BINDING_INVOLVED_IN_POSTTRANSCRIPTIONAL_GENE_SILENCING)   show stroke 
+0.129411764705882 0.580392156862745 0.835294117647059 setrgbcolor
+60 ux 940 uy 105 ux 910 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+105 ux 940 uy 150 ux 910 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+150 ux 940 uy 195 ux 910 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+195 ux 940 uy 240 ux 910 uy box fill
+1 0.176470588235294 0.176470588235294 setrgbcolor
+240 ux 940 uy 285 ux 910 uy box fill
+0.784313725490196 0 0 setrgbcolor
+285 ux 940 uy 330 ux 910 uy box fill
+0.129411764705882 0.580392156862745 0.835294117647059 setrgbcolor
+330 ux 940 uy 375 ux 910 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+375 ux 940 uy 420 ux 910 uy box fill
+0.843137254901961 0.427450980392157 0.454901960784314 setrgbcolor
+420 ux 940 uy 465 ux 910 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+465 ux 940 uy 510 ux 910 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+510 ux 940 uy 555 ux 910 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 921 uy moveto
+(GO_ODORANT_BINDING)   show stroke 
+0.364705882352941 0.529411764705882 0.709803921568627 setrgbcolor
+60 ux 910 uy 105 ux 880 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+105 ux 910 uy 150 ux 880 uy box fill
+0.129411764705882 0.580392156862745 0.835294117647059 setrgbcolor
+150 ux 910 uy 195 ux 880 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+195 ux 910 uy 240 ux 880 uy box fill
+0.913725490196078 0.411764705882353 0.415686274509804 setrgbcolor
+240 ux 910 uy 285 ux 880 uy box fill
+0.784313725490196 0 0 setrgbcolor
+285 ux 910 uy 330 ux 880 uy box fill
+0.129411764705882 0.580392156862745 0.835294117647059 setrgbcolor
+330 ux 910 uy 375 ux 880 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+375 ux 910 uy 420 ux 880 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+420 ux 910 uy 465 ux 880 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+465 ux 910 uy 510 ux 880 uy box fill
+0.733333333333333 0.450980392156863 0.513725490196078 setrgbcolor
+510 ux 910 uy 555 ux 880 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 891 uy moveto
+(GO_HORMONE_ACTIVITY)   show stroke 
+0.23921568627451 0.556862745098039 0.776470588235294 setrgbcolor
+60 ux 880 uy 105 ux 850 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+105 ux 880 uy 150 ux 850 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+150 ux 880 uy 195 ux 850 uy box fill
+0.23921568627451 0.556862745098039 0.776470588235294 setrgbcolor
+195 ux 880 uy 240 ux 850 uy box fill
+0.898039215686275 0.415686274509804 0.427450980392157 setrgbcolor
+240 ux 880 uy 285 ux 850 uy box fill
+0.784313725490196 0 0 setrgbcolor
+285 ux 880 uy 330 ux 850 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+330 ux 880 uy 375 ux 850 uy box fill
+0.0745098039215686 0.592156862745098 0.862745098039216 setrgbcolor
+375 ux 880 uy 420 ux 850 uy box fill
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+420 ux 880 uy 465 ux 850 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+465 ux 880 uy 510 ux 850 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+510 ux 880 uy 555 ux 850 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 861 uy moveto
+(GO_KERATIN_FILAMENT)   show stroke 
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+60 ux 850 uy 105 ux 820 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+105 ux 850 uy 150 ux 820 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+150 ux 850 uy 195 ux 820 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+195 ux 850 uy 240 ux 820 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+240 ux 850 uy 285 ux 820 uy box fill
+0.784313725490196 0 0 setrgbcolor
+285 ux 850 uy 330 ux 820 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+330 ux 850 uy 375 ux 820 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+375 ux 850 uy 420 ux 820 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+420 ux 850 uy 465 ux 820 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+465 ux 850 uy 510 ux 820 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+510 ux 850 uy 555 ux 820 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 831 uy moveto
+(GO_STEM_CELL_FATE_COMMITMENT)   show stroke 
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+60 ux 820 uy 105 ux 790 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+105 ux 820 uy 150 ux 790 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+150 ux 820 uy 195 ux 790 uy box fill
+0.403921568627451 0.52156862745098 0.690196078431373 setrgbcolor
+195 ux 820 uy 240 ux 790 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+240 ux 820 uy 285 ux 790 uy box fill
+0.784313725490196 0 0 setrgbcolor
+285 ux 820 uy 330 ux 790 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+330 ux 820 uy 375 ux 790 uy box fill
+0.403921568627451 0.52156862745098 0.690196078431373 setrgbcolor
+375 ux 820 uy 420 ux 790 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+420 ux 820 uy 465 ux 790 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+465 ux 820 uy 510 ux 790 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+510 ux 820 uy 555 ux 790 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 801 uy moveto
+(GO_CHEMOKINE_ACTIVITY)   show stroke 
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+60 ux 790 uy 105 ux 760 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+105 ux 790 uy 150 ux 760 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+150 ux 790 uy 195 ux 760 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+195 ux 790 uy 240 ux 760 uy box fill
+0.733333333333333 0.450980392156863 0.513725490196078 setrgbcolor
+240 ux 790 uy 285 ux 760 uy box fill
+0.929411764705882 0.117647058823529 0.117647058823529 setrgbcolor
+285 ux 790 uy 330 ux 760 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+330 ux 790 uy 375 ux 760 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+375 ux 790 uy 420 ux 760 uy box fill
+0.929411764705882 0.117647058823529 0.117647058823529 setrgbcolor
+420 ux 790 uy 465 ux 760 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+465 ux 790 uy 510 ux 760 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+510 ux 790 uy 555 ux 760 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 771 uy moveto
+(GO_TYPE_I_INTERFERON_RECEPTOR_BINDING)   show stroke 
+0.623529411764706 0.474509803921569 0.572549019607843 setrgbcolor
+60 ux 760 uy 105 ux 730 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+105 ux 760 uy 150 ux 730 uy box fill
+0.623529411764706 0.474509803921569 0.572549019607843 setrgbcolor
+150 ux 760 uy 195 ux 730 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+195 ux 760 uy 240 ux 730 uy box fill
+0.784313725490196 0 0 setrgbcolor
+240 ux 760 uy 285 ux 730 uy box fill
+0.788235294117647 0.43921568627451 0.486274509803922 setrgbcolor
+285 ux 760 uy 330 ux 730 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+330 ux 760 uy 375 ux 730 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+375 ux 760 uy 420 ux 730 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+420 ux 760 uy 465 ux 730 uy box fill
+0.623529411764706 0.474509803921569 0.572549019607843 setrgbcolor
+465 ux 760 uy 510 ux 730 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+510 ux 760 uy 555 ux 730 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 741 uy moveto
+(GO_HEMOGLOBIN_COMPLEX)   show stroke 
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+60 ux 730 uy 105 ux 700 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+105 ux 730 uy 150 ux 700 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+150 ux 730 uy 195 ux 700 uy box fill
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+195 ux 730 uy 240 ux 700 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+240 ux 730 uy 285 ux 700 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+285 ux 730 uy 330 ux 700 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+330 ux 730 uy 375 ux 700 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+375 ux 730 uy 420 ux 700 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+420 ux 730 uy 465 ux 700 uy box fill
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+465 ux 730 uy 510 ux 700 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+510 ux 730 uy 555 ux 700 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 711 uy moveto
+(GO_NUCLEOCYTOPLASMIC_CARRIER_ACTIVITY)   show stroke 
+0.23921568627451 0.556862745098039 0.776470588235294 setrgbcolor
+60 ux 700 uy 105 ux 670 uy box fill
+0.403921568627451 0.52156862745098 0.690196078431373 setrgbcolor
+105 ux 700 uy 150 ux 670 uy box fill
+0.988235294117647 0.215686274509804 0.215686274509804 setrgbcolor
+150 ux 700 uy 195 ux 670 uy box fill
+0.784313725490196 0 0 setrgbcolor
+195 ux 700 uy 240 ux 670 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+240 ux 700 uy 285 ux 670 uy box fill
+0.23921568627451 0.556862745098039 0.776470588235294 setrgbcolor
+285 ux 700 uy 330 ux 670 uy box fill
+0.803921568627451 0.435294117647059 0.474509803921569 setrgbcolor
+330 ux 700 uy 375 ux 670 uy box fill
+0.87843137254902 0.419607843137255 0.435294117647059 setrgbcolor
+375 ux 700 uy 420 ux 670 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+420 ux 700 uy 465 ux 670 uy box fill
+0.0745098039215686 0.592156862745098 0.862745098039216 setrgbcolor
+465 ux 700 uy 510 ux 670 uy box fill
+0.0745098039215686 0.592156862745098 0.862745098039216 setrgbcolor
+510 ux 700 uy 555 ux 670 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 681 uy moveto
+(GO_SPLICEOSOMAL_COMPLEX)   show stroke 
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+60 ux 670 uy 105 ux 640 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+105 ux 670 uy 150 ux 640 uy box fill
+0.988235294117647 0.215686274509804 0.215686274509804 setrgbcolor
+150 ux 670 uy 195 ux 640 uy box fill
+0.784313725490196 0 0 setrgbcolor
+195 ux 670 uy 240 ux 640 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+240 ux 670 uy 285 ux 640 uy box fill
+0.294117647058824 0.545098039215686 0.745098039215686 setrgbcolor
+285 ux 670 uy 330 ux 640 uy box fill
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+330 ux 670 uy 375 ux 640 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+375 ux 670 uy 420 ux 640 uy box fill
+0.294117647058824 0.545098039215686 0.745098039215686 setrgbcolor
+420 ux 670 uy 465 ux 640 uy box fill
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+465 ux 670 uy 510 ux 640 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+510 ux 670 uy 555 ux 640 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 651 uy moveto
+(GO_PROTEIN_ACETYLTRANSFERASE_COMPLEX)   show stroke 
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+60 ux 640 uy 105 ux 610 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+105 ux 640 uy 150 ux 610 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+150 ux 640 uy 195 ux 610 uy box fill
+0.784313725490196 0 0 setrgbcolor
+195 ux 640 uy 240 ux 610 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+240 ux 640 uy 285 ux 610 uy box fill
+0.23921568627451 0.556862745098039 0.776470588235294 setrgbcolor
+285 ux 640 uy 330 ux 610 uy box fill
+0.788235294117647 0.43921568627451 0.486274509803922 setrgbcolor
+330 ux 640 uy 375 ux 610 uy box fill
+0.819607843137255 0.0313725490196078 0.0313725490196078 setrgbcolor
+375 ux 640 uy 420 ux 610 uy box fill
+0.364705882352941 0.529411764705882 0.709803921568627 setrgbcolor
+420 ux 640 uy 465 ux 610 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+465 ux 640 uy 510 ux 610 uy box fill
+0.219607843137255 0.56078431372549 0.784313725490196 setrgbcolor
+510 ux 640 uy 555 ux 610 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 621 uy moveto
+(GO_HISTONE_UBIQUITINATION)   show stroke 
+0.549019607843137 0.490196078431373 0.611764705882353 setrgbcolor
+60 ux 610 uy 105 ux 580 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+105 ux 610 uy 150 ux 580 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+150 ux 610 uy 195 ux 580 uy box fill
+0.968627450980392 0.294117647058824 0.294117647058824 setrgbcolor
+195 ux 610 uy 240 ux 580 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+240 ux 610 uy 285 ux 580 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+285 ux 610 uy 330 ux 580 uy box fill
+0.549019607843137 0.490196078431373 0.611764705882353 setrgbcolor
+330 ux 610 uy 375 ux 580 uy box fill
+0.968627450980392 0.294117647058824 0.294117647058824 setrgbcolor
+375 ux 610 uy 420 ux 580 uy box fill
+0.549019607843137 0.490196078431373 0.611764705882353 setrgbcolor
+420 ux 610 uy 465 ux 580 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+465 ux 610 uy 510 ux 580 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+510 ux 610 uy 555 ux 580 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 591 uy moveto
+(GO_PROTEIN_KINASE_C_ACTIVITY)   show stroke 
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+60 ux 580 uy 105 ux 550 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+105 ux 580 uy 150 ux 550 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+150 ux 580 uy 195 ux 550 uy box fill
+0.988235294117647 0.215686274509804 0.215686274509804 setrgbcolor
+195 ux 580 uy 240 ux 550 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+240 ux 580 uy 285 ux 550 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+285 ux 580 uy 330 ux 550 uy box fill
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+330 ux 580 uy 375 ux 550 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+375 ux 580 uy 420 ux 550 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+420 ux 580 uy 465 ux 550 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+465 ux 580 uy 510 ux 550 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+510 ux 580 uy 555 ux 550 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 561 uy moveto
+(GO_REGULATION_OF_RESPONSE_TO_ENDOPLASMIC_RETICULUM_STRESS)   show stroke 
+0.803921568627451 0.435294117647059 0.474509803921569 setrgbcolor
+60 ux 550 uy 105 ux 520 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+105 ux 550 uy 150 ux 520 uy box fill
+0.184313725490196 0.568627450980392 0.803921568627451 setrgbcolor
+150 ux 550 uy 195 ux 520 uy box fill
+0.87843137254902 0.419607843137255 0.435294117647059 setrgbcolor
+195 ux 550 uy 240 ux 520 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+240 ux 550 uy 285 ux 520 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+285 ux 550 uy 330 ux 520 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+330 ux 550 uy 375 ux 520 uy box fill
+0.803921568627451 0.435294117647059 0.474509803921569 setrgbcolor
+375 ux 550 uy 420 ux 520 uy box fill
+0.184313725490196 0.568627450980392 0.803921568627451 setrgbcolor
+420 ux 550 uy 465 ux 520 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+465 ux 550 uy 510 ux 520 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+510 ux 550 uy 555 ux 520 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 531 uy moveto
+(GO_HISTONE_H3_K9_MODIFICATION)   show stroke 
+0 0.607843137254902 0.901960784313726 setrgbcolor
+60 ux 520 uy 105 ux 490 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+105 ux 520 uy 150 ux 490 uy box fill
+0.784313725490196 0 0 setrgbcolor
+150 ux 520 uy 195 ux 490 uy box fill
+0.784313725490196 0 0 setrgbcolor
+195 ux 520 uy 240 ux 490 uy box fill
+0.2 0.564705882352941 0.796078431372549 setrgbcolor
+240 ux 520 uy 285 ux 490 uy box fill
+0.0352941176470588 0.6 0.882352941176471 setrgbcolor
+285 ux 520 uy 330 ux 490 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+330 ux 520 uy 375 ux 490 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+375 ux 520 uy 420 ux 490 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+420 ux 520 uy 465 ux 490 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+465 ux 520 uy 510 ux 490 uy box fill
+0.2 0.564705882352941 0.796078431372549 setrgbcolor
+510 ux 520 uy 555 ux 490 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 501 uy moveto
+(GO_VIRAL_GENE_EXPRESSION)   show stroke 
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+60 ux 490 uy 105 ux 460 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+105 ux 490 uy 150 ux 460 uy box fill
+0.964705882352941 0.149019607843137 0.149019607843137 setrgbcolor
+150 ux 490 uy 195 ux 460 uy box fill
+0.87843137254902 0.419607843137255 0.435294117647059 setrgbcolor
+195 ux 490 uy 240 ux 460 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+240 ux 490 uy 285 ux 460 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+285 ux 490 uy 330 ux 460 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+330 ux 490 uy 375 ux 460 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+375 ux 490 uy 420 ux 460 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+420 ux 490 uy 465 ux 460 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+465 ux 490 uy 510 ux 460 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+510 ux 490 uy 555 ux 460 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 471 uy moveto
+(GO_MRNA_EDITING_COMPLEX)   show stroke 
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+60 ux 460 uy 105 ux 430 uy box fill
+0.976470588235294 0.254901960784314 0.254901960784314 setrgbcolor
+105 ux 460 uy 150 ux 430 uy box fill
+0.784313725490196 0 0 setrgbcolor
+150 ux 460 uy 195 ux 430 uy box fill
+0.788235294117647 0.43921568627451 0.486274509803922 setrgbcolor
+195 ux 460 uy 240 ux 430 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+240 ux 460 uy 285 ux 430 uy box fill
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+285 ux 460 uy 330 ux 430 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+330 ux 460 uy 375 ux 430 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+375 ux 460 uy 420 ux 430 uy box fill
+0.0549019607843137 0.596078431372549 0.874509803921569 setrgbcolor
+420 ux 460 uy 465 ux 430 uy box fill
+0.219607843137255 0.56078431372549 0.784313725490196 setrgbcolor
+465 ux 460 uy 510 ux 430 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+510 ux 460 uy 555 ux 430 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 441 uy moveto
+(GO_PROTEIN_DNA_COMPLEX)   show stroke 
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+60 ux 430 uy 105 ux 400 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+105 ux 430 uy 150 ux 400 uy box fill
+0.956862745098039 0.329411764705882 0.329411764705882 setrgbcolor
+150 ux 430 uy 195 ux 400 uy box fill
+0.956862745098039 0.329411764705882 0.329411764705882 setrgbcolor
+195 ux 430 uy 240 ux 400 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+240 ux 430 uy 285 ux 400 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+285 ux 430 uy 330 ux 400 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+330 ux 430 uy 375 ux 400 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+375 ux 430 uy 420 ux 400 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+420 ux 430 uy 465 ux 400 uy box fill
+0.2 0.564705882352941 0.796078431372549 setrgbcolor
+465 ux 430 uy 510 ux 400 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+510 ux 430 uy 555 ux 400 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 411 uy moveto
+(GO_SELECTIVE_AUTOPHAGY)   show stroke 
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+60 ux 400 uy 105 ux 370 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+105 ux 400 uy 150 ux 370 uy box fill
+0.784313725490196 0 0 setrgbcolor
+150 ux 400 uy 195 ux 370 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+195 ux 400 uy 240 ux 370 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+240 ux 400 uy 285 ux 370 uy box fill
+0.0901960784313725 0.588235294117647 0.854901960784314 setrgbcolor
+285 ux 400 uy 330 ux 370 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+330 ux 400 uy 375 ux 370 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+375 ux 400 uy 420 ux 370 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+420 ux 400 uy 465 ux 370 uy box fill
+0.898039215686275 0.415686274509804 0.427450980392157 setrgbcolor
+465 ux 400 uy 510 ux 370 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+510 ux 400 uy 555 ux 370 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 381 uy moveto
+(GO_COENZYME_BIOSYNTHETIC_PROCESS)   show stroke 
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+60 ux 370 uy 105 ux 340 uy box fill
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+105 ux 370 uy 150 ux 340 uy box fill
+0.933333333333333 0.407843137254902 0.407843137254902 setrgbcolor
+150 ux 370 uy 195 ux 340 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+195 ux 370 uy 240 ux 340 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+240 ux 370 uy 285 ux 340 uy box fill
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+285 ux 370 uy 330 ux 340 uy box fill
+0.713725490196078 0.454901960784314 0.525490196078431 setrgbcolor
+330 ux 370 uy 375 ux 340 uy box fill
+0.933333333333333 0.407843137254902 0.407843137254902 setrgbcolor
+375 ux 370 uy 420 ux 340 uy box fill
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+420 ux 370 uy 465 ux 340 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+465 ux 370 uy 510 ux 340 uy box fill
+0.768627450980392 0.443137254901961 0.494117647058824 setrgbcolor
+510 ux 370 uy 555 ux 340 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 351 uy moveto
+(GO_NUCLEASE_ACTIVITY)   show stroke 
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+60 ux 340 uy 105 ux 310 uy box fill
+0.784313725490196 0 0 setrgbcolor
+105 ux 340 uy 150 ux 310 uy box fill
+0.890196078431372 0.0901960784313725 0.0901960784313725 setrgbcolor
+150 ux 340 uy 195 ux 310 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+195 ux 340 uy 240 ux 310 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+240 ux 340 uy 285 ux 310 uy box fill
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+285 ux 340 uy 330 ux 310 uy box fill
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+330 ux 340 uy 375 ux 310 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+375 ux 340 uy 420 ux 310 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+420 ux 340 uy 465 ux 310 uy box fill
+0.733333333333333 0.450980392156863 0.513725490196078 setrgbcolor
+465 ux 340 uy 510 ux 310 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+510 ux 340 uy 555 ux 310 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 321 uy moveto
+(GO_INNER_MITOCHONDRIAL_MEMBRANE_PROTEIN_COMPLEX)   show stroke 
+0.913725490196078 0.411764705882353 0.415686274509804 setrgbcolor
+60 ux 310 uy 105 ux 280 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+105 ux 310 uy 150 ux 280 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+150 ux 310 uy 195 ux 280 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+195 ux 310 uy 240 ux 280 uy box fill
+0.623529411764706 0.474509803921569 0.572549019607843 setrgbcolor
+240 ux 310 uy 285 ux 280 uy box fill
+0.788235294117647 0.43921568627451 0.486274509803922 setrgbcolor
+285 ux 310 uy 330 ux 280 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+330 ux 310 uy 375 ux 280 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+375 ux 310 uy 420 ux 280 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+420 ux 310 uy 465 ux 280 uy box fill
+0.913725490196078 0.411764705882353 0.415686274509804 setrgbcolor
+465 ux 310 uy 510 ux 280 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+510 ux 310 uy 555 ux 280 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 291 uy moveto
+(GO_REGULATION_OF_ANGIOTENSIN_LEVELS_IN_BLOOD)   show stroke 
+0.784313725490196 0 0 setrgbcolor
+60 ux 280 uy 105 ux 250 uy box fill
+0.913725490196078 0.411764705882353 0.415686274509804 setrgbcolor
+105 ux 280 uy 150 ux 250 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+150 ux 280 uy 195 ux 250 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+195 ux 280 uy 240 ux 250 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+240 ux 280 uy 285 ux 250 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+285 ux 280 uy 330 ux 250 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+330 ux 280 uy 375 ux 250 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+375 ux 280 uy 420 ux 250 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+420 ux 280 uy 465 ux 250 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+465 ux 280 uy 510 ux 250 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+510 ux 280 uy 555 ux 250 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 261 uy moveto
+(GO_SPECIFIC_GRANULE)   show stroke 
+0.784313725490196 0 0 setrgbcolor
+60 ux 250 uy 105 ux 220 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+105 ux 250 uy 150 ux 220 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+150 ux 250 uy 195 ux 220 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+195 ux 250 uy 240 ux 220 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+240 ux 250 uy 285 ux 220 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+285 ux 250 uy 330 ux 220 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+330 ux 250 uy 375 ux 220 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+375 ux 250 uy 420 ux 220 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+420 ux 250 uy 465 ux 220 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+465 ux 250 uy 510 ux 220 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+510 ux 250 uy 555 ux 220 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 231 uy moveto
+(GO_REGULATION_OF_MEMBRANE_INVAGINATION)   show stroke 
+0.784313725490196 0 0 setrgbcolor
+60 ux 220 uy 105 ux 190 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+105 ux 220 uy 150 ux 190 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+150 ux 220 uy 195 ux 190 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+195 ux 220 uy 240 ux 190 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+240 ux 220 uy 285 ux 190 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+285 ux 220 uy 330 ux 190 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+330 ux 220 uy 375 ux 190 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+375 ux 220 uy 420 ux 190 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+420 ux 220 uy 465 ux 190 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+465 ux 220 uy 510 ux 190 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+510 ux 220 uy 555 ux 190 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 201 uy moveto
+(GO_PLATELET_ALPHA_GRANULE_MEMBRANE)   show stroke 
+0.784313725490196 0 0 setrgbcolor
+60 ux 190 uy 105 ux 160 uy box fill
+0.623529411764706 0.474509803921569 0.572549019607843 setrgbcolor
+105 ux 190 uy 150 ux 160 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+150 ux 190 uy 195 ux 160 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+195 ux 190 uy 240 ux 160 uy box fill
+0.623529411764706 0.474509803921569 0.572549019607843 setrgbcolor
+240 ux 190 uy 285 ux 160 uy box fill
+0.623529411764706 0.474509803921569 0.572549019607843 setrgbcolor
+285 ux 190 uy 330 ux 160 uy box fill
+0.623529411764706 0.474509803921569 0.572549019607843 setrgbcolor
+330 ux 190 uy 375 ux 160 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+375 ux 190 uy 420 ux 160 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+420 ux 190 uy 465 ux 160 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+465 ux 190 uy 510 ux 160 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+510 ux 190 uy 555 ux 160 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 171 uy moveto
+(GO_IGG_BINDING)   show stroke 
+0.784313725490196 0 0 setrgbcolor
+60 ux 160 uy 105 ux 130 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+105 ux 160 uy 150 ux 130 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+150 ux 160 uy 195 ux 130 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+195 ux 160 uy 240 ux 130 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+240 ux 160 uy 285 ux 130 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+285 ux 160 uy 330 ux 130 uy box fill
+0.843137254901961 0.427450980392157 0.454901960784314 setrgbcolor
+330 ux 160 uy 375 ux 130 uy box fill
+0.458823529411765 0.509803921568627 0.658823529411765 setrgbcolor
+375 ux 160 uy 420 ux 130 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+420 ux 160 uy 465 ux 130 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+465 ux 160 uy 510 ux 130 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+510 ux 160 uy 555 ux 130 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 141 uy moveto
+(GO_NEUTROPHIL_HOMEOSTASIS)   show stroke 
+0.945098039215686 0.368627450980392 0.368627450980392 setrgbcolor
+60 ux 130 uy 105 ux 100 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+105 ux 130 uy 150 ux 100 uy box fill
+0.384313725490196 0.525490196078431 0.698039215686274 setrgbcolor
+150 ux 130 uy 195 ux 100 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+195 ux 130 uy 240 ux 100 uy box fill
+0.945098039215686 0.368627450980392 0.368627450980392 setrgbcolor
+240 ux 130 uy 285 ux 100 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+285 ux 130 uy 330 ux 100 uy box fill
+0.768627450980392 0.443137254901961 0.494117647058824 setrgbcolor
+330 ux 130 uy 375 ux 100 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+375 ux 130 uy 420 ux 100 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+420 ux 130 uy 465 ux 100 uy box fill
+0.0549019607843137 0.596078431372549 0.874509803921569 setrgbcolor
+465 ux 130 uy 510 ux 100 uy box fill
+0.733333333333333 0.450980392156863 0.513725490196078 setrgbcolor
+510 ux 130 uy 555 ux 100 uy box fill
+/Arial findfont 14 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+565 ux 111 uy moveto
+(GO_NEGATIVE_REGULATION_OF_CYSTEINE_TYPE_ENDOPEPTIDASE_ACTIVITY)   show stroke 
+0 0 0 setrgbcolor
+/Arial findfont 10 scalefont setfont
+newpath
+15 ux 883 uy moveto
+(3)   dup stringwidth pop 2 div neg 0 rmoveto show 
+/Arial findfont 9 scalefont setfont
+newpath
+20 ux 896 uy moveto
+(Over-representation)  90 rotate   show stroke  -90 rotate 
+0.784313725490196 0 0 setrgbcolor
+5 ux 880 uy 25 ux 878 uy box fill
+0.784313725490196 0 0 setrgbcolor
+5 ux 878 uy 25 ux 876 uy box fill
+0.854901960784314 0.0588235294117647 0.0588235294117647 setrgbcolor
+5 ux 876 uy 25 ux 874 uy box fill
+0.890196078431372 0.0901960784313725 0.0901960784313725 setrgbcolor
+5 ux 874 uy 25 ux 872 uy box fill
+0.929411764705882 0.117647058823529 0.117647058823529 setrgbcolor
+5 ux 872 uy 25 ux 870 uy box fill
+0.964705882352941 0.149019607843137 0.149019607843137 setrgbcolor
+5 ux 870 uy 25 ux 868 uy box fill
+0.988235294117647 0.215686274509804 0.215686274509804 setrgbcolor
+5 ux 868 uy 25 ux 866 uy box fill
+0.976470588235294 0.254901960784314 0.254901960784314 setrgbcolor
+5 ux 866 uy 25 ux 864 uy box fill
+0.968627450980392 0.294117647058824 0.294117647058824 setrgbcolor
+5 ux 864 uy 25 ux 862 uy box fill
+0.945098039215686 0.368627450980392 0.368627450980392 setrgbcolor
+5 ux 862 uy 25 ux 860 uy box fill
+0.933333333333333 0.407843137254902 0.407843137254902 setrgbcolor
+5 ux 860 uy 25 ux 858 uy box fill
+0.913725490196078 0.411764705882353 0.415686274509804 setrgbcolor
+5 ux 858 uy 25 ux 856 uy box fill
+0.898039215686275 0.415686274509804 0.427450980392157 setrgbcolor
+5 ux 856 uy 25 ux 854 uy box fill
+0.858823529411765 0.423529411764706 0.447058823529412 setrgbcolor
+5 ux 854 uy 25 ux 852 uy box fill
+0.843137254901961 0.427450980392157 0.454901960784314 setrgbcolor
+5 ux 852 uy 25 ux 850 uy box fill
+0.823529411764706 0.431372549019608 0.466666666666667 setrgbcolor
+5 ux 850 uy 25 ux 848 uy box fill
+0.803921568627451 0.435294117647059 0.474509803921569 setrgbcolor
+5 ux 848 uy 25 ux 846 uy box fill
+0.768627450980392 0.443137254901961 0.494117647058824 setrgbcolor
+5 ux 846 uy 25 ux 844 uy box fill
+0.749019607843137 0.447058823529412 0.505882352941176 setrgbcolor
+5 ux 844 uy 25 ux 842 uy box fill
+0.733333333333333 0.450980392156863 0.513725490196078 setrgbcolor
+5 ux 842 uy 25 ux 840 uy box fill
+0.694117647058824 0.458823529411765 0.533333333333333 setrgbcolor
+5 ux 840 uy 25 ux 838 uy box fill
+0.67843137254902 0.462745098039216 0.545098039215686 setrgbcolor
+5 ux 838 uy 25 ux 836 uy box fill
+0.658823529411765 0.466666666666667 0.552941176470588 setrgbcolor
+5 ux 836 uy 25 ux 834 uy box fill
+0.63921568627451 0.470588235294118 0.564705882352941 setrgbcolor
+5 ux 834 uy 25 ux 832 uy box fill
+0.603921568627451 0.47843137254902 0.580392156862745 setrgbcolor
+5 ux 832 uy 25 ux 830 uy box fill
+0.584313725490196 0.482352941176471 0.592156862745098 setrgbcolor
+5 ux 830 uy 25 ux 828 uy box fill
+0.568627450980392 0.486274509803922 0.6 setrgbcolor
+5 ux 828 uy 25 ux 826 uy box fill
+0.529411764705882 0.494117647058824 0.619607843137255 setrgbcolor
+5 ux 826 uy 25 ux 824 uy box fill
+0.513725490196078 0.498039215686275 0.631372549019608 setrgbcolor
+5 ux 824 uy 25 ux 822 uy box fill
+0.494117647058824 0.501960784313725 0.63921568627451 setrgbcolor
+5 ux 822 uy 25 ux 820 uy box fill
+0.474509803921569 0.505882352941176 0.650980392156863 setrgbcolor
+5 ux 820 uy 25 ux 818 uy box fill
+0.43921568627451 0.513725490196078 0.670588235294118 setrgbcolor
+5 ux 818 uy 25 ux 816 uy box fill
+0.419607843137255 0.517647058823529 0.67843137254902 setrgbcolor
+5 ux 816 uy 25 ux 814 uy box fill
+0.403921568627451 0.52156862745098 0.690196078431373 setrgbcolor
+5 ux 814 uy 25 ux 812 uy box fill
+0.364705882352941 0.529411764705882 0.709803921568627 setrgbcolor
+5 ux 812 uy 25 ux 810 uy box fill
+0.349019607843137 0.533333333333333 0.717647058823529 setrgbcolor
+5 ux 810 uy 25 ux 808 uy box fill
+0.329411764705882 0.537254901960784 0.729411764705882 setrgbcolor
+5 ux 808 uy 25 ux 806 uy box fill
+0.309803921568627 0.541176470588235 0.737254901960784 setrgbcolor
+5 ux 806 uy 25 ux 804 uy box fill
+0.274509803921569 0.549019607843137 0.756862745098039 setrgbcolor
+5 ux 804 uy 25 ux 802 uy box fill
+0.254901960784314 0.552941176470588 0.764705882352941 setrgbcolor
+5 ux 802 uy 25 ux 800 uy box fill
+0.23921568627451 0.556862745098039 0.776470588235294 setrgbcolor
+5 ux 800 uy 25 ux 798 uy box fill
+0.219607843137255 0.56078431372549 0.784313725490196 setrgbcolor
+5 ux 798 uy 25 ux 796 uy box fill
+0.184313725490196 0.568627450980392 0.803921568627451 setrgbcolor
+5 ux 796 uy 25 ux 794 uy box fill
+0.164705882352941 0.572549019607843 0.815686274509804 setrgbcolor
+5 ux 794 uy 25 ux 792 uy box fill
+0.145098039215686 0.576470588235294 0.823529411764706 setrgbcolor
+5 ux 792 uy 25 ux 790 uy box fill
+0.109803921568627 0.584313725490196 0.843137254901961 setrgbcolor
+5 ux 790 uy 25 ux 788 uy box fill
+0.0901960784313725 0.588235294117647 0.854901960784314 setrgbcolor
+5 ux 788 uy 25 ux 786 uy box fill
+0.0745098039215686 0.592156862745098 0.862745098039216 setrgbcolor
+5 ux 786 uy 25 ux 784 uy box fill
+0.0549019607843137 0.596078431372549 0.874509803921569 setrgbcolor
+5 ux 784 uy 25 ux 782 uy box fill
+0.0196078431372549 0.603921568627451 0.894117647058824 setrgbcolor
+5 ux 782 uy 25 ux 780 uy box fill
+0 0.607843137254902 0.901960784313726 setrgbcolor
+5 ux 780 uy 25 ux 778 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 10 scalefont setfont
+newpath
+16 ux 769 uy moveto
+(-3)   dup stringwidth pop 2 div neg 0 rmoveto show 
+/Arial findfont 9 scalefont setfont
+newpath
+20 ux 759 uy moveto
+(Under-representation)  90 rotate   dup stringwidth pop neg 0 rmoveto show  -90 rotate 
+%%EOF

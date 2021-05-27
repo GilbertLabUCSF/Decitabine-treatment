@@ -1,0 +1,11 @@
+catmaxcount	200
+catmincount	0
+cattypes	F,P,C
+ebins	11
+expfile	72h_delta_exp_dependent0.txt
+exptype	0
+goindexfile	/flash/bin/iPAGEv1.0/PAGE_DATA/ANNOTATIONS/human_ensembl_RBPs_DeepBind/human_ensembl_RBPs_DeepBind_index.txt
+gonamesfile	/flash/bin/iPAGEv1.0/PAGE_DATA/ANNOTATIONS/human_ensembl_RBPs_DeepBind/human_ensembl_RBPs_DeepBind_names.txt
+independence	0
+max_p	0.005
+minr	

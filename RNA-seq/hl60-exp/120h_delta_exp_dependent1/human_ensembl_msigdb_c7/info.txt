@@ -1,0 +1,11 @@
+catmaxcount	200
+catmincount	0
+cattypes	F,P,C
+ebins	11
+expfile	120h_delta_exp_dependent1.txt
+exptype	0
+goindexfile	/flash/bin/iPAGEv1.0/PAGE_DATA/ANNOTATIONS/human_ensembl_msigdb_full/human_ensembl_msigdb_full_index.txt
+gonamesfile	/flash/bin/iPAGEv1.0/PAGE_DATA/ANNOTATIONS/human_ensembl_msigdb_full/human_ensembl_msigdb_full_names.txt
+independence	1
+max_p	0.005
+minr	
