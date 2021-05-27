@@ -4,7 +4,8 @@
 *fastq/
 *counts/
 *quants/
-*_delta_*/
+*_delta_*/*/
+*_GENESET/
 
 combined_analysis/mtyl_enrichment/*_GENESET
 combined_analysis/mtyl_enrichment/*.log
