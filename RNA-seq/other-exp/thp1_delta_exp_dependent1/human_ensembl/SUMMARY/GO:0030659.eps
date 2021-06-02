@@ -1,0 +1,584 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (thp1_delta_exp_dependent1.txt_PAGE/SUMMARY/GO:0030659.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Sun May 30 19:07:04 2021
+%%For: abe
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1223 1175
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+360 ux 590 uy moveto
+(cytoplasmic vesicle membrane, GO:0030659)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 1167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 1160 uy moveto
+(melanosome, GO:0042470)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 1147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 1140 uy moveto
+(phosphatidylinositol binding, GO:0035091)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 1120 uy moveto
+(GDP binding, GO:0019003)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 1100 uy moveto
+(early endosome membrane, GO:0031901)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 1080 uy moveto
+(clathrin-coated pit, GO:0005905)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 1060 uy moveto
+(axon cytoplasm, GO:1904115)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 1040 uy moveto
+(insulin receptor signaling pathway, GO:0008286)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 1020 uy moveto
+(chloride transmembrane transport, GO:1902476)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 1000 uy moveto
+(chloride transport, GO:0006821)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 980 uy moveto
+(cellular response to cAMP, GO:0071320)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 960 uy moveto
+(voltage-gated ion channel activity, GO:0005244)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 940 uy moveto
+(phospholipid metabolic process, GO:0006644)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 920 uy moveto
+(synaptic vesicle membrane, GO:0030672)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 900 uy moveto
+(peptide binding, GO:0042277)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 880 uy moveto
+(anterograde axonal transport, GO:0008089)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 860 uy moveto
+(vesicle membrane, GO:0012506)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 840 uy moveto
+(clathrin adaptor complex, GO:0030131)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 820 uy moveto
+(transferrin transport, GO:0033572)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 800 uy moveto
+(chloride channel activity, GO:0005254)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 780 uy moveto
+(cellular response to calcium ion, GO:0071277)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 760 uy moveto
+(calcium-dependent phospholipid binding, GO:0005544)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 740 uy moveto
+(ciliary membrane, GO:0060170)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 720 uy moveto
+(anterograde synaptic vesicle transport, GO:0048490)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 700 uy moveto
+(chloride channel complex, GO:0034707)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 680 uy moveto
+(brush border membrane, GO:0031526)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 660 uy moveto
+(melanosome organization, GO:0032438)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 640 uy moveto
+(retrograde transport, GO:1990126)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 620 uy moveto
+(clathrin-coated endocytic vesicle membrane, GO:0030669)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 600 uy moveto
+(embryonic placenta development, GO:0001892)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 580 uy moveto
+(monooxygenase activity, GO:0004497)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 560 uy moveto
+(presynaptic active zone, GO:0048786)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 540 uy moveto
+(negative regulation of cysteine-type endopeptidase activity involved in apoptotic process, GO:0043154)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 520 uy moveto
+(lysophospholipase activity, GO:0004622)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 500 uy moveto
+(membrane protein ectodomain proteolysis, GO:0006509)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 480 uy moveto
+(endosome to melanosome transport, GO:0035646)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 460 uy moveto
+(organelle organization, GO:0006996)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 440 uy moveto
+(Golgi to lysosome transport, GO:0090160)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 420 uy moveto
+(cell-cell adhesion, GO:0098609)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 400 uy moveto
+(carbohydrate transport, GO:0008643)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 380 uy moveto
+(gamma-aminobutyric acid signaling pathway, GO:0007214)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 360 uy moveto
+(GABA-A receptor activity, GO:0004890)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 340 uy moveto
+(extracellular ligand-gated ion channel activity, GO:0005230)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 320 uy moveto
+(cardiac conduction, GO:0061337)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 300 uy moveto
+(GTPase inhibitor activity, GO:0005095)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 280 uy moveto
+(cardiac septum development, GO:0003279)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 260 uy moveto
+(mitogen-activated protein kinase kinase binding, GO:0031434)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 240 uy moveto
+(inner ear receptor cell development, GO:0060119)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 220 uy moveto
+(plasma membrane to endosome transport, GO:0048227)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 200 uy moveto
+(GABA-A receptor complex, GO:1902711)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 180 uy moveto
+(calcium ion import across plasma membrane, GO:0098703)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 160 uy moveto
+(AP-type membrane coat adaptor complex, GO:0030119)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 140 uy moveto
+(chaperone-mediated protein transport, GO:0072321)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 120 uy moveto
+(calcium-release channel activity, GO:0015278)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 100 uy moveto
+(anion transmembrane transport, GO:0098656)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 80 uy moveto
+(embryonic camera-type eye morphogenesis, GO:0048596)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 60 uy moveto
+(antigen processing and presentation of exogenous peptide antigen via MHC class I, GO:0002480)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+367 ux 597 uy moveto
+410 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+417 ux 40 uy moveto
+(clathrin heavy chain binding, GO:0032050)   show stroke 
+%%EOF

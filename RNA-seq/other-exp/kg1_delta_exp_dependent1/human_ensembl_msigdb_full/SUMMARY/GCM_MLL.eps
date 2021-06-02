@@ -1,0 +1,1120 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (kg1_delta_exp_dependent1.txt_PAGE/SUMMARY/GCM_MLL.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Thu May 27 17:08:52 2021
+%%For: abe
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1640 2510
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+156 ux 1260 uy moveto
+(GCM_MLL, GCM_MLL)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2500 uy moveto
+(GCM_RAB10, GCM_RAB10)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2480 uy moveto
+(GCM_MYST2, GCM_MYST2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2460 uy moveto
+(GCM_GSPT1, GCM_GSPT1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2440 uy moveto
+(GO_NUCLEAR_SPECK, GO_NUCLEAR_SPECK)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2420 uy moveto
+(GSE21360_PRIMARY_VS_QUATERNARY_MEMORY_CD8_TCELL_DN, GSE21360_PRIMARY_VS_QUATERNARY_MEMORY_CD8_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2400 uy moveto
+(GCM_DFFA, GCM_DFFA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2380 uy moveto
+(GCM_RAN, GCM_RAN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2360 uy moveto
+(GCM_MAP4K4, GCM_MAP4K4)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2340 uy moveto
+(GSE41867_DAY8_VS_DAY15_LCMV_CLONE13_EFFECTOR_CD8_TCELL_UP, GSE41867_DAY8_VS_DAY15_LCMV_CLONE13_EFFECTOR_CD8_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2320 uy moveto
+(GO_ACETYLTRANSFERASE_COMPLEX, GO_ACETYLTRANSFERASE_COMPLEX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2300 uy moveto
+(GCM_PTK2, GCM_PTK2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2280 uy moveto
+(GCM_ZNF198, GCM_ZNF198)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2260 uy moveto
+(GSE411_100MIN_VS_400MIN_IL6_STIM_MACROPHAGE_UP, GSE411_100MIN_VS_400MIN_IL6_STIM_MACROPHAGE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2240 uy moveto
+(GCM_HBP1, GCM_HBP1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2220 uy moveto
+(GSE369_IFNG_KO_VS_WT_LIVER_UP, GSE369_IFNG_KO_VS_WT_LIVER_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2200 uy moveto
+(KAECH_NAIVE_VS_DAY8_EFF_CD8_TCELL_UP, KAECH_NAIVE_VS_DAY8_EFF_CD8_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2180 uy moveto
+(GSE32423_IL7_VS_IL7_IL4_NAIVE_CD8_TCELL_DN, GSE32423_IL7_VS_IL7_IL4_NAIVE_CD8_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2160 uy moveto
+(GSE24671_CTRL_VS_SENDAI_VIRUS_INFECTED_MOUSE_SPLENOCYTES_DN, GSE24671_CTRL_VS_SENDAI_VIRUS_INFECTED_MOUSE_SPLENOCYTES_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2140 uy moveto
+(KAECH_NAIVE_VS_MEMORY_CD8_TCELL_UP, KAECH_NAIVE_VS_MEMORY_CD8_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2120 uy moveto
+(GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_UP, GSE6674_ANTI_IGM_VS_CPG_STIM_BCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2100 uy moveto
+(GCM_ERBB2IP, GCM_ERBB2IP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2080 uy moveto
+(GSE9650_NAIVE_VS_MEMORY_CD8_TCELL_UP, GSE9650_NAIVE_VS_MEMORY_CD8_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2060 uy moveto
+(GSE19888_CTRL_VS_A3R_ACTIVATION_MAST_CELL_UP, GSE19888_CTRL_VS_A3R_ACTIVATION_MAST_CELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2040 uy moveto
+(GCM_CRKL, GCM_CRKL)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2020 uy moveto
+(BILD_CTNNB1_ONCOGENIC_SIGNATURE, BILD_CTNNB1_ONCOGENIC_SIGNATURE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 2007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 2000 uy moveto
+(GSE25088_CTRL_VS_IL4_STIM_MACROPHAGE_UP, GSE25088_CTRL_VS_IL4_STIM_MACROPHAGE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1980 uy moveto
+(GCM_BMPR2, GCM_BMPR2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1960 uy moveto
+(GCM_CHUK, GCM_CHUK)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1940 uy moveto
+(GCM_NUMA1, GCM_NUMA1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1920 uy moveto
+(MODULE_323, MODULE_323)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1900 uy moveto
+(GAGCCAG_MIR149, GAGCCAG_MIR149)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1880 uy moveto
+(GSE4748_CTRL_VS_LPS_STIM_DC_3H_UP, GSE4748_CTRL_VS_LPS_STIM_DC_3H_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1860 uy moveto
+(GSE27786_LIN_NEG_VS_CD4_TCELL_DN, GSE27786_LIN_NEG_VS_CD4_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1840 uy moveto
+(GCM_RBM8A, GCM_RBM8A)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1820 uy moveto
+(GTCTTCC_MIR7, GTCTTCC_MIR7)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1800 uy moveto
+(GCM_DENR, GCM_DENR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1780 uy moveto
+(BOYAULT_LIVER_CANCER_SUBCLASS_G1_UP, BOYAULT_LIVER_CANCER_SUBCLASS_G1_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1760 uy moveto
+(CAGCCTC_MIR4855P, CAGCCTC_MIR4855P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1740 uy moveto
+(GCM_DLG1, GCM_DLG1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1720 uy moveto
+(CTGTTAC_MIR194, CTGTTAC_MIR194)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1700 uy moveto
+(GALE_APL_WITH_FLT3_MUTATED_UP, GALE_APL_WITH_FLT3_MUTATED_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1680 uy moveto
+(GO_PROTEIN_ACETYLATION, GO_PROTEIN_ACETYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1660 uy moveto
+(GAGACTG_MIR452, GAGACTG_MIR452)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1640 uy moveto
+(GCM_IL6ST, GCM_IL6ST)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1620 uy moveto
+(GCM_FANCL, GCM_FANCL)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1600 uy moveto
+(GCM_TINF2, GCM_TINF2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1580 uy moveto
+(LAIHO_COLORECTAL_CANCER_SERRATED_DN, LAIHO_COLORECTAL_CANCER_SERRATED_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1560 uy moveto
+(GSE3982_MAC_VS_CENT_MEMORY_CD4_TCELL_DN, GSE3982_MAC_VS_CENT_MEMORY_CD4_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1540 uy moveto
+(GGCNNMSMYNTTG_UNKNOWN, GGCNNMSMYNTTG_UNKNOWN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1520 uy moveto
+(GCM_PPM1D, GCM_PPM1D)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1500 uy moveto
+(GSE9946_MATURE_STIMULATORY_VS_LISTERIA_INF_MATURE_DC_UP, GSE9946_MATURE_STIMULATORY_VS_LISTERIA_INF_MATURE_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1480 uy moveto
+(GO_POSTTRANSCRIPTIONAL_GENE_SILENCING, GO_POSTTRANSCRIPTIONAL_GENE_SILENCING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1460 uy moveto
+(MORF_CNTN1, MORF_CNTN1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1440 uy moveto
+(GCM_ING1, GCM_ING1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1420 uy moveto
+(GO_CYSTEINE_TYPE_ENDOPEPTIDASE_ACTIVITY, GO_CYSTEINE_TYPE_ENDOPEPTIDASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1400 uy moveto
+(GSE7548_NAIVE_VS_DAY28_PCC_IMMUNIZATION_CD4_TCELL_UP, GSE7548_NAIVE_VS_DAY28_PCC_IMMUNIZATION_CD4_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1380 uy moveto
+(TNCATNTCCYR_UNKNOWN, TNCATNTCCYR_UNKNOWN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1360 uy moveto
+(GO_HISTONE_H4_K16_ACETYLATION, GO_HISTONE_H4_K16_ACETYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1340 uy moveto
+(GO_CORE_PROMOTER_BINDING, GO_CORE_PROMOTER_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1320 uy moveto
+(GSE19401_UNSTIM_VS_PAM2CSK4_STIM_FOLLICULAR_DC_UP, GSE19401_UNSTIM_VS_PAM2CSK4_STIM_FOLLICULAR_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1300 uy moveto
+(GSE18791_CTRL_VS_NEWCASTLE_VIRUS_DC_2H_DN, GSE18791_CTRL_VS_NEWCASTLE_VIRUS_DC_2H_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1280 uy moveto
+(GCM_USP6, GCM_USP6)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1260 uy moveto
+(GO_HISTONE_H4_ACETYLATION, GO_HISTONE_H4_ACETYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1240 uy moveto
+(JAK2_DN.V1_DN, JAK2_DN.V1_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1220 uy moveto
+(GO_CYSTEINE_TYPE_PEPTIDASE_ACTIVITY, GO_CYSTEINE_TYPE_PEPTIDASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1200 uy moveto
+(CTCTGGA_MIR520A_MIR525, CTCTGGA_MIR520A_MIR525)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1180 uy moveto
+(MORF_CASP2, MORF_CASP2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1160 uy moveto
+(GCM_GSTA4, GCM_GSTA4)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1140 uy moveto
+(GCM_SMO, GCM_SMO)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1120 uy moveto
+(CHESLER_BRAIN_QTL_CIS, CHESLER_BRAIN_QTL_CIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1100 uy moveto
+(GO_SIGNAL_SEQUENCE_BINDING, GO_SIGNAL_SEQUENCE_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1080 uy moveto
+(GO_PHOSPHATIDYLINOSITOL_PHOSPHATE_PHOSPHATASE_ACTIVITY, GO_PHOSPHATIDYLINOSITOL_PHOSPHATE_PHOSPHATASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1060 uy moveto
+(ACTGCAG_MIR173P, ACTGCAG_MIR173P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1040 uy moveto
+(GSE17721_CTRL_VS_POLYIC_6H_BMDC_DN, GSE17721_CTRL_VS_POLYIC_6H_BMDC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1020 uy moveto
+(GSE4142_PLASMA_CELL_VS_GC_BCELL_UP, GSE4142_PLASMA_CELL_VS_GC_BCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 1000 uy moveto
+(GSE14769_UNSTIM_VS_40MIN_LPS_BMDM_UP, GSE14769_UNSTIM_VS_40MIN_LPS_BMDM_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 980 uy moveto
+(REACTOME_PI_METABOLISM, REACTOME_PI_METABOLISM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 960 uy moveto
+(MORF_PTPN9, MORF_PTPN9)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 940 uy moveto
+(GCM_CASP2, GCM_CASP2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 920 uy moveto
+(MORF_PDPK1, MORF_PDPK1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 900 uy moveto
+(GSE17721_LPS_VS_CPG_2H_BMDC_DN, GSE17721_LPS_VS_CPG_2H_BMDC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 880 uy moveto
+(GSE14415_NATURAL_TREG_VS_FOXP3_KO_NATURAL_TREG_DN, GSE14415_NATURAL_TREG_VS_FOXP3_KO_NATURAL_TREG_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 860 uy moveto
+(GSE17721_LPS_VS_CPG_16H_BMDC_UP, GSE17721_LPS_VS_CPG_16H_BMDC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 840 uy moveto
+(GSE2128_C57BL6_VS_NOD_THYMOCYTE_DN, GSE2128_C57BL6_VS_NOD_THYMOCYTE_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 820 uy moveto
+(GO_TRANSFORMING_GROWTH_FACTOR_BETA_RECEPTOR_SIGNALING_PATHWAY, GO_TRANSFORMING_GROWTH_FACTOR_BETA_RECEPTOR_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 800 uy moveto
+(ATGTAGC_MIR221_MIR222, ATGTAGC_MIR221_MIR222)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 780 uy moveto
+(GO_SIN3_COMPLEX, GO_SIN3_COMPLEX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 760 uy moveto
+(TGAGATT_MIR216, TGAGATT_MIR216)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 740 uy moveto
+(INAMURA_LUNG_CANCER_SCC_SUBTYPES_UP, INAMURA_LUNG_CANCER_SCC_SUBTYPES_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 720 uy moveto
+(GCM_BCL2L1, GCM_BCL2L1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 700 uy moveto
+(GSE9946_LISTERIA_INF_MATURE_VS_PROSTAGLANDINE2_TREATED_MATURE_DC_UP, GSE9946_LISTERIA_INF_MATURE_VS_PROSTAGLANDINE2_TREATED_MATURE_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 680 uy moveto
+(GSE43955_1H_VS_60H_ACT_CD4_TCELL_DN, GSE43955_1H_VS_60H_ACT_CD4_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 660 uy moveto
+(GO_CCR4_NOT_COMPLEX, GO_CCR4_NOT_COMPLEX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 640 uy moveto
+(MODULE_493, MODULE_493)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 620 uy moveto
+(DELASERNA_MYOD_TARGETS_UP, DELASERNA_MYOD_TARGETS_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 600 uy moveto
+(BONCI_TARGETS_OF_MIR15A_AND_MIR16_1, BONCI_TARGETS_OF_MIR15A_AND_MIR16_1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 580 uy moveto
+(YTCCCRNNAGGY_UNKNOWN, YTCCCRNNAGGY_UNKNOWN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 560 uy moveto
+(GO_SIN3_TYPE_COMPLEX, GO_SIN3_TYPE_COMPLEX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 540 uy moveto
+(HEN1_02, HEN1_02)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 520 uy moveto
+(GSE9946_IMMATURE_VS_PROSTAGLANDINE2_TREATED_MATURE_DC_UP, GSE9946_IMMATURE_VS_PROSTAGLANDINE2_TREATED_MATURE_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 500 uy moveto
+(CTAGGAA_MIR384, CTAGGAA_MIR384)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 480 uy moveto
+(ATGTTTC_MIR494, ATGTTTC_MIR494)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 460 uy moveto
+(CYCLIN_D1_UP.V1_DN, CYCLIN_D1_UP.V1_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 440 uy moveto
+(MYLLYKANGAS_AMPLIFICATION_HOT_SPOT_23, MYLLYKANGAS_AMPLIFICATION_HOT_SPOT_23)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 420 uy moveto
+(GCM_DDX11, GCM_DDX11)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 400 uy moveto
+(REACTOME_PIP3_ACTIVATES_AKT_SIGNALING, REACTOME_PIP3_ACTIVATES_AKT_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 380 uy moveto
+(GO_RESPONSE_TO_NERVE_GROWTH_FACTOR, GO_RESPONSE_TO_NERVE_GROWTH_FACTOR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 360 uy moveto
+(MELLMAN_TUT1_TARGETS_DN, MELLMAN_TUT1_TARGETS_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 340 uy moveto
+(GO_NEGATIVE_REGULATION_OF_TRANSFORMING_GROWTH_FACTOR_BETA_RECEPTOR_SIGNALING_PATHWAY, GO_NEGATIVE_REGULATION_OF_TRANSFORMING_GROWTH_FACTOR_BETA_RECEPTOR_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 320 uy moveto
+(REACTOME_TGF_BETA_RECEPTOR_SIGNALING_ACTIVATES_SMADS, REACTOME_TGF_BETA_RECEPTOR_SIGNALING_ACTIVATES_SMADS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 300 uy moveto
+(GSE34156_TLR1_TLR2_LIGAND_VS_NOD2_AND_TLR1_TLR2_LIGAND_6H_TREATED_MONOCYTE_UP, GSE34156_TLR1_TLR2_LIGAND_VS_NOD2_AND_TLR1_TLR2_LIGAND_6H_TREATED_MONOCYTE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 280 uy moveto
+(GO_CORE_PROMOTER_SEQUENCE_SPECIFIC_DNA_BINDING, GO_CORE_PROMOTER_SEQUENCE_SPECIFIC_DNA_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 260 uy moveto
+(CHESLER_BRAIN_HIGHEST_GENETIC_VARIANCE, CHESLER_BRAIN_HIGHEST_GENETIC_VARIANCE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 240 uy moveto
+(PID_MYC_REPRESS_PATHWAY, PID_MYC_REPRESS_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 220 uy moveto
+(CTACTAG_MIR325, CTACTAG_MIR325)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 200 uy moveto
+(GO_RNA_INTERFERENCE, GO_RNA_INTERFERENCE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 180 uy moveto
+(GO_LYSINE_ACETYLATED_HISTONE_BINDING, GO_LYSINE_ACETYLATED_HISTONE_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 160 uy moveto
+(BRACHAT_RESPONSE_TO_CAMPTOTHECIN_UP, BRACHAT_RESPONSE_TO_CAMPTOTHECIN_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 140 uy moveto
+(GO_RAL_GTPASE_BINDING, GO_RAL_GTPASE_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 120 uy moveto
+(GO_PHOSPHATIDYLINOSITOL_MONOPHOSPHATE_PHOSPHATASE_ACTIVITY, GO_PHOSPHATIDYLINOSITOL_MONOPHOSPHATE_PHOSPHATASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 100 uy moveto
+(REACTOME_DOWNREGULATION_OF_TGF_BETA_RECEPTOR_SIGNALING, REACTOME_DOWNREGULATION_OF_TGF_BETA_RECEPTOR_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 80 uy moveto
+(IIZUKA_LIVER_CANCER_PROGRESSION_G2_G3_DN, IIZUKA_LIVER_CANCER_PROGRESSION_G2_G3_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 60 uy moveto
+(ATGTCAC_MIR489, ATGTCAC_MIR489)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+163 ux 1267 uy moveto
+206 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+213 ux 40 uy moveto
+(GO_LUNG_CELL_DIFFERENTIATION, GO_LUNG_CELL_DIFFERENTIATION)   show stroke 
+%%EOF

@@ -1,0 +1,9 @@
+GO	[-5.03 -0.98]	[-0.98 -0.42]	[-0.42 -0.07]	[-0.07 0.00]	[0.00 0.00]	[0.00 0.00]	[0.00 0.00]	[0.00 0.08]	[0.08 0.41]	[0.41 0.95]	[0.95 4.42]
+GO:0033962 cytoplasmic mRNA processing body assembly	-0.331	-0.331	-0.331	2.460	-0.331	-0.331	-0.331	-0.331	-0.331	-0.331	2.441
+GO:0016311 dephosphorylation	-0.767	-1.415	-0.767	-0.408	-0.408	0.720	0.720	0.428	2.031	1.087	-1.432
+GO:0007179 transforming growth factor beta receptor signaling pathway	-0.788	-0.788	1.061	-0.788	0.279	-0.324	-0.324	0.279	3.041	0.279	-0.798
+GO:1990090 cellular response to nerve growth factor stimulus	-0.622	-0.622	-0.622	-0.622	-0.622	0.397	0.397	-0.622	2.080	0.826	0.815
+GO:0042059 negative regulation of epidermal growth factor receptor signaling pathway	-0.223	-0.622	0.826	1.391	-0.622	-0.622	-0.622	-0.223	2.080	-0.223	-0.630
+GO:0070534 protein K63-linked ubiquitination	-0.456	-0.456	1.882	1.151	0.187	-0.456	-0.456	-0.456	1.151	-0.456	-0.461
+GO:0000027 ribosomal large subunit assembly	-0.290	1.707	2.729	-0.290	-0.290	-0.290	-0.290	-0.290	-0.290	-0.290	-0.293
+GO:0043967 histone H4 acetylation	0.211	-0.414	-0.414	0.641	-0.414	2.991	-0.414	0.641	-0.414	-0.414	-0.419

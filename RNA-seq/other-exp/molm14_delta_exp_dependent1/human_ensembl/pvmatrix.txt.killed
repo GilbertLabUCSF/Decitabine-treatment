@@ -1,0 +1,3546 @@
+2-oxoglutarate metabolic process, GO:0006103
+	alcohol dehydrogenase (NAD) activity, GO:0004022
+ADP binding, GO:0043531
+	NAD binding, GO:0051287
+	mismatched DNA binding, GO:0030983
+	actomyosin structure organization, GO:0031032
+	DNA damage response, GO:0030330
+	positive regulation of apoptotic signaling pathway, GO:2001235
+	ribose phosphate metabolic process, GO:0019693
+ATPase activity, GO:0042626
+	lipid homeostasis, GO:0055088
+	potassium channel activity, GO:0005267
+Arp2/3 complex-mediated actin nucleation, GO:0034314
+	Arp2/3 protein complex, GO:0005885
+	actin nucleation, GO:0045010
+COP9 signalosome, GO:0008180
+	misfolded protein binding, GO:0051787
+Cul4-RING E3 ubiquitin ligase complex, GO:0080008
+	histone H2A monoubiquitination, GO:0035518
+DNA replication, GO:0006260
+	regulation of signal transduction by p53 class mediator, GO:1901796
+	nuclear chromosome, GO:0000784
+	histone binding, GO:0042393
+	chromatin, GO:0000785
+	transcription-coupled nucleotide-excision repair, GO:0006283
+	nuclease activity, GO:0004518
+	DNA recombination, GO:0006310
+	G1/S transition of mitotic cell cycle, GO:0000082
+	single-stranded DNA binding, GO:0003697
+	nucleic acid phosphodiester bond hydrolysis, GO:0090305
+	peptidyl-serine phosphorylation, GO:0018105
+	double-strand break repair via homologous recombination, GO:0000724
+	regulation of cellular response to heat, GO:1900034
+	iron-sulfur cluster binding, GO:0051536
+	double-stranded DNA binding, GO:0003690
+	damaged DNA binding, GO:0003684
+	nucleotidyltransferase activity, GO:0016779
+	DNA duplex unwinding, GO:0032508
+	PML body, GO:0016605
+	double-strand break repair via nonhomologous end joining, GO:0006303
+	interstrand cross-link repair, GO:0036297
+	endonuclease activity, GO:0004519
+	4 iron, GO:0051539
+	DNA replication-dependent nucleosome assembly, GO:0006335
+	nucleotide-excision repair, GO:0033683
+	double-strand break repair, GO:0006302
+	nucleotide-excision repair, GO:0006296
+	DNA damage response, GO:0006977
+	DNA replication initiation, GO:0006270
+	response to ionizing radiation, GO:0010212
+	exonuclease activity, GO:0004527
+	site of double-strand break, GO:0035861
+	chromosome, GO:0000781
+	DNA-dependent ATPase activity, GO:0008094
+	mitochondrial nucleoid, GO:0042645
+	histone deacetylation, GO:0016575
+	telomere maintenance via semi-conservative replication, GO:0032201
+	DNA damage checkpoint, GO:0000077
+	meiotic cell cycle, GO:0051321
+	telomere maintenance, GO:0000723
+	response to UV, GO:0009411
+	translesion synthesis, GO:0019985
+	ATP-dependent DNA helicase activity, GO:0004003
+	nucleobase-containing compound metabolic process, GO:0006139
+	condensed chromosome, GO:0000793
+	mismatch repair, GO:0006298
+	histone H3 acetylation, GO:0043966
+	DNA synthesis involved in DNA repair, GO:0000731
+	nucleotide-excision repair, GO:0006294
+	cellular response to UV, GO:0034644
+	histone acetylation, GO:0016573
+	centrosome cycle, GO:0007098
+	nucleotide-excision repair, GO:0006289
+	DNA biosynthetic process, GO:0071897
+	strand displacement, GO:0000732
+	condensed nuclear chromosome, GO:0000794
+	base-excision repair, GO:0006284
+	nucleobase-containing small molecule interconversion, GO:0015949
+	cellular response to hydrogen peroxide, GO:0070301
+	DNA helicase activity, GO:0003678
+	regulation of transcription involved in G1/S transition of mitotic cell cycle, GO:0000083
+	intrinsic apoptotic signaling pathway in response to DNA damage, GO:0008630
+	histone deacetylase activity, GO:0004407
+	replication fork processing, GO:0031297
+	nucleotide-excision repair, GO:0006293
+	cellular response to ionizing radiation, GO:0071479
+	nucleotide-excision repair, GO:0006295
+	nucleocytoplasmic transport, GO:0006913
+	RNA polymerase II repressing transcription factor binding, GO:0001103
+	regulation of cyclin-dependent protein serine/threonine kinase activity, GO:0000079
+	positive regulation of catalytic activity, GO:0043085
+	DNA replication origin binding, GO:0003688
+	DNA-directed DNA polymerase activity, GO:0003887
+	cell aging, GO:0007569
+	neuron apoptotic process, GO:0051402
+	histone H4-K5 acetylation, GO:0043981
+	histone H4-K8 acetylation, GO:0043982
+	replication fork, GO:0005657
+	cyclin binding, GO:0030332
+	four-way junction DNA binding, GO:0000400
+	single-stranded DNA-dependent ATPase activity, GO:0043142
+	telomere maintenance via telomerase, GO:0007004
+	response to organonitrogen compound, GO:0010243
+	mitochondrion morphogenesis, GO:0070584
+	cellular response to gamma radiation, GO:0071480
+	reciprocal meiotic recombination, GO:0007131
+	positive regulation of G2/M transition of mitotic cell cycle, GO:0010971
+	MCM complex, GO:0042555
+	regulation of double-strand break repair via homologous recombination, GO:0010569
+	response to gamma radiation, GO:0010332
+	isotype switching, GO:0045190
+	cyclin-dependent protein kinase holoenzyme complex, GO:0000307
+	ESC/E(Z) complex, GO:0035098
+	regulation of DNA replication, GO:0006275
+	endodeoxyribonuclease activity, GO:0004520
+	histone mRNA catabolic process, GO:0071044
+	DNA-dependent DNA replication, GO:0006261
+	DNA metabolic process, GO:0006259
+	branching morphogenesis of an epithelial tube, GO:0048754
+	nucleotide metabolic process, GO:0009117
+	3'-5' exonuclease activity, GO:0008408
+	embryo development, GO:0009790
+	circadian rhythm, GO:0007623
+	cellular response to glucose stimulus, GO:0071333
+	DNA double-strand break processing, GO:0000729
+	mitotic sister chromatid cohesion, GO:0007064
+	mitotic DNA replication checkpoint, GO:0033314
+	positive regulation of DNA binding, GO:0043388
+	ATP-dependent helicase activity, GO:0008026
+	somatic hypermutation of immunoglobulin genes, GO:0016446
+	DNA strand elongation involved in DNA replication, GO:0006271
+	DNA unwinding involved in DNA replication, GO:0006268
+	inner cell mass cell proliferation, GO:0001833
+	positive regulation of chromatin binding, GO:0035563
+	DNA damage response, GO:0006978
+	mitotic G2 DNA damage checkpoint, GO:0007095
+	negative regulation of DNA replication, GO:0008156
+	nuclear replication fork, GO:0043596
+	DNA clamp loader activity, GO:0003689
+	cellular response to hydroxyurea, GO:0072711
+	enzyme activator activity, GO:0008047
+	response to hormone, GO:0009725
+	response to X-ray, GO:0010165
+	positive regulation of DNA repair, GO:0045739
+	Ctf18 RFC-like complex, GO:0031390
+	double-stranded telomeric DNA binding, GO:0003691
+	transcription from mitochondrial promoter, GO:0006390
+	intra-S DNA damage checkpoint, GO:0031573
+	hydrolase activity, GO:0016818
+	t-circle formation, GO:0090656
+	RNA polymerase II transcription corepressor activity, GO:0001106
+	positive regulation of protein localization to nucleus, GO:1900182
+	DNA topological change, GO:0006265
+	Swr1 complex, GO:0000812
+	regulation of DNA damage checkpoint, GO:2000001
+	RNA-DNA hybrid ribonuclease activity, GO:0004523
+	protein deacetylation, GO:0006476
+	postreplication repair, GO:0006301
+	positive regulation of protein secretion, GO:0050714
+	response to cadmium ion, GO:0046686
+	DNA ligation involved in DNA repair, GO:0051103
+	Sin3 complex, GO:0016580
+	negative regulation of growth, GO:0045926
+	histone phosphorylation, GO:0016572
+	protein localization to chromosome, GO:0070198
+	positive regulation of mitotic nuclear division, GO:0045840
+	positive regulation of telomere maintenance, GO:0032206
+	positive regulation of DNA replication, GO:0045740
+	5'-3' exonuclease activity, GO:0008409
+	crossover junction endodeoxyribonuclease activity, GO:0008821
+	negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator, GO:1902166
+	Cul4A-RING E3 ubiquitin ligase complex, GO:0031464
+	replication fork protection complex, GO:0031298
+	DNA replication factor C complex, GO:0005663
+	alpha DNA polymerase:primase complex, GO:0005658
+	negative regulation of DNA recombination, GO:0045910
+	G2 DNA damage checkpoint, GO:0031572
+	positive regulation of fibroblast proliferation, GO:0048146
+	DNA ligation, GO:0006266
+	glucocorticoid receptor signaling pathway, GO:0042921
+	positive regulation of cholesterol efflux, GO:0010875
+	nuclear origin of replication recognition complex, GO:0005664
+	regulation of gene silencing, GO:0060968
+	regulation of mitotic metaphase/anaphase transition, GO:0030071
+	positive regulation of DNA-directed DNA polymerase activity, GO:1900264
+	histone H4-K12 acetylation, GO:0043983
+	hydrolase activity, GO:0016788
+	neural precursor cell proliferation, GO:0061351
+	DNA-directed RNA polymerase II, GO:0016591
+	positive regulation of kinase activity, GO:0033674
+	histone exchange, GO:0043486
+	negative regulation of Rho protein signal transduction, GO:0035024
+	protein acetylation, GO:0006473
+	nucleosome disassembly, GO:0006337
+	negative regulation of circadian rhythm, GO:0042754
+	positive regulation of protein autophosphorylation, GO:0031954
+	DNA replication checkpoint, GO:0000076
+	positive regulation of cilium assembly, GO:0045724
+	replicative senescence, GO:0090399
+	origin recognition complex, GO:0000808
+	cellular response to lithium ion, GO:0071285
+	establishment of integrated proviral latency, GO:0075713
+	nucleotide phosphorylation, GO:0046939
+	response to copper ion, GO:0046688
+	stress fiber assembly, GO:0043149
+	white fat cell differentiation, GO:0050872
+	negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway, GO:1902176
+	telomere maintenance via recombination, GO:0000722
+	chromatin assembly, GO:0031497
+	3'-5' DNA helicase activity, GO:0043138
+	positive regulation of histone H3-K9 methylation, GO:0051574
+	activation of innate immune response, GO:0002218
+	NuRD complex, GO:0016581
+	transferase activity, GO:0016747
+	protein hexamerization, GO:0034214
+	single strand break repair, GO:0000012
+	regulation of phosphorylation, GO:0042325
+	chromosome organization involved in meiotic cell cycle, GO:0070192
+	gamma-tubulin ring complex, GO:0008274
+	positive regulation of sister chromatid cohesion, GO:0045876
+	negative regulation of peptidyl-lysine acetylation, GO:2000757
+	cellular response to xenobiotic stimulus, GO:0071466
+	MutLalpha complex binding, GO:0032405
+	Cul4B-RING E3 ubiquitin ligase complex, GO:0031465
+	DNA repair complex, GO:1990391
+	NURF complex, GO:0016589
+	embryonic retina morphogenesis in camera-type eye, GO:0060059
+	positive regulation of transcription of nuclear large rRNA transcript from RNA polymerase I promoter, GO:1901838
+	embryonic cleavage, GO:0040016
+	female meiotic nuclear division, GO:0007143
+	negative regulation of cellular senescence, GO:2000773
+	nuclear inclusion body, GO:0042405
+	protein deacetylase activity, GO:0033558
+	negative regulation of intracellular estrogen receptor signaling pathway, GO:0033147
+	regulation of embryonic development, GO:0045995
+	negative regulation of TORC1 signaling, GO:1904262
+	amyloid precursor protein metabolic process, GO:0042982
+	response to leptin, GO:0044321
+	MOZ/MORF histone acetyltransferase complex, GO:0070776
+	G-quadruplex DNA binding, GO:0051880
+	meiotic chromosome condensation, GO:0010032
+	5'-flap endonuclease activity, GO:0017108
+	cell cycle phase transition, GO:0044770
+	DNA ligase (ATP) activity, GO:0003910
+	oocyte development, GO:0048599
+	positive regulation of histone phosphorylation, GO:0033129
+	positive regulation of double-strand break repair, GO:2000781
+	nonhomologous end joining complex, GO:0070419
+	negative regulation of transcription regulatory region DNA binding, GO:2000678
+	synaptic cleft, GO:0043083
+	regulation of organ growth, GO:0046620
+	response to UV-C, GO:0010225
+	cell cycle checkpoint, GO:0000075
+	negative regulation of DNA damage response, GO:0043518
+	response to lipid, GO:0033993
+	pyrimidine nucleoside catabolic process, GO:0046135
+	ERK1 and ERK2 cascade, GO:0070371
+	renal system process, GO:0003014
+	seminiferous tubule development, GO:0072520
+	negative regulation of transcription elongation from RNA polymerase II promoter, GO:0034244
+	cellular response to dopamine, GO:1903351
+	5'-nucleotidase activity, GO:0008253
+	lateral element, GO:0000800
+	negative regulation of ERBB signaling pathway, GO:1901185
+	aminoacyl-tRNA editing activity, GO:0002161
+	regulation of translational termination, GO:0006449
+	double-strand break repair via break-induced replication, GO:0000727
+	positive regulation of histone H4 acetylation, GO:0090240
+	kinetochore organization, GO:0051383
+	chiasma assembly, GO:0051026
+	negative regulation of double-strand break repair via homologous recombination, GO:2000042
+	positive regulation of epidermal growth factor-activated receptor activity, GO:0045741
+	mitotic G1 DNA damage checkpoint, GO:0031571
+	deacetylase activity, GO:0019213
+	DNA double-strand break processing involved in repair via single-strand annealing, GO:0010792
+	replication fork protection, GO:0048478
+	DNA topoisomerase activity, GO:0003916
+	nuclear pore organization, GO:0006999
+	Y-form DNA binding, GO:0000403
+	negative regulation of histone H3-K9 trimethylation, GO:1900113
+	positive regulation of helicase activity, GO:0051096
+	regulation of telomere maintenance, GO:0032204
+	negative regulation of pri-miRNA transcription from RNA polymerase II promoter, GO:1902894
+	synapsis, GO:0007129
+	exocytic vesicle, GO:0070382
+	viral genome replication, GO:0019079
+	negative regulation of mitotic nuclear division, GO:0045839
+	protein K6-linked ubiquitination, GO:0085020
+	response to hyperoxia, GO:0055093
+	negative regulation of interleukin-2 production, GO:0032703
+ER to Golgi vesicle-mediated transport, GO:0006888
+	retrograde vesicle-mediated transport, GO:0006890
+	Golgi organization, GO:0007030
+	IRE1-mediated unfolded protein response, GO:0036498
+	azurophil granule lumen, GO:0035578
+	secretory granule membrane, GO:0030667
+	exocytosis, GO:0006887
+	COPII vesicle coating, GO:0048208
+	trans-Golgi network membrane, GO:0032588
+	endoplasmic reticulum-Golgi intermediate compartment membrane, GO:0033116
+	Cul3-RING ubiquitin ligase complex, GO:0031463
+	SNARE complex, GO:0031201
+	syntaxin binding, GO:0019905
+	platelet degranulation, GO:0002576
+	transport vesicle, GO:0030133
+	lipid particle, GO:0005811
+	calcium-dependent protein binding, GO:0048306
+	ficolin-1-rich granule membrane, GO:0101003
+	vesicle fusion, GO:0006906
+	SNAP receptor activity, GO:0005484
+	ER to Golgi transport vesicle membrane, GO:0012507
+	SNARE binding, GO:0000149
+	dendritic shaft, GO:0043198
+	ER to Golgi transport vesicle, GO:0030134
+	pigmentation, GO:0043473
+	hemostasis, GO:0007599
+	COPI-coated vesicle membrane, GO:0030663
+	endoplasmic reticulum exit site, GO:0070971
+	vesicle docking involved in exocytosis, GO:0006904
+	autophagosome maturation, GO:0097352
+	COPII vesicle coat, GO:0030127
+	calcium-dependent cysteine-type endopeptidase activity, GO:0004198
+	COPI vesicle coat, GO:0030126
+	vesicle docking, GO:0048278
+	protein targeting to plasma membrane, GO:0072661
+	intra-Golgi vesicle-mediated transport, GO:0006891
+	platelet alpha granule lumen, GO:0031093
+	COPI-coated vesicle, GO:0030137
+	Golgi to plasma membrane protein transport, GO:0043001
+	Golgi ribbon formation, GO:0090161
+	response to calcium ion, GO:0051592
+	WASH complex, GO:0071203
+	neural crest cell development, GO:0014032
+	cargo loading into COPII-coated vesicle, GO:0090110
+	phospholipase activity, GO:0004620
+	Golgi vesicle transport, GO:0048193
+	nuclear envelope reassembly, GO:0031468
+	serine-type peptidase activity, GO:0008236
+	negative regulation of autophagosome assembly, GO:1902902
+	regulation of protein localization to plasma membrane, GO:1903076
+	neural crest formation, GO:0014029
+	apical protein localization, GO:0045176
+	endoplasmic reticulum organization, GO:0007029
+	axolemma, GO:0030673
+	fibrinolysis, GO:0042730
+	GPI anchor binding, GO:0034235
+	chloride channel inhibitor activity, GO:0019869
+	regulation of complement activation, GO:0030449
+	negative regulation of cytokine production involved in inflammatory response, GO:1900016
+	synaptic transmission, GO:0035249
+	TRAPP complex, GO:0030008
+	barbed-end actin filament capping, GO:0051016
+	negative regulation of proteolysis, GO:0045861
+	Golgi lumen, GO:0005796
+	costamere, GO:0043034
+	negative regulation of fibrinolysis, GO:0051918
+	signal peptide processing, GO:0006465
+	angiotensin maturation, GO:0002003
+	common-partner SMAD protein phosphorylation, GO:0007182
+	activation of signaling protein activity involved in unfolded protein response, GO:0006987
+	actin filament capping, GO:0051693
+	zymogen activation, GO:0031638
+	Sec61 translocon complex, GO:0005784
+	T cell mediated cytotoxicity, GO:0001913
+	compact myelin, GO:0043218
+	negative regulation of endopeptidase activity, GO:0010951
+	central nervous system projection neuron axonogenesis, GO:0021952
+	ventricular cardiac muscle cell action potential, GO:0086005
+	regulation of lipoprotein lipase activity, GO:0051004
+G2/M transition of mitotic cell cycle, GO:0000086
+	protein ubiquitination involved in ubiquitin-dependent protein catabolic process, GO:0042787
+	myelin sheath, GO:0043209
+	cilium assembly, GO:0060271
+	cell projection organization, GO:0030030
+	anaphase-promoting complex-dependent catabolic process, GO:0031145
+	centriole, GO:0005814
+	negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle, GO:0051436
+	regulation of cell cycle, GO:0051726
+	positive regulation of ubiquitin-protein ligase activity involved in regulation of mitotic cell cycle transition, GO:0051437
+	stimulatory C-type lectin receptor signaling pathway, GO:0002223
+	SCF-dependent proteasomal ubiquitin-dependent protein catabolic process, GO:0031146
+	ciliary basal body, GO:0036064
+	NIK/NF-kappaB signaling, GO:0038061
+	cell cycle arrest, GO:0007050
+	vesicle, GO:0031982
+	protein dephosphorylation, GO:0006470
+	negative regulation of G2/M transition of mitotic cell cycle, GO:0010972
+	regulation of catalytic activity, GO:0050790
+	positive regulation of canonical Wnt signaling pathway, GO:0090263
+	activation of MAPK activity, GO:0000187
+	cell cortex, GO:0005938
+	positive regulation of proteasomal ubiquitin-dependent protein catabolic process, GO:0032436
+	cytoskeleton organization, GO:0007010
+	termination of RNA polymerase I transcription, GO:0006363
+	global genome nucleotide-excision repair, GO:0070911
+	intercellular bridge, GO:0045171
+	peptidyl-threonine phosphorylation, GO:0018107
+	negative regulation of type I interferon production, GO:0032480
+	transcription elongation from RNA polymerase I promoter, GO:0006362
+	cellular response to organic cyclic compound, GO:0071407
+	JNK cascade, GO:0007254
+	negative regulation of catalytic activity, GO:0043086
+	SCF ubiquitin ligase complex, GO:0019005
+	TRIF-dependent toll-like receptor signaling pathway, GO:0035666
+	nucleotide-excision repair, GO:0000717
+	transforming growth factor beta receptor signaling pathway, GO:0007179
+	apical part of cell, GO:0045177
+	cell leading edge, GO:0031252
+	regulation of circadian rhythm, GO:0042752
+	viral life cycle, GO:0019058
+	regulation of tumor necrosis factor-mediated signaling pathway, GO:0010803
+	negative regulation of phosphatase activity, GO:0010923
+	intraciliary transport involved in cilium assembly, GO:0035735
+	protein destabilization, GO:0031648
+	negative regulation of protein binding, GO:0032091
+	regulation of cell adhesion, GO:0030155
+	non-motile cilium assembly, GO:1905515
+	cyclin-dependent protein serine/threonine kinase activity, GO:0004693
+	tubulin binding, GO:0015631
+	regulation of cytokinesis, GO:0032465
+	negative regulation of transforming growth factor beta receptor signaling pathway, GO:0030512
+	centriolar satellite, GO:0034451
+	cerebral cortex development, GO:0021987
+	circadian regulation of gene expression, GO:0032922
+	potassium channel regulator activity, GO:0015459
+	protein phosphatase inhibitor activity, GO:0004864
+	animal organ regeneration, GO:0031100
+	positive regulation of mitotic cell cycle, GO:0045931
+	cellular iron ion homeostasis, GO:0006879
+	Golgi stack, GO:0005795
+	cytoplasmic microtubule organization, GO:0031122
+	ciliary transition zone, GO:0035869
+	establishment of cell polarity, GO:0030010
+	voltage-gated potassium channel complex, GO:0008076
+	protein targeting, GO:0006605
+	protein secretion, GO:0009306
+	positive regulation of intracellular protein transport, GO:0090316
+	structural constituent of cytoskeleton, GO:0005200
+	pericentriolar material, GO:0000242
+	positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway, GO:1900740
+	ciliary base, GO:0097546
+	dynein light intermediate chain binding, GO:0051959
+	intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator, GO:0042771
+	gamma-tubulin binding, GO:0043015
+	positive regulation of proteolysis, GO:0045862
+	positive regulation of cyclin-dependent protein serine/threonine kinase activity, GO:0045737
+	photoreceptor connecting cilium, GO:0032391
+	neuron migration, GO:0001764
+	dynein light chain binding, GO:0045503
+	endocytic vesicle membrane, GO:0030666
+	regulation of proteasomal protein catabolic process, GO:0061136
+	response to radiation, GO:0009314
+	substantia nigra development, GO:0021762
+	protein localization to centrosome, GO:0071539
+	centriole replication, GO:0007099
+	positive regulation of MAP kinase activity, GO:0043406
+	positive regulation of smooth muscle cell proliferation, GO:0048661
+	regulation of canonical Wnt signaling pathway, GO:0060828
+	neuron projection morphogenesis, GO:0048812
+	RNA polymerase II carboxy-terminal domain kinase activity, GO:0008353
+	cellular response to drug, GO:0035690
+	regulation of mitotic spindle organization, GO:0060236
+	hippo signaling, GO:0035329
+	cellular response to X-ray, GO:0071481
+	cAMP-dependent protein kinase activity, GO:0004691
+	regulation of nitric-oxide synthase activity, GO:0050999
+	MHC class I protein binding, GO:0042288
+	regulation of cellular protein localization, GO:1903827
+	cellular response to cAMP, GO:0071320
+	positive regulation of ubiquitin protein ligase activity, GO:1904668
+	tau-protein kinase activity, GO:0050321
+	cytoskeleton-dependent intracellular transport, GO:0030705
+	negative regulation of protein serine/threonine kinase activity, GO:0071901
+	dynein intermediate chain binding, GO:0045505
+	microtubule-based process, GO:0007017
+	negative regulation of NF-kappaB import into nucleus, GO:0042347
+	ATP-dependent microtubule motor activity, GO:0008574
+	regulation of proteasomal ubiquitin-dependent protein catabolic process, GO:0032434
+	melanosome transport, GO:0032402
+	cyclin-dependent protein serine/threonine kinase regulator activity, GO:0016538
+	positive regulation of RNA polymerase II transcriptional preinitiation complex assembly, GO:0045899
+	regulation of microtubule cytoskeleton organization, GO:0070507
+	negative regulation of cyclin-dependent protein serine/threonine kinase activity, GO:0045736
+	regulation of heart rate by cardiac conduction, GO:0086091
+	protein import into mitochondrial outer membrane, GO:0045040
+	glycogen granule, GO:0042587
+	positive regulation of protein export from nucleus, GO:0046827
+	generation of neurons, GO:0048699
+	cellular protein localization, GO:0034613
+	acrosomal vesicle, GO:0001669
+	protein phosphatase 2A binding, GO:0051721
+	trophoblast giant cell differentiation, GO:0060707
+	natural killer cell mediated cytotoxicity, GO:0042267
+	positive regulation of microtubule polymerization, GO:0031116
+	regulation of bicellular tight junction assembly, GO:2000810
+	renal water homeostasis, GO:0003091
+	positive regulation of nitric oxide biosynthetic process, GO:0045429
+	regulation of ryanodine-sensitive calcium-release channel activity, GO:0060314
+	intrinsic apoptotic signaling pathway in response to oxidative stress, GO:0008631
+	maintenance of protein location in nucleus, GO:0051457
+	negative regulation of epithelial cell proliferation, GO:0050680
+	activation of protein kinase A activity, GO:0034199
+	stereocilium, GO:0032420
+	HAUS complex, GO:0070652
+	membrane repolarization during cardiac muscle cell action potential, GO:0086013
+	protein polyglutamylation, GO:0018095
+	establishment of protein localization to membrane, GO:0090150
+	positive regulation of extrinsic apoptotic signaling pathway in absence of ligand, GO:2001241
+	photoreceptor inner segment, GO:0001917
+	regulation of protein complex assembly, GO:0043254
+	MHC class II protein complex binding, GO:0023026
+	response to glucagon, GO:0033762
+	meiotic spindle, GO:0072687
+	protein phosphatase type 1 complex, GO:0000164
+	MKS complex, GO:0036038
+	negative regulation of smoothened signaling pathway involved in dorsal/ventral neural tube patterning, GO:1901621
+	regulation of protein transport, GO:0051223
+	high-density lipoprotein particle assembly, GO:0034380
+	growth, GO:0040007
+	phosphatidylinositol 3-kinase regulatory subunit binding, GO:0036312
+	negative regulation of protein tyrosine kinase activity, GO:0061099
+	spectrin binding, GO:0030507
+	holo TFIIH complex, GO:0005675
+	cell cortex region, GO:0099738
+	intraciliary retrograde transport, GO:0035721
+	cellular response to glucagon stimulus, GO:0071377
+	protein kinase A regulatory subunit binding, GO:0034237
+	regulation of glucose metabolic process, GO:0010906
+	response to arsenic-containing substance, GO:0046685
+	neuron projection extension, GO:1990138
+	cochlea development, GO:0090102
+	transcription factor activity, GO:0001075
+	negative regulation of phosphoprotein phosphatase activity, GO:0032515
+	regulation of glycogen biosynthetic process, GO:0005979
+	oocyte maturation, GO:0001556
+	negative regulation of microtubule polymerization, GO:0031115
+	regulation of I-kappaB kinase/NF-kappaB signaling, GO:0043122
+	transport along microtubule, GO:0010970
+	regulation of protein processing, GO:0070613
+	cellular response to UV-B, GO:0071493
+	protein tyrosine kinase binding, GO:1990782
+	Golgi cisterna, GO:0031985
+	signal transduction in response to DNA damage, GO:0042770
+	macropinocytosis, GO:0044351
+	cyclin-dependent protein serine/threonine kinase inhibitor activity, GO:0004861
+	peptidyl-threonine dephosphorylation, GO:0035970
+	phosphatase regulator activity, GO:0019208
+	TPR domain binding, GO:0030911
+	WW domain binding, GO:0050699
+	cellular response to extracellular stimulus, GO:0031668
+	cellular protein catabolic process, GO:0044257
+	thioesterase binding, GO:0031996
+	protein kinase A catalytic subunit binding, GO:0034236
+	tissue regeneration, GO:0042246
+	dynamin family protein polymerization involved in mitochondrial fission, GO:0003374
+	regulation of potassium ion transmembrane transporter activity, GO:1901016
+	positive regulation of protein polyubiquitination, GO:1902916
+	mitochondrion transport along microtubule, GO:0047497
+	interleukin-1-mediated signaling pathway, GO:0070498
+	anterior/posterior axis specification, GO:0009948
+	cell projection membrane, GO:0031253
+	negative regulation of ryanodine-sensitive calcium-release channel activity, GO:0060315
+	wound healing, GO:0035313
+	ubiquitin-like protein ligase binding, GO:0044389
+	response to corticosterone, GO:0051412
+	response to osmotic stress, GO:0006970
+	G-protein beta/gamma-subunit complex binding, GO:0031683
+	regulation of synaptic vesicle exocytosis, GO:2000300
+	branching involved in mammary gland duct morphogenesis, GO:0060444
+	regulation of centriole replication, GO:0046599
+	microtubule anchoring at centrosome, GO:0034454
+	meiotic spindle organization, GO:0000212
+	positive regulation of mRNA 3'-end processing, GO:0031442
+	negative regulation of phosphorylation, GO:0042326
+	negative regulation of neurogenesis, GO:0050768
+	positive regulation of lamellipodium assembly, GO:0010592
+NAD+ ADP-ribosyltransferase activity, GO:0003950
+	protein ADP-ribosylation, GO:0006471
+RNA modification, GO:0009451
+	pseudouridine synthase activity, GO:0009982
+	cation binding, GO:0043169
+	tRNA pseudouridine synthesis, GO:0031119
+	deaminase activity, GO:0019239
+Rad51B-Rad51C-Rad51D-XRCC2 complex, GO:0033063
+	meiotic DNA recombinase assembly, GO:0000707
+aminopeptidase activity, GO:0004177
+	peptide catabolic process, GO:0043171
+axon terminus, GO:0043679
+	maternal behavior, GO:0042711
+	cellular response to increased oxygen levels, GO:0036295
+	voltage-gated potassium channel activity, GO:0005249
+	paranode region of axon, GO:0033270
+bicellular tight junction assembly, GO:0070830
+	actin filament polymerization, GO:0030041
+	calcium-independent cell-cell adhesion via plasma membrane cell-adhesion molecules, GO:0016338
+calcium-dependent phospholipid binding, GO:0005544
+	regulation of calcium ion-dependent exocytosis, GO:0017158
+	regulation of muscle contraction, GO:0006937
+	phosphatidylcholine acyl-chain remodeling, GO:0036151
+	phosphatidylserine acyl-chain remodeling, GO:0036150
+	calcium ion-regulated exocytosis of neurotransmitter, GO:0048791
+	phosphatidylethanolamine acyl-chain remodeling, GO:0036152
+cell morphogenesis, GO:0000902
+	muscle organ development, GO:0007517
+	developmental growth, GO:0048589
+	metal ion transmembrane transporter activity, GO:0046873
+	transcription export complex, GO:0000346
+	positive regulation of protein import into nucleus, GO:0042307
+	T cell homeostasis, GO:0043029
+	negative regulation of JAK-STAT cascade, GO:0046426
+	P granule, GO:0043186
+	mRNA cleavage and polyadenylation specificity factor complex, GO:0005847
+	negative regulation of Ras protein signal transduction, GO:0046580
+	proximal/distal pattern formation, GO:0009954
+	sex differentiation, GO:0007548
+	cell volume homeostasis, GO:0006884
+	THO complex part of transcription export complex, GO:0000445
+	sodium ion homeostasis, GO:0055078
+	branching involved in blood vessel morphogenesis, GO:0001569
+	piP-body, GO:0071547
+	THO complex, GO:0000347
+cellular defense response, GO:0006968
+	proton-transporting ATPase activity, GO:0046961
+	platelet dense granule lumen, GO:0031089
+cellular response to leukemia inhibitory factor, GO:1990830
+	heparin binding, GO:0008201
+	transcriptional repressor activity, GO:0001227
+	lactation, GO:0007595
+	regulation of signal transduction, GO:0009966
+	steroid hormone mediated signaling pathway, GO:0043401
+	histone acetyltransferase binding, GO:0035035
+	negative regulation of neuron differentiation, GO:0045665
+	steroid hormone receptor activity, GO:0003707
+	adipose tissue development, GO:0060612
+	cAMP response element binding, GO:0035497
+	N-acetylglucosamine metabolic process, GO:0006044
+	negative regulation of heterotypic cell-cell adhesion, GO:0034115
+	positive regulation of neuroblast proliferation, GO:0002052
+	bile acid metabolic process, GO:0008206
+	regulatory region DNA binding, GO:0000975
+	semaphorin receptor activity, GO:0017154
+	retinoid X receptor binding, GO:0046965
+	axon extension involved in axon guidance, GO:0048846
+	RNA polymerase II transcription factor complex, GO:0090575
+	ADP transport, GO:0015866
+	calcium ion homeostasis, GO:0055074
+	retinoic acid receptor signaling pathway, GO:0048384
+	negative regulation of response to cytokine stimulus, GO:0060761
+	regulation of phosphatidylinositol 3-kinase activity, GO:0043551
+	ATP-binding cassette (ABC) transporter complex, GO:0043190
+	response to laminar fluid shear stress, GO:0034616
+	camera-type eye development, GO:0043010
+	negative regulation of pathway-restricted SMAD protein phosphorylation, GO:0060394
+	mitochondrial acetyl-CoA biosynthetic process from pyruvate, GO:0061732
+	intraciliary transport particle A, GO:0030991
+	ventricular cardiac muscle tissue morphogenesis, GO:0055010
+chloride transmembrane transport, GO:1902476
+	potassium ion transmembrane transport, GO:0071805
+	muscle contraction, GO:0006936
+	chloride transport, GO:0006821
+	symporter activity, GO:0015293
+	regulation of intracellular pH, GO:0051453
+	anion transport, GO:0006820
+	intracellular calcium activated chloride channel activity, GO:0005229
+	excretion, GO:0007588
+	chloride channel activity, GO:0005254
+	anion transmembrane transporter activity, GO:0008509
+	GABA-A receptor activity, GO:0004890
+	secondary active sulfate transmembrane transporter activity, GO:0008271
+	oxalate transmembrane transporter activity, GO:0019531
+	oxalate transport, GO:0019532
+cholesterol biosynthetic process, GO:0006695
+	sterol biosynthetic process, GO:0016126
+	glucose metabolic process, GO:0006006
+	regulation of cholesterol biosynthetic process, GO:0045540
+	FAD binding, GO:0071949
+	NADPH binding, GO:0070402
+	drug transmembrane transport, GO:0006855
+	hemoglobin complex, GO:0005833
+	ATP hydrolysis coupled anion transmembrane transport, GO:0099133
+	high-density lipoprotein particle, GO:0034364
+	bicarbonate transmembrane transporter activity, GO:0015106
+	cholesterol biosynthetic process via lathosterol, GO:0033490
+	cholesterol biosynthetic process via desmosterol, GO:0033489
+	ATPase-coupled anion transmembrane transporter activity, GO:0043225
+	chloride channel complex, GO:0034707
+	NADP binding, GO:0050661
+	oxidoreductase activity, GO:0016614
+	chylomicron, GO:0042627
+	NADP metabolic process, GO:0006739
+chromatin remodeling, GO:0006338
+	RNA polymerase II transcription factor activity, GO:0000981
+	transcription regulatory region sequence-specific DNA binding, GO:0000976
+	histone deacetylase complex, GO:0000118
+	ATP-dependent chromatin remodeling, GO:0043044
+	NuA4 histone acetyltransferase complex, GO:0035267
+	regulation of growth, GO:0040008
+	Ada2/Gcn5/Ada3 transcription activator complex, GO:0005671
+	ligand-dependent nuclear receptor binding, GO:0016922
+	skeletal system development, GO:0001501
+	intermediate filament cytoskeleton, GO:0045111
+	transcriptional activator activity, GO:0001228
+	histone H2A acetylation, GO:0043968
+	negative regulation of cell cycle, GO:0045786
+	cardiac muscle cell differentiation, GO:0055007
+	npBAF complex, GO:0071564
+	N-acetyltransferase activity, GO:0008080
+	Ino80 complex, GO:0031011
+	SWI/SNF complex, GO:0016514
+	positive regulation of interleukin-4 production, GO:0032753
+	nBAF complex, GO:0071565
+	cellular response to estradiol stimulus, GO:0071392
+	cartilage development, GO:0051216
+	BAF-type complex, GO:0090544
+	embryonic limb morphogenesis, GO:0030326
+	actomyosin, GO:0042641
+	histone H4-K16 acetylation, GO:0043984
+	aorta morphogenesis, GO:0035909
+	regulation of gene expression, GO:0040029
+	positive regulation of collagen biosynthetic process, GO:0032967
+	histone H3 deacetylation, GO:0070932
+	core promoter proximal region sequence-specific DNA binding, GO:0000987
+	ventricular trabecula myocardium morphogenesis, GO:0003222
+	embryonic placenta development, GO:0001892
+	protein-arginine deiminase activity, GO:0004668
+	protein citrullination, GO:0018101
+	negative regulation of chondrocyte differentiation, GO:0032331
+	skeletal muscle cell differentiation, GO:0035914
+	positive regulation of cartilage development, GO:0061036
+	negative regulation of lymphocyte proliferation, GO:0050672
+	positive regulation of interleukin-5 production, GO:0032754
+	regulation of lipid kinase activity, GO:0043550
+	oxygen transport, GO:0015671
+	I band, GO:0031674
+	telencephalon development, GO:0021537
+	NAD-dependent histone deacetylase activity (H3-K14 specific), GO:0032041
+	neuron maturation, GO:0042551
+chromosome, GO:0000775
+	kinetochore, GO:0000776
+	sister chromatid cohesion, GO:0007062
+	nuclear envelope, GO:0005635
+	spindle pole, GO:0000922
+	condensed chromosome kinetochore, GO:0000777
+	midbody, GO:0030496
+	mitotic cell cycle, GO:0000278
+	ciliary basal body docking, GO:0097711
+	chromosome segregation, GO:0007059
+	microtubule cytoskeleton, GO:0015630
+	regulation of gene silencing by miRNA, GO:0060964
+	nuclear pore, GO:0005643
+	regulation of G2/M transition of mitotic cell cycle, GO:0010389
+	protein sumoylation, GO:0016925
+	microtubule cytoskeleton organization, GO:0000226
+	host cell, GO:0043657
+	intracellular transport of virus, GO:0075733
+	microtubule motor activity, GO:0003777
+	nuclear chromosome, GO:0000228
+	microtubule-based movement, GO:0007018
+	mitotic spindle, GO:0072686
+	CENP-A containing nucleosome assembly, GO:0034080
+	antigen processing and presentation of exogenous peptide antigen via MHC class II, GO:0019886
+	tRNA export from nucleus, GO:0006409
+	mitotic nuclear envelope disassembly, GO:0007077
+	regulation of glycolytic process, GO:0006110
+	methylated histone binding, GO:0035064
+	spindle microtubule, GO:0005876
+	protein import into nucleus, GO:0006606
+	mitotic metaphase plate congression, GO:0007080
+	mitotic spindle organization, GO:0007052
+	cytokinesis, GO:0000910
+	positive regulation of telomere maintenance via telomerase, GO:0032212
+	mitotic sister chromatid segregation, GO:0000070
+	kinesin complex, GO:0005871
+	cleavage furrow, GO:0032154
+	spindle midzone, GO:0051233
+	protein serine/threonine phosphatase activity, GO:0004722
+	regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle, GO:0051439
+	protein phosphatase regulator activity, GO:0019888
+	motor activity, GO:0003774
+	heterochromatin, GO:0000792
+	cytoplasmic microtubule, GO:0005881
+	chromatin organization, GO:0006325
+	chromosome organization, GO:0051276
+	positive regulation of telomerase activity, GO:0051973
+	mitotic spindle assembly, GO:0090307
+	spindle assembly, GO:0051225
+	positive regulation of protein kinase activity, GO:0045860
+	anaphase-promoting complex, GO:0005680
+	nuclear periphery, GO:0034399
+	spindle organization, GO:0007051
+	beta-tubulin binding, GO:0048487
+	mitotic spindle pole, GO:0097431
+	microtubule associated complex, GO:0005875
+	DNA methylation, GO:0006306
+	mitotic cytokinesis, GO:0000281
+	mitotic spindle assembly checkpoint, GO:0007094
+	regulation of mitotic nuclear division, GO:0007088
+	centrosome duplication, GO:0051298
+	nuclear heterochromatin, GO:0005720
+	nucleocytoplasmic transporter activity, GO:0005487
+	cytoplasmic dynein complex, GO:0005868
+	dynein complex, GO:0030286
+	microtubule plus-end, GO:0035371
+	establishment or maintenance of cell polarity, GO:0007163
+	structural constituent of nuclear pore, GO:0017056
+	cellular response to cadmium ion, GO:0071276
+	nuclear pore complex assembly, GO:0051292
+	positive regulation of telomere capping, GO:1904355
+	metaphase plate congression, GO:0051310
+	microtubule nucleation, GO:0007020
+	positive regulation of cytokinesis, GO:0032467
+	dynein complex binding, GO:0070840
+	microtubule plus-end binding, GO:0051010
+	ceramide metabolic process, GO:0006672
+	establishment of mitotic spindle orientation, GO:0000132
+	cellular response to amino acid stimulus, GO:0071230
+	protein localization to kinetochore, GO:0034501
+	protein phosphatase type 2A complex, GO:0000159
+	negative regulation of microtubule depolymerization, GO:0007026
+	pericentric heterochromatin, GO:0005721
+	microtubule polymerization, GO:0046785
+	condensed nuclear chromosome, GO:0000780
+	spindle pole centrosome, GO:0031616
+	protein localization to chromatin, GO:0071168
+	nuclear pore outer ring, GO:0031080
+	maintenance of DNA methylation, GO:0010216
+	chromocenter, GO:0010369
+	synaptonemal complex, GO:0000795
+	ciliary transition fiber, GO:0097539
+	nuclear pericentric heterochromatin, GO:0031618
+	cellular response to heat, GO:0034605
+	attachment of mitotic spindle microtubules to kinetochore, GO:0051315
+	centrosome localization, GO:0051642
+	protein serine/threonine/tyrosine kinase activity, GO:0004712
+	microtubule anchoring, GO:0034453
+	regulation of exit from mitosis, GO:0007096
+	resolution of meiotic recombination intermediates, GO:0000712
+	histone acetyltransferase activity (H4-K5 specific), GO:0043995
+	histone acetyltransferase activity (H4-K8 specific), GO:0043996
+	histone acetyltransferase activity (H4-K16 specific), GO:0046972
+	mitotic spindle midzone assembly, GO:0051256
+	SMN complex, GO:0032797
+	kinetochore assembly, GO:0051382
+	Fanconi anaemia nuclear complex, GO:0043240
+	non-motile cilium, GO:0097730
+	negative regulation of telomere maintenance via telomere lengthening, GO:1904357
+	microtubule organizing center organization, GO:0031023
+	central region of growth cone, GO:0090724
+	chromatin assembly or disassembly, GO:0006333
+	condensed chromosome, GO:0000779
+	regulation of attachment of spindle microtubules to kinetochore, GO:0051988
+	dynactin complex, GO:0005869
+	condensed chromosome outer kinetochore, GO:0000940
+	microtubule bundle formation, GO:0001578
+	mitotic recombination, GO:0006312
+	hepatocyte apoptotic process, GO:0097284
+	meiotic chromosome segregation, GO:0045132
+	protein localization to nucleolus, GO:1902570
+	regulation of cell differentiation, GO:0045595
+	pronucleus, GO:0045120
+	sequence-specific mRNA binding, GO:1990825
+	negative regulation of focal adhesion assembly, GO:0051895
+	inactivation of MAPK activity, GO:0000188
+	regulation of protein heterodimerization activity, GO:0043497
+	attachment of spindle microtubules to kinetochore, GO:0008608
+	lamin binding, GO:0005521
+	gamma-tubulin complex, GO:0000930
+	positive regulation of isotype switching, GO:0045830
+	mitotic spindle midzone, GO:1990023
+	regulation of fibroblast migration, GO:0010762
+	nucleosome positioning, GO:0016584
+	centromeric DNA binding, GO:0019237
+	regulation of DNA methylation, GO:0044030
+	positive regulation of TORC1 signaling, GO:1904263
+	positive regulation of non-motile cilium assembly, GO:1902857
+	histone modification, GO:0016570
+	regulation of gene expression by genetic imprinting, GO:0006349
+	regulation of microtubule-based process, GO:0032886
+	regulation of mitotic spindle assembly, GO:1901673
+	cohesin complex, GO:0008278
+	G-quadruplex RNA binding, GO:0002151
+	positive regulation of mitotic cell cycle spindle assembly checkpoint, GO:0090267
+	astral microtubule organization, GO:0030953
+	establishment of epithelial cell polarity, GO:0090162
+	synaptonemal complex assembly, GO:0007130
+	XY body, GO:0001741
+	positive regulation of epithelial cell migration, GO:0010634
+	regulation of chromosome segregation, GO:0051983
+	condensed nuclear chromosome outer kinetochore, GO:0000942
+	regulation of protein ubiquitination, GO:0031396
+	histone methyltransferase activity (H3-K9 specific), GO:0046974
+	chromosome passenger complex, GO:0032133
+	protein localization to chromosome, GO:0071459
+	beta-catenin destruction complex assembly, GO:1904885
+	female pronucleus, GO:0001939
+	peptidyl-serine dephosphorylation, GO:0070262
+	negative regulation of chromatin binding, GO:0035562
+	cellular response to ethanol, GO:0071361
+	dynein heavy chain binding, GO:0045504
+	aorta development, GO:0035904
+	cerebral cortex radially oriented cell migration, GO:0021799
+	regulation of insulin secretion involved in cellular response to glucose stimulus, GO:0061178
+	regulation of neurotransmitter secretion, GO:0046928
+	neuroblast proliferation, GO:0007405
+	negative regulation of tyrosine phosphorylation of STAT protein, GO:0042532
+	retrograde axonal transport, GO:0008090
+	SNARE complex assembly, GO:0035493
+	regulation of DNA binding, GO:0051101
+	maintenance of centrosome location, GO:0051661
+	male pronucleus, GO:0001940
+	positive regulation of exocytosis, GO:0045921
+	inhibition of cysteine-type endopeptidase activity involved in apoptotic process, GO:1990001
+	mitotic nuclear envelope reassembly, GO:0007084
+	multivesicular body sorting pathway, GO:0071985
+	positive regulation of gene silencing by miRNA, GO:2000637
+	negative regulation of epithelial to mesenchymal transition, GO:0010719
+	vesicle transport along microtubule, GO:0047496
+	glial cell projection, GO:0097386
+	centriole-centriole cohesion, GO:0010457
+	paraxial mesoderm development, GO:0048339
+	cellular protein complex localization, GO:0034629
+	regulation of NIK/NF-kappaB signaling, GO:1901222
+	hyaluronan metabolic process, GO:0030212
+	cellular response to copper ion, GO:0071280
+	regulation of ruffle assembly, GO:1900027
+	microtubule depolymerization, GO:0007019
+	septin complex, GO:0031105
+	interaction with symbiont, GO:0051702
+	mitotic centrosome separation, GO:0007100
+	histone methyltransferase binding, GO:1990226
+	regulation of intracellular protein transport, GO:0033157
+	anchored component of external side of plasma membrane, GO:0031362
+cytidine deamination, GO:0009972
+	hydrolase activity, GO:0016814
+	negative regulation of transposition, GO:0010529
+	pyrimidine nucleoside salvage, GO:0043097
+	cytidine deaminase activity, GO:0004126
+cytokine receptor activity, GO:0004896
+	response to cytokine, GO:0034097
+	positive regulation of osteoblast differentiation, GO:0045669
+	MHC class II protein complex, GO:0042613
+	natural killer cell activation involved in immune response, GO:0002323
+	cytokine receptor binding, GO:0005126
+	macrophage chemotaxis, GO:0048246
+	positive regulation of memory T cell differentiation, GO:0043382
+dephosphorylation, GO:0016311
+	phosphoprotein phosphatase activity, GO:0004721
+	phosphatase activity, GO:0016791
+	protein tyrosine phosphatase activity, GO:0004725
+	peptidyl-tyrosine dephosphorylation, GO:0035335
+	hematopoietic progenitor cell differentiation, GO:0002244
+	inositol phosphate metabolic process, GO:0043647
+	carbohydrate phosphorylation, GO:0046835
+	megakaryocyte development, GO:0035855
+	protein tyrosine/serine/threonine phosphatase activity, GO:0008138
+	gluconeogenesis, GO:0006094
+	phosphatidylinositol-3-phosphatase activity, GO:0004438
+	negative regulation of T cell activation, GO:0050868
+	lipoxygenase pathway, GO:0019372
+	drug metabolic process, GO:0017144
+	phosphate-containing compound metabolic process, GO:0006796
+	C-terminal protein lipidation, GO:0006501
+	metalloexopeptidase activity, GO:0008235
+	myelin assembly, GO:0032288
+	negative regulation of glycolytic process, GO:0045820
+	3'-phosphoadenosine 5'-phosphosulfate metabolic process, GO:0050427
+	negative regulation of PERK-mediated unfolded protein response, GO:1903898
+	positive regulation of regulatory T cell differentiation, GO:0045591
+	response to growth factor, GO:0070848
+	negative regulation of receptor activity, GO:2000272
+	purine nucleotide catabolic process, GO:0006195
+	adenosine metabolic process, GO:0046085
+	response to denervation involved in regulation of muscle adaptation, GO:0014894
+	negative regulation of epithelial cell migration, GO:0010633
+	nucleobase-containing small molecule catabolic process, GO:0034656
+	regulation of acetyl-CoA biosynthetic process from pyruvate, GO:0010510
+	acid phosphatase activity, GO:0003993
+dioxygenase activity, GO:0051213
+	histone demethylase activity, GO:0032452
+	neural tube development, GO:0021915
+	cellular oxidant detoxification, GO:0098869
+	prostaglandin metabolic process, GO:0006693
+	histone H3-K9 demethylation, GO:0033169
+	leukotriene metabolic process, GO:0006691
+	prostaglandin biosynthetic process, GO:0001516
+	regulation of mRNA splicing, GO:0048024
+	histone demethylase activity (H3-K9 specific), GO:0032454
+	arachidonic acid metabolic process, GO:0019369
+	NAD biosynthesis via nicotinamide riboside salvage pathway, GO:0034356
+	respiratory system process, GO:0003016
+	hormone-mediated signaling pathway, GO:0009755
+	negative regulation of interleukin-10 production, GO:0032693
+	monocyte differentiation, GO:0030224
+	temperature homeostasis, GO:0001659
+	embryonic camera-type eye morphogenesis, GO:0048596
+	retinoic acid metabolic process, GO:0042573
+	retinal metabolic process, GO:0042574
+double-stranded RNA binding, GO:0003725
+	RNA phosphodiester bond hydrolysis, GO:0090502
+	gene silencing by RNA, GO:0031047
+	core promoter binding, GO:0001047
+	RNA phosphodiester bond hydrolysis, GO:0090501
+	response to interferon-alpha, GO:0035455
+	positive regulation of innate immune response, GO:0045089
+	protein kinase inhibitor activity, GO:0004860
+	miRNA metabolic process, GO:0010586
+	L-alpha-amino acid transmembrane transport, GO:1902475
+	positive regulation of myelination, GO:0031643
+	neutral amino acid transmembrane transporter activity, GO:0015175
+	type B pancreatic cell proliferation, GO:0044342
+	adenosine deaminase activity, GO:0004000
+	tRNA dihydrouridine synthase activity, GO:0017150
+	tRNA dihydrouridine synthesis, GO:0002943
+	calcium:sodium antiporter activity, GO:0005432
+	muscle filament sliding, GO:0030049
+	eye development, GO:0001654
+endocytosis, GO:0006897
+	autophagy, GO:0006914
+	cytoplasmic vesicle membrane, GO:0030659
+	recycling endosome, GO:0055037
+	trans-Golgi network, GO:0005802
+	Wnt signaling pathway, GO:0060071
+	phosphatidylinositol biosynthetic process, GO:0006661
+	phagocytic vesicle membrane, GO:0030670
+	early endosome membrane, GO:0031901
+	endosomal transport, GO:0016197
+	phosphatidylinositol binding, GO:0035091
+	positive regulation of protein phosphorylation, GO:0001934
+	lipid transport, GO:0006869
+	negative regulation of protein phosphorylation, GO:0001933
+	GDP binding, GO:0019003
+	phagocytic vesicle, GO:0045335
+	synaptic vesicle, GO:0008021
+	axon guidance, GO:0007411
+	regulation of autophagy, GO:0010506
+	membrane coat, GO:0030117
+	phagocytosis, GO:0006909
+	clathrin-coated pit, GO:0005905
+	GTPase binding, GO:0051020
+	receptor complex, GO:0043235
+	phosphatidylinositol phosphorylation, GO:0046854
+	phosphatidylinositol-4, GO:0005546
+	regulation of protein phosphorylation, GO:0001932
+	cholesterol metabolic process, GO:0008203
+	membrane fusion, GO:0061025
+	protein localization to plasma membrane, GO:0072659
+	clathrin-coated vesicle, GO:0030136
+	chemotaxis, GO:0006935
+	viral entry into host cell, GO:0046718
+	autophagosome assembly, GO:0000045
+	positive regulation of protein binding, GO:0032092
+	endocytic recycling, GO:0032456
+	virus receptor activity, GO:0001618
+	steroid metabolic process, GO:0008202
+	positive regulation of autophagy, GO:0010508
+	phosphoprotein binding, GO:0051219
+	transferrin transport, GO:0033572
+	phospholipid transport, GO:0015914
+	positive regulation of peptidyl-tyrosine phosphorylation, GO:0050731
+	SH2 domain binding, GO:0042169
+	epidermal growth factor receptor signaling pathway, GO:0007173
+	phosphatidylinositol-mediated signaling, GO:0048015
+	amyloid-beta binding, GO:0001540
+	adherens junction, GO:0005912
+	scavenger receptor activity, GO:0005044
+	retromer complex, GO:0030904
+	endosome to lysosome transport, GO:0008333
+	neuromuscular junction, GO:0031594
+	peptide binding, GO:0042277
+	caveola, GO:0005901
+	protein K48-linked deubiquitination, GO:0071108
+	extrinsic component of membrane, GO:0019898
+	cellular response to nerve growth factor stimulus, GO:1990090
+	synaptic vesicle membrane, GO:0030672
+	presynaptic membrane, GO:0042734
+	presynapse, GO:0098793
+	vesicle organization, GO:0016050
+	clathrin-dependent endocytosis, GO:0072583
+	protein localization, GO:0008104
+	phosphatidylinositol-3-phosphate biosynthetic process, GO:0036092
+	clathrin-coated vesicle membrane, GO:0030665
+	canonical Wnt signaling pathway, GO:0060070
+	regulation of endocytosis, GO:0030100
+	synapse organization, GO:0050808
+	forebrain development, GO:0030900
+	receptor internalization, GO:0031623
+	phosphatidylinositol 3-kinase signaling, GO:0014065
+	toxin transport, GO:1901998
+	osteoclast differentiation, GO:0030316
+	synapse assembly, GO:0007416
+	phosphatidylinositol-3-phosphate binding, GO:0032266
+	central nervous system development, GO:0007417
+	embryonic digit morphogenesis, GO:0042733
+	postsynapse, GO:0098794
+	single organismal cell-cell adhesion, GO:0016337
+	beta-catenin destruction complex disassembly, GO:1904886
+	iron ion homeostasis, GO:0055072
+	early endosome to late endosome transport, GO:0045022
+	ephrin receptor binding, GO:0046875
+	brush border, GO:0005903
+	negative regulation of interleukin-6 production, GO:0032715
+	terminal bouton, GO:0043195
+	phagocytic cup, GO:0001891
+	Golgi to endosome transport, GO:0006895
+	proline-rich region binding, GO:0070064
+	cellular response to low-density lipoprotein particle stimulus, GO:0071404
+	negative regulation of neuron death, GO:1901215
+	apoptotic cell clearance, GO:0043277
+	protein targeting to membrane, GO:0006612
+	clathrin-coated endocytic vesicle membrane, GO:0030669
+	odontogenesis of dentin-containing tooth, GO:0042475
+	positive regulation of macroautophagy, GO:0016239
+	positive regulation of neuron death, GO:1901216
+	Golgi to plasma membrane transport, GO:0006893
+	pre-autophagosomal structure, GO:0000407
+	receptor signaling complex scaffold activity, GO:0030159
+	mitogen-activated protein kinase binding, GO:0051019
+	insulin receptor binding, GO:0005158
+	leukocyte cell-cell adhesion, GO:0007159
+	cholesterol homeostasis, GO:0042632
+	regulation of long-term neuronal synaptic plasticity, GO:0048169
+	1-phosphatidylinositol-3-kinase activity, GO:0016303
+	negative regulation of GTPase activity, GO:0034260
+	positive regulation of muscle cell differentiation, GO:0051149
+	phagosome acidification, GO:0090383
+	cellular response to starvation, GO:0009267
+	cholesterol binding, GO:0015485
+	synaptic vesicle transport, GO:0048489
+	viral release from host cell, GO:0019076
+	protein targeting to lysosome, GO:0006622
+	positive regulation of mesenchymal cell proliferation, GO:0002053
+	positive regulation of intrinsic apoptotic signaling pathway, GO:2001244
+	mitochondrial fission, GO:0000266
+	disordered domain specific binding, GO:0097718
+	basal plasma membrane, GO:0009925
+	phosphatidylinositol dephosphorylation, GO:0046856
+	clathrin binding, GO:0030276
+	modulation of synaptic transmission, GO:0050804
+	clathrin adaptor complex, GO:0030131
+	trans-Golgi network transport vesicle, GO:0030140
+	phospholipid translocation, GO:0045332
+	low-density lipoprotein particle clearance, GO:0034383
+	regulation of neuron death, GO:1901214
+	regulation of multicellular organism growth, GO:0040014
+	olfactory bulb development, GO:0021772
+	protein K63-linked deubiquitination, GO:0070536
+	positive regulation of filopodium assembly, GO:0051491
+	positive regulation of protein kinase B signaling, GO:0051897
+	phospholipid-translocating ATPase activity, GO:0004012
+	phosphatidylinositol 3-kinase complex, GO:0005942
+	dendrite cytoplasm, GO:0032839
+	low-density lipoprotein receptor activity, GO:0005041
+	negative regulation of Wnt signaling pathway, GO:0030178
+	endosomal vesicle fusion, GO:0034058
+	protein localization to cilium, GO:0061512
+	clathrin adaptor activity, GO:0035615
+	brush border membrane, GO:0031526
+	Wnt-protein binding, GO:0017147
+	phosphatidylinositol metabolic process, GO:0046488
+	autolysosome, GO:0044754
+	viral RNA genome replication, GO:0039694
+	positive regulation of cell differentiation, GO:0045597
+	phosphatidylinositol 3-kinase complex, GO:0035032
+	coronary vasculature development, GO:0060976
+	ventricular septum development, GO:0003281
+	anterior/posterior pattern specification, GO:0009952
+	phosphatidylinositol-3, GO:0052629
+	response to lead ion, GO:0010288
+	endolysosome membrane, GO:0036020
+	insulin-like growth factor receptor signaling pathway, GO:0048009
+	pseudopodium, GO:0031143
+	ciliary membrane, GO:0060170
+	postsynaptic membrane assembly, GO:0097104
+	Bergmann glial cell differentiation, GO:0060020
+	actin filament-based movement, GO:0030048
+	negative regulation of macroautophagy, GO:0016242
+	limb development, GO:0060173
+	inositol phosphate dephosphorylation, GO:0046855
+	myosin complex, GO:0016459
+	modulation by virus of host morphology or physiology, GO:0019048
+	negative regulation of protein localization to plasma membrane, GO:1903077
+	positive regulation of autophagosome assembly, GO:2000786
+	cholesterol transport, GO:0030301
+	oxaloacetate metabolic process, GO:0006107
+	insulin receptor substrate binding, GO:0043560
+	positive regulation of membrane protein ectodomain proteolysis, GO:0051044
+	protein kinase C-activating G-protein coupled receptor signaling pathway, GO:0007205
+	Notch binding, GO:0005112
+	inositol-1, GO:0052659
+	succinate metabolic process, GO:0006105
+	negative regulation of release of cytochrome c from mitochondria, GO:0090201
+	phosphatidylinositol-4, GO:0004439
+	phosphoric ester hydrolase activity, GO:0042578
+	plasma membrane tubulation, GO:0097320
+	membrane invagination, GO:0010324
+	macromitophagy, GO:0000423
+	positive regulation of receptor-mediated endocytosis, GO:0048260
+	transition metal ion binding, GO:0046914
+	insulin-like growth factor receptor binding, GO:0005159
+	negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage, GO:1902230
+	peptidase activator activity, GO:0016504
+	cellular response to cholesterol, GO:0071397
+	angiogenesis involved in wound healing, GO:0060055
+	low-density lipoprotein particle receptor binding, GO:0050750
+	positive regulation of dendrite development, GO:1900006
+	phosphatidylinositol-3, GO:0043325
+	regulation of cellular senescence, GO:2000772
+	positive regulation of endocytosis, GO:0045807
+	adherens junction assembly, GO:0034333
+	positive regulation of feeding behavior, GO:2000253
+	Golgi to lysosome transport, GO:0090160
+	protein localization to endosome, GO:0036010
+	positive regulation of protein tyrosine kinase activity, GO:0061098
+	extrinsic component of plasma membrane, GO:0019897
+	striated muscle cell differentiation, GO:0051146
+	regulation of synaptic transmission, GO:0051966
+	vasculature development, GO:0001944
+	neural tube formation, GO:0001841
+	positive regulation of skeletal muscle tissue development, GO:0048643
+	regulation of membrane potential, GO:0042391
+	Wnt signalosome, GO:1990909
+	positive regulation of protein metabolic process, GO:0051247
+	citrate metabolic process, GO:0006101
+	1-phosphatidylinositol binding, GO:0005545
+	regulation of mitochondrial membrane permeability, GO:0046902
+	diacylglycerol kinase activity, GO:0004143
+	transport vesicle membrane, GO:0030658
+	release of cytochrome c from mitochondria, GO:0001836
+	Wnt-activated receptor activity, GO:0042813
+	regulation of protein secretion, GO:0050708
+	guanyl nucleotide binding, GO:0019001
+	response to mitochondrial depolarisation, GO:0098780
+	establishment of Golgi localization, GO:0051683
+	growth hormone receptor signaling pathway, GO:0060396
+	adult walking behavior, GO:0007628
+	cellular response to amyloid-beta, GO:1904646
+	cellular lipid metabolic process, GO:0044255
+	acetylcholine receptor activity, GO:0015464
+	regulation of lamellipodium assembly, GO:0010591
+	dendritic cell chemotaxis, GO:0002407
+	regulation of dendritic spine morphogenesis, GO:0061001
+	type I transforming growth factor beta receptor binding, GO:0034713
+	negative regulation of protein processing, GO:0010955
+	positive regulation of SMAD protein import into nucleus, GO:0060391
+	glucose import, GO:0046323
+	hair follicle placode formation, GO:0060789
+	epithelial cell proliferation involved in salivary gland morphogenesis, GO:0060664
+	phosphatidylinositol 3-kinase activity, GO:0035004
+	varicosity, GO:0043196
+	animal organ development, GO:0048513
+	dorsal/ventral neural tube patterning, GO:0021904
+	osteoblast development, GO:0002076
+	neuron projection terminus, GO:0044306
+	keratinocyte development, GO:0003334
+	deoxyribonuclease activity, GO:0004536
+	integral component of synaptic vesicle membrane, GO:0030285
+	calcium ion regulated exocytosis, GO:0017156
+	mitogen-activated protein kinase kinase binding, GO:0031434
+	regulation of insulin receptor signaling pathway, GO:0046626
+	low-density lipoprotein particle, GO:0034362
+	virion binding, GO:0046790
+	diacylglycerol metabolic process, GO:0046339
+	positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway, GO:1901030
+	glycoprotein metabolic process, GO:0009100
+	clathrin coat assembly, GO:0048268
+	phosphatidylinositol-3, GO:0043813
+	branching involved in prostate gland morphogenesis, GO:0060442
+	cellular response to lipid, GO:0071396
+	SMAD protein import into nucleus, GO:0007184
+	synaptic vesicle maturation, GO:0016188
+	positive regulation of early endosome to late endosome transport, GO:2000643
+	clathrin coat of coated pit, GO:0030132
+	response to isolation stress, GO:0035900
+	regulation of calcium ion transmembrane transport, GO:1903169
+	regulation of cell-matrix adhesion, GO:0001952
+	phosphatidylinositol-3, GO:0080025
+	early endosome to Golgi transport, GO:0034498
+	neuroepithelial cell differentiation, GO:0060563
+	neurotrophin TRK receptor signaling pathway, GO:0048011
+	protein localization to pre-autophagosomal structure, GO:0034497
+	sterol transporter activity, GO:0015248
+	regulation of smooth muscle cell migration, GO:0014910
+	cartilage development involved in endochondral bone morphogenesis, GO:0060351
+	negative regulation of mitochondrial fusion, GO:0010637
+	positive regulation of striated muscle cell differentiation, GO:0051155
+	VCB complex, GO:0030891
+	Bcl-2 family protein complex, GO:0097136
+	negative regulation of protein localization to cell surface, GO:2000009
+	inner ear development, GO:0048839
+	regulation of blood coagulation, GO:0030193
+	SCAR complex, GO:0031209
+	behavioral response to ethanol, GO:0048149
+	positive regulation of pseudopodium assembly, GO:0031274
+	suckling behavior, GO:0001967
+	regulation of cell adhesion mediated by integrin, GO:0033628
+establishment of protein localization, GO:0045184
+	neuron cell-cell adhesion, GO:0007158
+	positive regulation of leukocyte migration, GO:0002687
+	neurexin family protein binding, GO:0042043
+	stereocilium tip, GO:0032426
+	postsynaptic density protein 95 clustering, GO:0097119
+extracellular matrix disassembly, GO:0022617
+	specific granule lumen, GO:0035580
+	tertiary granule lumen, GO:1904724
+	antigen processing and presentation, GO:0019882
+	metalloaminopeptidase activity, GO:0070006
+	collagen catabolic process, GO:0030574
+	chondroitin sulfate catabolic process, GO:0030207
+	extracellular matrix structural constituent, GO:0005201
+	enzyme inhibitor activity, GO:0004857
+	protein localization to membrane, GO:0072657
+	dermatan sulfate biosynthetic process, GO:0030208
+	protein kinase C signaling, GO:0070528
+	insulin-like growth factor binding, GO:0005520
+	T cell activation involved in immune response, GO:0002286
+	chondroitin sulfate biosynthetic process, GO:0030206
+	monocarboxylic acid transmembrane transporter activity, GO:0008028
+	digestion, GO:0007586
+	extracellular matrix binding, GO:0050840
+	monocarboxylic acid transport, GO:0015718
+	phosphatidylinositol-5-phosphate binding, GO:0010314
+	peptide hormone processing, GO:0016486
+glycosphingolipid metabolic process, GO:0006687
+	lipid catabolic process, GO:0016042
+	hyaluronan catabolic process, GO:0030214
+	NAD+ kinase activity, GO:0003951
+	lysosomal transport, GO:0007041
+	hydrolase activity, GO:0004553
+	sulfuric ester hydrolase activity, GO:0008484
+	oligosaccharide catabolic process, GO:0009313
+	phospholipid transporter activity, GO:0005548
+	sphingomyelin catabolic process, GO:0006685
+	lipid transporter activity, GO:0005319
+	galactose catabolic process, GO:0019388
+	sphingomyelin phosphodiesterase activity, GO:0004767
+	serine-type carboxypeptidase activity, GO:0004185
+guanyl-nucleotide exchange factor activity, GO:0005085
+	lamellipodium, GO:0030027
+	small GTPase mediated signal transduction, GO:0007264
+	Rab GTPase binding, GO:0017137
+	actin cytoskeleton organization, GO:0030036
+	regulation of small GTPase mediated signal transduction, GO:0051056
+	ruffle, GO:0001726
+	retrograde transport, GO:0042147
+	ruffle membrane, GO:0032587
+	endomembrane system, GO:0012505
+	SH3 domain binding, GO:0017124
+	growth cone, GO:0030426
+	neuron projection development, GO:0031175
+	regulation of cell shape, GO:0008360
+	Rho guanyl-nucleotide exchange factor activity, GO:0005089
+	regulation of macroautophagy, GO:0016241
+	ephrin receptor signaling pathway, GO:0048013
+	regulation of Rho protein signal transduction, GO:0035023
+	regulation of GTPase activity, GO:0043087
+	vascular endothelial growth factor receptor signaling pathway, GO:0048010
+	Rab guanyl-nucleotide exchange factor activity, GO:0017112
+	platelet activation, GO:0030168
+	Ras protein signal transduction, GO:0007265
+	extrinsic component of cytoplasmic side of plasma membrane, GO:0031234
+	Rac GTPase binding, GO:0048365
+	dendritic spine, GO:0043197
+	filopodium, GO:0030175
+	regulation of protein kinase activity, GO:0045859
+	activation of MAPKK activity, GO:0000186
+	regulation of G-protein coupled receptor protein signaling pathway, GO:0008277
+	endocytic vesicle, GO:0030139
+	endosome organization, GO:0007032
+	lysosome organization, GO:0007040
+	regulation of cell growth, GO:0001558
+	SH3/SH2 adaptor activity, GO:0005070
+	GTP-dependent protein binding, GO:0030742
+	activation of GTPase activity, GO:0090630
+	positive regulation of signal transduction, GO:0009967
+	neutrophil chemotaxis, GO:0030593
+	phospholipid binding, GO:0005543
+	phosphatidic acid binding, GO:0070300
+	Ras guanyl-nucleotide exchange factor activity, GO:0005088
+	Rho GTPase binding, GO:0017048
+	protein complex scaffold, GO:0032947
+	receptor tyrosine kinase binding, GO:0030971
+	positive regulation of TOR signaling, GO:0032008
+	post-Golgi vesicle-mediated transport, GO:0006892
+	phosphotyrosine residue binding, GO:0001784
+	Fc-gamma receptor signaling pathway involved in phagocytosis, GO:0038096
+	positive regulation of tumor necrosis factor production, GO:0032760
+	regulation of cell migration, GO:0030334
+	regulation of defense response to virus by virus, GO:0050690
+	negative regulation of cell migration, GO:0030336
+	signal transducer activity, GO:0005057
+	neuromuscular process controlling balance, GO:0050885
+	phosphatidylinositol-3, GO:0005547
+	epidermal growth factor receptor binding, GO:0005154
+	platelet-derived growth factor receptor signaling pathway, GO:0048008
+	positive regulation of peptidyl-serine phosphorylation, GO:0033138
+	dendrite morphogenesis, GO:0048813
+	T cell differentiation, GO:0030217
+	cell growth, GO:0016049
+	positive regulation of stress fiber assembly, GO:0051496
+	positive regulation of establishment of protein localization to plasma membrane, GO:0090004
+	positive regulation of JUN kinase activity, GO:0043507
+	Rho protein signal transduction, GO:0007266
+	regulation of cell size, GO:0008361
+	small GTPase binding, GO:0031267
+	Rac guanyl-nucleotide exchange factor activity, GO:0030676
+	positive regulation of phagocytosis, GO:0050766
+	synaptic vesicle endocytosis, GO:0048488
+	positive regulation of substrate adhesion-dependent cell spreading, GO:1900026
+	regulation of actin filament polymerization, GO:0030833
+	negative regulation of TOR signaling, GO:0032007
+	regulation of TOR signaling, GO:0032006
+	cAMP-mediated signaling, GO:0019933
+	reactive oxygen species metabolic process, GO:0072593
+	establishment of endothelial barrier, GO:0061028
+	regulation of ERK1 and ERK2 cascade, GO:0070372
+	regulation of neuronal synaptic plasticity, GO:0048168
+	lamellipodium assembly, GO:0030032
+	podosome, GO:0002102
+	filopodium assembly, GO:0046847
+	B cell homeostasis, GO:0001782
+	G-protein coupled receptor binding, GO:0001664
+	Ras GTPase binding, GO:0017016
+	adult locomotory behavior, GO:0008344
+	positive regulation of dendritic spine morphogenesis, GO:0061003
+	regulation of actin cytoskeleton organization, GO:0032956
+	positive regulation of cytosolic calcium ion concentration, GO:0007204
+	positive regulation of phosphatidylinositol 3-kinase activity, GO:0043552
+	positive regulation of granulocyte macrophage colony-stimulating factor production, GO:0032725
+	detection of mechanical stimulus, GO:0050982
+	diacylglycerol binding, GO:0019992
+	positive regulation of cell adhesion, GO:0045785
+	ARF guanyl-nucleotide exchange factor activity, GO:0005086
+	adenylate cyclase-inhibiting G-protein coupled receptor signaling pathway, GO:0007193
+	cAMP binding, GO:0030552
+	cell chemotaxis, GO:0060326
+	ATG1/ULK1 kinase complex, GO:1990316
+	cell-cell contact zone, GO:0044291
+	regulation of protein localization to cell surface, GO:2000008
+	Rac protein signal transduction, GO:0016601
+	glial cell migration, GO:0008347
+	myosin binding, GO:0017022
+	positive regulation of T cell differentiation in thymus, GO:0033089
+	receptor recycling, GO:0001881
+	guanyl-nucleotide exchange factor complex, GO:0032045
+	marginal zone B cell differentiation, GO:0002315
+	MAP-kinase scaffold activity, GO:0005078
+	inner ear morphogenesis, GO:0042472
+	regulation of synaptic plasticity, GO:0048167
+	positive regulation of protein localization to cell surface, GO:2000010
+	positive regulation of blood coagulation, GO:0030194
+	regulation of ARF protein signal transduction, GO:0032012
+	sarcomere, GO:0030017
+	lymphocyte homeostasis, GO:0002260
+	adenosine receptor signaling pathway, GO:0001973
+	protein localization to Golgi apparatus, GO:0034067
+	regulation of TORC1 signaling, GO:1903432
+	asymmetric synapse, GO:0032279
+	substrate-dependent cell migration, GO:0006930
+	positive regulation of fibroblast migration, GO:0010763
+	insulin secretion, GO:0030073
+	G-protein alpha-subunit binding, GO:0001965
+	positive regulation of vasculogenesis, GO:2001214
+	endosome to melanosome transport, GO:0035646
+	positive regulation of growth hormone secretion, GO:0060124
+	insulin-responsive compartment, GO:0032593
+	type 1 angiotensin receptor binding, GO:0031702
+	inositol 1, GO:0070679
+	dendritic spine morphogenesis, GO:0060997
+	hair cycle process, GO:0022405
+	negative regulation of neural precursor cell proliferation, GO:2000178
+	adenylate cyclase-activating G-protein coupled receptor signaling pathway, GO:0007189
+	neuromuscular junction development, GO:0007528
+	pericardium morphogenesis, GO:0003344
+	cell projection assembly, GO:0030031
+	G-protein coupled purinergic nucleotide receptor activity, GO:0045028
+	G-protein coupled purinergic nucleotide receptor signaling pathway, GO:0035589
+homophilic cell adhesion via plasma membrane adhesion molecules, GO:0007156
+	photoreceptor cell maintenance, GO:0045494
+	cell recognition, GO:0008037
+	heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules, GO:0007157
+	self proteolysis, GO:0097264
+	regulation of ventricular cardiac muscle cell action potential, GO:0098911
+	positive regulation of natural killer cell mediated cytotoxicity directed against tumor cell target, GO:0002860
+	zonula adherens, GO:0005915
+	cornified envelope, GO:0001533
+	desmosome, GO:0030057
+immunoglobulin complex, GO:0042571
+	immunoglobulin receptor binding, GO:0034987
+	phagocytosis, GO:0006910
+	complement activation, GO:0006956
+integrator complex, GO:0032039
+	snRNA processing, GO:0016180
+iron-sulfur cluster assembly, GO:0016226
+	small molecule metabolic process, GO:0044281
+keratin filament, GO:0045095
+	epithelial cell differentiation, GO:0030855
+	peptide cross-linking, GO:0018149
+	structural constituent of epidermis, GO:0030280
+late endosome, GO:0005770
+	late endosome membrane, GO:0031902
+	lysosomal lumen, GO:0043202
+	azurophil granule membrane, GO:0035577
+	recycling endosome membrane, GO:0055038
+	autophagosome, GO:0005776
+	tertiary granule membrane, GO:0070821
+	PDZ domain binding, GO:0030165
+	phosphatase binding, GO:0019902
+	protein processing, GO:0016485
+	mitophagy, GO:0000422
+	intracellular transport, GO:0046907
+	zinc ion transmembrane transporter activity, GO:0005385
+	retrograde transport, GO:1990126
+	thyroid gland development, GO:0030878
+	regulation of centrosome duplication, GO:0010824
+	receptor catabolic process, GO:0032801
+	cation transport, GO:0006812
+	zinc II ion transport, GO:0006829
+	autophagosome membrane, GO:0000421
+	blood vessel development, GO:0001568
+	cation transmembrane transporter activity, GO:0008324
+	zinc II ion transmembrane transport, GO:0071577
+	ESCRT III complex, GO:0000815
+	ATP hydrolysis coupled cation transmembrane transport, GO:0099132
+	lysosome localization, GO:0032418
+	cellular copper ion homeostasis, GO:0006878
+	membrane protein ectodomain proteolysis, GO:0006509
+	cellular response to antibiotic, GO:0071236
+	vacuole, GO:0005773
+	AP-3 adaptor complex, GO:0030123
+	copper ion transport, GO:0006825
+	cellular response to epinephrine stimulus, GO:0071872
+	ATP transport, GO:0015867
+	face development, GO:0060324
+	HOPS complex, GO:0030897
+	vacuolar membrane, GO:0005774
+	specific granule, GO:0042581
+	myosin V binding, GO:0031489
+	exocyst, GO:0000145
+	cellular zinc ion homeostasis, GO:0006882
+	regulation of sequestering of zinc ion, GO:0061088
+	ESCRT I complex, GO:0000813
+	collagen fibril organization, GO:0030199
+	protein serine/threonine kinase activator activity, GO:0043539
+	response to pH, GO:0009268
+	regulation of ossification, GO:0030278
+	cardiovascular system development, GO:0072358
+	positive regulation of T-helper 1 type immune response, GO:0002827
+	negative regulation of retrograde protein transport, GO:1904153
+	regulation of anion transport, GO:0044070
+	reverse cholesterol transport, GO:0043691
+	regulation of anion transmembrane transport, GO:1903959
+	cerebellar Purkinje cell differentiation, GO:0021702
+	vacuolar acidification, GO:0007035
+	action potential, GO:0001508
+	multicellular organismal iron ion homeostasis, GO:0060586
+	iron ion transport, GO:0006826
+	cellular response to iron ion, GO:0071281
+	chemokine receptor activity, GO:0004950
+	antimicrobial humoral response, GO:0019730
+	polar body extrusion after meiotic divisions, GO:0040038
+	endolysosome lumen, GO:0036021
+	positive regulation of skeletal muscle tissue growth, GO:0048633
+	lysosomal lumen acidification, GO:0007042
+	negative regulation of multicellular organism growth, GO:0040015
+	removal of superoxide radicals, GO:0019430
+	high-density lipoprotein particle remodeling, GO:0034375
+	azurophil granule, GO:0042582
+	voltage-gated potassium channel activity involved in cardiac muscle cell action potential repolarization, GO:0086008
+	C21-steroid hormone biosynthetic process, GO:0006700
+	germinal center formation, GO:0002467
+	BLOC-1 complex, GO:0031083
+	voltage-gated potassium channel activity involved in ventricular cardiac muscle cell action potential repolarization, GO:1902282
+	membrane repolarization during ventricular cardiac muscle cell action potential, GO:0098915
+	plus-end-directed vesicle transport along microtubule, GO:0072383
+	cholesterol efflux, GO:0033344
+	antigen receptor-mediated signaling pathway, GO:0050851
+	copper ion transmembrane transporter activity, GO:0005375
+	solute:proton antiporter activity, GO:0015299
+	beta-2-microglobulin binding, GO:0030881
+ligand-dependent nuclear receptor transcription coactivator activity, GO:0030374
+	RNA polymerase II transcription cofactor activity, GO:0001104
+	mediator complex, GO:0016592
+	Z disc, GO:0030018
+	stress fiber, GO:0001725
+	regulation of lipid metabolic process, GO:0019216
+	intracellular receptor signaling pathway, GO:0030522
+	regulation of nucleic acid-templated transcription, GO:1903506
+	RNA polymerase II transcription factor activity, GO:0004879
+	erythrocyte development, GO:0048821
+	cellular response to thyroid hormone stimulus, GO:0097067
+	negative regulation of epidermal growth factor-activated receptor activity, GO:0007175
+	positive regulation of oligodendrocyte differentiation, GO:0048714
+	core mediator complex, GO:0070847
+ligase activity, GO:0016874
+	fatty acid metabolic process, GO:0006631
+	cellular protein modification process, GO:0006464
+	protein K48-linked ubiquitination, GO:0070936
+	fatty acid biosynthetic process, GO:0006633
+	tRNA aminoacylation for protein translation, GO:0006418
+	regulation of protein stability, GO:0031647
+	liver development, GO:0001889
+	aminoacyl-tRNA ligase activity, GO:0004812
+	response to nutrient, GO:0007584
+	cellular amino acid biosynthetic process, GO:0008652
+	tricarboxylic acid cycle, GO:0006099
+	protein monoubiquitination, GO:0006513
+	purine nucleotide biosynthetic process, GO:0006164
+	dendritic spine development, GO:0060996
+	hydrolase activity, GO:0016810
+	branched-chain amino acid catabolic process, GO:0009083
+	biotin metabolic process, GO:0006768
+	protein neddylation, GO:0045116
+	cellular response to fibroblast growth factor stimulus, GO:0044344
+	cellular amino acid metabolic process, GO:0006520
+	nitrogen compound metabolic process, GO:0006807
+	protein catabolic process, GO:0030163
+	organelle membrane, GO:0031090
+	glutamine metabolic process, GO:0006541
+	long-chain fatty-acyl-CoA biosynthetic process, GO:0035338
+	axoneme assembly, GO:0035082
+	purine nucleobase biosynthetic process, GO:0009113
+	aminoacyl-tRNA synthetase multienzyme complex, GO:0017101
+	cofactor binding, GO:0048037
+	tRNA aminoacylation, GO:0043039
+	long-chain fatty acid metabolic process, GO:0001676
+	purine ribonucleoside monophosphate biosynthetic process, GO:0009168
+	positive regulation of cellular protein catabolic process, GO:1903364
+	glutamate metabolic process, GO:0006536
+	coenzyme binding, GO:0050662
+	folic acid metabolic process, GO:0046655
+	tRNA-splicing ligase complex, GO:0072669
+	'de novo' IMP biosynthetic process, GO:0006189
+	AMP binding, GO:0016208
+	ligase activity, GO:0016876
+	phosphate ion binding, GO:0042301
+	lipid biosynthetic process, GO:0008610
+	bile acid biosynthetic process, GO:0006699
+	fatty-acyl-CoA biosynthetic process, GO:0046949
+	tubulin-glutamic acid ligase activity, GO:0070740
+	rough endoplasmic reticulum membrane, GO:0030867
+	decanoate--CoA ligase activity, GO:0102391
+	energy homeostasis, GO:0097009
+	triglyceride metabolic process, GO:0006641
+	positive regulation of glial cell proliferation, GO:0060252
+	ER overload response, GO:0006983
+	pyrimidine nucleotide biosynthetic process, GO:0006221
+	motor neuron axon guidance, GO:0008045
+	long-chain fatty acid-CoA ligase activity, GO:0004467
+	L-ascorbic acid metabolic process, GO:0019852
+	ethanol oxidation, GO:0006069
+	regulation of cilium assembly, GO:1902017
+	modification-dependent protein catabolic process, GO:0019941
+	response to starvation, GO:0042594
+	nucleophagy, GO:0044804
+	protein ufmylation, GO:0071569
+	NEDD8 transferase activity, GO:0019788
+	fatty acid transport, GO:0015908
+	response to steroid hormone, GO:0048545
+	cardiolipin biosynthetic process, GO:0032049
+	glutathione biosynthetic process, GO:0006750
+	cerebellar Purkinje cell layer development, GO:0021680
+	neuromuscular process, GO:0050905
+	atrioventricular valve morphogenesis, GO:0003181
+	very long-chain fatty acid metabolic process, GO:0000038
+	cellular response to leucine, GO:0071233
+	coenzyme biosynthetic process, GO:0009108
+	ribonucleoside monophosphate biosynthetic process, GO:0009156
+	tetrahydrofolate biosynthetic process, GO:0046654
+	regulation of ER to Golgi vesicle-mediated transport, GO:0060628
+	phenylalanine-tRNA ligase activity, GO:0004826
+	acetyl-CoA biosynthetic process, GO:0006085
+	cellular response to leucine starvation, GO:1990253
+	positive regulation of macrophage chemotaxis, GO:0010759
+	positive regulation of cellular metabolic process, GO:0031325
+	ISG15-protein conjugation, GO:0032020
+	aspartate metabolic process, GO:0006531
+	positive regulation of mitotic metaphase/anaphase transition, GO:0045842
+	cellular response to hepatocyte growth factor stimulus, GO:0035729
+	protein lipoylation, GO:0009249
+	cellular response to testosterone stimulus, GO:0071394
+	cardiac septum morphogenesis, GO:0060411
+lyase activity, GO:0016829
+	protein homotetramerization, GO:0051289
+	glycolytic process, GO:0006096
+	peroxisomal matrix, GO:0005782
+	biosynthetic process, GO:0009058
+	canonical glycolysis, GO:0061621
+	pyridoxal phosphate binding, GO:0030170
+	carboxy-lyase activity, GO:0016831
+	fatty acid beta-oxidation using acyl-CoA oxidase, GO:0033540
+	entrainment of circadian clock by photoperiod, GO:0043153
+	DNA-(apurinic or apyrimidinic site) lyase activity, GO:0003906
+	tRNA splicing, GO:0006388
+	very long-chain fatty acid biosynthetic process, GO:0042761
+	presynaptic active zone, GO:0048786
+	sphingolipid metabolic process, GO:0006665
+	enoyl-CoA hydratase activity, GO:0004300
+	phosphorus-oxygen lyase activity, GO:0016849
+	pentose-phosphate shunt, GO:0006098
+	fatty-acyl-CoA binding, GO:0000062
+	guanylate cyclase activity, GO:0004383
+	guanylate cyclase complex, GO:0008074
+	bicarbonate transport, GO:0015701
+	cyclic nucleotide biosynthetic process, GO:0009190
+	polyamine biosynthetic process, GO:0006596
+	alpha-linolenic acid metabolic process, GO:0036109
+	carboxylic acid metabolic process, GO:0019752
+	fatty acid elongation, GO:0030497
+	pyruvate metabolic process, GO:0006090
+	oxidative demethylation, GO:0070989
+	transaminase activity, GO:0008483
+	lipoxin metabolic process, GO:2001300
+	adenylate cyclase activity, GO:0004016
+	cyclooxygenase pathway, GO:0019371
+	fibroblast migration, GO:0010761
+	DNA dealkylation involved in DNA repair, GO:0006307
+	regulation of blood vessel diameter, GO:0097746
+	positive regulation of renal sodium excretion, GO:0035815
+	inhibitory synapse, GO:0060077
+	acrosome reaction, GO:0007340
+	3-hydroxyacyl-CoA dehydratase activity, GO:0018812
+	isocitrate metabolic process, GO:0006102
+	3-hydroxyacyl-CoA dehydrogenase activity, GO:0003857
+	isoprenoid biosynthetic process, GO:0008299
+	glycine binding, GO:0016594
+mRNA binding involved in posttranscriptional gene silencing, GO:1903231
+	gene silencing by miRNA, GO:0035195
+	positive regulation of erythrocyte differentiation, GO:0045648
+	negative regulation of angiogenesis, GO:0016525
+	outflow tract morphogenesis, GO:0003151
+	ventricular septum morphogenesis, GO:0060412
+	positive regulation of connective tissue replacement, GO:1905205
+	negative regulation of cell-substrate adhesion, GO:0010812
+	negative regulation of endothelial cell migration, GO:0010596
+	negative regulation of cardiac muscle hypertrophy, GO:0010614
+	negative regulation of cell-matrix adhesion, GO:0001953
+methyltransferase activity, GO:0008168
+	tRNA processing, GO:0008033
+	tRNA binding, GO:0000049
+	negative regulation of gene expression, GO:0045814
+	p53 binding, GO:0002039
+	regulation of megakaryocyte differentiation, GO:0045652
+	stem cell population maintenance, GO:0019827
+	histone-lysine N-methyltransferase activity, GO:0018024
+	tRNA modification, GO:0006400
+	heat shock protein binding, GO:0031072
+	7-methylguanosine mRNA capping, GO:0006370
+	response to toxic substance, GO:0009636
+	histone methyltransferase complex, GO:0035097
+	tRNA methylation, GO:0030488
+	histone lysine methylation, GO:0034968
+	RNA polymerase II core promoter sequence-specific DNA binding, GO:0000979
+	response to ethanol, GO:0045471
+	histone H3-K4 methylation, GO:0051568
+	histone methylation, GO:0016571
+	lysine-acetylated histone binding, GO:0070577
+	protein-lysine N-methyltransferase activity, GO:0016279
+	histone methyltransferase activity (H3-K4 specific), GO:0042800
+	germ cell development, GO:0007281
+	Set1C/COMPASS complex, GO:0048188
+	regulation of protein binding, GO:0043393
+	ubiquinone biosynthetic process, GO:0006744
+	protein methyltransferase activity, GO:0008276
+	MLL3/4 complex, GO:0044666
+	DNA methylation involved in gamete generation, GO:0043046
+	response to cocaine, GO:0042220
+	histone methyltransferase activity, GO:0042054
+	S-adenosylmethionine-dependent methyltransferase activity, GO:0008757
+	oxidoreductase activity, GO:0016706
+	retinoic acid receptor binding, GO:0042974
+	positive regulation of histone H3-K4 methylation, GO:0051571
+	positive regulation of mitochondrial translation, GO:0070131
+	RNA methylation, GO:0001510
+	homeostasis of number of cells within a tissue, GO:0048873
+	rRNA methylation, GO:0031167
+	ferrous iron binding, GO:0008198
+	neurogenesis, GO:0022008
+	promoter-specific chromatin binding, GO:1990841
+	fertilization, GO:0009566
+	RNA methyltransferase activity, GO:0008173
+	histone H3-K4 trimethylation, GO:0080182
+	negative regulation of G1/S transition of mitotic cell cycle, GO:2000134
+	extrinsic component of mitochondrial inner membrane, GO:0031314
+	response to vitamin A, GO:0033189
+	endothelial cell activation, GO:0042118
+	peptidyl-lysine methylation, GO:0018022
+	phosphatidylethanolamine binding, GO:0008429
+	L-serine metabolic process, GO:0006563
+	regulation of mitochondrial translation, GO:0070129
+	left/right axis specification, GO:0070986
+	tetrahydrofolate interconversion, GO:0035999
+	histone H3-K27 methylation, GO:0070734
+	mitogen-activated protein kinase p38 binding, GO:0048273
+	one-carbon metabolic process, GO:0006730
+	peptidyl-arginine N-methylation, GO:0035246
+	rRNA modification, GO:0000154
+	methionine biosynthetic process, GO:0009086
+	methyl-CpG binding, GO:0008327
+	skeletal muscle tissue development, GO:0007519
+	response to nutrient levels, GO:0031667
+	regulation of mitotic cell cycle spindle assembly checkpoint, GO:0090266
+	glycerophospholipid metabolic process, GO:0006650
+	tetrahydrofolate metabolic process, GO:0046653
+	protein-arginine N-methyltransferase activity, GO:0016274
+	chromatin silencing at telomere, GO:0006348
+	mRNA methylation, GO:0080009
+	histone H3-K27 trimethylation, GO:0098532
+	L-serine biosynthetic process, GO:0006564
+	peptidyl-lysine trimethylation, GO:0018023
+	tRNA wobble uridine modification, GO:0002098
+	regulation of peptidyl-serine phosphorylation, GO:0033135
+	peptidyl-diphthamide biosynthetic process from peptidyl-histidine, GO:0017183
+	response to type I interferon, GO:0034340
+	histone methyltransferase activity (H3-K27 specific), GO:0046976
+	histidine catabolic process, GO:0006548
+	peptidyl-lysine monomethylation, GO:0018026
+	peroxisome proliferator activated receptor binding, GO:0042975
+	cobalamin binding, GO:0031419
+	auditory receptor cell development, GO:0060117
+	histone H3-K36 methylation, GO:0010452
+	regulation of mRNA export from nucleus, GO:0010793
+	histone methyltransferase activity (H3-K36 specific), GO:0046975
+	translation repressor activity, GO:0000900
+	O-methyltransferase activity, GO:0008171
+microtubule minus-end binding, GO:0051011
+	interphase microtubule nucleation by interphase microtubule organizing center, GO:0051415
+	equatorial microtubule organizing center, GO:0000923
+mitochondrial electron transport, GO:0006122
+	mitochondrial respiratory chain complex III, GO:0005750
+	ubiquinol-cytochrome-c reductase activity, GO:0008121
+	protein processing involved in protein targeting to mitochondrion, GO:0006627
+mitochondrial intermembrane space, GO:0005758
+	integral component of mitochondrial inner membrane, GO:0031305
+	copper ion binding, GO:0005507
+	oxidative phosphorylation, GO:0006119
+	regulation of androgen receptor signaling pathway, GO:0060765
+	nucleotide biosynthetic process, GO:0009165
+	antioxidant activity, GO:0016209
+	porphyrin-containing compound biosynthetic process, GO:0006779
+	coenzyme A biosynthetic process, GO:0015937
+	response to reactive oxygen species, GO:0000302
+	NAD+ binding, GO:0070403
+	cardiolipin binding, GO:1901612
+	response to activity, GO:0014823
+	response to iron ion, GO:0010039
+	response to muscle activity, GO:0014850
+	protein channel activity, GO:0015266
+	nucleoside diphosphate kinase activity, GO:0004550
+	positive regulation of transcription regulatory region DNA binding, GO:2000679
+	response to L-ascorbic acid, GO:0033591
+	negative regulation of cholesterol biosynthetic process, GO:0045541
+	membrane depolarization, GO:0051899
+	peptide metabolic process, GO:0006518
+	nucleoside metabolic process, GO:0009116
+	protein phosphatase 2B binding, GO:0030346
+	cellular response to gonadotropin stimulus, GO:0071371
+	peroxidase activity, GO:0004601
+	protein homotrimerization, GO:0070207
+	molybdopterin cofactor binding, GO:0043546
+	myelination in peripheral nervous system, GO:0022011
+mitochondrial membrane, GO:0031966
+	respiratory chain, GO:0070469
+	mitochondrial respiratory chain complex I assembly, GO:0032981
+	mitochondrion organization, GO:0007005
+	mitochondrial electron transport, GO:0006120
+	mitochondrial respiratory chain complex I, GO:0005747
+	proton transport, GO:0015992
+	NADH dehydrogenase (ubiquinone) activity, GO:0008137
+	flavin adenine dinucleotide binding, GO:0050660
+	fatty acid beta-oxidation, GO:0006635
+	cristae formation, GO:0042407
+	ATP biosynthetic process, GO:0006754
+	mitochondrial ATP synthesis coupled proton transport, GO:0042776
+	hydrogen ion transmembrane transport, GO:1902600
+	aerobic respiration, GO:0009060
+	intrinsic apoptotic signaling pathway, GO:0097193
+	mitochondrial transport, GO:0006839
+	male gonad development, GO:0008584
+	proton-transporting ATP synthase activity, GO:0046933
+	2 iron, GO:0051537
+	mitochondrial proton-transporting ATP synthase complex, GO:0005753
+	heme binding, GO:0020037
+	generation of precursor metabolites and energy, GO:0006091
+	response to insulin, GO:0032868
+	blood vessel remodeling, GO:0001974
+	transmembrane transporter activity, GO:0022857
+	antiporter activity, GO:0015297
+	ATP synthesis coupled proton transport, GO:0015986
+	oxidoreductase activity, GO:0016627
+	hydrogen ion transmembrane transporter activity, GO:0015078
+	phospholipid metabolic process, GO:0006644
+	monooxygenase activity, GO:0004497
+	mitochondrial electron transport, GO:0006123
+	steroid biosynthetic process, GO:0006694
+	brown fat cell differentiation, GO:0050873
+	heme biosynthetic process, GO:0006783
+	iron ion binding, GO:0005506
+	respiratory electron transport chain, GO:0022904
+	oxidoreductase activity, GO:0016705
+	ATP hydrolysis coupled proton transport, GO:0015991
+	negative regulation of intrinsic apoptotic signaling pathway, GO:2001243
+	cellular response to hormone stimulus, GO:0032870
+	proton-transporting ATP synthase complex, GO:0045263
+	1-acylglycerol-3-phosphate O-acyltransferase activity, GO:0003841
+	mitochondrial respiratory chain complex IV assembly, GO:0033617
+	nuclear outer membrane, GO:0005640
+	cytochrome-c oxidase activity, GO:0004129
+	oxidoreductase activity, GO:0016651
+	lysophospholipase activity, GO:0004622
+	mitochondrial respiratory chain complex IV, GO:0005751
+	phosphatidic acid biosynthetic process, GO:0006654
+	oxidoreductase activity, GO:0016616
+	cellular respiration, GO:0045333
+	acyl-CoA dehydrogenase activity, GO:0003995
+	NADH dehydrogenase activity, GO:0003954
+	neuron development, GO:0048666
+	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway, GO:1902236
+	mitochondrial inner membrane presequence translocase complex, GO:0005744
+	cellular nitrogen compound metabolic process, GO:0034641
+	mitochondrial proton-transporting ATP synthase complex, GO:0000276
+	lipid phosphorylation, GO:0046834
+	mitochondrial ATP synthesis coupled electron transport, GO:0042775
+	myeloid cell homeostasis, GO:0002262
+	positive regulation of keratinocyte differentiation, GO:0045618
+	fatty acid beta-oxidation using acyl-CoA dehydrogenase, GO:0033539
+	mitochondrial respiratory chain complex III assembly, GO:0034551
+	mitochondrial fusion, GO:0008053
+	proton-transporting ATP synthase complex, GO:0045261
+	nerve development, GO:0021675
+	nucleoside diphosphate phosphorylation, GO:0006165
+	positive regulation of protein homooligomerization, GO:0032464
+	protein insertion into mitochondrial membrane involved in apoptotic signaling pathway, GO:0001844
+	mitochondrial respiratory chain, GO:0005746
+	CDP-diacylglycerol biosynthetic process, GO:0016024
+	activation of cysteine-type endopeptidase activity involved in apoptotic process by cytochrome c, GO:0008635
+	electron transport chain, GO:0022900
+	negative regulation of transcription from RNA polymerase II promoter in response to endoplasmic reticulum stress, GO:1990441
+	glycerolipid metabolic process, GO:0046486
+	negative regulation of cell migration involved in sprouting angiogenesis, GO:0090051
+	mitochondrial envelope, GO:0005740
+	negative regulation of peptidyl-serine phosphorylation, GO:0033137
+	quinone binding, GO:0048038
+	mitochondrial calcium ion homeostasis, GO:0051560
+	phosphotransferase activity, GO:0016780
+	flagellated sperm motility, GO:0030317
+	ATP synthesis coupled electron transport, GO:0042773
+	cardiolipin acyl-chain remodeling, GO:0035965
+	cellular response to acidic pH, GO:0071468
+	phospholipase inhibitor activity, GO:0004859
+	glycerophospholipid catabolic process, GO:0046475
+	protoporphyrinogen IX biosynthetic process, GO:0006782
+	endoplasmic reticulum tubular network organization, GO:0071786
+	ubiquinone binding, GO:0048039
+	integral component of mitochondrial membrane, GO:0032592
+	proton-transporting two-sector ATPase complex, GO:0033177
+	phosphatidylcholine 1-acylhydrolase activity, GO:0008970
+	positive regulation of neurotransmitter secretion, GO:0001956
+mitochondrial translational termination, GO:0070126
+	mitochondrial translational elongation, GO:0070125
+	mitochondrial large ribosomal subunit, GO:0005762
+	mitochondrial translation, GO:0032543
+	mitochondrial ribosome, GO:0005761
+	mitochondrial small ribosomal subunit, GO:0005763
+	mitotic cell cycle arrest, GO:0071850
+	mitochondrial genome maintenance, GO:0000002
+	translation release factor activity, GO:0003747
+mitotic chromosome condensation, GO:0007076
+	condensin complex, GO:0000796
+	polynucleotide adenylyltransferase activity, GO:0004652
+	cardiac muscle fiber development, GO:0048739
+motile cilium, GO:0031514
+	calcium ion transmembrane transport, GO:0070588
+	kinesin binding, GO:0019894
+	sodium ion transport, GO:0006814
+	sodium ion transmembrane transport, GO:0035725
+	cilium movement, GO:0003341
+	regulation of autophagosome assembly, GO:2000785
+	intraciliary transport, GO:0042073
+	ATP-dependent microtubule motor activity, GO:0008569
+	calcium channel activity, GO:0005262
+	cell-cell adhesion, GO:0098609
+	cadherin binding involved in cell-cell adhesion, GO:0098641
+	membrane depolarization during action potential, GO:0086010
+	outer dynein arm assembly, GO:0036158
+	fusion of sperm to egg plasma membrane, GO:0007342
+	sodium channel complex, GO:0034706
+	axonemal dynein complex assembly, GO:0070286
+	cellular component organization, GO:0016043
+	cerebellar cortex morphogenesis, GO:0021696
+	oxidoreductase activity, GO:0016668
+	regulation of postsynaptic membrane potential, GO:0060078
+	high voltage-gated calcium channel activity, GO:0008331
+negative regulation of signal transduction, GO:0009968
+	glycogen metabolic process, GO:0005977
+	insulin receptor signaling pathway, GO:0008286
+	R-SMAD binding, GO:0070412
+	proteasomal protein catabolic process, GO:0010498
+	regulation of tyrosine phosphorylation of STAT protein, GO:0042509
+neural tube closure, GO:0001843
+	multicellular organism growth, GO:0035264
+	smoothened signaling pathway, GO:0007224
+	axoneme, GO:0005930
+	chondrocyte differentiation, GO:0002062
+	BMP signaling pathway, GO:0030509
+	bone development, GO:0060348
+	determination of left/right symmetry, GO:0007368
+	palate development, GO:0060021
+	response to progesterone, GO:0032570
+	negative regulation of smoothened signaling pathway, GO:0045879
+	mammary gland development, GO:0030879
+	odontogenesis, GO:0042476
+	positive regulation of bone mineralization, GO:0030501
+	semaphorin-plexin signaling pathway, GO:0071526
+	response to mechanical stimulus, GO:0009612
+	regulation of smoothened signaling pathway, GO:0008589
+	motile cilium assembly, GO:0044458
+	cullin-RING ubiquitin ligase complex, GO:0031461
+	heart looping, GO:0001947
+	negative chemotaxis, GO:0050919
+	positive regulation of cell cycle arrest, GO:0071158
+	face morphogenesis, GO:0060325
+	SMAD protein signal transduction, GO:0060395
+	positive regulation of protein dephosphorylation, GO:0035307
+	cytoplasmic sequestering of transcription factor, GO:0042994
+	positive regulation of pri-miRNA transcription from RNA polymerase II promoter, GO:1902895
+	cellular response to BMP stimulus, GO:0071773
+	female pregnancy, GO:0007565
+	camera-type eye morphogenesis, GO:0048593
+	smooth muscle tissue development, GO:0048745
+	negative regulation of actin filament polymerization, GO:0030837
+	head development, GO:0060322
+	positive regulation of receptor recycling, GO:0001921
+	plasma membrane raft, GO:0044853
+	negative regulation of fibroblast proliferation, GO:0048147
+	cell junction assembly, GO:0034329
+	embryonic skeletal joint morphogenesis, GO:0060272
+	lamellipodium membrane, GO:0031258
+	positive regulation of smoothened signaling pathway, GO:0045880
+	positive regulation of fatty acid beta-oxidation, GO:0032000
+	maintenance of epithelial cell apical/basal polarity, GO:0045199
+	cell-cell junction organization, GO:0045216
+	pulmonary valve morphogenesis, GO:0003184
+	receptor agonist activity, GO:0048018
+	BMP receptor binding, GO:0070700
+	actin polymerization or depolymerization, GO:0008154
+	positive regulation of T-helper 2 cell differentiation, GO:0045630
+	outflow tract septum morphogenesis, GO:0003148
+	growth factor activity, GO:0008083
+	cardiac muscle cell proliferation, GO:0060038
+	sperm principal piece, GO:0097228
+	BBSome, GO:0034464
+	cartilage condensation, GO:0001502
+	central nervous system neuron differentiation, GO:0021953
+	response to cholesterol, GO:0070723
+	spinal cord motor neuron differentiation, GO:0021522
+	cochlea morphogenesis, GO:0090103
+	frizzled binding, GO:0005109
+	epithelial cell morphogenesis, GO:0003382
+nuclear inner membrane, GO:0005637
+	nuclear envelope organization, GO:0006998
+nucleosome, GO:0000786
+	nucleosome assembly, GO:0006334
+	chromatin silencing at rDNA, GO:0000183
+	nucleosomal DNA binding, GO:0031492
+	protein heterotetramerization, GO:0051290
+	telomere organization, GO:0032200
+	beta-catenin-TCF complex assembly, GO:1904837
+	DNA replication-independent nucleosome assembly, GO:0006336
+	RNA polymerase II distal enhancer sequence-specific DNA binding, GO:0000980
+	chromatin DNA binding, GO:0031490
+	telomere capping, GO:0016233
+	chromatin silencing, GO:0006342
+	nuclear nucleosome, GO:0000788
+	negative regulation of megakaryocyte differentiation, GO:0045653
+	spermatid development, GO:0007286
+	chromosome condensation, GO:0030261
+	acetyltransferase activity, GO:0016407
+	single fertilization, GO:0007338
+	double-stranded methylated DNA binding, GO:0010385
+	spermatid nucleus differentiation, GO:0007289
+odorant binding, GO:0005549
+	sensory perception of chemical stimulus, GO:0007606
+peptide alpha-N-acetyltransferase activity, GO:0004596
+	N-terminal peptidyl-methionine acetylation, GO:0017196
+	N-terminal protein amino acid acetylation, GO:0006474
+peptide antigen binding, GO:0042605
+	amino acid transport, GO:0006865
+	amino acid transmembrane transporter activity, GO:0015171
+	amino acid transmembrane transport, GO:0003333
+	antigen processing and presentation of exogenous peptide antigen via MHC class I, GO:0002480
+	MHC class I protein complex, GO:0042612
+	positive regulation of insulin secretion involved in cellular response to glucose stimulus, GO:0035774
+	antigen processing and presentation of peptide or polysaccharide antigen via MHC class II, GO:0002504
+	L-amino acid transmembrane transporter activity, GO:0015179
+	L-amino acid transport, GO:0015807
+	neutral amino acid transport, GO:0015804
+	negative regulation of dendritic cell differentiation, GO:2001199
+phosphoric diester hydrolase activity, GO:0008081
+	phosphatidylinositol phospholipase C activity, GO:0004435
+	phospholipid catabolic process, GO:0009395
+	3', GO:0004114
+	phospholipase C activity, GO:0004629
+	cAMP catabolic process, GO:0006198
+	3', GO:0004115
+	gamma-aminobutyric acid signaling pathway, GO:0007214
+platelet aggregation, GO:0070527
+	melanosome organization, GO:0032438
+	sarcomere organization, GO:0045214
+	regulation of defense response to virus, GO:0050688
+	oxygen transporter activity, GO:0005344
+positive regulation of I-kappaB kinase/NF-kappaB signaling, GO:0043123
+	mitochondrial outer membrane, GO:0005741
+	positive regulation of NF-kappaB transcription factor activity, GO:0051092
+	tumor necrosis factor-mediated signaling pathway, GO:0033209
+	ubiquitin ligase complex, GO:0000151
+	ubiquitin binding, GO:0043130
+	I-kappaB kinase/NF-kappaB signaling, GO:0007249
+	defense response to virus, GO:0051607
+	apoptotic signaling pathway, GO:0097190
+	activation of cysteine-type endopeptidase activity involved in apoptotic process, GO:0006919
+	response to hypoxia, GO:0001666
+	response to lipopolysaccharide, GO:0032496
+	interferon-gamma-mediated signaling pathway, GO:0060333
+	protein autoubiquitination, GO:0051865
+	cellular response to lipopolysaccharide, GO:0071222
+	cysteine-type endopeptidase activity, GO:0004197
+	activation of protein kinase activity, GO:0032147
+	execution phase of apoptosis, GO:0097194
+	negative regulation of viral genome replication, GO:0045071
+	positive regulation of JNK cascade, GO:0046330
+	protein oligomerization, GO:0051259
+	positive regulation of angiogenesis, GO:0045766
+	cellular response to mechanical stimulus, GO:0071260
+	type I interferon signaling pathway, GO:0060337
+	response to virus, GO:0009615
+	protein K63-linked ubiquitination, GO:0070534
+	cytokine-mediated signaling pathway, GO:0019221
+	NF-kappaB binding, GO:0051059
+	animal organ morphogenesis, GO:0009887
+	negative regulation of NF-kappaB transcription factor activity, GO:0032088
+	positive regulation of B cell activation, GO:0050871
+	negative regulation of tumor necrosis factor production, GO:0032720
+	response to glucocorticoid, GO:0051384
+	positive regulation of protein catabolic process, GO:0045732
+	toll-like receptor signaling pathway, GO:0002224
+	extrinsic apoptotic signaling pathway, GO:0097191
+	regulation of mitochondrial membrane potential, GO:0051881
+	cytoplasmic side of plasma membrane, GO:0009898
+	cytokine production, GO:0001816
+	positive regulation of MAPK cascade, GO:0043410
+	cell death, GO:0008219
+	lipopolysaccharide-mediated signaling pathway, GO:0031663
+	T cell activation, GO:0042110
+	K63-linked polyubiquitin binding, GO:0070530
+	extrinsic apoptotic signaling pathway via death domain receptors, GO:0008625
+	SMAD binding, GO:0046332
+	palmitoyltransferase activity, GO:0016409
+	positive regulation of B cell proliferation, GO:0030890
+	negative regulation of extrinsic apoptotic signaling pathway, GO:2001237
+	positive regulation of release of cytochrome c from mitochondria, GO:0090200
+	positive regulation of inflammatory response, GO:0050729
+	positive regulation of interferon-gamma production, GO:0032729
+	RAGE receptor binding, GO:0050786
+	positive regulation of T cell proliferation, GO:0042102
+	tumor necrosis factor receptor binding, GO:0005164
+	cullin family protein binding, GO:0097602
+	protein-cysteine S-palmitoyltransferase activity, GO:0019706
+	transcriptional activator activity, GO:0001205
+	activation of JUN kinase activity, GO:0007257
+	cellular response to organic substance, GO:0071310
+	positive regulation of cell-matrix adhesion, GO:0001954
+	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress, GO:0070059
+	actin cytoskeleton reorganization, GO:0031532
+	positive regulation of transcription factor import into nucleus, GO:0042993
+	negative regulation of JNK cascade, GO:0046329
+	positive regulation of extrinsic apoptotic signaling pathway, GO:2001238
+	positive regulation of protein complex assembly, GO:0031334
+	establishment of protein localization to plasma membrane, GO:0090002
+	positive regulation of phosphatidylinositol 3-kinase signaling, GO:0014068
+	MAP kinase kinase kinase activity, GO:0004709
+	response to bacterium, GO:0009617
+	regulation of reactive oxygen species metabolic process, GO:2000377
+	tumor necrosis factor-activated receptor activity, GO:0005031
+	ossification, GO:0001503
+	metal ion transport, GO:0030001
+	positive regulation of interleukin-12 production, GO:0032735
+	positive regulation of defense response to virus by host, GO:0002230
+	negative regulation of extrinsic apoptotic signaling pathway in absence of ligand, GO:2001240
+	collagen trimer, GO:0005581
+	ubiquitin protein ligase activity involved in ERAD pathway, GO:1904264
+	negative regulation of growth of symbiont in host, GO:0044130
+	cysteine-type endopeptidase activator activity involved in apoptotic process, GO:0008656
+	mitogen-activated protein kinase kinase kinase binding, GO:0031435
+	regulation of innate immune response, GO:0045088
+	integral component of mitochondrial outer membrane, GO:0031307
+	negative regulation of reactive oxygen species metabolic process, GO:2000378
+	multivesicular body, GO:0005771
+	regulation of inflammatory response, GO:0050727
+	negative regulation of apoptotic signaling pathway, GO:2001234
+	positive regulation of interleukin-6 production, GO:0032755
+	positive regulation of interleukin-6 secretion, GO:2000778
+	defense response, GO:0006952
+	epithelial to mesenchymal transition, GO:0001837
+	anatomical structure morphogenesis, GO:0009653
+	negative regulation of insulin receptor signaling pathway, GO:0046627
+	positive regulation of endothelial cell proliferation, GO:0001938
+	cellular calcium ion homeostasis, GO:0006874
+	regulation of cytokine secretion, GO:0050707
+	negative regulation of inflammatory response, GO:0050728
+	protein kinase B signaling, GO:0043491
+	membrane protein intracellular domain proteolysis, GO:0031293
+	regulation of extrinsic apoptotic signaling pathway via death domain receptors, GO:1902041
+	fusion of virus membrane with host plasma membrane, GO:0019064
+	homeostasis of number of cells, GO:0048872
+	vacuolar transport, GO:0007034
+	cellular response to virus, GO:0098586
+	toll-like receptor 9 signaling pathway, GO:0034162
+	negative regulation of T cell proliferation, GO:0042130
+	positive regulation of cell division, GO:0051781
+	negative regulation of MAP kinase activity, GO:0043407
+	intrinsic apoptotic signaling pathway by p53 class mediator, GO:0072332
+	amyloid fibril formation, GO:1990000
+	negative regulation of fat cell differentiation, GO:0045599
+	positive regulation of interleukin-17 production, GO:0032740
+	positive regulation of interleukin-10 production, GO:0032733
+	negative regulation of extrinsic apoptotic signaling pathway via death domain receptors, GO:1902042
+	regulation of mitochondrion organization, GO:0010821
+	T cell proliferation, GO:0042098
+	response to interferon-beta, GO:0035456
+	immunoglobulin mediated immune response, GO:0016064
+	positive regulation of interleukin-2 production, GO:0032743
+	positive regulation of stress-activated MAPK cascade, GO:0032874
+	anoikis, GO:0043276
+	CD40 receptor complex, GO:0035631
+	B cell activation, GO:0042113
+	positive regulation of blood vessel diameter, GO:0097755
+	cellular response to lipoteichoic acid, GO:0071223
+	positive regulation of interleukin-1 beta secretion, GO:0050718
+	positive regulation of Rho protein signal transduction, GO:0035025
+	cellular response to exogenous dsRNA, GO:0071360
+	interleukin-1 beta secretion, GO:0050702
+	monocyte chemotaxis, GO:0002548
+	calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules, GO:0016339
+	extrinsic apoptotic signaling pathway in absence of ligand, GO:0097192
+	necroptotic process, GO:0070266
+	death receptor binding, GO:0005123
+	negative regulation of lipid catabolic process, GO:0050995
+	positive regulation of neuron differentiation, GO:0045666
+	positive regulation of interleukin-8 production, GO:0032757
+	negative regulation of endothelial cell proliferation, GO:0001937
+	mitochondrion localization, GO:0051646
+	positive regulation of mitochondrial fission, GO:0090141
+	activation of NF-kappaB-inducing kinase activity, GO:0007250
+	positive regulation of NF-kappaB import into nucleus, GO:0042346
+	cysteine-type endopeptidase activity involved in execution phase of apoptosis, GO:0097200
+	microglial cell activation, GO:0001774
+	positive regulation of interleukin-2 biosynthetic process, GO:0045086
+	response to muramyl dipeptide, GO:0032495
+	response to exogenous dsRNA, GO:0043330
+	early phagosome, GO:0032009
+	positive regulation of osteoclast differentiation, GO:0045672
+	positive regulation of ubiquitin-protein transferase activity, GO:0051443
+	chemokine-mediated signaling pathway, GO:0070098
+	intrinsic component of plasma membrane, GO:0031226
+	positive regulation of nitric-oxide synthase biosynthetic process, GO:0051770
+	ectopic germ cell programmed cell death, GO:0035234
+	positive regulation of neutrophil chemotaxis, GO:0090023
+	positive regulation of interferon-gamma biosynthetic process, GO:0045078
+	ion transmembrane transporter activity, GO:0015075
+	negative thymic T cell selection, GO:0045060
+	activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway, GO:0097296
+	death-inducing signaling complex assembly, GO:0071550
+	spleen development, GO:0048536
+	endothelial cell migration, GO:0043542
+	positive regulation of reactive oxygen species metabolic process, GO:2000379
+	I-kappaB phosphorylation, GO:0007252
+	cell activation, GO:0001775
+	protein kinase C activity, GO:0004697
+	lipopolysaccharide binding, GO:0001530
+	positive regulation of superoxide anion generation, GO:0032930
+	T-helper 1 type immune response, GO:0042088
+	mitochondrial outer membrane translocase complex, GO:0005742
+	CARD domain binding, GO:0050700
+	negative regulation of interleukin-8 secretion, GO:2000483
+	toll-like receptor 3 signaling pathway, GO:0034138
+	ripoptosome, GO:0097342
+	negative regulation by host of viral genome replication, GO:0044828
+	negative regulation of tumor necrosis factor-mediated signaling pathway, GO:0010804
+	response to tumor necrosis factor, GO:0034612
+	histone ubiquitination, GO:0016574
+	negative regulation of osteoclast differentiation, GO:0045671
+	positive regulation of chemokine production, GO:0032722
+	death-inducing signaling complex, GO:0031264
+	positive regulation of interleukin-8 secretion, GO:2000484
+	regulation of immunoglobulin secretion, GO:0051023
+	positive regulation of tumor necrosis factor-mediated signaling pathway, GO:1903265
+	magnesium ion transmembrane transporter activity, GO:0015095
+	positive regulation of p38MAPK cascade, GO:1900745
+	activation of cysteine-type endopeptidase activity, GO:0097202
+	positive regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process, GO:2000060
+	negative regulation of viral entry into host cell, GO:0046597
+	positive regulation of toll-like receptor 4 signaling pathway, GO:0034145
+	regulation of T cell activation, GO:0050863
+	positive regulation of interferon-beta biosynthetic process, GO:0045359
+	positive regulation of tumor necrosis factor secretion, GO:1904469
+	positive regulation of interferon-alpha secretion, GO:1902741
+	positive regulation of endothelial cell apoptotic process, GO:2000353
+	corpus callosum development, GO:0022038
+	negative regulation of interleukin-1 beta secretion, GO:0050713
+	magnesium ion transmembrane transport, GO:1903830
+	positive regulation of cytokine secretion, GO:0050715
+	positive regulation of cytokine production involved in inflammatory response, GO:1900017
+	positive regulation of cell motility, GO:2000147
+	negative regulation of viral transcription, GO:0032897
+	cytokine secretion, GO:0050663
+	positive regulation of alpha-beta T cell proliferation, GO:0046641
+	positive regulation of T cell cytokine production, GO:0002726
+	response to peptidoglycan, GO:0032494
+	positive regulation of endothelial cell chemotaxis, GO:2001028
+	regulation of protein homodimerization activity, GO:0043496
+	regulation of myeloid cell differentiation, GO:0045637
+	wound healing, GO:0044319
+	Toll-like receptor binding, GO:0035325
+	regulation of protein import into nucleus, GO:0042306
+	regulation of oxidative phosphorylation, GO:0002082
+	choline transport, GO:0015871
+	tissue development, GO:0009888
+	embryonic heart tube development, GO:0035050
+	lipopeptide binding, GO:0071723
+	protein trimerization, GO:0070206
+	atrial cardiac muscle cell action potential, GO:0086014
+	toll-like receptor 4 signaling pathway, GO:0034142
+	metalloendopeptidase inhibitor activity, GO:0008191
+	response to inorganic substance, GO:0010035
+	positive regulation of potassium ion transmembrane transport, GO:1901381
+	C-C chemokine receptor activity, GO:0016493
+	NLRP3 inflammasome complex, GO:0072559
+	CD95 death-inducing signaling complex, GO:0031265
+	necroptotic signaling pathway, GO:0097527
+	p38MAPK cascade, GO:0038066
+	response to cobalt ion, GO:0032025
+	LUBAC complex, GO:0071797
+	positive regulation of chondrocyte differentiation, GO:0032332
+	negative regulation of smooth muscle cell proliferation, GO:0048662
+	negative regulation of viral release from host cell, GO:1902187
+	negative regulation of innate immune response, GO:0045824
+	defense response to protozoan, GO:0042832
+	regulation of bone mineralization, GO:0030500
+	response to morphine, GO:0043278
+	positive regulation of release of sequestered calcium ion into cytosol, GO:0051281
+	negative regulation of protein catabolic process, GO:0042177
+	positive regulation of macrophage differentiation, GO:0045651
+	positive regulation of reactive oxygen species biosynthetic process, GO:1903428
+	positive regulation of T cell mediated cytotoxicity, GO:0001916
+positive regulation of axon extension, GO:0045773
+	regulation of establishment of cell polarity, GO:2000114
+	protein targeting to Golgi, GO:0000042
+	alpha-tubulin binding, GO:0043014
+	negative regulation of axon extension, GO:0030517
+	cellular process, GO:0009987
+	neuropilin binding, GO:0038191
+	morphogenesis of an epithelial sheet, GO:0002011
+positive regulation of protein targeting to mitochondrion, GO:1903955
+	phospholipid biosynthetic process, GO:0008654
+	protein K11-linked ubiquitination, GO:0070979
+	ubiquitin conjugating enzyme activity, GO:0061631
+	protein palmitoylation, GO:0018345
+	regulation of fat cell differentiation, GO:0045598
+	piRNA metabolic process, GO:0034587
+	cardiac left ventricle morphogenesis, GO:0003214
+	labyrinthine layer blood vessel development, GO:0060716
+	granulocyte differentiation, GO:0030851
+	phosphotransferase activity, GO:0016773
+	startle response, GO:0001964
+	neuronal stem cell population maintenance, GO:0097150
+	activation of transmembrane receptor protein tyrosine kinase activity, GO:0007171
+	muscle alpha-actinin binding, GO:0051371
+	cytochrome-b5 reductase activity, GO:0004128
+	embryonic camera-type eye development, GO:0031076
+	positive regulation of peptidyl-threonine phosphorylation, GO:0010800
+	pancreas development, GO:0031016
+	inner ear receptor stereocilium organization, GO:0060122
+	peripheral nervous system development, GO:0007422
+	structural molecule activity conferring elasticity, GO:0097493
+	regulation of systemic arterial blood pressure, GO:0003073
+	pituitary gland development, GO:0021983
+	proteoglycan binding, GO:0043394
+	muscle myosin complex, GO:0005859
+protein C-terminus binding, GO:0008022
+	actin filament binding, GO:0051015
+	transcription initiation from RNA polymerase II promoter, GO:0006367
+	rhythmic process, GO:0048511
+	protein N-terminus binding, GO:0047485
+	peroxisome, GO:0005777
+	protein complex assembly, GO:0006461
+	transcription factor complex, GO:0005667
+	kinase binding, GO:0019900
+	peptidyl-tyrosine phosphorylation, GO:0018108
+	cell-cell junction, GO:0005911
+	response to oxidative stress, GO:0006979
+	positive regulation of type I interferon production, GO:0032481
+	protein tyrosine kinase activity, GO:0004713
+	response to organic cyclic compound, GO:0014070
+	histone deacetylase binding, GO:0042826
+	positive regulation of cell migration, GO:0030335
+	transcription cofactor activity, GO:0003712
+	bicellular tight junction, GO:0005923
+	transcription factor TFIID complex, GO:0005669
+	cytoskeletal protein binding, GO:0008092
+	actin filament organization, GO:0007015
+	hemopoiesis, GO:0030097
+	protein phosphatase binding, GO:0019903
+	cellular response to hypoxia, GO:0071456
+	peroxisomal membrane, GO:0005778
+	ion channel binding, GO:0044325
+	basement membrane, GO:0005604
+	cell-cell adherens junction, GO:0005913
+	negative regulation of cell death, GO:0060548
+	transcriptional repressor complex, GO:0017053
+	response to organic substance, GO:0010033
+	negative regulation of cell growth, GO:0030308
+	protein heterooligomerization, GO:0051291
+	integrin binding, GO:0005178
+	beta-catenin binding, GO:0008013
+	multivesicular body assembly, GO:0036258
+	response to estradiol, GO:0032355
+	negative regulation of I-kappaB kinase/NF-kappaB signaling, GO:0043124
+	protein-DNA complex, GO:0032993
+	movement of cell or subcellular component, GO:0006928
+	positive regulation of sequence-specific DNA binding transcription factor activity, GO:0051091
+	androgen receptor signaling pathway, GO:0030521
+	scaffold protein binding, GO:0097110
+	negative regulation of neuron apoptotic process, GO:0043524
+	lung development, GO:0030324
+	cell adhesion molecule binding, GO:0050839
+	thymus development, GO:0048538
+	glucose homeostasis, GO:0042593
+	cellular response to glucose starvation, GO:0042149
+	embryonic organ development, GO:0048568
+	positive regulation of cysteine-type endopeptidase activity involved in apoptotic process, GO:0043280
+	protein self-association, GO:0043621
+	actin filament, GO:0005884
+	cortical actin cytoskeleton, GO:0030864
+	non-membrane spanning protein tyrosine kinase activity, GO:0004715
+	response to estrogen, GO:0043627
+	post-embryonic development, GO:0009791
+	peptidyl-tyrosine autophosphorylation, GO:0038083
+	regulation of molecular function, GO:0065009
+	T-tubule, GO:0030315
+	learning, GO:0007612
+	regulation of protein localization, GO:0032880
+	telomeric DNA binding, GO:0042162
+	T cell costimulation, GO:0031295
+	ciliary tip, GO:0097542
+	wound healing, GO:0042060
+	histone H4 acetylation, GO:0043967
+	sarcolemma, GO:0042383
+	estrogen receptor binding, GO:0030331
+	potassium ion transport, GO:0006813
+	protein kinase C binding, GO:0005080
+	repressing transcription factor binding, GO:0070491
+	fat cell differentiation, GO:0045444
+	substrate adhesion-dependent cell spreading, GO:0034446
+	cell-matrix adhesion, GO:0007160
+	core promoter sequence-specific DNA binding, GO:0001046
+	response to wounding, GO:0009611
+	immunological synapse, GO:0001772
+	response to antibiotic, GO:0046677
+	positive regulation of actin filament polymerization, GO:0030838
+	nuclear euchromatin, GO:0005719
+	cellular response to growth factor stimulus, GO:0071363
+	adherens junction organization, GO:0034332
+	viral budding via host ESCRT complex, GO:0039702
+	extracellular vesicle, GO:1903561
+	dendrite development, GO:0016358
+	negative regulation of ERK1 and ERK2 cascade, GO:0070373
+	sensory perception of sound, GO:0007605
+	response to hydrogen peroxide, GO:0042542
+	regulation of cardiac conduction, GO:1903779
+	dorsal/ventral pattern formation, GO:0009953
+	neuron differentiation, GO:0030182
+	response to interferon-gamma, GO:0034341
+	negative regulation of DNA binding, GO:0043392
+	protease binding, GO:0002020
+	platelet formation, GO:0030220
+	intracellular steroid hormone receptor signaling pathway, GO:0030518
+	response to interleukin-1, GO:0070555
+	regulation of cell motility, GO:2000145
+	nucleus organization, GO:0006997
+	T cell differentiation in thymus, GO:0033077
+	protein phosphatase 1 binding, GO:0008157
+	response to cAMP, GO:0051591
+	cellular response to epidermal growth factor stimulus, GO:0071364
+	cell separation after cytokinesis, GO:0000920
+	positive regulation of cell death, GO:0010942
+	ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway, GO:0043162
+	negative regulation of sequence-specific DNA binding transcription factor activity, GO:0043433
+	cellular senescence, GO:0090398
+	JAK-STAT cascade, GO:0007259
+	positive regulation of phosphorylation, GO:0042327
+	beta-catenin destruction complex, GO:0030877
+	RNA polymerase II transcription factor binding, GO:0001085
+	regulation of exocytosis, GO:0017157
+	intraciliary transport particle B, GO:0030992
+	response to retinoic acid, GO:0032526
+	S100 protein binding, GO:0044548
+	positive regulation of protein serine/threonine kinase activity, GO:0071902
+	receptor localization to synapse, GO:0097120
+	ESCRT III complex disassembly, GO:1904903
+	drug binding, GO:0008144
+	positive regulation of epithelial to mesenchymal transition, GO:0010718
+	cellular response to peptide, GO:1901653
+	mitochondrial calcium ion transmembrane transport, GO:0006851
+	filamentous actin, GO:0031941
+	receptor clustering, GO:0043113
+	social behavior, GO:0035176
+	positive regulation of epithelial cell proliferation, GO:0050679
+	neurotransmitter secretion, GO:0007269
+	axonogenesis, GO:0007409
+	embryonic forelimb morphogenesis, GO:0035115
+	GMP metabolic process, GO:0046037
+	negative regulation of cell adhesion, GO:0007162
+	response to immobilization stress, GO:0035902
+	signal complex assembly, GO:0007172
+	cortical actin cytoskeleton organization, GO:0030866
+	positive regulation of exosomal secretion, GO:1903543
+	positive regulation by host of viral transcription, GO:0043923
+	positive regulation of protein sumoylation, GO:0033235
+	positive regulation of dendritic spine development, GO:0060999
+	bHLH transcription factor binding, GO:0043425
+	glycosaminoglycan catabolic process, GO:0006027
+	excitatory synapse, GO:0060076
+	cell periphery, GO:0071944
+	actin filament bundle assembly, GO:0051017
+	regulation of angiogenesis, GO:0045765
+	recombinase activity, GO:0000150
+	positive regulation of neurogenesis, GO:0050769
+	glutamate secretion, GO:0014047
+	positive regulation of peptidase activity, GO:0010952
+	positive regulation of protein targeting to membrane, GO:0090314
+	ionotropic glutamate receptor binding, GO:0035255
+	cellular response to reactive oxygen species, GO:0034614
+	establishment or maintenance of epithelial cell apical/basal polarity, GO:0045197
+	placenta development, GO:0001890
+	regulation of NMDA receptor activity, GO:2000310
+	positive regulation of excitatory postsynaptic potential, GO:2000463
+	UV protection, GO:0009650
+	intercalated disc, GO:0014704
+	positive regulation of T cell activation, GO:0050870
+	glucocorticoid receptor binding, GO:0035259
+	RNA polymerase II transcription coactivator activity, GO:0001105
+	GDP metabolic process, GO:0046710
+	guanylate kinase activity, GO:0004385
+	metanephros development, GO:0001656
+	activating transcription factor binding, GO:0033613
+	response to ischemia, GO:0002931
+	hematopoietic stem cell differentiation, GO:0060218
+	growth factor binding, GO:0019838
+	ureteric bud development, GO:0001657
+	locomotory behavior, GO:0007626
+	enzyme linked receptor protein signaling pathway, GO:0007167
+	lung morphogenesis, GO:0060425
+	peroxisome organization, GO:0007031
+	Flemming body, GO:0090543
+	positive regulation of viral release from host cell, GO:1902188
+	positive regulation of insulin secretion, GO:0032024
+	negative regulation of sequestering of triglyceride, GO:0010891
+	cellular response to peptide hormone stimulus, GO:0071375
+	laminin binding, GO:0043236
+	RNA polymerase II activating transcription factor binding, GO:0001102
+	skin development, GO:0043588
+	response to electrical stimulus, GO:0051602
+	ionotropic glutamate receptor complex, GO:0008328
+	dendrite membrane, GO:0032590
+	integral component of peroxisomal membrane, GO:0005779
+	bone resorption, GO:0045453
+	response to fatty acid, GO:0070542
+	hydrolase activity, GO:0016817
+	protein targeting to peroxisome, GO:0006625
+	protein localization to synapse, GO:0035418
+	UV-damage excision repair, GO:0070914
+	cGMP-mediated signaling, GO:0019934
+	cell motility, GO:0048870
+	strand invasion, GO:0042148
+	modulation by virus of host process, GO:0019054
+	macrophage derived foam cell differentiation, GO:0010742
+	catenin complex, GO:0016342
+	positive regulation of pathway-restricted SMAD protein phosphorylation, GO:0010862
+	Gemini of coiled bodies, GO:0097504
+	voltage-gated calcium channel activity, GO:0005245
+	response to amino acid, GO:0043200
+	secretory granule, GO:0030141
+	myeloid cell differentiation, GO:0030099
+	lateral plasma membrane, GO:0016328
+	positive regulation of transcription from RNA polymerase II promoter in response to endoplasmic reticulum stress, GO:1990440
+	apicolateral plasma membrane, GO:0016327
+	small protein activating enzyme activity, GO:0008641
+	cellular response to fluid shear stress, GO:0071498
+	regulation of stress-activated MAPK cascade, GO:0032872
+	phosphatidylinositol 3-kinase binding, GO:0043548
+	oogenesis, GO:0048477
+	positive regulation of nitric-oxide synthase activity, GO:0051000
+	embryonic viscerocranium morphogenesis, GO:0048703
+	negative regulation of macrophage derived foam cell differentiation, GO:0010745
+	positive regulation of transforming growth factor beta receptor signaling pathway, GO:0030511
+	dendritic spine membrane, GO:0032591
+	vocalization behavior, GO:0071625
+	microvillus membrane, GO:0031528
+	positive regulation of synaptic transmission, GO:0051968
+	embryonic hindlimb morphogenesis, GO:0035116
+	regulation of heart contraction, GO:0008016
+	establishment of planar polarity, GO:0001736
+	cellular sodium ion homeostasis, GO:0006883
+	negative regulation of phagocytosis, GO:0050765
+	negative regulation of oxidative stress-induced neuron death, GO:1903204
+	negative regulation of endothelial cell apoptotic process, GO:2000352
+	placenta blood vessel development, GO:0060674
+	negative regulation of receptor internalization, GO:0002091
+	spinal cord development, GO:0021510
+	cellular response to interferon-gamma, GO:0071346
+	respiratory burst, GO:0045730
+	SUMO transferase activity, GO:0019789
+	B cell differentiation, GO:0030183
+	regulation of calcium ion transport, GO:0051924
+	MMXD complex, GO:0071817
+	somatic recombination of immunoglobulin gene segments, GO:0016447
+	response to hydroperoxide, GO:0033194
+	cAMP response element binding protein binding, GO:0008140
+	core TFIIH complex, GO:0000439
+	positive regulation of lipopolysaccharide-mediated signaling pathway, GO:0031666
+	ubiquitin-protein transferase activator activity, GO:0097027
+	erythrocyte maturation, GO:0043249
+	cytoskeletal anchoring at plasma membrane, GO:0007016
+	positive regulation of axonogenesis, GO:0050772
+	nucleotide-activated protein kinase complex, GO:0031588
+	armadillo repeat domain binding, GO:0070016
+	long-term synaptic potentiation, GO:0060291
+	AMP-activated protein kinase activity, GO:0004679
+	relaxation of cardiac muscle, GO:0055119
+	viral budding, GO:0046755
+	positive regulation of interleukin-8 biosynthetic process, GO:0045416
+	negative regulation of osteoblast differentiation, GO:0045668
+	calcium channel regulator activity, GO:0005246
+	fibronectin binding, GO:0001968
+	alpha-actinin binding, GO:0051393
+	potassium ion import, GO:0010107
+	mesoderm development, GO:0007498
+	DNA N-glycosylase activity, GO:0019104
+	cell fate determination, GO:0001709
+	HMG box domain binding, GO:0071837
+	plasma membrane organization, GO:0007009
+	synaptic vesicle exocytosis, GO:0016079
+	carnitine shuttle, GO:0006853
+	membrane repolarization, GO:0086009
+	regulation of receptor activity, GO:0010469
+	branching involved in ureteric bud morphogenesis, GO:0001658
+	regulation of myelination, GO:0031641
+	sympathetic ganglion development, GO:0061549
+	nuclear telomere cap complex, GO:0000783
+	telomere maintenance via telomere lengthening, GO:0010833
+	transcription cofactor binding, GO:0001221
+	co-SMAD binding, GO:0070410
+	mammary gland alveolus development, GO:0060749
+	arachidonic acid binding, GO:0050544
+	thioredoxin peroxidase activity, GO:0008379
+	small protein activating enzyme binding, GO:0044388
+	positive regulation of regulated secretory pathway, GO:1903307
+	positive regulation of phagocytosis, GO:0060100
+	spectrin-associated cytoskeleton, GO:0014731
+	peroxiredoxin activity, GO:0051920
+	depyrimidination, GO:0045008
+	protein tag, GO:0031386
+	actin monomer binding, GO:0003785
+	blood vessel endothelial cell migration, GO:0043534
+	positive regulation of potassium ion transport, GO:0043268
+	regulation of energy homeostasis, GO:2000505
+	response to molecule of bacterial origin, GO:0002237
+	postsynaptic density membrane, GO:0098839
+	chondrocyte proliferation, GO:0035988
+	positive regulation of G-protein coupled receptor protein signaling pathway, GO:0045745
+	LBD domain binding, GO:0050693
+	establishment of protein localization to telomere, GO:0070200
+	trachea formation, GO:0060440
+	negative regulation of cholesterol storage, GO:0010887
+	proteolysis in other organism, GO:0035897
+	response to sucrose, GO:0009744
+	cytoskeletal adaptor activity, GO:0008093
+	I-SMAD binding, GO:0070411
+	IkappaB kinase complex, GO:0008385
+	tissue homeostasis, GO:0001894
+	transcriptional activator activity, GO:0001190
+	DNA binding, GO:0008301
+	peroxisome proliferator activated receptor signaling pathway, GO:0035357
+	filamin binding, GO:0031005
+	protein polymerization, GO:0051258
+protein autophosphorylation, GO:0046777
+	regulation of mitotic cell cycle, GO:0007346
+	calmodulin binding, GO:0005516
+	positive regulation of neuron projection development, GO:0010976
+	cellular response to oxidative stress, GO:0034599
+	aging, GO:0007568
+	transmembrane receptor protein tyrosine kinase signaling pathway, GO:0007169
+	negative regulation of protein kinase activity, GO:0006469
+	cellular response to insulin stimulus, GO:0032869
+	integrin-mediated signaling pathway, GO:0007229
+	signal transduction by protein phosphorylation, GO:0023014
+	interleukin-7-mediated signaling pathway, GO:0038111
+	cellular response to amino acid starvation, GO:0034198
+	collagen binding, GO:0005518
+	positive regulation of cell cycle, GO:0045787
+	erythrocyte differentiation, GO:0030218
+	stress-activated protein kinase signaling cascade, GO:0031098
+	sphingolipid biosynthetic process, GO:0030148
+	regulation of phosphatidylinositol 3-kinase signaling, GO:0014066
+	vesicle membrane, GO:0012506
+	transmembrane receptor protein tyrosine kinase activity, GO:0004714
+	calcium ion transport, GO:0006816
+	cellular response to calcium ion, GO:0071277
+	sarcoplasmic reticulum, GO:0016529
+	positive regulation of neuron apoptotic process, GO:0043525
+	skeletal system morphogenesis, GO:0048705
+	long-term memory, GO:0007616
+	perikaryon, GO:0043204
+	bone mineralization, GO:0030282
+	heart morphogenesis, GO:0003007
+	calcium-mediated signaling, GO:0019722
+	hippocampus development, GO:0021766
+	phosphatidylinositol-4, GO:0046934
+	protein kinase activator activity, GO:0030295
+	cellular response to retinoic acid, GO:0071300
+	regulation of sequence-specific DNA binding transcription factor activity, GO:0051090
+	positive regulation of Wnt signaling pathway, GO:0030177
+	JAK-STAT cascade involved in growth hormone signaling pathway, GO:0060397
+	response to axon injury, GO:0048678
+	programmed cell death, GO:0012501
+	protein tetramerization, GO:0051262
+	embryonic cranial skeleton morphogenesis, GO:0048701
+	male meiotic nuclear division, GO:0007140
+	positive regulation of endothelial cell migration, GO:0010595
+	regulation of axonogenesis, GO:0050770
+	negative regulation of anoikis, GO:2000811
+	microvillus, GO:0005902
+	sprouting angiogenesis, GO:0002040
+	calmodulin-dependent protein kinase activity, GO:0004683
+	MAP kinase kinase activity, GO:0004708
+	positive regulation of calcium ion transport, GO:0051928
+	positive regulation of vascular endothelial growth factor production, GO:0010575
+	detection of temperature stimulus involved in sensory perception of pain, GO:0050965
+	focal adhesion assembly, GO:0048041
+	visual learning, GO:0008542
+	regulation of focal adhesion assembly, GO:0051893
+	pre-autophagosomal structure membrane, GO:0034045
+	vasculogenesis, GO:0001570
+	blood vessel morphogenesis, GO:0048514
+	cytokine binding, GO:0019955
+	MAP kinase activity, GO:0004707
+	positive regulation of dendrite morphogenesis, GO:0050775
+	activation of MAPKKK activity, GO:0000185
+	JUN kinase binding, GO:0008432
+	regulation of sodium ion transport, GO:0002028
+	regulation of mast cell degranulation, GO:0043304
+	endochondral ossification, GO:0001958
+	activin binding, GO:0048185
+	axon extension, GO:0048675
+	definitive hemopoiesis, GO:0060216
+	macrophage differentiation, GO:0030225
+	positive regulation of focal adhesion assembly, GO:0051894
+	cell fate commitment, GO:0045165
+	positive regulation of Notch signaling pathway, GO:0045747
+	cell-substrate adhesion, GO:0031589
+	signal transducer, GO:0004702
+	cerebellum development, GO:0021549
+	endothelial cell proliferation, GO:0001935
+	negative regulation of axonogenesis, GO:0050771
+	regulation of dendrite morphogenesis, GO:0048814
+	outer ear morphogenesis, GO:0042473
+	digestive tract development, GO:0048565
+	regulation of cytoskeleton organization, GO:0051493
+	collagen-activated tyrosine kinase receptor signaling pathway, GO:0038063
+	embryonic hemopoiesis, GO:0035162
+	mesodermal cell differentiation, GO:0048333
+	cell migration involved in sprouting angiogenesis, GO:0002042
+	regulation of calcium-mediated signaling, GO:0050848
+	neuronal cell body membrane, GO:0032809
+	embryo implantation, GO:0007566
+	regulation of adaptive immune response, GO:0002819
+	cellular response to cytokine stimulus, GO:0071345
+	lens fiber cell differentiation, GO:0070306
+	positive regulation of mast cell degranulation, GO:0043306
+	endosome lumen, GO:0031904
+	cellular response to interleukin-3, GO:0036016
+	insulin binding, GO:0043559
+	mast cell granule, GO:0042629
+	positive regulation of synapse assembly, GO:0051965
+	titin binding, GO:0031432
+	axonal fasciculation, GO:0007413
+	embryonic digestive tract morphogenesis, GO:0048557
+	transmembrane receptor protein serine/threonine kinase activity, GO:0004675
+	positive regulation of cellular extravasation, GO:0002693
+	type B pancreatic cell development, GO:0003323
+	insulin-like growth factor I binding, GO:0031994
+	positive regulation of synapse maturation, GO:0090129
+	cardiac muscle contraction, GO:0060048
+	platelet-derived growth factor binding, GO:0048407
+	secretion by cell, GO:0032940
+	feeding behavior, GO:0007631
+	negative regulation of potassium ion transmembrane transport, GO:1901380
+	germ cell migration, GO:0008354
+	cellular response to cold, GO:0070417
+	lymphangiogenesis, GO:0001946
+	regulation of mitochondrial membrane permeability involved in apoptotic process, GO:1902108
+	positive regulation of calcium-mediated signaling, GO:0050850
+	transmembrane receptor protein serine/threonine kinase signaling pathway, GO:0007178
+	positive regulation of calcium ion import, GO:0090280
+	lymph vessel development, GO:0001945
+	neuron projection guidance, GO:0097485
+	MAP kinase kinase kinase kinase activity, GO:0008349
+	platelet-derived growth factor receptor binding, GO:0005161
+	positive regulation of myotube differentiation, GO:0010831
+	leukotriene biosynthetic process, GO:0019370
+	cardiac myofibril assembly, GO:0055003
+protein folding, GO:0006457
+	ficolin-1-rich granule lumen, GO:1904813
+	protein stabilization, GO:0050821
+	macroautophagy, GO:0016236
+	isomerase activity, GO:0016853
+	secretory granule lumen, GO:0034774
+	melanosome, GO:0042470
+	chaperone binding, GO:0051087
+	ubiquitin-dependent ERAD pathway, GO:0030433
+	unfolded protein binding, GO:0051082
+	response to endoplasmic reticulum stress, GO:0034976
+	endoplasmic reticulum-Golgi intermediate compartment, GO:0005793
+	response to unfolded protein, GO:0006986
+	interleukin-12-mediated signaling pathway, GO:0035722
+	positive regulation of protein ubiquitination, GO:0031398
+	cell body, GO:0044297
+	cell redox homeostasis, GO:0045454
+	positive regulation of ATPase activity, GO:0032781
+	response to stress, GO:0006950
+	endoplasmic reticulum unfolded protein response, GO:0030968
+	Hsp70 protein binding, GO:0030544
+	negative regulation of neuron projection development, GO:0010977
+	chaperone-mediated protein folding, GO:0061077
+	antigen processing and presentation of peptide antigen via MHC class I, GO:0002474
+	retrograde protein transport, GO:0030970
+	Wnt signaling pathway, GO:0007223
+	protein binding, GO:0030674
+	phosphatidylcholine biosynthetic process, GO:0006656
+	ATPase activator activity, GO:0001671
+	polyubiquitin binding, GO:0031593
+	Hsp90 protein binding, GO:0051879
+	PcG protein complex, GO:0031519
+	ATP metabolic process, GO:0046034
+	apoptotic mitochondrial changes, GO:0008637
+	protein localization to cell surface, GO:0034394
+	ERAD pathway, GO:0036503
+	lipid particle organization, GO:0034389
+	Derlin-1 retrotranslocation complex, GO:0036513
+	DNA polymerase binding, GO:0070182
+	protein disulfide isomerase activity, GO:0003756
+	protein import into mitochondrial matrix, GO:0030150
+	protein binding involved in protein folding, GO:0044183
+	ER-associated misfolded protein catabolic process, GO:0071712
+	developmental process, GO:0032502
+	smooth endoplasmic reticulum, GO:0005790
+	protein disulfide oxidoreductase activity, GO:0015035
+	ubiquitin-specific protease binding, GO:1990381
+	response to cold, GO:0009409
+	FK506 binding, GO:0005528
+	protein localization to nucleus, GO:0034504
+	negative regulation of cysteine-type endopeptidase activity involved in apoptotic process, GO:0043154
+	dolichol-linked oligosaccharide biosynthetic process, GO:0006488
+	integral component of lumenal side of endoplasmic reticulum membrane, GO:0071556
+	cell, GO:0005623
+	GTPase activating protein binding, GO:0032794
+	protein deglycosylation, GO:0006517
+	response to testosterone, GO:0033574
+	chaperone-mediated protein complex assembly, GO:0051131
+	protein metabolic process, GO:0019538
+	ATPase activity, GO:0042623
+	ubiquitin-ubiquitin ligase activity, GO:0034450
+	endoplasmic reticulum chaperone complex, GO:0034663
+	protein folding in endoplasmic reticulum, GO:0034975
+	cytosolic proteasome complex, GO:0031597
+	heterotrimeric G-protein complex, GO:0005834
+	protein kinase regulator activity, GO:0019887
+	nuclear proteasome complex, GO:0031595
+	cellular protein complex assembly, GO:0043623
+	positive regulation of protein localization to Cajal body, GO:1904871
+	gonad development, GO:0008406
+	glycoprotein catabolic process, GO:0006516
+	positive regulation of viral entry into host cell, GO:0046598
+	signal recognition particle, GO:0048500
+	prefoldin complex, GO:0016272
+	Tat protein binding, GO:0030957
+	regulation of blood pressure, GO:0008217
+	'de novo' protein folding, GO:0006458
+	zona pellucida receptor complex, GO:0002199
+	L-fucose catabolic process, GO:0042355
+	positive regulation of multicellular organism growth, GO:0040018
+	regulation of type I interferon-mediated signaling pathway, GO:0060338
+	VCP-NPL4-UFD1 AAA ATPase complex, GO:0034098
+	protein heterotrimerization, GO:0070208
+	negative regulation of JUN kinase activity, GO:0043508
+	hormone activity, GO:0005179
+	protein retention in ER lumen, GO:0006621
+	retina development in camera-type eye, GO:0060041
+	proteasome binding, GO:0070628
+	regulation of stress fiber assembly, GO:0051492
+	regulation of interferon-gamma-mediated signaling pathway, GO:0060334
+	cellular response to prostaglandin E stimulus, GO:0071380
+	adenyl-nucleotide exchange factor activity, GO:0000774
+	cGMP biosynthetic process, GO:0006182
+	chaperone cofactor-dependent protein refolding, GO:0070389
+	G-protein coupled acetylcholine receptor signaling pathway, GO:0007213
+	sphingosine biosynthetic process, GO:0046512
+	transforming growth factor beta binding, GO:0050431
+	positive regulation of interferon-alpha production, GO:0032727
+	oxidoreductase activity, GO:0016671
+	acetylcholine receptor binding, GO:0033130
+	proteasome-activating ATPase activity, GO:0036402
+	alpha-(1->3)-fucosyltransferase activity, GO:0046920
+	chaperonin-containing T-complex, GO:0005832
+	regulation of peptidyl-tyrosine phosphorylation, GO:0050730
+	signal recognition particle receptor complex, GO:0005785
+	collagen metabolic process, GO:0032963
+	regulation of cGMP metabolic process, GO:0030823
+	R2TP complex, GO:0097255
+	peptide disulfide oxidoreductase activity, GO:0015037
+	negative regulation of adenylate cyclase activity, GO:0007194
+	L-ascorbic acid binding, GO:0031418
+	inclusion body, GO:0016234
+	regulation of smooth muscle cell proliferation, GO:0048660
+	vesicle fusion with endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membrane, GO:1990668
+	K48-linked polyubiquitin binding, GO:0036435
+	binding of sperm to zona pellucida, GO:0007339
+	positive regulation of phosphoprotein phosphatase activity, GO:0032516
+protein glycosylation, GO:0006486
+	integral component of endoplasmic reticulum membrane, GO:0030176
+	Golgi cisterna membrane, GO:0032580
+	hydrolase activity, GO:0016798
+	cis-Golgi network, GO:0005801
+	manganese ion binding, GO:0030145
+	protein N-linked glycosylation, GO:0006487
+	protein O-linked glycosylation, GO:0006493
+	integral component of Golgi membrane, GO:0030173
+	GPI anchor biosynthetic process, GO:0006506
+	protein N-linked glycosylation via asparagine, GO:0018279
+	glycosaminoglycan metabolic process, GO:0030203
+	acetylglucosaminyltransferase activity, GO:0008375
+	glycosaminoglycan biosynthetic process, GO:0006024
+	keratan sulfate biosynthetic process, GO:0018146
+	mesoderm formation, GO:0001707
+	rough endoplasmic reticulum, GO:0005791
+	Golgi transport complex, GO:0017119
+	O-glycan processing, GO:0016266
+	protein localization to organelle, GO:0033365
+	galactosyltransferase activity, GO:0008378
+	fucosylation, GO:0036065
+	gastrulation, GO:0007369
+	oligosaccharyltransferase complex, GO:0008250
+	polypeptide N-acetylgalactosaminyltransferase activity, GO:0004653
+	memory, GO:0007613
+	heparan sulfate proteoglycan biosynthetic process, GO:0015012
+	dolichyl-diphosphooligosaccharide-protein glycotransferase activity, GO:0004579
+	prenyltransferase activity, GO:0004659
+	fucosyltransferase activity, GO:0008417
+	protein O-linked mannosylation, GO:0035269
+	sialyltransferase activity, GO:0008373
+	amyloid-beta metabolic process, GO:0050435
+	N-glycan processing, GO:0006491
+	sialylation, GO:0097503
+	lung alveolus development, GO:0048286
+	mannosyltransferase activity, GO:0000030
+	oligosaccharide metabolic process, GO:0009311
+	Notch signaling involved in heart development, GO:0061314
+	carbohydrate biosynthetic process, GO:0016051
+	protein O-linked fucosylation, GO:0036066
+	fucose metabolic process, GO:0006004
+	mannosylation, GO:0097502
+	Notch receptor processing, GO:0007220
+	regulation of resting membrane potential, GO:0060075
+	beta-galactoside (CMP) alpha-2, GO:0003836
+	amyloid precursor protein catabolic process, GO:0042987
+	alpha-mannosidase activity, GO:0004559
+	beta-N-acetylglucosaminylglycopeptide beta-1, GO:0003831
+	protein targeting to ER, GO:0045047
+	dystrophin-associated glycoprotein complex, GO:0016010
+	glycosphingolipid biosynthetic process, GO:0006688
+	mannosyl-oligosaccharide 1, GO:0004571
+	magnesium ion transport, GO:0015693
+	mannose metabolic process, GO:0006013
+	alpha-N-acetylgalactosaminide alpha-2, GO:0001665
+	respiratory gaseous exchange, GO:0007585
+	positive regulation of organ growth, GO:0046622
+protein transporter activity, GO:0008565
+	Ran GTPase binding, GO:0008536
+	protein targeting to mitochondrion, GO:0006626
+	axon cytoplasm, GO:1904115
+	NLS-bearing protein import into nucleus, GO:0006607
+	anterograde axonal transport, GO:0008089
+	coreceptor activity, GO:0015026
+	anterograde synaptic vesicle transport, GO:0048490
+	apoptotic DNA fragmentation, GO:0006309
+	GTPase regulator activity, GO:0030695
+	endoplasmic reticulum tubular network, GO:0071782
+	cardiac septum development, GO:0003279
+	cotranslational protein targeting to membrane, GO:0006613
+	maternal process involved in female pregnancy, GO:0060135
+	renal system development, GO:0072001
+	cAMP biosynthetic process, GO:0006171
+	chaperone-mediated protein transport, GO:0072321
+rRNA transcription, GO:0009303
+	5S class rRNA transcription from RNA polymerase III type 1 promoter, GO:0042791
+	tRNA transcription from RNA polymerase III promoter, GO:0042797
+	transcription factor TFIIIC complex, GO:0000127
+regulation of intracellular estrogen receptor signaling pathway, GO:0033146
+	peripheral nervous system neuron development, GO:0048935
+regulation of mRNA stability, GO:0043488
+	regulation of hematopoietic stem cell differentiation, GO:1902036
+	proteasome complex, GO:0000502
+	regulation of transcription from RNA polymerase II promoter in response to hypoxia, GO:0061418
+	P-body, GO:0000932
+	negative regulation of canonical Wnt signaling pathway, GO:0090090
+	antigen processing and presentation of exogenous peptide antigen via MHC class I, GO:0002479
+	regulation of cellular amino acid metabolic process, GO:0006521
+	endopeptidase activity, GO:0004175
+	protein export from nucleus, GO:0006611
+	RNA phosphodiester bond hydrolysis, GO:0090503
+	proteolysis involved in cellular protein catabolic process, GO:0051603
+	nuclear localization sequence binding, GO:0008139
+	proteasome accessory complex, GO:0022624
+	proteasome regulatory particle, GO:0005838
+	exosome (RNase complex), GO:0000178
+	proteasome core complex, GO:0005839
+	3'-5'-exoribonuclease activity, GO:0000175
+	cellular response to transforming growth factor beta stimulus, GO:0071560
+	threonine-type endopeptidase activity, GO:0004298
+	proteasome regulatory particle, GO:0008540
+	positive regulation of mRNA catabolic process, GO:0061014
+	protein import into nucleus, GO:0000060
+	regulation of G1/S transition of mitotic cell cycle, GO:2000045
+	14-3-3 protein binding, GO:0071889
+	mRNA catabolic process, GO:0006402
+	poly(A)-specific ribonuclease activity, GO:0004535
+	nuclear exosome (RNase complex), GO:0000176
+	positive regulation of blood vessel endothelial cell migration, GO:0043536
+	3'-UTR-mediated mRNA destabilization, GO:0061158
+	somatic stem cell division, GO:0048103
+	regulation of protein catabolic process, GO:0042176
+	embryonic morphogenesis, GO:0048598
+	proteasome core complex, GO:0019774
+	positive regulation of proteasomal protein catabolic process, GO:1901800
+	AU-rich element binding, GO:0017091
+	positive regulation of tumor necrosis factor biosynthetic process, GO:0042535
+	blastocyst development, GO:0001824
+	negative regulation of smooth muscle cell migration, GO:0014912
+	nuclear mRNA surveillance, GO:0071028
+	positive regulation of glucose import in response to insulin stimulus, GO:2001275
+	cellular response to vascular endothelial growth factor stimulus, GO:0035924
+	nitric oxide biosynthetic process, GO:0006809
+	regulation of stem cell population maintenance, GO:2000036
+	positive regulation of cellular protein metabolic process, GO:0032270
+	mRNA 3'-UTR AU-rich region binding, GO:0035925
+	posttranscriptional regulation of gene expression, GO:0010608
+	deadenylation-dependent decapping of nuclear-transcribed mRNA, GO:0000290
+	proteasome core complex, GO:0019773
+	regulation of neuron projection development, GO:0010975
+	cytoplasmic exosome (RNase complex), GO:0000177
+	nuclear-transcribed mRNA catabolic process, GO:0034427
+	calcium-dependent protein serine/threonine kinase activity, GO:0009931
+	uracil DNA N-glycosylase activity, GO:0004844
+	negative regulation of insulin secretion, GO:0046676
+	regulation of myotube differentiation, GO:0010830
+	DNA demethylation, GO:0080111
+ribosome biogenesis, GO:0042254
+	fibrillar center, GO:0001650
+	small-subunit processome, GO:0032040
+	ATPase binding, GO:0051117
+	negative regulation of protein ubiquitination, GO:0031397
+	snoRNA binding, GO:0030515
+	preribosome, GO:0030687
+	pseudouridine synthesis, GO:0001522
+	positive regulation of interferon-beta production, GO:0032728
+	preribosome, GO:0030688
+	endoribonuclease activity, GO:0004521
+	positive regulation of telomerase RNA localization to Cajal body, GO:1904874
+	nuclear export, GO:0051168
+	histone demethylase activity (H3-K36 specific), GO:0051864
+	histone H3-K36 demethylation, GO:0070544
+	TFIID-class transcription factor binding, GO:0001094
+	ribonucleoprotein granule, GO:0035770
+	RNA polymerase binding, GO:0070063
+	positive regulation of transcription from RNA polymerase I promoter, GO:0045943
+	ribosomal large subunit export from nucleus, GO:0000055
+	negative regulation of protein complex assembly, GO:0031333
+	blastocyst formation, GO:0001825
+	rRNA catabolic process, GO:0016075
+	positive regulation of establishment of protein localization to telomere, GO:1904851
+	stem cell division, GO:0017145
+	pre-snoRNP complex, GO:0070761
+	cellular response to zinc ion, GO:0071294
+	histone H3-K4 demethylation, GO:0034720
+	nuclear export signal receptor activity, GO:0005049
+	stress granule assembly, GO:0034063
+	regulation of cellular respiration, GO:0043457
+	RNA polymerase I CORE element sequence-specific DNA binding, GO:0001164
+	trophectodermal cell differentiation, GO:0001829
+	positive regulation of rRNA processing, GO:2000234
+	endonucleolytic cleavage in 5'-ETS of tricistronic rRNA transcript (SSU-rRNA, GO:0000480
+	histone demethylase activity (H3-K4 specific), GO:0032453
+	regulation of transcription from RNA polymerase I promoter, GO:0006356
+	regulation of aerobic respiration, GO:1903715
+	box H/ACA snoRNA binding, GO:0034513
+	rRNA pseudouridine synthesis, GO:0031118
+	box H/ACA snoRNP complex, GO:0031429
+	negative regulation of defense response to virus, GO:0050687
+	DEAD/H-box RNA helicase binding, GO:0017151
+	protein localization to cytoplasmic stress granule, GO:1903608
+	negative regulation of RIG-I signaling pathway, GO:0039536
+	regulation of axon extension, GO:0030516
+	negative regulation of amyloid precursor protein biosynthetic process, GO:0042985
+	positive regulation of dendritic cell chemotaxis, GO:2000510
+	T cell mediated immunity, GO:0002456
+	negative regulation of cell-cell adhesion, GO:0022408
+	GTP metabolic process, GO:0046039
+	negative regulation of phosphatidylinositol 3-kinase signaling, GO:0014067
+	negative regulation of interleukin-12 production, GO:0032695
+	bone marrow development, GO:0048539
+	negative regulation of protein sumoylation, GO:0033234
+	hyaluronic acid binding, GO:0005540
+specific granule membrane, GO:0035579
+	electron carrier activity, GO:0009055
+	metalloendopeptidase activity, GO:0004222
+	regulation of ion transmembrane transport, GO:0034765
+	anchored component of membrane, GO:0031225
+	voltage-gated ion channel activity, GO:0005244
+	endodermal cell differentiation, GO:0035987
+	carbohydrate transport, GO:0008643
+	ceramide biosynthetic process, GO:0046513
+	integrin complex, GO:0008305
+	heterotypic cell-cell adhesion, GO:0034113
+	regulation of insulin secretion, GO:0050796
+	platelet alpha granule membrane, GO:0031092
+	phagocytosis, GO:0006911
+	NAD metabolic process, GO:0019674
+	nitric oxide mediated signal transduction, GO:0007263
+	natural killer cell activation, GO:0030101
+	superoxide metabolic process, GO:0006801
+	protein maturation, GO:0051604
+	unsaturated fatty acid biosynthetic process, GO:0006636
+	lipid storage, GO:0019915
+	cation channel activity, GO:0005261
+	synaptic transmission, GO:0007271
+	aldehyde dehydrogenase (NAD) activity, GO:0004029
+	aldo-keto reductase (NADP) activity, GO:0004033
+	positive chemotaxis, GO:0050918
+	cell adhesion mediated by integrin, GO:0033627
+	N-acylphosphatidylethanolamine-specific phospholipase D activity, GO:0070290
+	peptide transport, GO:0015833
+	filopodium membrane, GO:0031527
+	attachment of GPI anchor to protein, GO:0016255
+	negative regulation of vascular permeability, GO:0043116
+	regulation of potassium ion transmembrane transport, GO:1901379
+	negative regulation of T cell receptor signaling pathway, GO:0050860
+	glucose transmembrane transporter activity, GO:0005355
+	ethanol catabolic process, GO:0006068
+	aldehyde dehydrogenase [NAD(P)+] activity, GO:0004030
+	positive regulation of monocyte chemotaxis, GO:0090026
+spliceosomal complex, GO:0005681
+	helicase activity, GO:0004386
+	catalytic step 2 spliceosome, GO:0071013
+	mRNA export from nucleus, GO:0006406
+	mRNA binding, GO:0003729
+	RNA processing, GO:0006396
+	mRNA transport, GO:0051028
+	termination of RNA polymerase II transcription, GO:0006369
+	nuclear matrix, GO:0016363
+	mRNA 3'-end processing, GO:0031124
+	RNA metabolic process, GO:0016070
+	ATP-dependent RNA helicase activity, GO:0004004
+	Cajal body, GO:0015030
+	RNA export from nucleus, GO:0006405
+	RNA splicing, GO:0000375
+	osteoblast differentiation, GO:0001649
+	spliceosomal complex assembly, GO:0000245
+	U12-type spliceosomal complex, GO:0005689
+	RNA secondary structure unwinding, GO:0010501
+	protein methylation, GO:0006479
+	exonucleolytic nuclear-transcribed mRNA catabolic process involved in deadenylation-dependent decay, GO:0043928
+	spliceosomal snRNP assembly, GO:0000387
+	fibroblast growth factor receptor signaling pathway, GO:0008543
+	ribonucleoprotein complex binding, GO:0043021
+	viral nucleocapsid, GO:0019013
+	U4/U6 x U5 tri-snRNP complex, GO:0046540
+	positive regulation of viral genome replication, GO:0045070
+	exon-exon junction complex, GO:0035145
+	regulation of mitophagy, GO:1903146
+	androgen receptor binding, GO:0050681
+	regulation of alternative mRNA splicing, GO:0000381
+	regulation of RNA splicing, GO:0043484
+	maturation of SSU-rRNA, GO:0030490
+	telomerase holoenzyme complex, GO:0005697
+	mRNA 3'-UTR binding, GO:0003730
+	precatalytic spliceosome, GO:0071011
+	small nuclear ribonucleoprotein complex, GO:0030532
+	nuclear hormone receptor binding, GO:0035257
+	peptidyl-prolyl cis-trans isomerase activity, GO:0003755
+	protein peptidyl-prolyl isomerization, GO:0000413
+	single-stranded RNA binding, GO:0003727
+	U2 snRNP, GO:0005686
+	nuclear-transcribed mRNA catabolic process, GO:0000956
+	negative regulation of mRNA splicing, GO:0048025
+	positive regulation of mRNA splicing, GO:0048026
+	telomerase RNA binding, GO:0070034
+	U2-type prespliceosome, GO:0071004
+	negative regulation of telomere maintenance via telomerase, GO:0032211
+	nuclear import, GO:0051170
+	U1 snRNP, GO:0005685
+	U5 snRNP, GO:0005682
+	SMN-Sm protein complex, GO:0034719
+	U6 snRNA binding, GO:0017070
+	Prp19 complex, GO:0000974
+	mRNA splice site selection, GO:0006376
+	alternative mRNA splicing, GO:0000380
+	pre-mRNA binding, GO:0036002
+	methylosome, GO:0034709
+	cytoplasmic ribonucleoprotein granule, GO:0036464
+	positive regulation of RNA splicing, GO:0033120
+	negative regulation of proteasomal ubiquitin-dependent protein catabolic process, GO:0032435
+	RNA catabolic process, GO:0006401
+	spliceosomal tri-snRNP complex assembly, GO:0000244
+	DNA replication factor A complex, GO:0005662
+	histone mRNA metabolic process, GO:0008334
+	RNA helicase activity, GO:0003724
+	cellular response to tumor necrosis factor, GO:0071356
+	poly(U) RNA binding, GO:0008266
+	C2H2 zinc finger domain binding, GO:0070742
+	negative regulation of nucleic acid-templated transcription, GO:1903507
+	U4 snRNP, GO:0005687
+	G-rich strand telomeric DNA binding, GO:0098505
+	viral mRNA export from host cell nucleus, GO:0046784
+	box C/D snoRNP assembly, GO:0000492
+	chaperone mediated protein folding requiring cofactor, GO:0051085
+	positive regulation of DNA damage response, GO:0043517
+	cytoplasmic mRNA processing body assembly, GO:0033962
+	leucine zipper domain binding, GO:0043522
+	mRNA destabilization, GO:0061157
+	positive regulation of production of miRNAs involved in gene silencing by miRNA, GO:1903800
+	poly(A) binding, GO:0008143
+	maturation of 5.8S rRNA, GO:0000460
+	U4 snRNA binding, GO:0030621
+	U6 snRNP, GO:0005688
+	small nucleolar ribonucleoprotein complex, GO:0005732
+	U2-type spliceosomal complex, GO:0005684
+	DNA-templated transcription, GO:0006353
+	RNA stem-loop binding, GO:0035613
+	snRNA binding, GO:0017069
+	positive regulation of nuclear-transcribed mRNA poly(A) tail shortening, GO:0060213
+	transcription corepressor binding, GO:0001222
+	cellular response to brain-derived neurotrophic factor stimulus, GO:1990416
+	negative regulation of protein dephosphorylation, GO:0035308
+	pre-mRNA intronic binding, GO:0097157
+	protein kinase B binding, GO:0043422
+	commitment complex, GO:0000243
+	Ral GTPase binding, GO:0017160
+	histone monoubiquitination, GO:0010390
+	protein refolding, GO:0042026
+	N6-methyladenosine-containing RNA binding, GO:1990247
+	enhancer binding, GO:0035326
+	RS domain binding, GO:0050733
+	mRNA cis splicing, GO:0045292
+	U2 snRNA binding, GO:0030620
+	G-quadruplex DNA unwinding, GO:0044806
+	histone pre-mRNA 3'end processing complex, GO:0071204
+	poly(G) binding, GO:0034046
+	RNA polymerase II core binding, GO:0000993
+	positive regulation of DNA-templated transcription, GO:0032786
+	cellular response to interferon-beta, GO:0035458
+	response to vitamin E, GO:0033197
+	myoblast differentiation, GO:0045445
+	U7 snRNP, GO:0005683
+	fibroblast growth factor binding, GO:0017134
+	positive regulation of DNA biosynthetic process, GO:2000573
+	Lsm1-7-Pat1 complex, GO:1990726
+	prespliceosome, GO:0071010
+	negative regulation of RNA splicing, GO:0033119
+	positive regulation of DNA topoisomerase (ATP-hydrolyzing) activity, GO:2000373
+	U1 snRNA binding, GO:0030619
+	transcription factor activity, GO:0001135
+	regulation of protein complex stability, GO:0061635
+	U2AF, GO:0089701
+	pre-mRNA 3'-splice site binding, GO:0030628
+	intracellular estrogen receptor signaling pathway, GO:0030520
+	positive regulation of astrocyte differentiation, GO:0048711
+	negative regulation of toll-like receptor signaling pathway, GO:0034122
+	U3 snoRNA binding, GO:0034511
+	mRNA 3'-splice site recognition, GO:0000389
+	pICln-Sm protein complex, GO:0034715
+	mRNA 5'-splice site recognition, GO:0000395
+	paraspeckles, GO:0042382
+	CRD-mediated mRNA stability complex, GO:0070937
+	box C/D snoRNP complex, GO:0031428
+	positive regulation of intracellular estrogen receptor signaling pathway, GO:0033148
+	positive regulation of nuclear-transcribed mRNA catabolic process, GO:1900153
+	positive regulation of G1/S transition of mitotic cell cycle, GO:1900087
+	regulation of T cell proliferation, GO:0042129
+structural constituent of muscle, GO:0008307
+	calcium ion transport into cytosol, GO:0060402
+	skeletal muscle contraction, GO:0003009
+	3M complex, GO:1990393
+	sarcoplasm, GO:0016528
+tRNA 5'-leader removal, GO:0001682
+	ribonuclease P activity, GO:0004526
+	ribonuclease activity, GO:0004540
+	multimeric ribonuclease P complex, GO:0030681
+	nucleolar ribonuclease P complex, GO:0005655
+	ribonuclease MRP complex, GO:0000172
+	tRNA 3'-end processing, GO:0042780
+thiol-dependent ubiquitin-specific protease activity, GO:0004843
+	cysteine-type peptidase activity, GO:0008234
+	thiol-dependent ubiquitinyl hydrolase activity, GO:0036459
+	metallopeptidase activity, GO:0008237
+	protein deneddylation, GO:0000338
+	protein K11-linked deubiquitination, GO:0035871
+	Lys48-specific deubiquitinase activity, GO:1990380
+	lateral ventricle development, GO:0021670
+	locomotor rhythm, GO:0045475
+	endopeptidase inhibitor activity, GO:0004866
+	negative regulation of macrophage activation, GO:0043031
+transcription elongation from RNA polymerase II promoter, GO:0006368
+	positive regulation of gene expression, GO:0045815
+	snRNA transcription from RNA polymerase II promoter, GO:0042795
+	DNA-directed 5'-3' RNA polymerase activity, GO:0003899
+	DNA-templated transcription, GO:0006352
+	transcription from RNA polymerase III promoter, GO:0006383
+	transcription initiation from RNA polymerase I promoter, GO:0006361
+	MLL1 complex, GO:0071339
+	histone acetyltransferase activity, GO:0004402
+	histone acetyltransferase complex, GO:0000123
+	thyroid hormone receptor binding, GO:0046966
+	positive regulation of viral transcription, GO:0050434
+	translational elongation, GO:0006414
+	somatic stem cell population maintenance, GO:0035019
+	mRNA polyadenylation, GO:0006378
+	TBP-class protein binding, GO:0017025
+	positive regulation of cell growth, GO:0030307
+	DNA-directed RNA polymerase III complex, GO:0005666
+	translation elongation factor activity, GO:0003746
+	RNA polymerase III activity, GO:0001056
+	transcription elongation factor complex, GO:0008023
+	DNA-directed RNA polymerase II, GO:0005665
+	DNA-directed RNA polymerase I complex, GO:0005736
+	vitamin D receptor binding, GO:0042809
+	RNA polymerase I activity, GO:0001054
+	transcriptionally active chromatin, GO:0035327
+	RNA polymerase II transcriptional preinitiation complex assembly, GO:0051123
+	proteasome regulatory particle, GO:0008541
+	proteasome assembly, GO:0043248
+	RNA polymerase II activity, GO:0001055
+	transcription factor TFTC complex, GO:0033276
+	negative regulation of myeloid cell differentiation, GO:0045638
+	STAGA complex, GO:0030914
+	nucleosome binding, GO:0031491
+	regulation of transcription from RNA polymerase III promoter, GO:0006359
+	SAGA complex, GO:0000124
+	histone deubiquitination, GO:0016578
+	positive regulation of transcription elongation from RNA polymerase II promoter, GO:0032968
+	nuclear-transcribed mRNA catabolic process, GO:0000288
+	elongin complex, GO:0070449
+	positive regulation of endopeptidase activity, GO:0010950
+	regulation of mRNA processing, GO:0050684
+	negative regulation of mRNA polyadenylation, GO:1900364
+	negative regulation of epithelial cell proliferation involved in prostate gland development, GO:0060770
+	cellular response to ATP, GO:0071318
+	negative regulation of stem cell differentiation, GO:2000737
+	transcription from RNA polymerase I promoter, GO:0006360
+	aryl hydrocarbon receptor binding, GO:0017162
+	mRNA cleavage, GO:0006379
+	poly(A)+ mRNA export from nucleus, GO:0016973
+	Elongator holoenzyme complex, GO:0033588
+	endopeptidase activator activity, GO:0061133
+	pre-mRNA cleavage required for polyadenylation, GO:0098789
+	histone H2B ubiquitination, GO:0033523
+	negative regulation of cysteine-type endopeptidase activity, GO:2000117
+	LRR domain binding, GO:0030275
+	snRNA transcription from RNA polymerase III promoter, GO:0042796
+	central nervous system myelination, GO:0022010
+	positive regulation of B cell differentiation, GO:0045579
+transcriptional repressor activity, GO:0001078
+	kidney development, GO:0001822
+	aggresome, GO:0016235
+	transcription factor activity, GO:0000982
+	gamete generation, GO:0007276
+	neuromuscular process controlling posture, GO:0050884
+	positive regulation of BMP signaling pathway, GO:0030513
+	venous blood vessel morphogenesis, GO:0048845
+	lymphocyte differentiation, GO:0030098
+	negative regulation of calcium ion-dependent exocytosis, GO:0045955
+translational initiation, GO:0006413
+	structural constituent of ribosome, GO:0003735
+	viral transcription, GO:0019083
+	nuclear-transcribed mRNA catabolic process, GO:0000184
+	SRP-dependent cotranslational protein targeting to membrane, GO:0006614
+	regulation of translation, GO:0006417
+	cytosolic large ribosomal subunit, GO:0022625
+	translation initiation factor activity, GO:0003743
+	rRNA binding, GO:0019843
+	cytosolic small ribosomal subunit, GO:0022627
+	ribosome binding, GO:0043022
+	ribosomal large subunit biogenesis, GO:0042273
+	DNA damage response, GO:0042769
+	cytoplasmic stress granule, GO:0010494
+	positive regulation of translation, GO:0045727
+	polysome, GO:0005844
+	regulation of translational initiation, GO:0006446
+	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, GO:0000462
+	negative regulation of translation, GO:0017148
+	small ribosomal subunit, GO:0015935
+	nucleotide-excision repair, GO:0000715
+	error-prone translesion synthesis, GO:0042276
+	cytoplasmic translation, GO:0002181
+	nucleotide-excision repair, GO:0006297
+	endoplasmic reticulum quality control compartment, GO:0044322
+	ribosomal large subunit assembly, GO:0000027
+	error-free translesion synthesis, GO:0070987
+	ribosomal small subunit biogenesis, GO:0042274
+	myelination, GO:0042552
+	translation factor activity, GO:0008135
+	response to glucose, GO:0009749
+	nuclear-transcribed mRNA poly(A) tail shortening, GO:0000289
+	MyD88-dependent toll-like receptor signaling pathway, GO:0002755
+	eukaryotic translation initiation factor 3 complex, GO:0005852
+	glycogen biosynthetic process, GO:0005978
+	endoplasmic reticulum mannose trimming, GO:1904380
+	formation of translation preinitiation complex, GO:0001731
+	stress-activated MAPK cascade, GO:0051403
+	Notch signaling pathway, GO:0007219
+	negative regulation of epidermal growth factor receptor signaling pathway, GO:0042059
+	large ribosomal subunit, GO:0015934
+	nucleotide-binding oligomerization domain containing signaling pathway, GO:0070423
+	translation initiation factor binding, GO:0031369
+	mitotic cell cycle checkpoint, GO:0007093
+	mRNA 5'-UTR binding, GO:0048027
+	liver regeneration, GO:0097421
+	ERBB2 signaling pathway, GO:0038128
+	virion assembly, GO:0019068
+	response to peptide hormone, GO:0043434
+	IRES-dependent viral translational initiation, GO:0075522
+	TOR signaling, GO:0031929
+	response to heat, GO:0009408
+	regulation of necroptotic process, GO:0060544
+	ribosomal small subunit binding, GO:0043024
+	positive regulation of NIK/NF-kappaB signaling, GO:1901224
+	90S preribosome, GO:0030686
+	mRNA cap binding complex, GO:0005845
+	positive regulation of translational initiation, GO:0045948
+	regulation of type I interferon production, GO:0032479
+	eukaryotic 43S preinitiation complex, GO:0016282
+	eukaryotic 48S preinitiation complex, GO:0033290
+	entry of bacterium into host cell, GO:0035635
+	positive regulation of transcription from RNA polymerase III promoter, GO:0045945
+	miRNA binding, GO:0035198
+	negative regulation of autophagy, GO:0010507
+	endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, GO:0000447
+	ribosomal small subunit assembly, GO:0000028
+	positive regulation of epidermal growth factor receptor signaling pathway, GO:0045742
+	negative regulation of protein ubiquitination involved in ubiquitin-dependent protein catabolic process, GO:2000059
+	translational termination, GO:0006415
+	maturation of LSU-rRNA, GO:0000470
+	positive regulation of T cell receptor signaling pathway, GO:0050862
+	ribosomal large subunit binding, GO:0043023
+	ribosome disassembly, GO:0032790
+	production of siRNA involved in RNA interference, GO:0030422
+	RNA 7-methylguanosine cap binding, GO:0000340
+	miRNA mediated inhibition of translation, GO:0035278
+	exit from mitosis, GO:0010458
+	pre-miRNA processing, GO:0031054
+	small ribosomal subunit rRNA binding, GO:0070181
+	ribosomal protein import into nucleus, GO:0006610
+	maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, GO:0000463
+	mRNA stabilization, GO:0048255
+	eukaryotic translation initiation factor 3 complex, GO:0071541
+	oligodendrocyte development, GO:0014003
+	RISC complex, GO:0016442
+	siRNA binding, GO:0035197
+	RNA cap binding, GO:0000339
+	TORC2 complex, GO:0031932
+	MyD88-independent toll-like receptor signaling pathway, GO:0002756
+	negative regulation of translational initiation, GO:0045947
+	NEDD8-specific protease activity, GO:0019784
+	regulation of translational fidelity, GO:0006450
+	regulation of JNK cascade, GO:0046328
+	TORC1 complex, GO:0031931
+	supercoiled DNA binding, GO:0097100
+	viral translational termination-reinitiation, GO:0075525
+	ribosome assembly, GO:0042255
+	cellular metabolic process, GO:0044237
+	behavioral fear response, GO:0001662
+	retinal ganglion cell axon guidance, GO:0031290
+	positive regulation of cellular component movement, GO:0051272
+	production of miRNAs involved in gene silencing by miRNA, GO:0035196
+	posttranscriptional gene silencing by RNA, GO:0035194
+	middle ear morphogenesis, GO:0042474
+	PERK-mediated unfolded protein response, GO:0036499
+	cellular response to interleukin-4, GO:0071353
+	astrocyte development, GO:0014002
+	transcription coactivator binding, GO:0001223
+	erythrocyte homeostasis, GO:0034101
+	acute inflammatory response, GO:0002526
+	ribosomal small subunit export from nucleus, GO:0000056
+	dosage compensation by inactivation of X chromosome, GO:0009048
+	micro-ribonucleoprotein complex, GO:0035068
+	polysomal ribosome, GO:0042788
+	eukaryotic translation initiation factor 4F complex, GO:0016281
+	ovarian follicle development, GO:0001541
+	negative regulation of peptidyl-threonine phosphorylation, GO:0010801
+	positive regulation of energy homeostasis, GO:2000507
+	positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage, GO:1902231
+	TORC1 signaling, GO:0038202
+	transcription initiation from RNA polymerase III promoter, GO:0006384
+	eukaryotic translation initiation factor 2B complex, GO:0005851
+	cellular response to dexamethasone stimulus, GO:0071549
+	5S rRNA binding, GO:0008097
+type I interferon receptor binding, GO:0005132
+	positive regulation of peptidyl-serine phosphorylation of STAT protein, GO:0033141
+ubiquitin conjugating enzyme binding, GO:0031624
+	phosphatidylserine binding, GO:0001786
+	phospholipase binding, GO:0043274
+	ionotropic glutamate receptor signaling pathway, GO:0035235
+	ionotropic glutamate receptor activity, GO:0004970
+	extracellular-glutamate-gated ion channel activity, GO:0005234
+xenobiotic metabolic process, GO:0006805
+	glutathione metabolic process, GO:0006749
+	glutathione peroxidase activity, GO:0004602
+	carboxylic ester hydrolase activity, GO:0052689
+	exogenous drug catabolic process, GO:0042738
+	negative regulation of smooth muscle cell chemotaxis, GO:0071672
+	cellular response to histamine, GO:0071420
+	glutathione transferase activity, GO:0004364
+	omega-hydroxylase P450 pathway, GO:0097267
+	sulfation, GO:0051923
+	arachidonic acid epoxygenase activity, GO:0008392
+	drug catabolic process, GO:0042737
+	dipeptidyl-peptidase activity, GO:0008239
