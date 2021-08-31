@@ -155,23 +155,23 @@ def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Projects/Dec
     return data
 
 
-def merge_stbl_data(data=None):
-    # Extract and merge experssion data for 6 AML cell lines:
-    if data==None:
-        data = load_data(comparisons=True)
-    S_gene_names = data['hl60']['delta_stbl'].set_index('ensembl_id')[['gene_name']]
-    S1 = data['hl60']['delta_stbl'].set_index('ensembl_id')[['logFC_120h','P.Value_120h']].rename(columns={
-        'logFC_120h':'logFC',
-        'P.Value_120h':'pval'}).add_prefix('hl60.')
-    S2, S3, S4, S5, S6 = [
-        data[cell_line]['delta_stbl'].set_index('ensembl_id').loc[
-            S1.index,
-            ['logFC','P.Value']].rename(columns={'P.Value':'pval'}).add_prefix(cell_line+'.') 
-        for cell_line in data if cell_line != 'hl60']
+# def merge_stbl_data(data=None):
+#     # Extract and merge experssion data for 6 AML cell lines:
+#     if data==None:
+#         data = load_data(comparisons=True)
+#     S_gene_names = data['hl60']['delta_stbl'].set_index('ensembl_id')[['gene_name']]
+#     S1 = data['hl60']['delta_stbl'].set_index('ensembl_id')[['logFC_120h','P.Value_120h']].rename(columns={
+#         'logFC_120h':'logFC',
+#         'P.Value_120h':'pval'}).add_prefix('hl60.')
+#     S2, S3, S4, S5, S6 = [
+#         data[cell_line]['delta_stbl'].set_index('ensembl_id').loc[
+#             S1.index,
+#             ['logFC','P.Value']].rename(columns={'P.Value':'pval'}).add_prefix(cell_line+'.') 
+#         for cell_line in data if cell_line != 'hl60']
 
-    stbl_df = pd.concat((S_gene_names, S1,S2,S3,S4,S5,S6),axis=1)
-    # stbl_df.to_csv('delta_stability.txt',sep='\t')
-    return stbl_df
+#     stbl_df = pd.concat((S_gene_names, S1,S2,S3,S4,S5,S6),axis=1)
+#     # stbl_df.to_csv('delta_stability.txt',sep='\t')
+#     return stbl_df
     
     
 def merge_exp_data(data=None):    
@@ -179,38 +179,39 @@ def merge_exp_data(data=None):
     if data==None:
         data = load_data(comparisons=True)
     E_gene_names = data['hl60']['delta_exp'].set_index('gene_id')[['gene_name']]
+    # Using 72h HL60 RNA-seq samples (based on experiment design) 
     E1 = data['hl60']['delta_exp'].set_index('gene_id')[
-        ['log2FC_120h','pval_120h']].rename(columns={"log2FC_120h": "log2FC", "pval_120h": "pval"}).add_prefix('hl60.')
+        ['log2FC_72h','pval_72h']].rename(columns={"log2FC_72h": "log2FC", "pval_72h": "pval"}).add_prefix('hl60.')
     E2, E3, E4, E5, E6 = [
         data[cell_line]['delta_exp'].set_index('gene_id').loc[
             E1.index,
             ['log2FoldChange','pvalue']].rename(columns={'log2FoldChange':'log2FC','pvalue':'pval'}
         ).add_prefix(cell_line+'.') for cell_line in data if cell_line != 'hl60']
-
+    
     exp_df = pd.concat((E_gene_names, E1,E2,E3,E4,E5,E6),axis=1)
     # exp_df.to_csv('delta_expression.txt',sep='\t')
     return exp_df
 
 
-def set_Top_Stbl(fc_thr, pv_thr, cell_lines='hl60',data=None):
-    print ('Subset Top Stbl data frame:')
-    stbl_df = merge_stbl_data(data).set_index('gene_name')
-    cell_lines = cell_lines.split(',')
+# def set_Top_Stbl(fc_thr, pv_thr, cell_lines='hl60',data=None):
+#     print ('Subset Top Stbl data frame:')
+#     stbl_df = merge_stbl_data(data).set_index('gene_name')
+#     cell_lines = cell_lines.split(',')
     
-    out = []
-    for cl in cell_lines:
-        dic = {}
-        dic['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
-        df = stbl_df.filter(like=cl)
-
-        dic['up'], dic['down'] = find_top(df, f'{cl}.logFC', fc_thr,f'{cl}.pval', pv_thr)
-
-        print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}) in {cl} cell line')
-        out.append(dic)
-    if len(out) == 1: 
-        return out[0]
-    else: 
-        return out
+#     out = []
+#     for cl in cell_lines:
+#         dic = {}
+#         dic['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
+#         df = stbl_df.filter(like=cl)
+    
+#         dic['up'], dic['down'] = find_top(df, f'{cl}.logFC', fc_thr,f'{cl}.pval', pv_thr)
+    
+#         print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}) in {cl} cell line')
+#         out.append(dic)
+#     if len(out) == 1: 
+#         return out[0]
+#     else: 
+#         return out
 
 
 def set_Top_Exp(fc_thr, pv_thr, cell_lines='hl60',data=None):
@@ -224,13 +225,13 @@ def set_Top_Exp(fc_thr, pv_thr, cell_lines='hl60',data=None):
         dic = {}
         dic['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
         df = exp_df.filter(like=cl)
-
+    
         dic['up'], dic['down'] = find_top(
             df, 
             f'{cl}.log2FC', fc_thr,
             f'{cl}.pval', pv_thr
         )
-
+    
         print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}) in {cl} cell line')
         out.append(dic)
     if len(out) == 1: 
