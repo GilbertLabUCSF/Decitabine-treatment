@@ -25,8 +25,6 @@ https://doi.org/10.1016/j.cell.2012.05.003
 
 __Results from [`FIRE`](https://github.com/goodarzilab/FIRE)__ shown above indicate that the known m6A site **RGAC** (`[AG]GAC`) are significantly enriched among methylations sites predicted by `exomepeak`. Althogh, the other known motif, **DRACH** (`[AGT][AG]AC[ACT]`) didn't enrich. 
 
-<img src=fire/motifs_of_interest.png style="width:1100px">
-
 # Drug-induced methylation enrichment analysis 
 https://github.com/goodarzilab/PAGE
 
