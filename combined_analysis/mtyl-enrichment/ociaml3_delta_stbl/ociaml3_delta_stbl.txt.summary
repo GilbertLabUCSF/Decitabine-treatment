@@ -1,0 +1,3 @@
+index	location	motif-seq	motif_structure	mi-value	seq mi-value	frequency	z-score	robustness	p-value
+Hyper-methylated geneset	location	family	structure	0.003781	0	0.15	2.4659999999999997	0/10	<2.140000e-02
+Hypo-methylated geneset	location	family	structure	0.0033369999999999997	0	0.12	1.9769999999999999	1/10	<4.830000e-02

@@ -1,0 +1,422 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (molm14_delta_stbl.txt.summary.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Wed Sep 29 07:09:24 2021
+%%For: abe
+%%Orientation: Portrait
+%%BoundingBox: 0 0 996 259
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+/box {
+  newpath 3 copy pop exch 4 copy pop pop
+  8 copy pop pop pop pop exch pop exch
+  3 copy pop pop exch moveto lineto
+  lineto lineto pop pop pop pop closepath
+} bind def
+%%EndResource
+%%EndProlog
+0.5 u setlinewidth
+0 0 0 setrgbcolor
+60 ux 195 uy 71 ux 165 uy box fill
+1 1 1 setrgbcolor
+newpath
+71 ux 195 uy moveto
+71 ux 165 uy lineto stroke
+0.8 0 0 setrgbcolor
+60 ux 172.809917355372 uy 71 ux 165 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+68.25 ux 195 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+71 ux 195 uy 82 ux 165 uy box fill
+1 1 1 setrgbcolor
+newpath
+82 ux 195 uy moveto
+82 ux 165 uy lineto stroke
+0.8 0 0 setrgbcolor
+71 ux 180.247933884298 uy 82 ux 172.809917355372 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+79.25 ux 195 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+82 ux 195 uy 93 ux 165 uy box fill
+1 1 1 setrgbcolor
+newpath
+93 ux 195 uy moveto
+93 ux 165 uy lineto stroke
+0.8 0 0 setrgbcolor
+82 ux 180.619834710744 uy 93 ux 180.247933884298 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+90.25 ux 195 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+93 ux 195 uy 104 ux 165 uy box fill
+1 1 1 setrgbcolor
+newpath
+104 ux 195 uy moveto
+104 ux 165 uy lineto stroke
+0.8 0 0 setrgbcolor
+93 ux 180.619834710744 uy 104 ux 180.619834710744 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+101.25 ux 195 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+104 ux 195 uy 115 ux 165 uy box fill
+1 1 1 setrgbcolor
+newpath
+115 ux 195 uy moveto
+115 ux 165 uy lineto stroke
+0.8 0 0 setrgbcolor
+104 ux 180.99173553719 uy 115 ux 180.619834710744 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+112.25 ux 195 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+115 ux 195 uy 126 ux 165 uy box fill
+1 1 1 setrgbcolor
+newpath
+126 ux 195 uy moveto
+126 ux 165 uy lineto stroke
+0.8 0 0 setrgbcolor
+115 ux 187.809917355372 uy 126 ux 180.99173553719 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+123.25 ux 195 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0 0 0 setrgbcolor
+126 ux 195 uy 137 ux 165 uy box fill
+1 1 1 setrgbcolor
+newpath
+137 ux 195 uy moveto
+137 ux 165 uy lineto stroke
+0.8 0 0 setrgbcolor
+126 ux 195 uy 137 ux 187.809917355372 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 6 scalefont setfont
+newpath
+134.25 ux 195 uy moveto
+()  90 rotate   show stroke  -90 rotate 
+0.5 u setlinewidth
+1 1 1 setrgbcolor
+newpath
+71 ux 195 uy moveto
+71 ux 165 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+82 ux 195 uy moveto
+82 ux 165 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+93 ux 195 uy moveto
+93 ux 165 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+104 ux 195 uy moveto
+104 ux 165 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+115 ux 195 uy moveto
+115 ux 165 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+126 ux 195 uy moveto
+126 ux 165 uy lineto stroke
+1 1 1 setrgbcolor
+newpath
+137 ux 195 uy moveto
+137 ux 165 uy lineto stroke
+/Arial findfont 8 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+59 ux 191 uy moveto
+(1.16)   dup stringwidth pop neg 0 rmoveto show 
+newpath
+59 ux 164 uy moveto
+(-1.26)   dup stringwidth pop neg 0 rmoveto show 
+0 0 0 setrgbcolor
+/Arial findfont 8 scalefont setfont
+/Arial findfont 9 scalefont setfont
+0 0 0 setrgbcolor
+newpath
+152 ux 167.5 uy moveto
+(MI \(bits\))  45 rotate   show stroke  -45 rotate 
+newpath
+202 ux 167.5 uy moveto
+(frequency)  45 rotate   show stroke  -45 rotate 
+newpath
+252 ux 167.5 uy moveto
+(z-score)  45 rotate   show stroke  -45 rotate 
+newpath
+302 ux 167.5 uy moveto
+(robustness)  45 rotate   show stroke  -45 rotate 
+/ArialBold findfont 12 scalefont setfont
+0 0 0 setrgbcolor
+0 0.4 0.8 setrgbcolor
+60 ux 160 uy 71 ux 130 uy box fill
+0.6 0.698039215686274 0.8 setrgbcolor
+71 ux 160 uy 82 ux 130 uy box fill
+0.52156862745098 0.658823529411765 0.8 setrgbcolor
+82 ux 160 uy 93 ux 130 uy box fill
+0.63921568627451 0.72156862745098 0.8 setrgbcolor
+93 ux 160 uy 104 ux 130 uy box fill
+0.67843137254902 0.741176470588235 0.8 setrgbcolor
+104 ux 160 uy 115 ux 130 uy box fill
+0.870588235294118 0.490196078431373 0 setrgbcolor
+115 ux 160 uy 126 ux 130 uy box fill
+0.870588235294118 0.490196078431373 0 setrgbcolor
+126 ux 160 uy 137 ux 130 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 10 scalefont setfont
+newpath
+152 ux 143 uy moveto
+(0.004)   dup stringwidth pop 2 div neg 0 rmoveto show 
+newpath
+202 ux 143 uy moveto
+(0.15)   dup stringwidth pop 2 div neg 0 rmoveto show 
+newpath
+252 ux 143 uy moveto
+(2.697)   dup stringwidth pop 2 div neg 0 rmoveto show 
+newpath
+302 ux 143 uy moveto
+(0/10)   dup stringwidth pop 2 div neg 0 rmoveto show 
+/ArialBold findfont 12 scalefont setfont
+0 0 0 setrgbcolor
+0.858823529411765 0.533333333333333 0.113725490196078 setrgbcolor
+60 ux 130 uy 71 ux 100 uy box fill
+0.43921568627451 0.619607843137255 0.8 setrgbcolor
+71 ux 130 uy 82 ux 100 uy box fill
+0.6 0.698039215686274 0.8 setrgbcolor
+82 ux 130 uy 93 ux 100 uy box fill
+0.27843137254902 0.541176470588235 0.8 setrgbcolor
+93 ux 130 uy 104 ux 100 uy box fill
+0.811764705882353 0.741176470588235 0.647058823529412 setrgbcolor
+104 ux 130 uy 115 ux 100 uy box fill
+0.827450980392157 0.682352941176471 0.494117647058824 setrgbcolor
+115 ux 130 uy 126 ux 100 uy box fill
+0.823529411764706 0.698039215686274 0.533333333333333 setrgbcolor
+126 ux 130 uy 137 ux 100 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 10 scalefont setfont
+newpath
+152 ux 113 uy moveto
+(0.002)   dup stringwidth pop 2 div neg 0 rmoveto show 
+newpath
+202 ux 113 uy moveto
+(0.12)   dup stringwidth pop 2 div neg 0 rmoveto show 
+newpath
+252 ux 113 uy moveto
+(0.935)   dup stringwidth pop 2 div neg 0 rmoveto show 
+newpath
+302 ux 113 uy moveto
+(0/10)   dup stringwidth pop 2 div neg 0 rmoveto show 
+0 0 0 setrgbcolor
+/Arial findfont 10 scalefont setfont
+newpath
+10 ux 208 uy moveto
+(3)   dup stringwidth pop 2 div neg 0 rmoveto show 
+/Times findfont 9 scalefont setfont
+newpath
+15 ux 221 uy moveto
+(Over-representation)  90 rotate   show stroke  -90 rotate 
+1 0.8 0 setrgbcolor
+5 ux 205 uy 15 ux 204 uy box fill
+0.988235294117647 0.772549019607843 0 setrgbcolor
+5 ux 204 uy 15 ux 203 uy box fill
+0.964705882352941 0.713725490196078 0 setrgbcolor
+5 ux 203 uy 15 ux 202 uy box fill
+0.952941176470588 0.686274509803922 0 setrgbcolor
+5 ux 202 uy 15 ux 201 uy box fill
+0.929411764705882 0.631372549019608 0 setrgbcolor
+5 ux 201 uy 15 ux 200 uy box fill
+0.905882352941176 0.576470588235294 0 setrgbcolor
+5 ux 200 uy 15 ux 199 uy box fill
+0.882352941176471 0.517647058823529 0 setrgbcolor
+5 ux 199 uy 15 ux 198 uy box fill
+0.866666666666667 0.505882352941176 0.0392156862745098 setrgbcolor
+5 ux 198 uy 15 ux 197 uy box fill
+0.858823529411765 0.533333333333333 0.113725490196078 setrgbcolor
+5 ux 197 uy 15 ux 196 uy box fill
+0.858823529411765 0.549019607843137 0.152941176470588 setrgbcolor
+5 ux 196 uy 15 ux 195 uy box fill
+0.850980392156863 0.580392156862745 0.227450980392157 setrgbcolor
+5 ux 195 uy 15 ux 194 uy box fill
+0.843137254901961 0.607843137254902 0.305882352941176 setrgbcolor
+5 ux 194 uy 15 ux 193 uy box fill
+0.835294117647059 0.63921568627451 0.380392156862745 setrgbcolor
+5 ux 193 uy 15 ux 192 uy box fill
+0.831372549019608 0.666666666666667 0.458823529411765 setrgbcolor
+5 ux 192 uy 15 ux 191 uy box fill
+0.823529411764706 0.698039215686274 0.533333333333333 setrgbcolor
+5 ux 191 uy 15 ux 190 uy box fill
+0.819607843137255 0.709803921568627 0.572549019607843 setrgbcolor
+5 ux 190 uy 15 ux 189 uy box fill
+0.811764705882353 0.741176470588235 0.647058823529412 setrgbcolor
+5 ux 189 uy 15 ux 188 uy box fill
+0.807843137254902 0.768627450980392 0.725490196078431 setrgbcolor
+5 ux 188 uy 15 ux 187 uy box fill
+0.8 0.8 0.8 setrgbcolor
+5 ux 187 uy 15 ux 186 uy box fill
+0.72156862745098 0.76078431372549 0.8 setrgbcolor
+5 ux 186 uy 15 ux 185 uy box fill
+0.63921568627451 0.72156862745098 0.8 setrgbcolor
+5 ux 185 uy 15 ux 184 uy box fill
+0.6 0.698039215686274 0.8 setrgbcolor
+5 ux 184 uy 15 ux 183 uy box fill
+0.52156862745098 0.658823529411765 0.8 setrgbcolor
+5 ux 183 uy 15 ux 182 uy box fill
+0.43921568627451 0.619607843137255 0.8 setrgbcolor
+5 ux 182 uy 15 ux 181 uy box fill
+0.36078431372549 0.580392156862745 0.8 setrgbcolor
+5 ux 181 uy 15 ux 180 uy box fill
+0.27843137254902 0.541176470588235 0.8 setrgbcolor
+5 ux 180 uy 15 ux 179 uy box fill
+0.2 0.501960784313725 0.8 setrgbcolor
+5 ux 179 uy 15 ux 178 uy box fill
+0.16078431372549 0.47843137254902 0.8 setrgbcolor
+5 ux 178 uy 15 ux 177 uy box fill
+0.0784313725490196 0.43921568627451 0.8 setrgbcolor
+5 ux 177 uy 15 ux 176 uy box fill
+0 0.4 0.8 setrgbcolor
+5 ux 176 uy 15 ux 175 uy box fill
+0.0352941176470588 0.474509803921569 0.835294117647059 setrgbcolor
+5 ux 175 uy 15 ux 174 uy box fill
+0.0745098039215686 0.545098039215686 0.874509803921569 setrgbcolor
+5 ux 174 uy 15 ux 173 uy box fill
+0.109803921568627 0.619607843137255 0.909803921568627 setrgbcolor
+5 ux 173 uy 15 ux 172 uy box fill
+0.125490196078431 0.654901960784314 0.925490196078431 setrgbcolor
+5 ux 172 uy 15 ux 171 uy box fill
+0.164705882352941 0.725490196078431 0.964705882352941 setrgbcolor
+5 ux 171 uy 15 ux 170 uy box fill
+0.2 0.8 1 setrgbcolor
+5 ux 170 uy 15 ux 169 uy box fill
+0 0 0 setrgbcolor
+/Arial findfont 10 scalefont setfont
+newpath
+11 ux 159 uy moveto
+(-3)   dup stringwidth pop 2 div neg 0 rmoveto show 
+/Times findfont 9 scalefont setfont
+newpath
+15 ux 149 uy moveto
+(Under-representation)  90 rotate   dup stringwidth pop neg 0 rmoveto show  -90 rotate 
+%%EOF
