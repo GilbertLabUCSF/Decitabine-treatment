@@ -1,5 +1,5 @@
 The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
-Wed May 19 19:32:39 UTC 2021
+Fri Oct  1 22:36:43 UTC 2021
 Remove duplicates, create ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt
 Quantizing the input file.
 step 2: seed optimization.
@@ -28,12 +28,4 @@ Start drawing
 Outputing EPS file ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.eps
 Convert to PDF ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.pdf
 ps2pdf -dEPSCrop -dAutoRotatePages=/None ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.eps ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.pdf
-Finished.
-Reading MI data ... Done.
-Start drawing
-0.54	-0.54
-0
-Outputing EPS file mtyl_enrichment/hyper_mtyl_120h_delta_stbl_GENESET/120h_delta_stbl.txt.summary.eps
-Convert to PDF mtyl_enrichment/hyper_mtyl_120h_delta_stbl_GENESET/120h_delta_stbl.txt.summary.pdf
-ps2pdf -dEPSCrop -dAutoRotatePages=/None mtyl_enrichment/hyper_mtyl_120h_delta_stbl_GENESET/120h_delta_stbl.txt.summary.eps mtyl_enrichment/hyper_mtyl_120h_delta_stbl_GENESET/120h_delta_stbl.txt.summary.pdf
 Finished.

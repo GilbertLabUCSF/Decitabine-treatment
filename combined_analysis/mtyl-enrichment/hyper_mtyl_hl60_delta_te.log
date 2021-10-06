@@ -1,5 +1,5 @@
 The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
-Wed May 19 19:30:59 UTC 2021
+Fri Oct  1 22:35:18 UTC 2021
 Remove duplicates, create ../Ribo-seq/hl60_delta_te.txt_GENESET/hl60_delta_te.txt
 Quantizing the input file.
 step 2: seed optimization.
@@ -28,12 +28,4 @@ Start drawing
 Outputing EPS file ../Ribo-seq/hl60_delta_te.txt_GENESET/hl60_delta_te.txt.summary.eps
 Convert to PDF ../Ribo-seq/hl60_delta_te.txt_GENESET/hl60_delta_te.txt.summary.pdf
 ps2pdf -dEPSCrop -dAutoRotatePages=/None ../Ribo-seq/hl60_delta_te.txt_GENESET/hl60_delta_te.txt.summary.eps ../Ribo-seq/hl60_delta_te.txt_GENESET/hl60_delta_te.txt.summary.pdf
-Finished.
-Reading MI data ... Done.
-Start drawing
-0.76	-0.4
-0
-Outputing EPS file mtyl_enrichment/hyper_mtyl_hl60_delta_te_GENESET/hl60_delta_te.txt.summary.eps
-Convert to PDF mtyl_enrichment/hyper_mtyl_hl60_delta_te_GENESET/hl60_delta_te.txt.summary.pdf
-ps2pdf -dEPSCrop -dAutoRotatePages=/None mtyl_enrichment/hyper_mtyl_hl60_delta_te_GENESET/hl60_delta_te.txt.summary.eps mtyl_enrichment/hyper_mtyl_hl60_delta_te_GENESET/hl60_delta_te.txt.summary.pdf
 Finished.

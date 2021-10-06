@@ -1,6 +1,6 @@
 The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
 WARNING: your file might not contain a header line (0.280321722159322).
-Wed May 19 19:34:56 UTC 2021
+Fri Oct  1 22:38:35 UTC 2021
 Remove duplicates, create ../RNA-seq/other-exp/thp1_delta_exp.txt_GENESET/thp1_delta_exp.txt
 Quantizing the input file.
 step 2: seed optimization.
