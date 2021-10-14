@@ -1,0 +1,1894 @@
+/data_gilbert/home/aarab/Projects/Decitabine-treatment/CRISPRi-screen
+________________ human_c1_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 299
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 17624 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 17624	299
+Done.
+Writing internal quantized groups ...Done
+1602 hits go_terms_num = 299
+cat 166, mi = 0.00120924, chr4q26
+cat 192, mi = 0.00112977, chr7q21
+cat 79, mi = 0.00108927, chr5q32
+cat 14, mi = 0.00100195, chr4q21
+cat 88, mi = 0.00099624, chr1q24
+cat 240, mi = 0.00097614, chr6p12
+cat 87, mi = 0.00096748, chr5q12
+cat 251, mi = 0.00095547, chr3q11
+cat 261, mi = 0.00092522, chrXq28
+cat 93, mi = 0.00090874, chr11q11
+cat 41, mi = 0.00089707, chr1q23
+cat 78, mi = 0.00089213, chr2p15
+cat 37, mi = 0.00087331, chr11q22
+cat 237, mi = 0.00080319, chr8q12
+cat 91, mi = 0.00080105, chr21q21
+
+RESULTS
+Passed: cat 166, mi = 0.001, pvalue = 0.001, chr4q26
+Passed: cat 192, mi = 0.001, pvalue = 0.003, chr7q21
+Didn't pass (cutoff=0.0050): cat 79, mi = 0.001, pvalue = 0.005, chr5q32
+Didn't pass (cutoff=0.0050): cat 14, mi = 0.001, pvalue = 0.009, chr4q21
+Didn't pass (cutoff=0.0050): cat 88, mi = 0.001, pvalue = 0.010, chr1q24
+Didn't pass (cutoff=0.0050): cat 240, mi = 0.001, pvalue = 0.014, chr6p12
+Didn't pass (cutoff=0.0050): cat 87, mi = 0.001, pvalue = 0.014, chr5q12
+Didn't pass (cutoff=0.0050): cat 251, mi = 0.001, pvalue = 0.013, chr3q11
+Didn't pass (cutoff=0.0050): cat 261, mi = 0.001, pvalue = 0.016, chrXq28
+Didn't pass (cutoff=0.0050): cat 93, mi = 0.001, pvalue = 0.010, chr11q11
+Didn't pass (cutoff=0.0050): cat 41, mi = 0.001, pvalue = 0.016, chr1q23
+Didn't pass (cutoff=0.0050): cat 78, mi = 0.001, pvalue = 0.023, chr2p15
+Didn't pass (cutoff=0.0050): cat 37, mi = 0.001, pvalue = 0.028, chr11q22
+Didn't pass (cutoff=0.0050): cat 237, mi = 0.001, pvalue = 0.062, chr8q12
+Didn't pass (cutoff=0.0050): cat 91, mi = 0.001, pvalue = 0.066, chr21q21
+Didn't pass (cutoff=0.0050): cat 2, mi = 0.001, pvalue = 0.048, chr1p32
+Didn't pass (cutoff=0.0050): cat 275, mi = 0.001, pvalue = 0.072, chr18q22
+Didn't pass (cutoff=0.0050): cat 98, mi = 0.001, pvalue = 0.066, chr15q11
+Didn't pass (cutoff=0.0050): cat 247, mi = 0.001, pvalue = 0.095, chr13q32
+Didn't pass (cutoff=0.0050): cat 236, mi = 0.001, pvalue = 0.097, chr10p14
+Didn't pass (cutoff=0.0050): cat 296, mi = 0.001, pvalue = 0.109, chr8q11
+Didn't pass (cutoff=0.0050): cat 100, mi = 0.001, pvalue = 0.090, chr6q21
+Total number of categories evaluated = 12.
+Number of categories that passed the tests = 2
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Start drawing
+1.00	-1.00
+chr7q21
+chr4q26
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+-18.845	42	0
+-16.01	42	2.31
+-12.44	42	5.67
+-8.45	42	9.45
+-4.25	42	13.65
+0.0549999999999997	42	17.85
+4.78	42	22.26
+9.61	42	27.3
+13.915	42	31.92
+17.695	42	35.91
+20.74	42	39.48
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_c1_gs L -> No signal!
+_____...________ human_c1_gs R -> No signal!
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c1_gs/pvmatrix.txt’
+________________ human_c2_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 5529
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 17201 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 17201	5529
+Done.
+Writing internal quantized groups ...Done
+1564 hits go_terms_num = 5529
+cat 2237, mi = 0.00310180, REACTOME_MITOCHONDRIAL_TRANSLATION
+cat 3971, mi = 0.00205827, REACTOME_HATS_ACETYLATE_HISTONES
+cat 4147, mi = 0.00183889, REACTOME_S_PHASE
+cat 2737, mi = 0.00174855, PUJANA_BRCA_CENTERED_NETWORK
+cat 5004, mi = 0.00169469, SAKAI_TUMOR_INFILTRATING_MONOCYTES_DN
+cat 2399, mi = 0.00168788, REACTOME_MITOTIC_G1_PHASE_AND_G1_S_TRANSITION
+cat 3579, mi = 0.00168559, CHIANG_LIVER_CANCER_SUBCLASS_UNANNOTATED_DN
+cat 1397, mi = 0.00164587, REACTOME_DNA_REPLICATION
+cat 1021, mi = 0.00163947, REACTOME_CYCLIN_A_B1_B2_ASSOCIATED_EVENTS_DURING_G2_M_TRANSITION
+cat 28, mi = 0.00161616, REACTOME_DEGRADATION_OF_BETA_CATENIN_BY_THE_DESTRUCTION_COMPLEX
+cat 1624, mi = 0.00161369, PUJANA_XPRSS_INT_NETWORK
+cat 645, mi = 0.00159616, REACTOME_DECTIN_1_MEDIATED_NONCANONICAL_NF_KB_SIGNALING
+cat 1428, mi = 0.00157737, REACTOME_REGULATION_OF_PTEN_STABILITY_AND_ACTIVITY
+cat 1884, mi = 0.00156727, ELVIDGE_HIF1A_TARGETS_UP
+cat 1464, mi = 0.00156280, REACTOME_ASYMMETRIC_LOCALIZATION_OF_PCP_PROTEINS
+
+RESULTS
+Passed: cat 2237, mi = 0.003, pvalue = 0.000, REACTOME_MITOCHONDRIAL_TRANSLATION
+Passed: cat 3971, mi = 0.002, pvalue = 0.000, REACTOME_HATS_ACETYLATE_HISTONES
+Passed: cat 4147, mi = 0.002, pvalue = 0.000, REACTOME_S_PHASE
+Passed: cat 1884, mi = 0.002, pvalue = 0.000, ELVIDGE_HIF1A_TARGETS_UP
+Passed: cat 847, mi = 0.001, pvalue = 0.000, KRASNOSELSKAYA_ILF3_TARGETS_UP
+Passed: cat 465, mi = 0.001, pvalue = 0.000, REACTOME_RNA_POLYMERASE_III_TRANSCRIPTION
+Passed: cat 2139, mi = 0.001, pvalue = 0.001, PID_IL8_CXCR2_PATHWAY
+Passed: cat 2391, mi = 0.001, pvalue = 0.001, REACTOME_TP53_REGULATES_TRANSCRIPTION_OF_ADDITIONAL_CELL_CYCLE_GENES_WHOSE_EXACT_ROLE_IN_THE_P53_PATHWAY_REMAIN_UNCERTAIN
+Passed: cat 2417, mi = 0.001, pvalue = 0.002, YU_MYC_TARGETS_UP
+Passed: cat 4194, mi = 0.001, pvalue = 0.001, SU_PLACENTA
+Passed: cat 3262, mi = 0.001, pvalue = 0.003, REACTOME_ELASTIC_FIBRE_FORMATION
+Passed: cat 5320, mi = 0.001, pvalue = 0.000, REACTOME_NEGATIVE_FEEDBACK_REGULATION_OF_MAPK_PATHWAY
+Passed: cat 4278, mi = 0.001, pvalue = 0.002, REACTOME_ACYL_CHAIN_REMODELLING_OF_PC
+Didn't pass (cutoff=0.0050): cat 1078, mi = 0.001, pvalue = 0.005, GAUSSMANN_MLL_AF4_FUSION_TARGETS_F_DN
+Passed: cat 2078, mi = 0.001, pvalue = 0.003, REACTOME_CELL_CELL_JUNCTION_ORGANIZATION
+Passed: cat 4436, mi = 0.001, pvalue = 0.004, REACTOME_DECTIN_2_FAMILY
+Passed: cat 3750, mi = 0.001, pvalue = 0.004, PID_IL2_STAT5_PATHWAY
+Passed: cat 3951, mi = 0.001, pvalue = 0.004, BERTUCCI_MEDULLARY_VS_DUCTAL_BREAST_CANCER_DN
+Passed: cat 481, mi = 0.001, pvalue = 0.001, RAMPON_ENRICHED_LEARNING_ENVIRONMENT_EARLY_UP
+Passed: cat 2880, mi = 0.001, pvalue = 0.001, REACTOME_HIGHLY_CALCIUM_PERMEABLE_POSTSYNAPTIC_NICOTINIC_ACETYLCHOLINE_RECEPTORS
+Passed: cat 1536, mi = 0.001, pvalue = 0.004, KAYO_CALORIE_RESTRICTION_MUSCLE_DN
+Didn't pass (cutoff=0.0050): cat 4604, mi = 0.001, pvalue = 0.005, GNATENKO_PLATELET_SIGNATURE
+Didn't pass (cutoff=0.0050): cat 5315, mi = 0.001, pvalue = 0.006, FRIDMAN_IMMORTALIZATION_DN
+Passed: cat 5093, mi = 0.001, pvalue = 0.005, YAO_TEMPORAL_RESPONSE_TO_PROGESTERONE_CLUSTER_6
+Passed: cat 648, mi = 0.001, pvalue = 0.005, REACTOME_HDMS_DEMETHYLATE_HISTONES
+Didn't pass (cutoff=0.0050): cat 3325, mi = 0.001, pvalue = 0.005, XU_HGF_SIGNALING_NOT_VIA_AKT1_48HR_DN
+Didn't pass (cutoff=0.0050): cat 3724, mi = 0.001, pvalue = 0.007, SHIPP_DLBCL_VS_FOLLICULAR_LYMPHOMA_DN
+Didn't pass (cutoff=0.0050): cat 231, mi = 0.001, pvalue = 0.011, CHESLER_BRAIN_HIGHEST_EXPRESSION
+Didn't pass (cutoff=0.0050): cat 2833, mi = 0.001, pvalue = 0.010, REACTOME_PYRUVATE_METABOLISM_AND_CITRIC_ACID_TCA_CYCLE
+Didn't pass (cutoff=0.0050): cat 5416, mi = 0.001, pvalue = 0.007, PANGAS_TUMOR_SUPPRESSION_BY_SMAD1_AND_SMAD5_DN
+Didn't pass (cutoff=0.0050): cat 682, mi = 0.001, pvalue = 0.011, NIKOLSKY_BREAST_CANCER_16Q24_AMPLICON
+Didn't pass (cutoff=0.0050): cat 1182, mi = 0.001, pvalue = 0.008, PEDERSEN_METASTASIS_BY_ERBB2_ISOFORM_4
+Didn't pass (cutoff=0.0050): cat 3191, mi = 0.001, pvalue = 0.007, SENGUPTA_NASOPHARYNGEAL_CARCINOMA_WITH_LMP1_DN
+Didn't pass (cutoff=0.0050): cat 1920, mi = 0.001, pvalue = 0.010, MOOTHA_GLYCOGEN_METABOLISM
+Didn't pass (cutoff=0.0050): cat 4004, mi = 0.001, pvalue = 0.012, LEE_LIVER_CANCER_MYC_DN
+Didn't pass (cutoff=0.0050): cat 5203, mi = 0.001, pvalue = 0.012, BILANGES_SERUM_AND_RAPAMYCIN_SENSITIVE_GENES
+Didn't pass (cutoff=0.0050): cat 2821, mi = 0.001, pvalue = 0.010, MIKKELSEN_IPS_WITH_HCP_H3K27ME3
+Didn't pass (cutoff=0.0050): cat 5105, mi = 0.001, pvalue = 0.015, CAMPS_COLON_CANCER_COPY_NUMBER_DN
+Didn't pass (cutoff=0.0050): cat 5110, mi = 0.001, pvalue = 0.011, ALONSO_METASTASIS_NEURAL_UP
+Didn't pass (cutoff=0.0050): cat 5117, mi = 0.001, pvalue = 0.008, RICKMAN_TUMOR_DIFFERENTIATED_MODERATELY_VS_POORLY_DN
+Passed: cat 3123, mi = 0.001, pvalue = 0.005, ABBUD_LIF_SIGNALING_2_UP
+Didn't pass (cutoff=0.0050): cat 4561, mi = 0.001, pvalue = 0.018, PIONTEK_PKD1_TARGETS_UP
+Didn't pass (cutoff=0.0050): cat 2601, mi = 0.001, pvalue = 0.017, MCCLUNG_COCAIN_REWARD_4WK
+Didn't pass (cutoff=0.0050): cat 628, mi = 0.001, pvalue = 0.013, REACTOME_EUKARYOTIC_TRANSLATION_ELONGATION
+Didn't pass (cutoff=0.0050): cat 3903, mi = 0.001, pvalue = 0.020, GARCIA_TARGETS_OF_FLI1_AND_DAX1_UP
+Didn't pass (cutoff=0.0050): cat 3141, mi = 0.001, pvalue = 0.013, REACTOME_TNFR1_INDUCED_PROAPOPTOTIC_SIGNALING
+Didn't pass (cutoff=0.0050): cat 2827, mi = 0.001, pvalue = 0.021, REACTOME_SYNAPTIC_ADHESION_LIKE_MOLECULES
+Didn't pass (cutoff=0.0050): cat 1880, mi = 0.001, pvalue = 0.021, MAHADEVAN_IMATINIB_RESISTANCE_UP
+Didn't pass (cutoff=0.0050): cat 2969, mi = 0.001, pvalue = 0.022, FIGUEROA_AML_METHYLATION_CLUSTER_1_DN
+Didn't pass (cutoff=0.0050): cat 3172, mi = 0.001, pvalue = 0.025, SAGIV_CD24_TARGETS_DN
+Didn't pass (cutoff=0.0050): cat 1212, mi = 0.001, pvalue = 0.005, PYEON_HPV_POSITIVE_TUMORS_DN
+Didn't pass (cutoff=0.0050): cat 1985, mi = 0.001, pvalue = 0.022, REACTOME_PURINERGIC_SIGNALING_IN_LEISHMANIASIS_INFECTION
+Didn't pass (cutoff=0.0050): cat 563, mi = 0.001, pvalue = 0.009, BOYERINAS_ONCOFETAL_TARGETS_OF_LET7A1
+Didn't pass (cutoff=0.0050): cat 63, mi = 0.001, pvalue = 0.014, REACTOME_REGULATION_OF_PYRUVATE_DEHYDROGENASE_PDH_COMPLEX
+Didn't pass (cutoff=0.0050): cat 736, mi = 0.001, pvalue = 0.026, REACTOME_CYTOSOLIC_SULFONATION_OF_SMALL_MOLECULES
+Didn't pass (cutoff=0.0050): cat 4434, mi = 0.001, pvalue = 0.013, REACTOME_REVERSIBLE_HYDRATION_OF_CARBON_DIOXIDE
+Didn't pass (cutoff=0.0050): cat 1867, mi = 0.001, pvalue = 0.024, ZIRN_TRETINOIN_RESPONSE_WT1_UP
+Didn't pass (cutoff=0.0050): cat 1873, mi = 0.001, pvalue = 0.026, REACTOME_GENE_AND_PROTEIN_EXPRESSION_BY_JAK_STAT_SIGNALING_AFTER_INTERLEUKIN_12_STIMULATION
+Didn't pass (cutoff=0.0050): cat 1720, mi = 0.001, pvalue = 0.034, OHM_METHYLATED_IN_ADULT_CANCERS
+Didn't pass (cutoff=0.0050): cat 5509, mi = 0.001, pvalue = 0.019, REACTOME_HYALURONAN_METABOLISM
+Passed: cat 2647, mi = 0.001, pvalue = 0.003, REACTOME_COMPETING_ENDOGENOUS_RNAS_CERNAS_REGULATE_PTEN_TRANSLATION
+Didn't pass (cutoff=0.0050): cat 4442, mi = 0.001, pvalue = 0.022, REACTOME_MITOCHONDRIAL_TRNA_AMINOACYLATION
+Didn't pass (cutoff=0.0050): cat 1856, mi = 0.001, pvalue = 0.025, RASHI_NFKB1_TARGETS
+Didn't pass (cutoff=0.0050): cat 2788, mi = 0.001, pvalue = 0.033, REACTOME_INTERLEUKIN_12_SIGNALING
+Didn't pass (cutoff=0.0050): cat 4232, mi = 0.001, pvalue = 0.033, ALONSO_METASTASIS_DN
+Didn't pass (cutoff=0.0050): cat 549, mi = 0.001, pvalue = 0.033, ZWANG_CLASS_2_TRANSIENTLY_INDUCED_BY_EGF
+Didn't pass (cutoff=0.0050): cat 1658, mi = 0.001, pvalue = 0.008, KOMMAGANI_TP63_GAMMA_TARGETS
+Didn't pass (cutoff=0.0050): cat 3167, mi = 0.001, pvalue = 0.036, REACTOME_FATTY_ACYL_COA_BIOSYNTHESIS
+Didn't pass (cutoff=0.0050): cat 4942, mi = 0.001, pvalue = 0.035, REACTOME_PYRUVATE_METABOLISM
+Didn't pass (cutoff=0.0050): cat 3338, mi = 0.001, pvalue = 0.034, NADLER_HYPERGLYCEMIA_AT_OBESITY
+Didn't pass (cutoff=0.0050): cat 2847, mi = 0.001, pvalue = 0.035, SMID_BREAST_CANCER_RELAPSE_IN_LUNG_UP
+Didn't pass (cutoff=0.0050): cat 1269, mi = 0.001, pvalue = 0.034, KEGG_STARCH_AND_SUCROSE_METABOLISM
+Didn't pass (cutoff=0.0050): cat 4489, mi = 0.001, pvalue = 0.041, BALDWIN_PRKCI_TARGETS_UP
+Didn't pass (cutoff=0.0050): cat 1190, mi = 0.001, pvalue = 0.039, REACTOME_TRNA_AMINOACYLATION
+Didn't pass (cutoff=0.0050): cat 3375, mi = 0.001, pvalue = 0.041, OLSSON_E2F3_TARGETS_UP
+Didn't pass (cutoff=0.0050): cat 3290, mi = 0.001, pvalue = 0.039, NABA_BASEMENT_MEMBRANES
+Didn't pass (cutoff=0.0050): cat 3142, mi = 0.001, pvalue = 0.011, BIOCARTA_CPSF_PATHWAY
+Didn't pass (cutoff=0.0050): cat 5477, mi = 0.001, pvalue = 0.043, KEGG_O_GLYCAN_BIOSYNTHESIS
+Didn't pass (cutoff=0.0050): cat 2656, mi = 0.001, pvalue = 0.031, KEGG_GLYOXYLATE_AND_DICARBOXYLATE_METABOLISM
+Didn't pass (cutoff=0.0050): cat 984, mi = 0.001, pvalue = 0.043, REACTOME_SUMOYLATION_OF_INTRACELLULAR_RECEPTORS
+Didn't pass (cutoff=0.0050): cat 1306, mi = 0.001, pvalue = 0.048, AIYAR_COBRA1_TARGETS_DN
+Total number of categories evaluated = 320.
+Number of categories that passed the tests = 24
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Cluster rows .. best merge is 5, 11, 0.0472479619777988
+best merge is 0, 5, 0.0680360459070126
+best merge is 7, 17, 0.128754965477565
+best merge is 1, 8, 0.13622710066892
+best merge is 2, 7, 0.142371028300046
+best merge is 4, 13, 0.242962752898215
+best merge is 2, 22, 0.250921187478092
+best merge is 6, 21, 0.2881523072576
+best merge is 1, 6, 0.294518998636069
+best merge is 20, 23, 0.333594632285201
+best merge is 4, 16, 0.367126653912809
+best merge is 0, 1, 0.424075580847595
+best merge is 9, 10, 0.437817191323311
+best merge is 15, 20, 0.449165237830039
+best merge is 3, 18, 0.492850398202717
+best merge is 12, 15, 0.616299306724202
+best merge is 4, 14, 0.651619680271122
+best merge is 0, 19, 0.696654911988495
+best merge is 0, 2, 0.761733850665567
+best merge is 4, 12, 0.808670276954577
+order classes
+12 - 1.03591696156009
+2 - 2.9571023892163
+4 - 2.1990563261529
+2 - 2.62690314793987
+4 - 2.31061727108841
+0 5 11 1 8 6 21 19 2 7 17 22
+3 18
+4 13 16 14
+9 10
+12 15 20 23
+Done.Start drawing
+1.00	-1.00
+REACTOME_MITOCHONDRIAL_TRANSLATION
+REACTOME_RNA_POLYMERASE_III_TRANSCRIPTION
+REACTOME_NEGATIVE_FEEDBACK_REGULATION_OF_MAPK_PATHWAY
+REACTOME_HATS_ACETYLATE_HISTONES
+YU_MYC_TARGETS_UP
+PID_IL8_CXCR2_PATHWAY
+REACTOME_HDMS_DEMETHYLATE_HISTONES
+SU_PLACENTA
+REACTOME_ELASTIC_FIBRE_FORMATION
+REACTOME_ACYL_CHAIN_REMODELLING_OF_PC
+PID_IL2_STAT5_PATHWAY
+ELVIDGE_HIF1A_TARGETS_UP
+REACTOME_HIGHLY_CALCIUM_PERMEABLE_POSTSYNAPTIC_NICOTINIC_ACETYLCHOLINE_RECEPTORS
+BERTUCCI_MEDULLARY_VS_DUCTAL_BREAST_CANCER_DN
+REACTOME_DECTIN_2_FAMILY
+KRASNOSELSKAYA_ILF3_TARGETS_UP
+REACTOME_CELL_CELL_JUNCTION_ORGANIZATION
+YAO_TEMPORAL_RESPONSE_TO_PROGESTERONE_CLUSTER_6
+REACTOME_COMPETING_ENDOGENOUS_RNAS_CERNAS_REGULATE_PTEN_TRANSLATION
+KAYO_CALORIE_RESTRICTION_MUSCLE_DN
+REACTOME_S_PHASE
+REACTOME_TP53_REGULATES_TRANSCRIPTION_OF_ADDITIONAL_CELL_CYCLE_GENES_WHOSE_EXACT_ROLE_IN_THE_P53_PATHWAY_REMAIN_UNCERTAIN
+RAMPON_ENRICHED_LEARNING_ENVIRONMENT_EARLY_UP
+ABBUD_LIF_SIGNALING_2_UP
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+Cluster rows .. best merge is 5, 11, 0.0472479619777988
+best merge is 0, 5, 0.0680360459070126
+best merge is 7, 17, 0.128754965477565
+best merge is 1, 8, 0.13622710066892
+best merge is 2, 7, 0.142371028300046
+best merge is 4, 13, 0.242962752898215
+best merge is 2, 22, 0.250921187478092
+best merge is 6, 21, 0.2881523072576
+best merge is 1, 6, 0.294518998636069
+best merge is 20, 23, 0.333594632285201
+best merge is 4, 16, 0.367126653912809
+best merge is 0, 1, 0.424075580847595
+best merge is 9, 10, 0.437817191323311
+best merge is 15, 20, 0.449165237830039
+best merge is 3, 18, 0.492850398202717
+best merge is 12, 15, 0.616299306724202
+best merge is 4, 14, 0.651619680271122
+best merge is 0, 19, 0.696654911988495
+best merge is 0, 2, 0.761733850665567
+best merge is 4, 12, 0.808670276954577
+order classes
+12 - 1.03591696156009
+2 - 2.9571023892163
+4 - 2.1990563261529
+2 - 2.62690314793987
+4 - 2.31061727108841
+0 5 11 1 8 6 21 19 2 7 17 22
+3 18
+4 13 16 14
+9 10
+12 15 20 23
+Done.-18.845	42	0
+-16.01	42	2.31
+-12.44	42	5.67
+-8.45	42	9.45
+-4.25	42	13.65
+0.16	42	17.85
+4.885	42	22.47
+9.61	42	27.3
+13.915	42	31.92
+17.695	42	35.91
+20.74	42	39.48
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_c2_gs L ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 2, 4, 0.128754965477565
+best merge is 0, 3, 0.13622710066892
+order classes
+2 - 0.193132448216347
+2 4
+1
+0
+3
+5
+Done.Start drawing
+1.00	-1.00
+REACTOME_HATS_ACETYLATE_HISTONES
+YU_MYC_TARGETS_UP
+REACTOME_TP53_REGULATES_TRANSCRIPTION_OF_ADDITIONAL_CELL_CYCLE_GENES_WHOSE_EXACT_ROLE_IN_THE_P53_PATHWAY_REMAIN_UNCERTAIN
+RAMPON_ENRICHED_LEARNING_ENVIRONMENT_EARLY_UP
+REACTOME_S_PHASE
+ABBUD_LIF_SIGNALING_2_UP
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+_____...________ human_c2_gs R ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 2, 5, 0.0472479619777988
+best merge is 0, 2, 0.0680360459070126
+best merge is 1, 4, 0.13622710066892
+order classes
+3 - 0.0950548427068717
+0 2 5
+1
+3
+4
+6
+Done.Start drawing
+1.00	-1.00
+REACTOME_MITOCHONDRIAL_TRANSLATION
+REACTOME_RNA_POLYMERASE_III_TRANSCRIPTION
+REACTOME_NEGATIVE_FEEDBACK_REGULATION_OF_MAPK_PATHWAY
+REACTOME_HATS_ACETYLATE_HISTONES
+PID_IL8_CXCR2_PATHWAY
+YU_MYC_TARGETS_UP
+REACTOME_HDMS_DEMETHYLATE_HISTONES
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c2_gs/pvmatrix.txt’
+________________ human_c3_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 3735
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 17098 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 17098	3735
+Done.
+Writing internal quantized groups ...Done
+1554 hits go_terms_num = 3735
+cat 3570, mi = 0.00150906, ZNF354B_TARGET_GENES
+cat 333, mi = 0.00145729, GGCNKCCATNK_UNKNOWN
+cat 1160, mi = 0.00139398, MIR5189_5P
+cat 604, mi = 0.00138543, GGCNNMSMYNTTG_UNKNOWN
+cat 1023, mi = 0.00132930, FOXQ1_TARGET_GENES
+cat 3657, mi = 0.00131008, MIR24_1_5P_MIR24_2_5P
+cat 3211, mi = 0.00123262, RYTAAWNNNTGAY_UNKNOWN
+cat 2703, mi = 0.00120753, MIR1285_3P
+cat 564, mi = 0.00120533, MIR10398_5P
+cat 3350, mi = 0.00115643, HIVEP1_TARGET_GENES
+cat 577, mi = 0.00114526, MIR6734_5P
+cat 2997, mi = 0.00111812, MIR3165
+cat 1329, mi = 0.00111715, MIR10226
+cat 1139, mi = 0.00110571, MIR6742_5P
+cat 971, mi = 0.00110244, LHX3_TARGET_GENES
+
+RESULTS
+Passed: cat 3570, mi = 0.002, pvalue = 0.000, ZNF354B_TARGET_GENES
+Passed: cat 333, mi = 0.001, pvalue = 0.000, GGCNKCCATNK_UNKNOWN
+Passed: cat 1160, mi = 0.001, pvalue = 0.001, MIR5189_5P
+Passed: cat 1023, mi = 0.001, pvalue = 0.001, FOXQ1_TARGET_GENES
+Passed: cat 3657, mi = 0.001, pvalue = 0.001, MIR24_1_5P_MIR24_2_5P
+Passed: cat 3211, mi = 0.001, pvalue = 0.001, RYTAAWNNNTGAY_UNKNOWN
+Passed: cat 564, mi = 0.001, pvalue = 0.003, MIR10398_5P
+Passed: cat 577, mi = 0.001, pvalue = 0.004, MIR6734_5P
+Didn't pass (cutoff=0.0050): cat 2997, mi = 0.001, pvalue = 0.007, MIR3165
+Didn't pass (cutoff=0.0050): cat 1329, mi = 0.001, pvalue = 0.006, MIR10226
+Didn't pass (cutoff=0.0050): cat 1139, mi = 0.001, pvalue = 0.006, MIR6742_5P
+Passed: cat 971, mi = 0.001, pvalue = 0.003, LHX3_TARGET_GENES
+Passed: cat 2284, mi = 0.001, pvalue = 0.003, MIR4665_5P
+Passed: cat 1843, mi = 0.001, pvalue = 0.005, SETBP1_TARGET_GENES
+Didn't pass (cutoff=0.0050): cat 2063, mi = 0.001, pvalue = 0.008, MIR1193
+Didn't pass (cutoff=0.0050): cat 3130, mi = 0.001, pvalue = 0.009, MIR4800_5P
+Didn't pass (cutoff=0.0050): cat 410, mi = 0.001, pvalue = 0.005, MIR192_3P
+Didn't pass (cutoff=0.0050): cat 686, mi = 0.001, pvalue = 0.010, MIR6834_5P
+Didn't pass (cutoff=0.0050): cat 2184, mi = 0.001, pvalue = 0.007, ZNF354A_TARGET_GENES
+Didn't pass (cutoff=0.0050): cat 3592, mi = 0.001, pvalue = 0.008, MIR892A
+Didn't pass (cutoff=0.0050): cat 717, mi = 0.001, pvalue = 0.008, MIR8060
+Didn't pass (cutoff=0.0050): cat 518, mi = 0.001, pvalue = 0.008, MIR6128
+Didn't pass (cutoff=0.0050): cat 2573, mi = 0.001, pvalue = 0.009, MIR4733_3P
+Didn't pass (cutoff=0.0050): cat 3362, mi = 0.001, pvalue = 0.011, GATGKMRGCG_UNKNOWN
+Didn't pass (cutoff=0.0050): cat 1890, mi = 0.001, pvalue = 0.007, MIR3140_5P
+Didn't pass (cutoff=0.0050): cat 1358, mi = 0.001, pvalue = 0.010, PRDM5_TARGET_GENES
+Didn't pass (cutoff=0.0050): cat 1371, mi = 0.001, pvalue = 0.019, MIR1287_3P
+Didn't pass (cutoff=0.0050): cat 527, mi = 0.001, pvalue = 0.012, MIR1178_3P
+Didn't pass (cutoff=0.0050): cat 270, mi = 0.001, pvalue = 0.011, MIR4716_5P
+Didn't pass (cutoff=0.0050): cat 2009, mi = 0.001, pvalue = 0.016, CDPCR3_01
+Didn't pass (cutoff=0.0050): cat 1863, mi = 0.001, pvalue = 0.020, HMX1_01
+Didn't pass (cutoff=0.0050): cat 2582, mi = 0.001, pvalue = 0.013, MIR433_3P
+Didn't pass (cutoff=0.0050): cat 3591, mi = 0.001, pvalue = 0.016, MIR6511B_5P
+Didn't pass (cutoff=0.0050): cat 878, mi = 0.001, pvalue = 0.022, CTR9_TARGET_GENES
+Total number of categories evaluated = 43.
+Number of categories that passed the tests = 11
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Cluster rows .. best merge is 1, 10, 0.343674880997625
+best merge is 0, 5, 0.353804605047366
+best merge is 3, 9, 0.471388486357845
+best merge is 2, 4, 0.480880090726888
+best merge is 0, 3, 0.572525118829799
+best merge is 1, 6, 0.574074445856177
+best merge is 1, 2, 0.690713158747198
+order classes
+4 - 1.07088216356151
+3 - 1.21556011109702
+2 - 1.32242024949894
+0 5 3 9
+1 10 6
+2 4
+7
+8
+Done.Start drawing
+1.00	-1.00
+SETBP1_TARGET_GENES
+MIR10398_5P
+MIR24_1_5P_MIR24_2_5P
+ZNF354B_TARGET_GENES
+MIR4665_5P
+RYTAAWNNNTGAY_UNKNOWN
+LHX3_TARGET_GENES
+MIR6734_5P
+MIR5189_5P
+FOXQ1_TARGET_GENES
+GGCNKCCATNK_UNKNOWN
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+Cluster rows .. best merge is 1, 10, 0.343674880997625
+best merge is 0, 5, 0.353804605047366
+best merge is 3, 9, 0.471388486357845
+best merge is 2, 4, 0.480880090726888
+best merge is 0, 3, 0.572525118829799
+best merge is 1, 6, 0.574074445856177
+best merge is 1, 2, 0.690713158747198
+order classes
+4 - 1.07088216356151
+3 - 1.21556011109702
+2 - 1.32242024949894
+0 5 3 9
+1 10 6
+2 4
+7
+8
+Done.-18.845	42	0
+-16.01	42	2.31
+-12.44	42	5.67
+-8.45	42	9.45
+-4.25	42	13.65
+0.0549999999999997	42	17.85
+4.78	42	22.26
+9.61	42	27.3
+13.915	42	31.92
+17.695	42	35.91
+20.74	42	39.48
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_c3_gs L ...
+Reading matrix ... Done.
+Start drawing
+1.00	-1.00
+GGCNKCCATNK_UNKNOWN
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+_____...________ human_c3_gs R ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 0, 1, 0.679015724120282
+order classes
+0
+1
+2
+Done.Start drawing
+1.00	-1.00
+MIR24_1_5P_MIR24_2_5P
+MIR10398_5P
+MIR6734_5P
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c3_gs/pvmatrix.txt’
+________________ human_c4_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 858
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 9387 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 9387	858
+Done.
+Writing internal quantized groups ...Done
+853 hits go_terms_num = 858
+cat 536, mi = 0.00345343, GNF2_TDG
+cat 69, mi = 0.00302555, GCM_DDX5
+cat 280, mi = 0.00277677, GNF2_CKS2
+cat 203, mi = 0.00258305, GNF2_DEK
+cat 814, mi = 0.00254700, MORF_RFC4
+cat 614, mi = 0.00250234, MODULE_170
+cat 849, mi = 0.00248058, GNF2_H2AFX
+cat 172, mi = 0.00247359, MORF_EIF4A2
+cat 712, mi = 0.00244979, GNF2_APEX1
+cat 229, mi = 0.00244157, GCM_CASP2
+cat 838, mi = 0.00239945, MODULE_79
+cat 276, mi = 0.00236964, MODULE_299
+cat 521, mi = 0.00235811, MODULE_128
+cat 445, mi = 0.00232794, GNF2_CDC2
+cat 767, mi = 0.00220672, GNF2_CBFB
+
+RESULTS
+Passed: cat 536, mi = 0.003, pvalue = 0.000, GNF2_TDG
+Passed: cat 280, mi = 0.003, pvalue = 0.000, GNF2_CKS2
+Passed: cat 614, mi = 0.003, pvalue = 0.000, MODULE_170
+Passed: cat 229, mi = 0.002, pvalue = 0.001, GCM_CASP2
+Passed: cat 276, mi = 0.002, pvalue = 0.002, MODULE_299
+Passed: cat 767, mi = 0.002, pvalue = 0.002, GNF2_CBFB
+Passed: cat 769, mi = 0.002, pvalue = 0.001, MODULE_218
+Passed: cat 27, mi = 0.002, pvalue = 0.005, MORF_TPR
+Didn't pass (cutoff=0.0050): cat 160, mi = 0.002, pvalue = 0.006, MORF_THPO
+Didn't pass (cutoff=0.0050): cat 857, mi = 0.002, pvalue = 0.006, MORF_CD8A
+Didn't pass (cutoff=0.0050): cat 45, mi = 0.002, pvalue = 0.011, MORF_ETV3
+Didn't pass (cutoff=0.0050): cat 808, mi = 0.002, pvalue = 0.013, MODULE_91
+Didn't pass (cutoff=0.0050): cat 630, mi = 0.002, pvalue = 0.012, GNF2_PTPN4
+Didn't pass (cutoff=0.0050): cat 260, mi = 0.002, pvalue = 0.016, MODULE_525
+Didn't pass (cutoff=0.0050): cat 370, mi = 0.002, pvalue = 0.013, MODULE_165
+Didn't pass (cutoff=0.0050): cat 347, mi = 0.002, pvalue = 0.015, MORF_CASP10
+Didn't pass (cutoff=0.0050): cat 470, mi = 0.002, pvalue = 0.018, GNF2_ZAP70
+Didn't pass (cutoff=0.0050): cat 660, mi = 0.002, pvalue = 0.024, GNF2_CD7
+Didn't pass (cutoff=0.0050): cat 311, mi = 0.002, pvalue = 0.018, MODULE_439
+Didn't pass (cutoff=0.0050): cat 328, mi = 0.002, pvalue = 0.015, GCM_RAB10
+Didn't pass (cutoff=0.0050): cat 486, mi = 0.002, pvalue = 0.018, GCM_MAPK10
+Didn't pass (cutoff=0.0050): cat 51, mi = 0.002, pvalue = 0.026, MORF_DEAF1
+Didn't pass (cutoff=0.0050): cat 402, mi = 0.002, pvalue = 0.020, MORF_PPP2R5B
+Didn't pass (cutoff=0.0050): cat 835, mi = 0.002, pvalue = 0.023, MODULE_194
+Didn't pass (cutoff=0.0050): cat 605, mi = 0.002, pvalue = 0.022, GCM_MAP4K4
+Didn't pass (cutoff=0.0050): cat 9, mi = 0.002, pvalue = 0.034, MODULE_281
+Didn't pass (cutoff=0.0050): cat 82, mi = 0.002, pvalue = 0.035, GCM_MYCL1
+Didn't pass (cutoff=0.0050): cat 269, mi = 0.002, pvalue = 0.038, MODULE_453
+Total number of categories evaluated = 80.
+Number of categories that passed the tests = 8
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Cluster rows .. best merge is 0, 7, 0.349660415320252
+best merge is 0, 1, 0.469512102933631
+best merge is 0, 5, 0.564532661847896
+best merge is 2, 4, 0.623887815655991
+order classes
+4 - 0.7455706516828
+0 7 1 5
+2
+3
+4
+6
+Done.Start drawing
+1.00	-1.00
+MORF_TPR
+GNF2_CKS2
+GCM_CASP2
+GNF2_CBFB
+MODULE_299
+MODULE_218
+MODULE_170
+GNF2_TDG
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+Cluster rows .. best merge is 0, 7, 0.349660415320252
+best merge is 0, 1, 0.469512102933631
+best merge is 0, 5, 0.564532661847896
+best merge is 2, 4, 0.623887815655991
+order classes
+4 - 0.7455706516828
+0 7 1 5
+2
+3
+4
+6
+Done.-18.95	42	0
+-16.325	42	2.1
+-12.86	42	5.25
+-8.87	42	9.03
+-4.565	42	13.23
+-0.155000000000001	42	17.64
+4.57	42	22.05
+9.61	42	27.09
+14.125	42	32.13
+17.905	42	36.12
+20.845	42	39.69
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_c4_gs L ...
+Reading matrix ... Done.
+Start drawing
+1.00	-1.00
+GNF2_TDG
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+_____...________ human_c4_gs R ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 0, 2, 0.349660415320252
+order classes
+0
+1
+2
+Done.Start drawing
+1.00	-1.00
+GNF2_CKS2
+MORF_TPR
+GNF2_TDG
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c4_gs/pvmatrix.txt’
+________________ human_c5_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 10192
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 15964 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 15964	10192
+Done.
+Writing internal quantized groups ...Done
+1451 hits go_terms_num = 10192
+cat 7672, mi = 0.00361391, GO_MITOCHONDRIAL_GENE_EXPRESSION
+cat 5734, mi = 0.00345698, GO_TRANSLATIONAL_ELONGATION
+cat 2894, mi = 0.00329457, GO_TRANSLATIONAL_TERMINATION
+cat 2841, mi = 0.00320195, GO_MITOCHONDRIAL_TRANSLATION
+cat 65, mi = 0.00313824, GO_MITOCHONDRIAL_TRANSLATIONAL_TERMINATION
+cat 1751, mi = 0.00275002, GO_ORGANELLAR_RIBOSOME
+cat 4358, mi = 0.00264217, GO_MITOCHONDRIAL_LARGE_RIBOSOMAL_SUBUNIT
+cat 2434, mi = 0.00215338, GO_PROTEIN_ACETYLTRANSFERASE_COMPLEX
+cat 9492, mi = 0.00210724, GO_ATPASE_COMPLEX
+cat 500, mi = 0.00194552, GO_TRNA_METABOLIC_PROCESS
+cat 3270, mi = 0.00186338, GO_TRNA_PROCESSING
+cat 2383, mi = 0.00185805, GO_ALTERNATIVE_MRNA_SPLICING_VIA_SPLICEOSOME
+cat 2888, mi = 0.00183594, GO_REGULATION_OF_MRNA_PROCESSING
+cat 9863, mi = 0.00182317, GO_REGULATION_OF_CYTOPLASMIC_TRANSLATION
+cat 8293, mi = 0.00179069, GO_TRNA_WOBBLE_URIDINE_MODIFICATION
+
+RESULTS
+Passed: cat 7672, mi = 0.004, pvalue = 0.000, GO_MITOCHONDRIAL_GENE_EXPRESSION
+Passed: cat 2434, mi = 0.002, pvalue = 0.000, GO_PROTEIN_ACETYLTRANSFERASE_COMPLEX
+Passed: cat 2383, mi = 0.002, pvalue = 0.000, GO_ALTERNATIVE_MRNA_SPLICING_VIA_SPLICEOSOME
+Passed: cat 8293, mi = 0.002, pvalue = 0.000, GO_TRNA_WOBBLE_URIDINE_MODIFICATION
+Passed: cat 900, mi = 0.002, pvalue = 0.000, GO_PROTEIN_K11_LINKED_UBIQUITINATION
+Passed: cat 1533, mi = 0.002, pvalue = 0.000, GO_RECOMBINATIONAL_REPAIR
+Passed: cat 9402, mi = 0.002, pvalue = 0.000, GO_THIOESTER_BIOSYNTHETIC_PROCESS
+Passed: cat 7761, mi = 0.002, pvalue = 0.000, GO_NCRNA_TRANSCRIPTION
+Passed: cat 2906, mi = 0.002, pvalue = 0.000, GO_REGULATION_OF_UBIQUITIN_DEPENDENT_PROTEIN_CATABOLIC_PROCESS
+Passed: cat 9217, mi = 0.001, pvalue = 0.001, GO_PROTEIN_LOCALIZATION_TO_CILIUM
+Passed: cat 3563, mi = 0.001, pvalue = 0.001, GO_INTERLEUKIN_10_PRODUCTION
+Passed: cat 10048, mi = 0.001, pvalue = 0.001, GO_CELL_PROLIFERATION_INVOLVED_IN_HEART_MORPHOGENESIS
+Passed: cat 5758, mi = 0.001, pvalue = 0.000, GO_REGULATION_OF_MICROTUBULE_BINDING
+Passed: cat 2348, mi = 0.001, pvalue = 0.001, GO_PHOSPHOLIPASE_A2_ACTIVITY
+Passed: cat 4470, mi = 0.001, pvalue = 0.001, GO_MHC_PROTEIN_COMPLEX_BINDING
+Passed: cat 1635, mi = 0.001, pvalue = 0.001, GO_RESPONSE_TO_OSMOTIC_STRESS
+Passed: cat 8917, mi = 0.001, pvalue = 0.001, GO_POSTSYNAPTIC_CYTOSOL
+Passed: cat 7806, mi = 0.001, pvalue = 0.002, GO_NEGATIVE_REGULATION_OF_TUMOR_NECROSIS_FACTOR_MEDIATED_SIGNALING_PATHWAY
+Passed: cat 8677, mi = 0.001, pvalue = 0.003, GO_AMINE_METABOLIC_PROCESS
+Passed: cat 799, mi = 0.001, pvalue = 0.000, GO_SPINDLE_MIDZONE_ASSEMBLY
+Passed: cat 3410, mi = 0.001, pvalue = 0.002, GO_METALLOENDOPEPTIDASE_INHIBITOR_ACTIVITY
+Passed: cat 7817, mi = 0.001, pvalue = 0.004, GO_HISTONE_DEMETHYLASE_ACTIVITY
+Passed: cat 1605, mi = 0.001, pvalue = 0.004, GO_LAMELLIPODIUM_ORGANIZATION
+Didn't pass (cutoff=0.0050): cat 7589, mi = 0.001, pvalue = 0.005, GO_ACETYLGALACTOSAMINYLTRANSFERASE_ACTIVITY
+Passed: cat 2494, mi = 0.001, pvalue = 0.001, GO_PHOSPHOLIPASE_INHIBITOR_ACTIVITY
+Didn't pass (cutoff=0.0050): cat 2693, mi = 0.001, pvalue = 0.005, GO_ENDOTHELIAL_CELL_APOPTOTIC_PROCESS
+Passed: cat 7483, mi = 0.001, pvalue = 0.000, GO_CORE_MEDIATOR_COMPLEX
+Didn't pass (cutoff=0.0050): cat 2254, mi = 0.001, pvalue = 0.005, GO_METAL_CLUSTER_BINDING
+Didn't pass (cutoff=0.0050): cat 3663, mi = 0.001, pvalue = 0.008, GO_POSITIVE_REGULATION_OF_ATPASE_ACTIVITY
+Passed: cat 1868, mi = 0.001, pvalue = 0.003, GO_CELLULAR_RESPONSE_TO_NITRIC_OXIDE
+Passed: cat 3621, mi = 0.001, pvalue = 0.004, GO_CELLULAR_RESPONSE_TO_PROSTAGLANDIN_STIMULUS
+Didn't pass (cutoff=0.0050): cat 3515, mi = 0.001, pvalue = 0.007, GO_NATURAL_KILLER_CELL_ACTIVATION_INVOLVED_IN_IMMUNE_RESPONSE
+Passed: cat 5715, mi = 0.001, pvalue = 0.005, GO_ACETYLCHOLINE_GATED_CHANNEL_COMPLEX
+Didn't pass (cutoff=0.0050): cat 8002, mi = 0.001, pvalue = 0.009, GO_REGULATION_OF_VIRAL_ENTRY_INTO_HOST_CELL
+Didn't pass (cutoff=0.0050): cat 7709, mi = 0.001, pvalue = 0.008, GO_REGULATION_OF_ATPASE_ACTIVITY
+Didn't pass (cutoff=0.0050): cat 1393, mi = 0.001, pvalue = 0.006, GO_HOMOPHILIC_CELL_ADHESION_VIA_PLASMA_MEMBRANE_ADHESION_MOLECULES
+Didn't pass (cutoff=0.0050): cat 9884, mi = 0.001, pvalue = 0.007, GO_COLLAGEN_METABOLIC_PROCESS
+Didn't pass (cutoff=0.0050): cat 5143, mi = 0.001, pvalue = 0.010, GO_THYROID_HORMONE_METABOLIC_PROCESS
+Didn't pass (cutoff=0.0050): cat 6948, mi = 0.001, pvalue = 0.010, GO_ENTRAINMENT_OF_CIRCADIAN_CLOCK_BY_PHOTOPERIOD
+Didn't pass (cutoff=0.0050): cat 6736, mi = 0.001, pvalue = 0.012, GO_ENDORIBONUCLEASE_COMPLEX
+Didn't pass (cutoff=0.0050): cat 304, mi = 0.001, pvalue = 0.007, GO_REGULATION_OF_PROTEIN_LOCALIZATION_TO_CHROMOSOME_TELOMERIC_REGION
+Didn't pass (cutoff=0.0050): cat 6616, mi = 0.001, pvalue = 0.012, GO_BLOC_COMPLEX
+Passed: cat 405, mi = 0.001, pvalue = 0.004, GO_ISWI_TYPE_COMPLEX
+Didn't pass (cutoff=0.0050): cat 8054, mi = 0.001, pvalue = 0.018, GO_MODULATION_BY_HOST_OF_VIRAL_PROCESS
+Didn't pass (cutoff=0.0050): cat 6823, mi = 0.001, pvalue = 0.013, GO_INTRINSIC_COMPONENT_OF_GOLGI_MEMBRANE
+Didn't pass (cutoff=0.0050): cat 8213, mi = 0.001, pvalue = 0.015, GO_POSITIVE_REGULATION_OF_CIRCADIAN_RHYTHM
+Didn't pass (cutoff=0.0050): cat 8579, mi = 0.001, pvalue = 0.012, GO_MYOBLAST_PROLIFERATION
+Didn't pass (cutoff=0.0050): cat 1402, mi = 0.001, pvalue = 0.013, GO_THYROID_HORMONE_GENERATION
+Didn't pass (cutoff=0.0050): cat 6853, mi = 0.001, pvalue = 0.020, GO_UDP_GALACTOSYLTRANSFERASE_ACTIVITY
+Didn't pass (cutoff=0.0050): cat 470, mi = 0.001, pvalue = 0.007, GO_C4_DICARBOXYLATE_TRANSMEMBRANE_TRANSPORTER_ACTIVITY
+Didn't pass (cutoff=0.0050): cat 7684, mi = 0.001, pvalue = 0.014, GO_NODAL_SIGNALING_PATHWAY
+Didn't pass (cutoff=0.0050): cat 7132, mi = 0.001, pvalue = 0.009, GO_MYOSIN_HEAVY_CHAIN_BINDING
+Passed: cat 8703, mi = 0.001, pvalue = 0.002, GO_PARANODAL_JUNCTION
+Didn't pass (cutoff=0.0050): cat 7124, mi = 0.001, pvalue = 0.021, GO_ORGANISM_EMERGENCE_FROM_PROTECTIVE_STRUCTURE
+Didn't pass (cutoff=0.0050): cat 7687, mi = 0.001, pvalue = 0.009, GO_REGULATION_OF_LYSOSOMAL_LUMEN_PH
+Didn't pass (cutoff=0.0050): cat 7696, mi = 0.001, pvalue = 0.013, GO_GABA_GATED_CHLORIDE_ION_CHANNEL_ACTIVITY
+Didn't pass (cutoff=0.0050): cat 2617, mi = 0.001, pvalue = 0.013, GO_MIDGUT_DEVELOPMENT
+Didn't pass (cutoff=0.0050): cat 7349, mi = 0.001, pvalue = 0.011, GO_MIRNA_MEDIATED_INHIBITION_OF_TRANSLATION
+Didn't pass (cutoff=0.0050): cat 2341, mi = 0.001, pvalue = 0.015, GO_GOLGI_LUMEN
+Didn't pass (cutoff=0.0050): cat 3548, mi = 0.001, pvalue = 0.007, GO_N_ACETYLNEURAMINATE_METABOLIC_PROCESS
+Didn't pass (cutoff=0.0050): cat 7313, mi = 0.001, pvalue = 0.012, GO_BLOC_1_COMPLEX
+Didn't pass (cutoff=0.0050): cat 3148, mi = 0.001, pvalue = 0.007, GO_POSITIVE_REGULATION_OF_CHROMATIN_SILENCING
+Didn't pass (cutoff=0.0050): cat 2111, mi = 0.001, pvalue = 0.022, GO_HYALURONAN_METABOLIC_PROCESS
+Didn't pass (cutoff=0.0050): cat 8842, mi = 0.001, pvalue = 0.018, GO_MYOSIN_BINDING
+Didn't pass (cutoff=0.0050): cat 9482, mi = 0.001, pvalue = 0.019, GO_POLYPEPTIDE_N_ACETYLGALACTOSAMINYLTRANSFERASE_ACTIVITY
+Passed: cat 1988, mi = 0.001, pvalue = 0.004, GO_SMALL_RNA_LOADING_ONTO_RISC
+Didn't pass (cutoff=0.0050): cat 3661, mi = 0.001, pvalue = 0.018, GO_PHOTOTRANSDUCTION
+Didn't pass (cutoff=0.0050): cat 8298, mi = 0.001, pvalue = 0.020, GO_O_GLYCAN_PROCESSING
+Didn't pass (cutoff=0.0050): cat 1072, mi = 0.001, pvalue = 0.017, GO_PRC1_COMPLEX
+Didn't pass (cutoff=0.0050): cat 7924, mi = 0.001, pvalue = 0.011, GO_NUCLEAR_PORE_NUCLEAR_BASKET
+Didn't pass (cutoff=0.0050): cat 10015, mi = 0.001, pvalue = 0.007, GO_LEYDIG_CELL_DIFFERENTIATION
+Didn't pass (cutoff=0.0050): cat 1155, mi = 0.001, pvalue = 0.018, GO_ENDOPLASMIC_RETICULUM_GOLGI_INTERMEDIATE_COMPARTMENT_MEMBRANE
+Didn't pass (cutoff=0.0050): cat 5537, mi = 0.001, pvalue = 0.015, GO_TYPE_I_INTERFERON_RECEPTOR_BINDING
+Didn't pass (cutoff=0.0050): cat 5638, mi = 0.001, pvalue = 0.024, GO_REGULATION_OF_INSULIN_LIKE_GROWTH_FACTOR_RECEPTOR_SIGNALING_PATHWAY
+Didn't pass (cutoff=0.0050): cat 9579, mi = 0.001, pvalue = 0.026, GO_G_PROTEIN_COUPLED_NEUROTRANSMITTER_RECEPTOR_ACTIVITY
+Didn't pass (cutoff=0.0050): cat 7536, mi = 0.001, pvalue = 0.021, GO_TRANSITION_METAL_ION_HOMEOSTASIS
+Didn't pass (cutoff=0.0050): cat 1693, mi = 0.001, pvalue = 0.017, GO_POSITIVE_REGULATION_OF_GLUTAMATE_RECEPTOR_SIGNALING_PATHWAY
+Didn't pass (cutoff=0.0050): cat 8767, mi = 0.001, pvalue = 0.023, GO_LOW_DENSITY_LIPOPROTEIN_PARTICLE_BINDING
+Didn't pass (cutoff=0.0050): cat 8333, mi = 0.001, pvalue = 0.033, GO_SEROTONIN_RECEPTOR_ACTIVITY
+Didn't pass (cutoff=0.0050): cat 2260, mi = 0.001, pvalue = 0.011, GO_RESPONSE_TO_STEROL_DEPLETION
+Didn't pass (cutoff=0.0050): cat 8757, mi = 0.001, pvalue = 0.009, GO_HYDROLASE_ACTIVITY_ACTING_ON_CARBON_NITROGEN_BUT_NOT_PEPTIDE_BONDS_IN_LINEAR_AMIDINES
+Didn't pass (cutoff=0.0050): cat 7765, mi = 0.001, pvalue = 0.025, GO_ARF_GUANYL_NUCLEOTIDE_EXCHANGE_FACTOR_ACTIVITY
+Didn't pass (cutoff=0.0050): cat 4182, mi = 0.001, pvalue = 0.025, GO_IRON_ION_HOMEOSTASIS
+Didn't pass (cutoff=0.0050): cat 6871, mi = 0.001, pvalue = 0.029, GO_POSITIVE_REGULATION_OF_CELL_ADHESION_MEDIATED_BY_INTEGRIN
+Didn't pass (cutoff=0.0050): cat 7123, mi = 0.001, pvalue = 0.019, GO_CELLULAR_COPPER_ION_HOMEOSTASIS
+Didn't pass (cutoff=0.0050): cat 1341, mi = 0.001, pvalue = 0.032, GO_NEGATIVE_REGULATION_OF_VIRAL_ENTRY_INTO_HOST_CELL
+Total number of categories evaluated = 284.
+Number of categories that passed the tests = 31
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Cluster rows .. best merge is 24, 28, 0.0357092678712226
+best merge is 0, 3, 0.0366119063491244
+best merge is 4, 24, 0.0462911588601159
+best merge is 4, 5, 0.066348652740401
+best merge is 4, 12, 0.0866640618719899
+best merge is 0, 6, 0.0894379974916021
+best merge is 8, 14, 0.137414087287297
+best merge is 4, 8, 0.16405937290507
+best merge is 4, 25, 0.214991046277609
+best merge is 1, 2, 0.218278298933084
+best merge is 19, 29, 0.251916321462144
+best merge is 17, 30, 0.28195603509564
+best merge is 1, 7, 0.292843095311776
+best merge is 0, 1, 0.371519839636412
+best merge is 9, 11, 0.405618767498993
+best merge is 0, 21, 0.470727556346838
+best merge is 17, 18, 0.485867907203001
+best merge is 9, 23, 0.526160234387126
+best merge is 16, 19, 0.551674901185086
+best merge is 22, 26, 0.614035526682482
+best merge is 0, 22, 0.637018427610403
+best merge is 20, 27, 0.691156471072884
+best merge is 10, 15, 0.757199078945621
+best merge is 9, 17, 0.794556862254424
+best merge is 9, 20, 0.822342544013145
+best merge is 10, 16, 0.872448775576918
+best merge is 0, 4, 0.872730771012335
+order classes
+9 - 1.42198486630096
+8 - 0.479160573746243
+8 - 2.47296564532873
+5 - 3.64419029669477
+4 24 28 5 12 8 14 25
+0 3 6 1 2 7 21 22 26
+9 11 23 17 30 18 20 27
+10 15 16 19 29
+13
+Done.Start drawing
+1.00	-1.00
+GO_MITOCHONDRIAL_GENE_EXPRESSION
+GO_TRNA_WOBBLE_URIDINE_MODIFICATION
+GO_THIOESTER_BIOSYNTHETIC_PROCESS
+GO_PROTEIN_ACETYLTRANSFERASE_COMPLEX
+GO_ALTERNATIVE_MRNA_SPLICING_VIA_SPLICEOSOME
+GO_NCRNA_TRANSCRIPTION
+GO_HISTONE_DEMETHYLASE_ACTIVITY
+GO_LAMELLIPODIUM_ORGANIZATION
+GO_CELLULAR_RESPONSE_TO_PROSTAGLANDIN_STIMULUS
+GO_SPINDLE_MIDZONE_ASSEMBLY
+GO_PARANODAL_JUNCTION
+GO_PHOSPHOLIPASE_A2_ACTIVITY
+GO_ACETYLCHOLINE_GATED_CHANNEL_COMPLEX
+GO_METALLOENDOPEPTIDASE_INHIBITOR_ACTIVITY
+GO_INTERLEUKIN_10_PRODUCTION
+GO_POSTSYNAPTIC_CYTOSOL
+GO_PROTEIN_LOCALIZATION_TO_CILIUM
+GO_CELL_PROLIFERATION_INVOLVED_IN_HEART_MORPHOGENESIS
+GO_PHOSPHOLIPASE_INHIBITOR_ACTIVITY
+GO_NEGATIVE_REGULATION_OF_TUMOR_NECROSIS_FACTOR_MEDIATED_SIGNALING_PATHWAY
+GO_SMALL_RNA_LOADING_ONTO_RISC
+GO_AMINE_METABOLIC_PROCESS
+GO_RESPONSE_TO_OSMOTIC_STRESS
+GO_PROTEIN_K11_LINKED_UBIQUITINATION
+GO_CORE_MEDIATOR_COMPLEX
+GO_ISWI_TYPE_COMPLEX
+GO_RECOMBINATIONAL_REPAIR
+GO_REGULATION_OF_MICROTUBULE_BINDING
+GO_REGULATION_OF_UBIQUITIN_DEPENDENT_PROTEIN_CATABOLIC_PROCESS
+GO_MHC_PROTEIN_COMPLEX_BINDING
+GO_CELLULAR_RESPONSE_TO_NITRIC_OXIDE
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+Cluster rows .. best merge is 24, 28, 0.0357092678712226
+best merge is 0, 3, 0.0366119063491244
+best merge is 4, 24, 0.0462911588601159
+best merge is 4, 5, 0.066348652740401
+best merge is 4, 12, 0.0866640618719899
+best merge is 0, 6, 0.0894379974916021
+best merge is 8, 14, 0.137414087287297
+best merge is 4, 8, 0.16405937290507
+best merge is 4, 25, 0.214991046277609
+best merge is 1, 2, 0.218278298933084
+best merge is 19, 29, 0.251916321462144
+best merge is 17, 30, 0.28195603509564
+best merge is 1, 7, 0.292843095311776
+best merge is 0, 1, 0.371519839636412
+best merge is 9, 11, 0.405618767498993
+best merge is 0, 21, 0.470727556346838
+best merge is 17, 18, 0.485867907203001
+best merge is 9, 23, 0.526160234387126
+best merge is 16, 19, 0.551674901185086
+best merge is 22, 26, 0.614035526682482
+best merge is 0, 22, 0.637018427610403
+best merge is 20, 27, 0.691156471072884
+best merge is 10, 15, 0.757199078945621
+best merge is 9, 17, 0.794556862254424
+best merge is 9, 20, 0.822342544013145
+best merge is 10, 16, 0.872448775576918
+best merge is 0, 4, 0.872730771012335
+order classes
+9 - 1.42198486630096
+8 - 0.479160573746243
+8 - 2.47296564532873
+5 - 3.64419029669477
+4 24 28 5 12 8 14 25
+0 3 6 1 2 7 21 22 26
+9 11 23 17 30 18 20 27
+10 15 16 19 29
+13
+Done.-18.845	42	0
+-16.01	42	2.31
+-12.44	42	5.67
+-8.45	42	9.45
+-4.25	42	13.65
+0.16	42	17.85
+4.885	42	22.47
+9.61	42	27.3
+13.915	42	31.92
+17.695	42	35.91
+20.74	42	39.48
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_c5_gs L ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 7, 9, 0.0357092678712226
+best merge is 2, 7, 0.0462911588601159
+best merge is 2, 3, 0.066348652740401
+best merge is 2, 5, 0.0866640618719899
+best merge is 4, 6, 0.137414087287297
+best merge is 2, 4, 0.16405937290507
+order classes
+5 - 0.107839006608099
+2 - 0.343535218218244
+2 7 9 3 5
+1
+0
+4 6
+8
+Done.Start drawing
+1.00	-1.00
+GO_ALTERNATIVE_MRNA_SPLICING_VIA_SPLICEOSOME
+GO_PROTEIN_ACETYLTRANSFERASE_COMPLEX
+GO_PROTEIN_K11_LINKED_UBIQUITINATION
+GO_CORE_MEDIATOR_COMPLEX
+GO_ISWI_TYPE_COMPLEX
+GO_RECOMBINATIONAL_REPAIR
+GO_REGULATION_OF_MICROTUBULE_BINDING
+GO_REGULATION_OF_UBIQUITIN_DEPENDENT_PROTEIN_CATABOLIC_PROCESS
+GO_MHC_PROTEIN_COMPLEX_BINDING
+GO_CELLULAR_RESPONSE_TO_NITRIC_OXIDE
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+_____...________ human_c5_gs R ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 0, 3, 0.0366119063491244
+best merge is 0, 4, 0.0894379974916021
+best merge is 1, 2, 0.218278298933084
+order classes
+3 - 0.111734467357504
+0 3 4
+1
+2
+5
+6
+Done.Start drawing
+1.00	-1.00
+GO_MITOCHONDRIAL_GENE_EXPRESSION
+GO_TRNA_WOBBLE_URIDINE_MODIFICATION
+GO_THIOESTER_BIOSYNTHETIC_PROCESS
+GO_PROTEIN_ACETYLTRANSFERASE_COMPLEX
+GO_ALTERNATIVE_MRNA_SPLICING_VIA_SPLICEOSOME
+GO_NCRNA_TRANSCRIPTION
+GO_HISTONE_DEMETHYLASE_ACTIVITY
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c5_gs/pvmatrix.txt’
+________________ human_c6_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 189
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 9990 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 9990	189
+Done.
+Writing internal quantized groups ...Done
+908 hits go_terms_num = 189
+cat 131, mi = 0.00195960, GCNP_SHH_UP_LATE.V1_UP
+cat 88, mi = 0.00180307, MEL18_DN.V1_DN
+cat 167, mi = 0.00166415, IL21_UP.V1_DN
+cat 146, mi = 0.00163597, CAHOY_ASTROGLIAL
+cat 147, mi = 0.00163348, AKT_UP.V1_UP
+cat 184, mi = 0.00161473, PDGF_ERK_DN.V1_DN
+cat 16, mi = 0.00147947, KRAS.300_UP.V1_DN
+cat 65, mi = 0.00137903, WNT_UP.V1_DN
+cat 3, mi = 0.00136661, NOTCH_DN.V1_DN
+cat 4, mi = 0.00135720, CAMP_UP.V1_UP
+cat 41, mi = 0.00134015, IL2_UP.V1_DN
+cat 116, mi = 0.00131520, KRAS.PROSTATE_UP.V1_UP
+cat 78, mi = 0.00129923, BMI1_DN_MEL18_DN.V1_DN
+cat 119, mi = 0.00129137, KRAS.KIDNEY_UP.V1_DN
+cat 153, mi = 0.00127234, VEGF_A_UP.V1_DN
+
+RESULTS
+Passed: cat 131, mi = 0.002, pvalue = 0.003, GCNP_SHH_UP_LATE.V1_UP
+Didn't pass (cutoff=0.0050): cat 88, mi = 0.002, pvalue = 0.006, MEL18_DN.V1_DN
+Didn't pass (cutoff=0.0050): cat 146, mi = 0.002, pvalue = 0.015, CAHOY_ASTROGLIAL
+Didn't pass (cutoff=0.0050): cat 147, mi = 0.002, pvalue = 0.014, AKT_UP.V1_UP
+Didn't pass (cutoff=0.0050): cat 184, mi = 0.002, pvalue = 0.013, PDGF_ERK_DN.V1_DN
+Didn't pass (cutoff=0.0050): cat 16, mi = 0.001, pvalue = 0.029, KRAS.300_UP.V1_DN
+Didn't pass (cutoff=0.0050): cat 65, mi = 0.001, pvalue = 0.041, WNT_UP.V1_DN
+Didn't pass (cutoff=0.0050): cat 3, mi = 0.001, pvalue = 0.043, NOTCH_DN.V1_DN
+Didn't pass (cutoff=0.0050): cat 4, mi = 0.001, pvalue = 0.045, CAMP_UP.V1_UP
+Didn't pass (cutoff=0.0050): cat 116, mi = 0.001, pvalue = 0.052, KRAS.PROSTATE_UP.V1_UP
+Didn't pass (cutoff=0.0050): cat 78, mi = 0.001, pvalue = 0.063, BMI1_DN_MEL18_DN.V1_DN
+Didn't pass (cutoff=0.0050): cat 119, mi = 0.001, pvalue = 0.065, KRAS.KIDNEY_UP.V1_DN
+Didn't pass (cutoff=0.0050): cat 153, mi = 0.001, pvalue = 0.068, VEGF_A_UP.V1_DN
+Didn't pass (cutoff=0.0050): cat 96, mi = 0.001, pvalue = 0.088, CORDENONSI_YAP_CONSERVED_SIGNATURE
+Didn't pass (cutoff=0.0050): cat 111, mi = 0.001, pvalue = 0.072, ERBB2_UP.V1_DN
+Didn't pass (cutoff=0.0050): cat 142, mi = 0.001, pvalue = 0.076, ATF2_S_UP.V1_UP
+Didn't pass (cutoff=0.0050): cat 98, mi = 0.001, pvalue = 0.076, IL21_UP.V1_UP
+Didn't pass (cutoff=0.0050): cat 170, mi = 0.001, pvalue = 0.129, SINGH_KRAS_DEPENDENCY_SIGNATURE
+Didn't pass (cutoff=0.0050): cat 106, mi = 0.001, pvalue = 0.079, RB_P107_DN.V1_UP
+Didn't pass (cutoff=0.0050): cat 171, mi = 0.001, pvalue = 0.093, KRAS.BREAST_UP.V1_UP
+Didn't pass (cutoff=0.0050): cat 81, mi = 0.001, pvalue = 0.092, BRCA1_DN.V1_DN
+Total number of categories evaluated = 15.
+Number of categories that passed the tests = 1
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Start drawing
+1.00	-1.00
+GCNP_SHH_UP_LATE.V1_UP
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+-18.845	42	0
+-16.01	42	2.31
+-12.335	42	5.67
+-8.24	42	9.66
+-4.145	42	13.86
+0.16	42	17.85
+4.885	42	22.47
+9.61	42	27.3
+13.915	42	31.92
+17.695	42	35.91
+20.74	42	39.48
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_c6_gs L ...
+Reading matrix ... Done.
+Start drawing
+1.00	-1.00
+GCNP_SHH_UP_LATE.V1_UP
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+_____...________ human_c6_gs R -> No signal!
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c6_gs/pvmatrix.txt’
+________________ human_c7_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 4872
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 16960 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 16960	4872
+Done.
+Writing internal quantized groups ...Done
+1542 hits go_terms_num = 4872
+cat 3956, mi = 0.00162877, GSE17721_LPS_VS_GARDIQUIMOD_1H_BMDC_DN
+cat 2352, mi = 0.00148613, GSE7568_IL4_VS_IL4_AND_TGFB_TREATED_MACROPHAGE_24H_DN
+cat 2720, mi = 0.00145035, GSE3920_IFNB_VS_IFNG_TREATED_ENDOTHELIAL_CELL_DN
+cat 3087, mi = 0.00140157, GSE9006_TYPE_1_DIABETES_AT_DX_VS_1MONTH_POST_DX_PBMC_UP
+cat 626, mi = 0.00139991, GSE45365_WT_VS_IFNAR_KO_CD8A_DC_UP
+cat 3660, mi = 0.00137497, GSE36476_CTRL_VS_TSST_ACT_72H_MEMORY_CD4_TCELL_OLD_DN
+cat 1608, mi = 0.00136061, GSE22886_NAIVE_CD4_TCELL_VS_48H_ACT_TH2_DN
+cat 3472, mi = 0.00134080, GSE15930_NAIVE_VS_24H_IN_VITRO_STIM_CD8_TCELL_DN
+cat 3743, mi = 0.00133050, GSE15930_NAIVE_VS_24H_IN_VITRO_STIM_INFAB_CD8_TCELL_DN
+cat 3646, mi = 0.00131200, GSE32986_UNSTIM_VS_GMCSF_AND_CURDLAN_LOWDOSE_STIM_DC_UP
+cat 2585, mi = 0.00131115, GSE10240_IL22_VS_IL17_STIM_PRIMARY_BRONCHIAL_EPITHELIAL_CELLS_UP
+cat 3155, mi = 0.00130971, GSE12845_NAIVE_VS_PRE_GC_TONSIL_BCELL_DN
+cat 1133, mi = 0.00130092, GSE2770_IL12_VS_IL4_TREATED_ACT_CD4_TCELL_6H_DN
+cat 1011, mi = 0.00129570, GSE22886_UNSTIM_VS_STIM_MEMORY_TCELL_DN
+cat 4729, mi = 0.00128643, GSE15659_NAIVE_CD4_TCELL_VS_NONSUPPRESSIVE_TCELL_UP
+
+RESULTS
+Passed: cat 3956, mi = 0.002, pvalue = 0.000, GSE17721_LPS_VS_GARDIQUIMOD_1H_BMDC_DN
+Passed: cat 2352, mi = 0.001, pvalue = 0.000, GSE7568_IL4_VS_IL4_AND_TGFB_TREATED_MACROPHAGE_24H_DN
+Passed: cat 2720, mi = 0.001, pvalue = 0.000, GSE3920_IFNB_VS_IFNG_TREATED_ENDOTHELIAL_CELL_DN
+Passed: cat 3087, mi = 0.001, pvalue = 0.000, GSE9006_TYPE_1_DIABETES_AT_DX_VS_1MONTH_POST_DX_PBMC_UP
+Passed: cat 626, mi = 0.001, pvalue = 0.000, GSE45365_WT_VS_IFNAR_KO_CD8A_DC_UP
+Passed: cat 3660, mi = 0.001, pvalue = 0.000, GSE36476_CTRL_VS_TSST_ACT_72H_MEMORY_CD4_TCELL_OLD_DN
+Passed: cat 2585, mi = 0.001, pvalue = 0.001, GSE10240_IL22_VS_IL17_STIM_PRIMARY_BRONCHIAL_EPITHELIAL_CELLS_UP
+Passed: cat 1133, mi = 0.001, pvalue = 0.001, GSE2770_IL12_VS_IL4_TREATED_ACT_CD4_TCELL_6H_DN
+Passed: cat 4729, mi = 0.001, pvalue = 0.000, GSE15659_NAIVE_CD4_TCELL_VS_NONSUPPRESSIVE_TCELL_UP
+Passed: cat 4732, mi = 0.001, pvalue = 0.001, GSE41867_LCMV_ARMSTRONG_VS_CLONE13_DAY6_EFFECTOR_CD8_TCELL_DN
+Passed: cat 4136, mi = 0.001, pvalue = 0.001, GSE7852_THYMUS_VS_FAT_TREG_UP
+Passed: cat 1613, mi = 0.001, pvalue = 0.001, GSE7218_UNSTIM_VS_ANTIGEN_STIM_THROUGH_IGM_BCELL_UP
+Passed: cat 1799, mi = 0.001, pvalue = 0.002, GSE21033_CTRL_VS_POLYIC_STIM_DC_1H_UP
+Passed: cat 4373, mi = 0.001, pvalue = 0.001, GSE22601_DOUBLE_NEGATIVE_VS_DOUBLE_POSITIVE_THYMOCYTE_DN
+Passed: cat 714, mi = 0.001, pvalue = 0.002, GSE21670_UNTREATED_VS_TGFB_TREATED_CD4_TCELL_DN
+Passed: cat 4127, mi = 0.001, pvalue = 0.002, GSE36476_YOUNG_VS_OLD_DONOR_MEMORY_CD4_TCELL_72H_TSST_ACT_UP
+Passed: cat 1028, mi = 0.001, pvalue = 0.002, GSE3920_IFNB_VS_IFNG_TREATED_ENDOTHELIAL_CELL_UP
+Passed: cat 2039, mi = 0.001, pvalue = 0.003, GSE13738_RESTING_VS_TCR_ACTIVATED_CD4_TCELL_DN
+Passed: cat 4358, mi = 0.001, pvalue = 0.003, GSE36009_WT_VS_NLRP10_KO_DC_DN
+Passed: cat 3583, mi = 0.001, pvalue = 0.003, GSE13485_DAY7_VS_DAY21_YF17D_VACCINE_PBMC_UP
+Passed: cat 1781, mi = 0.001, pvalue = 0.004, GSE2770_UNTREATED_VS_IL12_TREATED_ACT_CD4_TCELL_48H_DN
+Passed: cat 1695, mi = 0.001, pvalue = 0.004, GSE41867_DAY6_VS_DAY15_LCMV_CLONE13_EFFECTOR_CD8_TCELL_UP
+Passed: cat 3208, mi = 0.001, pvalue = 0.004, GSE22601_DOUBLE_NEGATIVE_VS_CD8_SINGLE_POSITIVE_THYMOCYTE_UP
+Didn't pass (cutoff=0.0050): cat 4272, mi = 0.001, pvalue = 0.005, GSE3982_BCELL_VS_NKCELL_DN
+Passed: cat 1653, mi = 0.001, pvalue = 0.005, GSE19772_CTRL_VS_HCMV_INF_MONOCYTES_AND_PI3K_INHIBITION_UP
+Passed: cat 2777, mi = 0.001, pvalue = 0.004, GSE17721_POLYIC_VS_CPG_4H_BMDC_UP
+Passed: cat 4344, mi = 0.001, pvalue = 0.004, GSE360_T_GONDII_VS_B_MALAYI_HIGH_DOSE_MAC_DN
+Passed: cat 4447, mi = 0.001, pvalue = 0.005, GSE22935_UNSTIM_VS_24H_MBOVIS_BCG_STIM_MYD88_KO_MACROPHAGE_DN
+Passed: cat 3811, mi = 0.001, pvalue = 0.004, GSE29614_CTRL_VS_TIV_FLU_VACCINE_PBMC_2007_UP
+Passed: cat 1894, mi = 0.001, pvalue = 0.005, GSE16450_CTRL_VS_IFNA_12H_STIM_IMMATURE_NEURON_CELL_LINE_UP
+Didn't pass (cutoff=0.0050): cat 4823, mi = 0.001, pvalue = 0.006, GSE17721_CTRL_VS_LPS_6H_BMDC_DN
+Didn't pass (cutoff=0.0050): cat 2369, mi = 0.001, pvalue = 0.007, GSE360_L_MAJOR_VS_M_TUBERCULOSIS_MAC_UP
+Didn't pass (cutoff=0.0050): cat 3374, mi = 0.001, pvalue = 0.011, GSE5589_LPS_VS_LPS_AND_IL10_STIM_IL10_KO_MACROPHAGE_180MIN_UP
+Didn't pass (cutoff=0.0050): cat 3028, mi = 0.001, pvalue = 0.010, GSE5589_LPS_VS_LPS_AND_IL10_STIM_IL10_KO_MACROPHAGE_180MIN_DN
+Didn't pass (cutoff=0.0050): cat 1520, mi = 0.001, pvalue = 0.011, GSE5589_WT_VS_IL6_KO_LPS_STIM_MACROPHAGE_180MIN_UP
+Didn't pass (cutoff=0.0050): cat 2516, mi = 0.001, pvalue = 0.011, GSE17721_PAM3CSK4_VS_CPG_16H_BMDC_UP
+Didn't pass (cutoff=0.0050): cat 2650, mi = 0.001, pvalue = 0.010, GSE9006_1MONTH_VS_4MONTH_POST_TYPE_1_DIABETES_DX_PBMC_DN
+Didn't pass (cutoff=0.0050): cat 3537, mi = 0.001, pvalue = 0.012, GSE17301_CTRL_VS_48H_ACD3_ACD28_IFNA5_STIM_CD8_TCELL_UP
+Didn't pass (cutoff=0.0050): cat 2084, mi = 0.001, pvalue = 0.011, GSE29618_PRE_VS_DAY7_FLU_VACCINE_MDC_UP
+Didn't pass (cutoff=0.0050): cat 2682, mi = 0.001, pvalue = 0.013, GSE22611_MUTANT_NOD2_TRANSDUCED_VS_CTRL_HEK293T_STIMULATED_WITH_MDP_6H_DN
+Didn't pass (cutoff=0.0050): cat 2780, mi = 0.001, pvalue = 0.014, GSE9509_10MIN_VS_30MIN_LPS_AND_IL10_STIM_IL10_KO_MACROPHAGE_DN
+Didn't pass (cutoff=0.0050): cat 145, mi = 0.001, pvalue = 0.013, GSE32128_INOS_DEPENDENT_VS_INOS_INDEPENDENT_ACTIVATED_TCELL_UP
+Didn't pass (cutoff=0.0050): cat 2093, mi = 0.001, pvalue = 0.013, GSE22935_24H_VS_48H_MBOVIS_BCG_STIM_MYD88_KO_MACROPHAGE_DN
+Didn't pass (cutoff=0.0050): cat 842, mi = 0.001, pvalue = 0.013, GSE11961_MARGINAL_ZONE_BCELL_VS_MEMORY_BCELL_DAY7_DN
+Didn't pass (cutoff=0.0050): cat 2014, mi = 0.001, pvalue = 0.013, GSE7596_AKT_TRANSD_VS_CTRL_CD4_TCONV_WITH_TGFB_UP
+Didn't pass (cutoff=0.0050): cat 4315, mi = 0.001, pvalue = 0.015, GSE26912_TUMORICIDAL_VS_CTRL_MACROPHAGE_DN
+Didn't pass (cutoff=0.0050): cat 4359, mi = 0.001, pvalue = 0.018, GSE37336_LY6C_POS_VS_NEG_NAIVE_CD4_TCELL_DN
+Didn't pass (cutoff=0.0050): cat 3846, mi = 0.001, pvalue = 0.017, GSE22886_CD4_TCELL_VS_BCELL_NAIVE_UP
+Didn't pass (cutoff=0.0050): cat 4790, mi = 0.001, pvalue = 0.016, GSE13485_DAY3_VS_DAY21_YF17D_VACCINE_PBMC_DN
+Didn't pass (cutoff=0.0050): cat 2208, mi = 0.001, pvalue = 0.014, GSE29615_DAY3_VS_DAY7_LAIV_FLU_VACCINE_PBMC_DN
+Total number of categories evaluated = 136.
+Number of categories that passed the tests = 29
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Cluster rows .. best merge is 3, 6, 0.0952632550178035
+best merge is 1, 18, 0.19749956526309
+best merge is 3, 10, 0.201351303181339
+best merge is 3, 5, 0.260094372254947
+best merge is 8, 19, 0.262558126560376
+best merge is 1, 3, 0.285655069699667
+best merge is 4, 7, 0.362162124583127
+best merge is 2, 28, 0.364740132123862
+best merge is 16, 21, 0.372391561105677
+best merge is 0, 9, 0.415853571183712
+best merge is 8, 22, 0.436229814690932
+best merge is 8, 11, 0.492504131507216
+best merge is 23, 25, 0.507540562463417
+best merge is 15, 16, 0.524955351284965
+best merge is 1, 13, 0.565337882744145
+best merge is 0, 20, 0.586904060411733
+best merge is 17, 24, 0.593640312784741
+best merge is 12, 23, 0.595603286622117
+best merge is 2, 14, 0.604900409367976
+best merge is 0, 1, 0.686529735288227
+best merge is 15, 27, 0.687937904536881
+best merge is 4, 26, 0.745712306646045
+best merge is 8, 17, 0.816964631979678
+best merge is 0, 12, 0.826235521213324
+best merge is 2, 15, 0.895712794342533
+order classes
+13 - 1.31062616638735
+3 - 3.38234722777294
+3 - 3.98177891839862
+6 - 2.61587720419903
+4 - 3.15929260441566
+0 9 20 1 18 3 6 10 5 13 12 23 25
+2 28 14
+4 7 26
+8 19 22 11 17 24
+15 16 21 27
+Done.Start drawing
+1.00	-1.00
+GSE7568_IL4_VS_IL4_AND_TGFB_TREATED_MACROPHAGE_24H_DN
+GSE36009_WT_VS_NLRP10_KO_DC_DN
+GSE9006_TYPE_1_DIABETES_AT_DX_VS_1MONTH_POST_DX_PBMC_UP
+GSE10240_IL22_VS_IL17_STIM_PRIMARY_BRONCHIAL_EPITHELIAL_CELLS_UP
+GSE7852_THYMUS_VS_FAT_TREG_UP
+GSE36476_CTRL_VS_TSST_ACT_72H_MEMORY_CD4_TCELL_OLD_DN
+GSE2770_IL12_VS_IL4_TREATED_ACT_CD4_TCELL_6H_DN
+GSE17721_LPS_VS_GARDIQUIMOD_1H_BMDC_DN
+GSE3920_IFNB_VS_IFNG_TREATED_ENDOTHELIAL_CELL_UP
+GSE41867_DAY6_VS_DAY15_LCMV_CLONE13_EFFECTOR_CD8_TCELL_UP
+GSE16450_CTRL_VS_IFNA_12H_STIM_IMMATURE_NEURON_CELL_LINE_UP
+GSE21670_UNTREATED_VS_TGFB_TREATED_CD4_TCELL_DN
+GSE45365_WT_VS_IFNAR_KO_CD8A_DC_UP
+GSE22601_DOUBLE_NEGATIVE_VS_DOUBLE_POSITIVE_THYMOCYTE_DN
+GSE22935_UNSTIM_VS_24H_MBOVIS_BCG_STIM_MYD88_KO_MACROPHAGE_DN
+GSE21033_CTRL_VS_POLYIC_STIM_DC_1H_UP
+GSE19772_CTRL_VS_HCMV_INF_MONOCYTES_AND_PI3K_INHIBITION_UP
+GSE13738_RESTING_VS_TCR_ACTIVATED_CD4_TCELL_DN
+GSE17721_POLYIC_VS_CPG_4H_BMDC_UP
+GSE15659_NAIVE_CD4_TCELL_VS_NONSUPPRESSIVE_TCELL_UP
+GSE13485_DAY7_VS_DAY21_YF17D_VACCINE_PBMC_UP
+GSE22601_DOUBLE_NEGATIVE_VS_CD8_SINGLE_POSITIVE_THYMOCYTE_UP
+GSE7218_UNSTIM_VS_ANTIGEN_STIM_THROUGH_IGM_BCELL_UP
+GSE36476_YOUNG_VS_OLD_DONOR_MEMORY_CD4_TCELL_72H_TSST_ACT_UP
+GSE29614_CTRL_VS_TIV_FLU_VACCINE_PBMC_2007_UP
+GSE41867_LCMV_ARMSTRONG_VS_CLONE13_DAY6_EFFECTOR_CD8_TCELL_DN
+GSE2770_UNTREATED_VS_IL12_TREATED_ACT_CD4_TCELL_48H_DN
+GSE360_T_GONDII_VS_B_MALAYI_HIGH_DOSE_MAC_DN
+GSE3920_IFNB_VS_IFNG_TREATED_ENDOTHELIAL_CELL_DN
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+Cluster rows .. best merge is 3, 6, 0.0952632550178035
+best merge is 1, 18, 0.19749956526309
+best merge is 3, 10, 0.201351303181339
+best merge is 3, 5, 0.260094372254947
+best merge is 8, 19, 0.262558126560376
+best merge is 1, 3, 0.285655069699667
+best merge is 4, 7, 0.362162124583127
+best merge is 2, 28, 0.364740132123862
+best merge is 16, 21, 0.372391561105677
+best merge is 0, 9, 0.415853571183712
+best merge is 8, 22, 0.436229814690932
+best merge is 8, 11, 0.492504131507216
+best merge is 23, 25, 0.507540562463417
+best merge is 15, 16, 0.524955351284965
+best merge is 1, 13, 0.565337882744145
+best merge is 0, 20, 0.586904060411733
+best merge is 17, 24, 0.593640312784741
+best merge is 12, 23, 0.595603286622117
+best merge is 2, 14, 0.604900409367976
+best merge is 0, 1, 0.686529735288227
+best merge is 15, 27, 0.687937904536881
+best merge is 4, 26, 0.745712306646045
+best merge is 8, 17, 0.816964631979678
+best merge is 0, 12, 0.826235521213324
+best merge is 2, 15, 0.895712794342533
+order classes
+13 - 1.31062616638735
+3 - 3.38234722777294
+3 - 3.98177891839862
+6 - 2.61587720419903
+4 - 3.15929260441566
+0 9 20 1 18 3 6 10 5 13 12 23 25
+2 28 14
+4 7 26
+8 19 22 11 17 24
+15 16 21 27
+Done.-18.845	42	0
+-16.01	42	2.31
+-12.44	42	5.67
+-8.45	42	9.45
+-4.25	42	13.65
+0.0549999999999997	42	17.85
+4.78	42	22.26
+9.61	42	27.3
+13.915	42	31.92
+17.695	42	35.91
+20.74	42	39.48
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_c7_gs L ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 1, 3, 0.413115057116022
+order classes
+0
+1
+2
+3
+Done.Start drawing
+1.00	-1.00
+GSE9006_TYPE_1_DIABETES_AT_DX_VS_1MONTH_POST_DX_PBMC_UP
+GSE3920_IFNB_VS_IFNG_TREATED_ENDOTHELIAL_CELL_DN
+GSE2770_UNTREATED_VS_IL12_TREATED_ACT_CD4_TCELL_48H_DN
+GSE360_T_GONDII_VS_B_MALAYI_HIGH_DOSE_MAC_DN
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+_____...________ human_c7_gs R ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 1, 3, 0.0952632550178035
+best merge is 0, 6, 0.19749956526309
+best merge is 1, 5, 0.201351303181339
+order classes
+2 - 0.345624239210407
+2 - 0.166710696281156
+1 3
+0 6
+2
+4
+5
+Done.Start drawing
+1.00	-1.00
+GSE9006_TYPE_1_DIABETES_AT_DX_VS_1MONTH_POST_DX_PBMC_UP
+GSE10240_IL22_VS_IL17_STIM_PRIMARY_BRONCHIAL_EPITHELIAL_CELLS_UP
+GSE7568_IL4_VS_IL4_AND_TGFB_TREATED_MACROPHAGE_24H_DN
+GSE36009_WT_VS_NLRP10_KO_DC_DN
+GSE36476_CTRL_VS_TSST_ACT_72H_MEMORY_CD4_TCELL_OLD_DN
+GSE2770_IL12_VS_IL4_TREATED_ACT_CD4_TCELL_6H_DN
+GSE7852_THYMUS_VS_FAT_TREG_UP
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_c7_gs/pvmatrix.txt’
+________________ human_go_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 18854
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 17105 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 17105	18854
+Done.
+Writing internal quantized groups ...Done
+1555 hits go_terms_num = 18854
+cat 6071, mi = 0.00280748, 39S ribosomal protein L33, mitochondrial
+cat 6121, mi = 0.00149561, Transcriptional adapter 2-alpha
+cat 4063, mi = 0.00140574, 28S ribosomal protein S12, mitochondrial
+cat 4062, mi = 0.00130323, 28S ribosomal protein S12, mitochondrial
+cat 6985, mi = 0.00118875, YEATS domain-containing protein 4
+cat 8501, mi = 0.00112924, Protein kinase C gamma type
+cat 17972, mi = 0.00112249, Mediator of RNA polymerase II transcription subunit 8
+cat 5260, mi = 0.00112243, Mediator of RNA polymerase II transcription subunit 14
+cat 5629, mi = 0.00110328, Sorting nexin-2
+cat 3363, mi = 0.00108289, Serine/threonine-protein kinase Chk1
+cat 2261, mi = 0.00108168, Left-right determination factor 2
+cat 8433, mi = 0.00106197, Apolipoprotein D
+cat 2961, mi = 0.00105565, Phospholipid phosphatase 3
+cat 6642, mi = 0.00105342, HAUS augmin-like complex subunit 5
+cat 16361, mi = 0.00105342, Histone acetyltransferase KAT5
+
+RESULTS
+Passed: cat 6071, mi = 0.003, pvalue = 0.000, 39S ribosomal protein L33, mitochondrial
+Passed: cat 6121, mi = 0.001, pvalue = 0.000, Transcriptional adapter 2-alpha
+Passed: cat 6985, mi = 0.001, pvalue = 0.002, YEATS domain-containing protein 4
+Passed: cat 8501, mi = 0.001, pvalue = 0.004, Protein kinase C gamma type
+Passed: cat 17972, mi = 0.001, pvalue = 0.000, Mediator of RNA polymerase II transcription subunit 8
+Passed: cat 5629, mi = 0.001, pvalue = 0.001, Sorting nexin-2
+Didn't pass (cutoff=0.0050): cat 2261, mi = 0.001, pvalue = 0.007, Left-right determination factor 2
+Didn't pass (cutoff=0.0050): cat 8433, mi = 0.001, pvalue = 0.007, Apolipoprotein D
+Didn't pass (cutoff=0.0050): cat 2961, mi = 0.001, pvalue = 0.007, Phospholipid phosphatase 3
+Passed: cat 6642, mi = 0.001, pvalue = 0.003, HAUS augmin-like complex subunit 5
+Didn't pass (cutoff=0.0050): cat 8008, mi = 0.001, pvalue = 0.007, Acetylcholine receptor subunit alpha
+Didn't pass (cutoff=0.0050): cat 3399, mi = 0.001, pvalue = 0.015, Kinetochore protein NDC80 homolog
+Didn't pass (cutoff=0.0050): cat 10006, mi = 0.001, pvalue = 0.014, Elongation factor 2
+Didn't pass (cutoff=0.0050): cat 2913, mi = 0.001, pvalue = 0.015, Ubiquitin-conjugating enzyme E2 C
+Didn't pass (cutoff=0.0050): cat 1450, mi = 0.001, pvalue = 0.015, Protein myomaker
+Didn't pass (cutoff=0.0050): cat 15163, mi = 0.001, pvalue = 0.012, Integrator complex subunit 11
+Passed: cat 5325, mi = 0.001, pvalue = 0.000, SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5
+Didn't pass (cutoff=0.0050): cat 6273, mi = 0.001, pvalue = 0.010, Protein phosphatase 1 regulatory subunit 15A
+Didn't pass (cutoff=0.0050): cat 2140, mi = 0.001, pvalue = 0.015, 26S proteasome non-ATPase regulatory subunit 11
+Didn't pass (cutoff=0.0050): cat 295, mi = 0.001, pvalue = 0.018, BBSome complex
+Didn't pass (cutoff=0.0050): cat 3147, mi = 0.001, pvalue = 0.016, Disintegrin and metalloproteinase domain-containing protein 10
+Passed: cat 6578, mi = 0.001, pvalue = 0.002, Neurofascin
+Didn't pass (cutoff=0.0050): cat 3400, mi = 0.001, pvalue = 0.008, Kinetochore protein NDC80 homolog
+Didn't pass (cutoff=0.0050): cat 2218, mi = 0.001, pvalue = 0.022, E3 SUMO-protein ligase CBX4
+Didn't pass (cutoff=0.0050): cat 3129, mi = 0.001, pvalue = 0.019, Torsin-1A
+Didn't pass (cutoff=0.0050): cat 4650, mi = 0.001, pvalue = 0.031, Leucine-rich repeat transmembrane neuronal protein 2
+Didn't pass (cutoff=0.0050): cat 870, mi = 0.001, pvalue = 0.012, Probable non-functional T cell receptor gamma variable 11
+Didn't pass (cutoff=0.0050): cat 1228, mi = 0.001, pvalue = 0.034, Coiled-coil domain-containing protein 66
+Didn't pass (cutoff=0.0050): cat 1225, mi = 0.001, pvalue = 0.025, Coiled-coil domain-containing protein 66
+Didn't pass (cutoff=0.0050): cat 5755, mi = 0.001, pvalue = 0.023, Dystrobrevin beta
+Didn't pass (cutoff=0.0050): cat 2184, mi = 0.001, pvalue = 0.023, Agouti-related protein
+Didn't pass (cutoff=0.0050): cat 6150, mi = 0.001, pvalue = 0.005, Interferon-inducible double-stranded RNA-dependent protein kinase activator A
+Didn't pass (cutoff=0.0050): cat 8967, mi = 0.001, pvalue = 0.021, Cytochrome b-c1 complex subunit 6, mitochondrial
+Didn't pass (cutoff=0.0050): cat 1753, mi = 0.001, pvalue = 0.031, T-cell-interacting, activating receptor on myeloid cells protein 1
+Didn't pass (cutoff=0.0050): cat 2139, mi = 0.001, pvalue = 0.041, 26S proteasome non-ATPase regulatory subunit 11
+Didn't pass (cutoff=0.0050): cat 1323, mi = 0.001, pvalue = 0.035, CCR4-NOT transcription complex subunit 1
+Didn't pass (cutoff=0.0050): cat 8623, mi = 0.001, pvalue = 0.044, 60S acidic ribosomal protein P1
+Didn't pass (cutoff=0.0050): cat 1079, mi = 0.001, pvalue = 0.047, Transmembrane protein 120B
+Didn't pass (cutoff=0.0050): cat 6804, mi = 0.001, pvalue = 0.016, SNARE-associated protein Snapin
+Didn't pass (cutoff=0.0050): cat 10600, mi = 0.001, pvalue = 0.026, T-complex protein 1 subunit alpha
+Didn't pass (cutoff=0.0050): cat 15985, mi = 0.001, pvalue = 0.052, Pre-mRNA-splicing factor 38A
+Didn't pass (cutoff=0.0050): cat 3725, mi = 0.001, pvalue = 0.040, Aurora kinase A
+Total number of categories evaluated = 46.
+Number of categories that passed the tests = 9
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Cluster rows .. best merge is 4, 7, 0.00705966783319945
+best merge is 1, 4, 0.0926601697394384
+best merge is 0, 2, 0.105185756339842
+best merge is 0, 6, 0.143606827928366
+best merge is 0, 5, 0.222732879268355
+order classes
+3 - 0.26159960813105
+3 - 0.128253338208051
+1 4 7
+0 2 6
+3
+5
+8
+Done.Start drawing
+1.00	-1.00
+39S ribosomal protein L33, mitochondrial, GO:0005762
+YEATS domain-containing protein 4, GO:0035267
+HAUS augmin-like complex subunit 5, GO:1990498
+Sorting nexin-2, GO:0030904
+Neurofascin, GO:0033010
+Protein kinase C gamma type, GO:0099524
+Transcriptional adapter 2-alpha, GO:0000124
+Mediator of RNA polymerase II transcription subunit 8, GO:0070847
+SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5, GO:0016589
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+Cluster rows .. best merge is 4, 7, 0.00705966783319945
+best merge is 1, 4, 0.0926601697394384
+best merge is 0, 2, 0.105185756339842
+best merge is 0, 6, 0.143606827928366
+best merge is 0, 5, 0.222732879268355
+order classes
+3 - 0.26159960813105
+3 - 0.128253338208051
+1 4 7
+0 2 6
+3
+5
+8
+Done.-18.845	42	0
+-16.01	42	2.31
+-12.44	42	5.67
+-8.45	42	9.45
+-4.25	42	13.65
+0.16	42	17.85
+4.885	42	22.47
+9.61	42	27.3
+13.915	42	31.92
+17.695	42	35.91
+20.74	42	39.48
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_go_gs L ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 1, 2, 0.00705966783319945
+order classes
+0
+1
+2
+Done.Start drawing
+1.00	-1.00
+Transcriptional adapter 2-alpha, GO:0000124
+Mediator of RNA polymerase II transcription subunit 8, GO:0070847
+SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5, GO:0016589
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+_____...________ human_go_gs R ...
+Reading matrix ... Done.
+Cluster rows .. best merge is 0, 1, 0.105185756339842
+order classes
+0
+1
+2
+3
+Done.Start drawing
+1.00	-1.00
+39S ribosomal protein L33, mitochondrial, GO:0005762
+YEATS domain-containing protein 4, GO:0035267
+Sorting nexin-2, GO:0030904
+HAUS augmin-like complex subunit 5, GO:1990498
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.R.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_go_gs/pvmatrix.txt’
+________________ human_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 1687
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs/’
+________________ human_gs_RBPs_by_3UTR ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 790
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 17481 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 17481	790
+Done.
+Writing internal quantized groups ...Done
+1589 hits go_terms_num = 790
+cat 418, mi = 0.00137998, MOV10_HEK293_POSTAR_Piranha_0.01
+cat 701, mi = 0.00111064, UCHL5_HepG2_POSTAR_eCLIP
+cat 538, mi = 0.00099375, RPS11_K562_POSTAR_eCLIP
+cat 575, mi = 0.00093049, SMNDC1_HepG2_POSTAR_eCLIP
+cat 273, mi = 0.00092373, HNRNPA1_HEK293T_POSTAR_HITS-CLIP
+cat 274, mi = 0.00092373, HNRNPA1_HEK293T_POSTAR_Piranha_0.01
+cat 289, mi = 0.00091974, HNRNPC_HEK293_POSTAR_PARalyzer
+cat 356, mi = 0.00091648, IGF2BP3_Panc1_POSTAR_CIMS
+cat 358, mi = 0.00091648, IGF2BP3_Panc1_POSTAR_iCLIP
+cat 242, mi = 0.00090360, FXR1_HEK293_POSTAR_Piranha_0.01
+cat 740, mi = 0.00089077, XRN2_K562_POSTAR_eCLIP
+cat 620, mi = 0.00087226, TAF15_HEK293_POSTAR_Piranha_0.01
+cat 199, mi = 0.00084808, FAM120A_K562_POSTAR_eCLIP
+cat 126, mi = 0.00083833, DGCR8_HEK293T_POSTAR_CIMS
+cat 244, mi = 0.00082696, FXR1_K562_POSTAR_eCLIP
+
+RESULTS
+Passed: cat 418, mi = 0.001, pvalue = 0.001, MOV10_HEK293_POSTAR_Piranha_0.01
+Passed: cat 538, mi = 0.001, pvalue = 0.002, RPS11_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 545, mi = 0.001, pvalue = 0.054, RPS5_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 528, mi = 0.001, pvalue = 0.055, RBM22_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 682, mi = 0.001, pvalue = 0.081, TROVE2_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 627, mi = 0.001, pvalue = 0.091, TARBP2_HEK293_POSTAR_PARalyzer
+Didn't pass (cutoff=0.0050): cat 526, mi = 0.001, pvalue = 0.072, RBM22_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 54, mi = 0.001, pvalue = 0.074, CNBP_HEK293_POSTAR_PARalyzer
+Didn't pass (cutoff=0.0050): cat 277, mi = 0.001, pvalue = 0.031, HNRNPA1_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 626, mi = 0.001, pvalue = 0.126, TARBP2_HEK293_POSTAR_PAR-CLIP
+Didn't pass (cutoff=0.0050): cat 315, mi = 0.001, pvalue = 0.141, HNRNPM_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 567, mi = 0.001, pvalue = 0.164, SFPQ_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 312, mi = 0.001, pvalue = 0.054, HNRNPM_HEK293T_POSTAR_CIMS
+Didn't pass (cutoff=0.0050): cat 623, mi = 0.001, pvalue = 0.298, TAF15_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 734, mi = 0.001, pvalue = 0.277, XRCC6_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 597, mi = 0.001, pvalue = 0.297, SRSF9_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 449, mi = 0.001, pvalue = 0.047, NSUN2_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 504, mi = 0.001, pvalue = 0.216, QKI_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 32, mi = 0.000, pvalue = 0.498, BCCIP_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 678, mi = 0.000, pvalue = 0.472, TRA2A_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 324, mi = 0.000, pvalue = 0.344, HNRNPU_HEK293T_POSTAR_HITS-CLIP
+Didn't pass (cutoff=0.0050): cat 325, mi = 0.000, pvalue = 0.351, HNRNPU_HEK293T_POSTAR_Piranha_0.01
+Total number of categories evaluated = 139.
+Number of categories that passed the tests = 2
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Start drawing
+1.00	-1.00
+RPS11_K562_POSTAR_eCLIP
+MOV10_HEK293_POSTAR_Piranha_0.01
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+-18.845	42	0
+-16.01	42	2.31
+-12.44	42	5.67
+-8.555	42	9.45
+-4.46	42	13.44
+-0.0499999999999972	42	17.64
+4.78	42	22.26
+9.61	42	27.3
+13.915	42	31.92
+17.695	42	35.91
+20.74	42	39.48
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_gs_RBPs_by_3UTR L -> No signal!
+_____...________ human_gs_RBPs_by_3UTR R -> No signal!
+‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_3UTR/pvmatrix.txt’
+________________ human_gs_RBPs_by_5UTR ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 790
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 17323 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 17323	790
+Done.
+Writing internal quantized groups ...Done
+1575 hits go_terms_num = 790
+cat 258, mi = 0.00110318, GPKOW_K562_POSTAR_eCLIP
+cat 610, mi = 0.00104470, SUGP2_HepG2_POSTAR_eCLIP
+cat 294, mi = 0.00101340, HNRNPC_HepG2_POSTAR_eCLIP
+cat 339, mi = 0.00097254, IGF2BP1_HepG2_POSTAR_eCLIP
+cat 205, mi = 0.00097246, FBL_HEK293_POSTAR_PAR-CLIP
+cat 522, mi = 0.00096950, RBM15_HepG2_POSTAR_eCLIP
+cat 476, mi = 0.00094937, PTBP1_HEK293T,no_SRRM4_POSTAR_Piranha_0.01
+cat 206, mi = 0.00094216, FBL_HEK293_POSTAR_PARalyzer
+cat 190, mi = 0.00087291, EWSR1_K562_POSTAR_eCLIP
+cat 65, mi = 0.00087238, CPSF2_HEK293_POSTAR_PARalyzer
+cat 528, mi = 0.00087141, RBM22_K562_POSTAR_eCLIP
+cat 693, mi = 0.00086207, U2AF2_HeLa_POSTAR_Piranha_0.01
+cat 492, mi = 0.00085270, PUM2_HEK293_POSTAR_PAR-CLIP
+cat 493, mi = 0.00085270, PUM2_HEK293_POSTAR_PARalyzer
+cat 689, mi = 0.00085153, U2AF1_K562_POSTAR_eCLIP
+
+RESULTS
+Didn't pass (cutoff=0.0050): cat 258, mi = 0.001, pvalue = 0.006, GPKOW_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 610, mi = 0.001, pvalue = 0.010, SUGP2_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 294, mi = 0.001, pvalue = 0.009, HNRNPC_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 339, mi = 0.001, pvalue = 0.011, IGF2BP1_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 205, mi = 0.001, pvalue = 0.019, FBL_HEK293_POSTAR_PAR-CLIP
+Didn't pass (cutoff=0.0050): cat 522, mi = 0.001, pvalue = 0.018, RBM15_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 476, mi = 0.001, pvalue = 0.013, PTBP1_HEK293T,no_SRRM4_POSTAR_Piranha_0.01
+Didn't pass (cutoff=0.0050): cat 206, mi = 0.001, pvalue = 0.022, FBL_HEK293_POSTAR_PARalyzer
+Didn't pass (cutoff=0.0050): cat 190, mi = 0.001, pvalue = 0.032, EWSR1_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 65, mi = 0.001, pvalue = 0.035, CPSF2_HEK293_POSTAR_PARalyzer
+Didn't pass (cutoff=0.0050): cat 528, mi = 0.001, pvalue = 0.034, RBM22_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 693, mi = 0.001, pvalue = 0.033, U2AF2_HeLa_POSTAR_Piranha_0.01
+Didn't pass (cutoff=0.0050): cat 492, mi = 0.001, pvalue = 0.048, PUM2_HEK293_POSTAR_PAR-CLIP
+Didn't pass (cutoff=0.0050): cat 493, mi = 0.001, pvalue = 0.046, PUM2_HEK293_POSTAR_PARalyzer
+Didn't pass (cutoff=0.0050): cat 689, mi = 0.001, pvalue = 0.029, U2AF1_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 289, mi = 0.001, pvalue = 0.030, HNRNPC_HEK293_POSTAR_PARalyzer
+Didn't pass (cutoff=0.0050): cat 531, mi = 0.001, pvalue = 0.032, RBM47_MDA-MB-231_POSTAR_CIMS
+Didn't pass (cutoff=0.0050): cat 315, mi = 0.001, pvalue = 0.044, HNRNPM_HepG2_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 124, mi = 0.001, pvalue = 0.052, DDX6_K562_POSTAR_eCLIP
+Didn't pass (cutoff=0.0050): cat 692, mi = 0.001, pvalue = 0.052, U2AF2_HeLa_POSTAR_HITS-CLIP
+Total number of categories evaluated = 10.
+Number of categories that passed the tests = 0
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Start drawing
+1.00	-1.00
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_by_5UTR/’
+________________ human_gs_RBPs_coding_by_coding_exons ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+read_go_names_data: please enter a valid filename (/data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/human_gs_RBPs_coding_by_coding_exons/human_gs_RBPs_coding_by_coding_exons_names.txt invalid)
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_coding_by_coding_exons/’
+________________ human_gs_RBPs_coding_by_introns ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+read_go_names_data: please enter a valid filename (/data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/human_gs_RBPs_coding_by_introns/human_gs_RBPs_coding_by_introns_names.txt invalid)
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_coding_by_introns/’
+________________ human_gs_RBPs_coding_gene ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+read_go_names_data: please enter a valid filename (/data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/human_gs_RBPs_coding_gene/human_gs_RBPs_coding_gene_names.txt invalid)
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_coding_gene/’
+________________ human_h_gs ________________
+Reading expression data ... 3 by 18759... Done.
+Creating hash ... Done
+Reading GO names table ... entering
+Done.
+Reading GO index table ... entering
+Done.
+go_terms_num: 50
+Creating hash table for gene names in gene ontology index file ... Done.
+gene num = 4219 out of 18759 
+Creating hash table for gene ontology names ... Done.
+Populating the GO profile table ... 4219	50
+Done.
+Writing internal quantized groups ...Done
+384 hits go_terms_num = 50
+cat 32, mi = 0.00761937, HALLMARK_G2M_CHECKPOINT
+cat 24, mi = 0.00487858, HALLMARK_E2F_TARGETS
+cat 3, mi = 0.00411701, HALLMARK_XENOBIOTIC_METABOLISM
+cat 20, mi = 0.00394179, HALLMARK_MYC_TARGETS_V1
+cat 34, mi = 0.00341809, HALLMARK_ANGIOGENESIS
+cat 48, mi = 0.00340548, HALLMARK_ESTROGEN_RESPONSE_EARLY
+cat 8, mi = 0.00309525, HALLMARK_MYOGENESIS
+cat 6, mi = 0.00286673, HALLMARK_OXIDATIVE_PHOSPHORYLATION
+cat 1, mi = 0.00275939, HALLMARK_KRAS_SIGNALING_DN
+cat 33, mi = 0.00261623, HALLMARK_ANDROGEN_RESPONSE
+cat 44, mi = 0.00261227, HALLMARK_MITOTIC_SPINDLE
+cat 27, mi = 0.00258433, HALLMARK_INFLAMMATORY_RESPONSE
+cat 38, mi = 0.00249703, HALLMARK_INTERFERON_GAMMA_RESPONSE
+cat 5, mi = 0.00245696, HALLMARK_PROTEIN_SECRETION
+cat 35, mi = 0.00241274, HALLMARK_PANCREAS_BETA_CELLS
+
+RESULTS
+Passed: cat 32, mi = 0.008, pvalue = 0.000, HALLMARK_G2M_CHECKPOINT
+Didn't pass (cutoff=0.0050): cat 34, mi = 0.003, pvalue = 0.048, HALLMARK_ANGIOGENESIS
+Didn't pass (cutoff=0.0050): cat 48, mi = 0.003, pvalue = 0.031, HALLMARK_ESTROGEN_RESPONSE_EARLY
+Didn't pass (cutoff=0.0050): cat 33, mi = 0.003, pvalue = 0.138, HALLMARK_ANDROGEN_RESPONSE
+Didn't pass (cutoff=0.0050): cat 42, mi = 0.002, pvalue = 0.188, HALLMARK_PI3K_AKT_MTOR_SIGNALING
+Didn't pass (cutoff=0.0050): cat 22, mi = 0.002, pvalue = 0.186, HALLMARK_GLYCOLYSIS
+Didn't pass (cutoff=0.0050): cat 23, mi = 0.002, pvalue = 0.223, HALLMARK_IL6_JAK_STAT3_SIGNALING
+Didn't pass (cutoff=0.0050): cat 36, mi = 0.002, pvalue = 0.234, HALLMARK_DNA_REPAIR
+Didn't pass (cutoff=0.0050): cat 9, mi = 0.002, pvalue = 0.279, HALLMARK_TGF_BETA_SIGNALING
+Didn't pass (cutoff=0.0050): cat 16, mi = 0.002, pvalue = 0.289, HALLMARK_MTORC1_SIGNALING
+Didn't pass (cutoff=0.0050): cat 26, mi = 0.002, pvalue = 0.322, HALLMARK_TNFA_SIGNALING_VIA_NFKB
+Didn't pass (cutoff=0.0050): cat 15, mi = 0.002, pvalue = 0.405, HALLMARK_UNFOLDED_PROTEIN_RESPONSE
+Didn't pass (cutoff=0.0050): cat 17, mi = 0.002, pvalue = 0.425, HALLMARK_IL2_STAT5_SIGNALING
+Didn't pass (cutoff=0.0050): cat 19, mi = 0.002, pvalue = 0.499, HALLMARK_APOPTOSIS
+Didn't pass (cutoff=0.0050): cat 21, mi = 0.001, pvalue = 0.565, HALLMARK_UV_RESPONSE_DN
+Didn't pass (cutoff=0.0050): cat 12, mi = 0.001, pvalue = 0.622, HALLMARK_WNT_BETA_CATENIN_SIGNALING
+Didn't pass (cutoff=0.0050): cat 30, mi = 0.001, pvalue = 0.610, HALLMARK_MYC_TARGETS_V2
+Didn't pass (cutoff=0.0050): cat 29, mi = 0.001, pvalue = 0.704, HALLMARK_CHOLESTEROL_HOMEOSTASIS
+Didn't pass (cutoff=0.0050): cat 40, mi = 0.001, pvalue = 0.728, HALLMARK_APICAL_SURFACE
+Didn't pass (cutoff=0.0050): cat 31, mi = 0.001, pvalue = 0.952, HALLMARK_HEDGEHOG_SIGNALING
+Didn't pass (cutoff=0.0050): cat 14, mi = 0.001, pvalue = 0.952, HALLMARK_ESTROGEN_RESPONSE_LATE
+Total number of categories evaluated = 39.
+Number of categories that passed the tests = 1
+Number of clusters: 11
+calculating the p-value matrix.
+Allocating memory ... Done
+Done
+Writing the p-value matrix to file...Done
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Reading matrix ... Done.
+Start drawing
+1.00	-1.00
+HALLMARK_G2M_CHECKPOINT
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl  --pvaluematrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt --expfile=hl60_exp1_DAC_rho_delta_phenotype.txt --order=1 --draw_sample_heatmap=false --min=-3 --max=3 --cluster=5 --quantized=0 
+Done.
+-18.95	42	0
+-16.43	42	2.1
+-12.965	42	5.04
+-8.765	42	9.03
+-4.355	42	13.44
+0.369999999999997	42	17.85
+5.2	42	22.89
+9.82	42	27.51
+14.23	42	32.13
+18.01	42	36.33
+20.845	42	39.69
+perl /data_gilbert/home/aarab/iPAGE/SCRIPTS/list_killed_cats.pl --pvmatrixfile=hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt
+DONE
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/pvmatrix.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/pvmatrix.all.txt’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.html’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.html’
+‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.all.pdf’
+_____...________ human_h_gs L ...
+Reading matrix ... Done.
+Start drawing
+1.00	-1.00
+HALLMARK_G2M_CHECKPOINT
+Outputing EPS file hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps
+Convert to PDF hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf
+Finished.
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.eps’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.eps’
+‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/hl60_exp1_DAC_rho_delta_phenotype.txt.summary.pdf’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/hl60_exp1_DAC_rho_delta_phenotype.txt.L.pdf’
+removed directory: ‘hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE’
+_____...________ human_h_gs R -> No signal!
+‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/pvmatrix.all.txt’ -> ‘hl60_exp1_DAC_rho_delta_phenotype/human_h_gs/pvmatrix.txt’
+command failed: /data_gilbert/home/aarab/iPAGE/PROGRAMS/page -expfile hl60_exp1_DAC_rho_delta_phenotype.txt -goindexfile /data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/human_gs/human_gs_index.txt -gonamesfile /data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/human_gs/human_gs_names.txt -catmaxcount 200 -catmincount 0 -logfile hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt.log  -quantized 0 -pvaluematrixfile hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt -max_p 0.005  -F 1  -P 1  -C 1  -independence 1  -ebins 11  at /data_gilbert/home/aarab/iPAGE/page.pl line 300.
+/data_gilbert/home/aarab/Projects/ipage-down/ipage_independence1.sh: line 34: hl60_exp1_DAC_rho_delta_phenotype/human_gs/pvmatrix.txt: No such file or directory
+/data_gilbert/home/aarab/Projects/ipage-down/ipage_independence1.sh: line 35: [: -le: unary operator expected
+nothing to output for html page at /data_gilbert/home/aarab/iPAGE/SCRIPTS/mi_go_draw_matrix_html.pl line 79.
+Table.pm: cannot open file "hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt" ..
+Table.pm: cannot open file "hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt" ..
+/data_gilbert/home/aarab/Projects/ipage-down/ipage_independence1.sh: line 34: hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_coding_by_coding_exons/pvmatrix.txt: No such file or directory
+/data_gilbert/home/aarab/Projects/ipage-down/ipage_independence1.sh: line 35: [: -le: unary operator expected
+Table.pm: cannot open file "hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt" ..
+Table.pm: cannot open file "hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt" ..
+/data_gilbert/home/aarab/Projects/ipage-down/ipage_independence1.sh: line 34: hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_coding_by_introns/pvmatrix.txt: No such file or directory
+/data_gilbert/home/aarab/Projects/ipage-down/ipage_independence1.sh: line 35: [: -le: unary operator expected
+Table.pm: cannot open file "hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt" ..
+Table.pm: cannot open file "hl60_exp1_DAC_rho_delta_phenotype.txt_PAGE/pvmatrix.txt" ..
+/data_gilbert/home/aarab/Projects/ipage-down/ipage_independence1.sh: line 34: hl60_exp1_DAC_rho_delta_phenotype/human_gs_RBPs_coding_gene/pvmatrix.txt: No such file or directory
+/data_gilbert/home/aarab/Projects/ipage-down/ipage_independence1.sh: line 35: [: -le: unary operator expected

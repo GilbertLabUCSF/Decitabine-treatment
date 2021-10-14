@@ -1,0 +1,4 @@
+GO	[-1.00 -0.89]	[-0.89 -0.73]	[-0.73 -0.55]	[-0.55 -0.35]	[-0.35 -0.15]	[-0.15 0.07]	[0.07 0.30]	[0.30 0.52]	[0.52 0.71]	[0.71 0.88]	[0.88 1.00]
+GO:0000124 Transcriptional adapter 2-alpha	4.783	1.057	-0.787	-0.787	-0.324	-0.787	-0.324	0.279	-0.787	-0.787	0.279
+GO:0070847 Mediator of RNA polymerase II transcription subunit 8	4.875	-0.331	-0.331	-0.331	-0.331	-0.331	0.273	-0.331	-0.331	0.273	-0.331
+GO:0016589 SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5	4.465	-0.248	-0.248	-0.248	-0.248	-0.248	-0.248	-0.248	-0.248	0.361	-0.248
