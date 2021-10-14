@@ -326,20 +326,14 @@ def set_Top_Rho(sc_thr,pv_thr,cell_line='hl60', data=None):
     return out 
 
 
-def two_sided_mtyl(fcthr=1,pvthr=0.01,wd='/rumi/shams/abe/Projects/Decitabine-treatment/'):
+def two_sided_mtyl(delta_mtyl, fcthr=1,pvthr=0.01):
     '''Read meRIP-seq data into two data frames'''
-    cwd = os.getcwd()
-    os.chdir(wd)
-    
-    delta_mtyl = pd.read_csv('meRIP-seq/hl60_delta_mtyl_table.txt', sep='\t')
     ### hyper_methylation gene list
     # subset by threshold 
     hyper = delta_mtyl.iloc[np.where([(l and p) for l,p in zip(delta_mtyl.logFC >= fcthr,delta_mtyl.p_value < pvthr)])]
     ### hypo_methylation gene list
     # subset by threshold 
     hypo = delta_mtyl.iloc[np.where([(l and p) for l,p in zip(delta_mtyl.logFC <= -(fcthr),delta_mtyl.p_value < pvthr)])]
-    
-    os.chdir(cwd)
     
     return hyper, hypo
 
