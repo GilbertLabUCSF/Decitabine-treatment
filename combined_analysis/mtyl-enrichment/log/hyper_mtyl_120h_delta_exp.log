@@ -1,0 +1,32 @@
+The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
+WARNING: your file might not contain a header line (0.874371072979637).
+Fri Oct 15 00:51:47 UTC 2021
+Remove duplicates, create ../RNA-seq/hl60-exp/120h_delta_exp.txt_GENESET/120h_delta_exp.txt
+Quantizing the input file.
+step 2: seed optimization.
+Expfile loaded: 60239 values...
+Adding small values...
+Quantizing the input vector...Done
+Number of clusters: 7
+calculating the p-value matrix.
+Allocating memory ... Done
+doing stats: mi = 0.006754
+pass = 0.000000
+z = 161.833771
+freq 0: 0.013828	119	8606	778	60239
+freq 1: 0.031257	269	8606	778	60239
+freq 2: 0.001859	16	8606	778	60239
+freq 3: 0.000000	0	8606	778	60239
+freq 4: 0.021497	185	8606	778	60239
+freq 5: 0.011736	101	8606	778	60239
+freq 6: 0.010229	88	8603	778	60239
+step 7: drawing matrix.
+Option suffix requires an argument
+Reading MI data ... Done.
+Start drawing
+1.36	-1
+0
+Outputing EPS file ../RNA-seq/hl60-exp/120h_delta_exp.txt_GENESET/120h_delta_exp.txt.summary.eps
+Convert to PDF ../RNA-seq/hl60-exp/120h_delta_exp.txt_GENESET/120h_delta_exp.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None ../RNA-seq/hl60-exp/120h_delta_exp.txt_GENESET/120h_delta_exp.txt.summary.eps ../RNA-seq/hl60-exp/120h_delta_exp.txt_GENESET/120h_delta_exp.txt.summary.pdf
+Finished.

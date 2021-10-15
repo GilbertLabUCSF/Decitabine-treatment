@@ -1,0 +1,31 @@
+The TEISERDIR environment variable is /flash/bin/TEISERv1.1/
+Fri Oct 15 00:52:21 UTC 2021
+Remove duplicates, create ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt
+Quantizing the input file.
+step 2: seed optimization.
+Expfile loaded: 2775 values...
+Adding small values...
+Quantizing the input vector...Done
+Number of clusters: 7
+calculating the p-value matrix.
+Allocating memory ... Done
+doing stats: mi = 0.002152
+pass = 0.225500
+z = 0.603900
+freq 0: 0.106061	42	396	262	2775
+freq 1: 0.085859	34	396	262	2775
+freq 2: 0.088384	35	396	262	2775
+freq 3: 0.106061	42	396	262	2775
+freq 4: 0.103535	41	396	262	2775
+freq 5: 0.108586	43	396	262	2775
+freq 6: 0.062657	25	399	262	2775
+step 7: drawing matrix.
+Option suffix requires an argument
+Reading MI data ... Done.
+Start drawing
+0.54	-0.54
+0
+Outputing EPS file ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.eps
+Convert to PDF ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.pdf
+ps2pdf -dEPSCrop -dAutoRotatePages=/None ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.eps ../RNA-seq/hl60-stbl/120h_delta_stbl.txt_GENESET/120h_delta_stbl.txt.summary.pdf
+Finished.
