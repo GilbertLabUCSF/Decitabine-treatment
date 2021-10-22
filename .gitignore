@@ -14,6 +14,8 @@ meRIP-seq/radar/
 meRIP-seq/meRIP-multiqc_data/
 meRIP-seq/fire/
 meRIP-seq/fire-old/
+meRIP-seq/exomepeak/
+
 RNA-seq/scallop-genome/
 RNA-seq/stbl-counts/
 RNA-seq/stbl-output/
