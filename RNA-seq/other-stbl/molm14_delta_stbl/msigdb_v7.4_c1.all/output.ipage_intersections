@@ -1,0 +1,56 @@
+Group	Cluster	Identifiers
+chr8q22 chr8q22	0
+chr8q22 chr8q22	1	MTDH	AZIN1	NDUFAF6	SLC25A32	DCAF13
+chr8q22 chr8q22	2	PABPC1	NIPAL2
+chr8q22 chr8q22	3	RNF19A	ATP6V1C1	PTDSS1	COX6C	YWHAZ	RBM12B
+chr8q22 chr8q22	4	RRM2B	STK3	RPL30
+chr8q22 chr8q22	5
+chr8q22 chr8q22	6	INTS8
+chr8q22 chr8q22	7	VPS13B
+chr8q22 chr8q22	8
+chr8q22 chr8q22	9
+chr8q22 chr8q22	10	CPQ	UBR5	DPY19L4
+chr9q31 chr9q31	0
+chr9q31 chr9q31	1	TMEM38B	FKTN	RAD23B	SMC2
+chr9q31 chr9q31	2
+chr9q31 chr9q31	3
+chr9q31 chr9q31	4
+chr9q31 chr9q31	5	ERP44	TMEM245
+chr9q31 chr9q31	6	SLC44A1	TEX10
+chr9q31 chr9q31	7
+chr9q31 chr9q31	8
+chr9q31 chr9q31	9
+chr9q31 chr9q31	10
+chr7p22 chr7p22	0
+chr7p22 chr7p22	1
+chr7p22 chr7p22	2
+chr7p22 chr7p22	3
+chr7p22 chr7p22	4
+chr7p22 chr7p22	5	RNF216	EIF3B	CCZ1	CCZ1B
+chr7p22 chr7p22	6	C7orf50
+chr7p22 chr7p22	7
+chr7p22 chr7p22	8
+chr7p22 chr7p22	9	ADAP1
+chr7p22 chr7p22	10	ACTB	DNAAF5	FOXK1
+chr17p11 chr17p11	0
+chr17p11 chr17p11	1
+chr17p11 chr17p11	2	SREBF1	RAI1	SPECC1	MPRIP	CCDC144A
+chr17p11 chr17p11	3
+chr17p11 chr17p11	4
+chr17p11 chr17p11	5	USP22
+chr17p11 chr17p11	6
+chr17p11 chr17p11	7
+chr17p11 chr17p11	8
+chr17p11 chr17p11	9	NCOR1
+chr17p11 chr17p11	10	AKAP10
+chrXq22 chrXq22	0	RBM41	MORF4L2	RPL36A	RPL36A-HNRNPH2
+chrXq22 chrXq22	1
+chrXq22 chrXq22	2	BTK
+chrXq22 chrXq22	3
+chrXq22 chrXq22	4
+chrXq22 chrXq22	5
+chrXq22 chrXq22	6
+chrXq22 chrXq22	7
+chrXq22 chrXq22	8
+chrXq22 chrXq22	9
+chrXq22 chrXq22	10	NXF3

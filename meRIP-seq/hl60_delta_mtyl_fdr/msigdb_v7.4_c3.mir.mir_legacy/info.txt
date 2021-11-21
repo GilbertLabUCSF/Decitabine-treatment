@@ -1,0 +1,11 @@
+catmaxcount	200
+catmincount	0
+cattypes	F,P,C
+ebins	11
+expfile	hl60_delta_mtyl_fdr.txt
+exptype	0
+goindexfile	/data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/msigdb_v7.4_c3.mir.mir_legacy/msigdb_v7.4_c3.mir.mir_legacy_index.txt
+gonamesfile	/data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/msigdb_v7.4_c3.mir.mir_legacy/msigdb_v7.4_c3.mir.mir_legacy_names.txt
+independence	1
+max_p	0.005
+minr	
