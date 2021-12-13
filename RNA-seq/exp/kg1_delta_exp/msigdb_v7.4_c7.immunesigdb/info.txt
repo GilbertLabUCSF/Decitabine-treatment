@@ -1,0 +1,11 @@
+catmaxcount	200
+catmincount	0
+cattypes	F,P,C
+ebins	11
+expfile	kg1_delta_exp.txt
+exptype	0
+goindexfile	/data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/msigdb_v7.4_c7.immunesigdb/msigdb_v7.4_c7.immunesigdb_index.txt
+gonamesfile	/data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/msigdb_v7.4_c7.immunesigdb/msigdb_v7.4_c7.immunesigdb_names.txt
+independence	1
+max_p	0.005
+minr	
