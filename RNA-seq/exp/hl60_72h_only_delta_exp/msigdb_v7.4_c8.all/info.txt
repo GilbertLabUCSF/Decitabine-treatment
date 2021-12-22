@@ -6,6 +6,6 @@ expfile	hl60_72h_only_delta_exp.txt
 exptype	0
 goindexfile	/data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/msigdb_v7.4_c8.all/msigdb_v7.4_c8.all_index.txt
 gonamesfile	/data_gilbert/home/aarab/iPAGE/PAGE_DATA/ANNOTATIONS/msigdb_v7.4_c8.all/msigdb_v7.4_c8.all_names.txt
-independence	1
+independence	0
 max_p	0.005
 minr	
