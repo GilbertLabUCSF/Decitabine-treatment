@@ -1,0 +1,752 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (kg1_delta_exp.txt_PAGE/SUMMARY/GOCC_SPECIFIC_GRANULE.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 22:52:09 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1700 1594
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+394 ux 800 uy moveto
+(GOCC_SPECIFIC_GRANULE, GOCC_SPECIFIC_GRANULE)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1580 uy moveto
+(GOCC_AZUROPHIL_GRANULE, GOCC_AZUROPHIL_GRANULE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1560 uy moveto
+(GOCC_VACUOLAR_LUMEN, GOCC_VACUOLAR_LUMEN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1540 uy moveto
+(GOCC_RECYCLING_ENDOSOME, GOCC_RECYCLING_ENDOSOME)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1520 uy moveto
+(GOBP_ANTIMICROBIAL_HUMORAL_RESPONSE, GOBP_ANTIMICROBIAL_HUMORAL_RESPONSE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1500 uy moveto
+(GOCC_AZUROPHIL_GRANULE_LUMEN, GOCC_AZUROPHIL_GRANULE_LUMEN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1480 uy moveto
+(GOCC_SPECIFIC_GRANULE_MEMBRANE, GOCC_SPECIFIC_GRANULE_MEMBRANE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1460 uy moveto
+(HP_ABNORMALITY_OF_THE_LYMPH_NODES, HP_ABNORMALITY_OF_THE_LYMPH_NODES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1440 uy moveto
+(GOBP_DEFENSE_RESPONSE_TO_GRAM_POSITIVE_BACTERIUM, GOBP_DEFENSE_RESPONSE_TO_GRAM_POSITIVE_BACTERIUM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1420 uy moveto
+(GOBP_DEFENSE_RESPONSE_TO_GRAM_NEGATIVE_BACTERIUM, GOBP_DEFENSE_RESPONSE_TO_GRAM_NEGATIVE_BACTERIUM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1400 uy moveto
+(GOCC_TERTIARY_GRANULE, GOCC_TERTIARY_GRANULE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1380 uy moveto
+(GOBP_AMINOGLYCAN_CATABOLIC_PROCESS, GOBP_AMINOGLYCAN_CATABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1360 uy moveto
+(GOCC_ANCHORED_COMPONENT_OF_MEMBRANE, GOCC_ANCHORED_COMPONENT_OF_MEMBRANE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1340 uy moveto
+(GOCC_PHAGOCYTIC_VESICLE, GOCC_PHAGOCYTIC_VESICLE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1320 uy moveto
+(GOCC_FICOLIN_1_RICH_GRANULE, GOCC_FICOLIN_1_RICH_GRANULE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1300 uy moveto
+(GOBP_HOMOTYPIC_CELL_CELL_ADHESION, GOBP_HOMOTYPIC_CELL_CELL_ADHESION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1280 uy moveto
+(GOCC_SPECIFIC_GRANULE_LUMEN, GOCC_SPECIFIC_GRANULE_LUMEN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1260 uy moveto
+(GOCC_RECYCLING_ENDOSOME_MEMBRANE, GOCC_RECYCLING_ENDOSOME_MEMBRANE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1240 uy moveto
+(GOBP_NEUROTRANSMITTER_SECRETION, GOBP_NEUROTRANSMITTER_SECRETION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1220 uy moveto
+(GOCC_PROTEIN_COMPLEX_INVOLVED_IN_CELL_ADHESION, GOCC_PROTEIN_COMPLEX_INVOLVED_IN_CELL_ADHESION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1200 uy moveto
+(GOBP_INTEGRIN_MEDIATED_SIGNALING_PATHWAY, GOBP_INTEGRIN_MEDIATED_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1180 uy moveto
+(GOCC_TERTIARY_GRANULE_LUMEN, GOCC_TERTIARY_GRANULE_LUMEN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1160 uy moveto
+(GOBP_SYNAPTIC_VESICLE_EXOCYTOSIS, GOBP_SYNAPTIC_VESICLE_EXOCYTOSIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1140 uy moveto
+(GOBP_REGULATION_OF_ADAPTIVE_IMMUNE_RESPONSE, GOBP_REGULATION_OF_ADAPTIVE_IMMUNE_RESPONSE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1120 uy moveto
+(GOCC_PIGMENT_GRANULE, GOCC_PIGMENT_GRANULE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1100 uy moveto
+(GOCC_FICOLIN_1_RICH_GRANULE_LUMEN, GOCC_FICOLIN_1_RICH_GRANULE_LUMEN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1080 uy moveto
+(GOBP_GRANULOCYTE_MIGRATION, GOBP_GRANULOCYTE_MIGRATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1060 uy moveto
+(GOBP_CELLULAR_EXTRAVASATION, GOBP_CELLULAR_EXTRAVASATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1040 uy moveto
+(GOBP_KILLING_OF_CELLS_OF_OTHER_ORGANISM, GOBP_KILLING_OF_CELLS_OF_OTHER_ORGANISM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1020 uy moveto
+(GOBP_PLATELET_DEGRANULATION, GOBP_PLATELET_DEGRANULATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1000 uy moveto
+(GOBP_REGULATION_OF_REGULATED_SECRETORY_PATHWAY, GOBP_REGULATION_OF_REGULATED_SECRETORY_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 980 uy moveto
+(GOBP_REGULATION_OF_LYMPHOCYTE_MEDIATED_IMMUNITY, GOBP_REGULATION_OF_LYMPHOCYTE_MEDIATED_IMMUNITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 960 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_LEUKOCYTE_MEDIATED_IMMUNITY, GOBP_POSITIVE_REGULATION_OF_LEUKOCYTE_MEDIATED_IMMUNITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 940 uy moveto
+(GOBP_REGULATION_OF_CELL_KILLING, GOBP_REGULATION_OF_CELL_KILLING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 920 uy moveto
+(GOBP_REGULATION_OF_LEUKOCYTE_MEDIATED_CYTOTOXICITY, GOBP_REGULATION_OF_LEUKOCYTE_MEDIATED_CYTOTOXICITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 900 uy moveto
+(GOCC_PLATELET_ALPHA_GRANULE, GOCC_PLATELET_ALPHA_GRANULE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 880 uy moveto
+(GOCC_LATE_ENDOSOME_MEMBRANE, GOCC_LATE_ENDOSOME_MEMBRANE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 860 uy moveto
+(GOCC_PHAGOCYTIC_VESICLE_MEMBRANE, GOCC_PHAGOCYTIC_VESICLE_MEMBRANE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 840 uy moveto
+(GOBP_ANTIMICROBIAL_HUMORAL_IMMUNE_RESPONSE_MEDIATED_BY_ANTIMICROBIAL_PEPTIDE, GOBP_ANTIMICROBIAL_HUMORAL_IMMUNE_RESPONSE_MEDIATED_BY_ANTIMICROBIAL_PEPTIDE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 820 uy moveto
+(GOBP_LEUKOCYTE_MEDIATED_CYTOTOXICITY, GOBP_LEUKOCYTE_MEDIATED_CYTOTOXICITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 800 uy moveto
+(GOBP_PROTEIN_LOCALIZATION_TO_SYNAPSE, GOBP_PROTEIN_LOCALIZATION_TO_SYNAPSE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 780 uy moveto
+(GOBP_INNATE_IMMUNE_RESPONSE_IN_MUCOSA, GOBP_INNATE_IMMUNE_RESPONSE_IN_MUCOSA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 760 uy moveto
+(GOCC_ENDOCYTIC_VESICLE_MEMBRANE, GOCC_ENDOCYTIC_VESICLE_MEMBRANE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 740 uy moveto
+(GOBP_T_CELL_MEDIATED_CYTOTOXICITY, GOBP_T_CELL_MEDIATED_CYTOTOXICITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 720 uy moveto
+(GOMF_CALCIUM_DEPENDENT_PROTEIN_BINDING, GOMF_CALCIUM_DEPENDENT_PROTEIN_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 700 uy moveto
+(GOCC_AZUROPHIL_GRANULE_MEMBRANE, GOCC_AZUROPHIL_GRANULE_MEMBRANE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 680 uy moveto
+(GOBP_NEUTROPHIL_MIGRATION, GOBP_NEUTROPHIL_MIGRATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 660 uy moveto
+(GOBP_RECEPTOR_LOCALIZATION_TO_SYNAPSE, GOBP_RECEPTOR_LOCALIZATION_TO_SYNAPSE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 640 uy moveto
+(GOBP_REGULATION_OF_PHAGOCYTOSIS, GOBP_REGULATION_OF_PHAGOCYTOSIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 620 uy moveto
+(GOCC_TERTIARY_GRANULE_MEMBRANE, GOCC_TERTIARY_GRANULE_MEMBRANE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 600 uy moveto
+(GOMF_PEPTIDOGLYCAN_MURALYTIC_ACTIVITY, GOMF_PEPTIDOGLYCAN_MURALYTIC_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 580 uy moveto
+(GOBP_ORGAN_OR_TISSUE_SPECIFIC_IMMUNE_RESPONSE, GOBP_ORGAN_OR_TISSUE_SPECIFIC_IMMUNE_RESPONSE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 560 uy moveto
+(GOBP_PLATELET_AGGREGATION, GOBP_PLATELET_AGGREGATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 540 uy moveto
+(GOBP_DEFENSE_RESPONSE_TO_FUNGUS, GOBP_DEFENSE_RESPONSE_TO_FUNGUS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 520 uy moveto
+(GOBP_MONONUCLEAR_CELL_MIGRATION, GOBP_MONONUCLEAR_CELL_MIGRATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 500 uy moveto
+(GOMF_OXIDOREDUCTASE_ACTIVITY_ACTING_ON_NAD_P_H_OXYGEN_AS_ACCEPTOR, GOMF_OXIDOREDUCTASE_ACTIVITY_ACTING_ON_NAD_P_H_OXYGEN_AS_ACCEPTOR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 480 uy moveto
+(GOBP_ORGANELLE_FUSION, GOBP_ORGANELLE_FUSION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 460 uy moveto
+(GOBP_HETEROTYPIC_CELL_CELL_ADHESION, GOBP_HETEROTYPIC_CELL_CELL_ADHESION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 440 uy moveto
+(GOBP_REGULATION_OF_PRODUCTION_OF_MOLECULAR_MEDIATOR_OF_IMMUNE_RESPONSE, GOBP_REGULATION_OF_PRODUCTION_OF_MOLECULAR_MEDIATOR_OF_IMMUNE_RESPONSE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 420 uy moveto
+(GOBP_REGULATION_OF_VASCULOGENESIS, GOBP_REGULATION_OF_VASCULOGENESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 400 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_TOR_SIGNALING, GOBP_POSITIVE_REGULATION_OF_TOR_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 380 uy moveto
+(GOBP_REGULATION_OF_EXOCYTOSIS, GOBP_REGULATION_OF_EXOCYTOSIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 360 uy moveto
+(GOBP_ORGANOPHOSPHATE_ESTER_TRANSPORT, GOBP_ORGANOPHOSPHATE_ESTER_TRANSPORT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 340 uy moveto
+(GOBP_REGULATION_OF_NEUTROPHIL_ACTIVATION, GOBP_REGULATION_OF_NEUTROPHIL_ACTIVATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 320 uy moveto
+(GOMF_LOW_DENSITY_LIPOPROTEIN_PARTICLE_RECEPTOR_ACTIVITY, GOMF_LOW_DENSITY_LIPOPROTEIN_PARTICLE_RECEPTOR_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 300 uy moveto
+(GOBP_REGULATION_OF_PATTERN_RECOGNITION_RECEPTOR_SIGNALING_PATHWAY, GOBP_REGULATION_OF_PATTERN_RECOGNITION_RECEPTOR_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 280 uy moveto
+(GOBP_ANTIGEN_PROCESSING_AND_PRESENTATION_OF_PEPTIDE_ANTIGEN_VIA_MHC_CLASS_I, GOBP_ANTIGEN_PROCESSING_AND_PRESENTATION_OF_PEPTIDE_ANTIGEN_VIA_MHC_CLASS_I)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 260 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_VASCULAR_PERMEABILITY, GOBP_NEGATIVE_REGULATION_OF_VASCULAR_PERMEABILITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 240 uy moveto
+(GOMF_LIPOPROTEIN_PARTICLE_RECEPTOR_ACTIVITY, GOMF_LIPOPROTEIN_PARTICLE_RECEPTOR_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 220 uy moveto
+(GOBP_LIPOPOLYSACCHARIDE_MEDIATED_SIGNALING_PATHWAY, GOBP_LIPOPOLYSACCHARIDE_MEDIATED_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 200 uy moveto
+(GOBP_REGULATION_OF_CELLULAR_EXTRAVASATION, GOBP_REGULATION_OF_CELLULAR_EXTRAVASATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 180 uy moveto
+(GOBP_REGULATION_OF_CELL_MATRIX_ADHESION, GOBP_REGULATION_OF_CELL_MATRIX_ADHESION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 160 uy moveto
+(GOBP_SUPEROXIDE_ANION_GENERATION, GOBP_SUPEROXIDE_ANION_GENERATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 140 uy moveto
+(GOBP_VESICLE_MEDIATED_TRANSPORT_IN_SYNAPSE, GOBP_VESICLE_MEDIATED_TRANSPORT_IN_SYNAPSE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 120 uy moveto
+(GOMF_ATPASE_COUPLED_INTRAMEMBRANE_LIPID_TRANSPORTER_ACTIVITY, GOMF_ATPASE_COUPLED_INTRAMEMBRANE_LIPID_TRANSPORTER_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 100 uy moveto
+(GOMF_LIPOPOLYSACCHARIDE_BINDING, GOMF_LIPOPOLYSACCHARIDE_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 80 uy moveto
+(GOBP_RAP_PROTEIN_SIGNAL_TRANSDUCTION, GOBP_RAP_PROTEIN_SIGNAL_TRANSDUCTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 60 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_IMMUNE_EFFECTOR_PROCESS, GOBP_NEGATIVE_REGULATION_OF_IMMUNE_EFFECTOR_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 807 uy moveto
+444 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 40 uy moveto
+(GOCC_PLATELET_ALPHA_GRANULE_LUMEN, GOCC_PLATELET_ALPHA_GRANULE_LUMEN)   show stroke 
+%%EOF

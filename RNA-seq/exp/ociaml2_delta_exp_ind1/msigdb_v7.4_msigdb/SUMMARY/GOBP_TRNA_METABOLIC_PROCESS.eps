@@ -1,0 +1,1192 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (ociaml2_delta_exp.txt_PAGE/SUMMARY/GOBP_TRNA_METABOLIC_PROCESS.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 23:56:39 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 2360 2689
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+496 ux 1350 uy moveto
+(GOBP_TRNA_METABOLIC_PROCESS, GOBP_TRNA_METABOLIC_PROCESS)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2680 uy moveto
+(GSE46606_UNSTIM_VS_CD40L_IL2_IL5_DAY3_STIMULATED_BCELL_DN, GSE46606_UNSTIM_VS_CD40L_IL2_IL5_DAY3_STIMULATED_BCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2660 uy moveto
+(GOBP_RNA_MODIFICATION, GOBP_RNA_MODIFICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2640 uy moveto
+(REACTOME_TRNA_PROCESSING, REACTOME_TRNA_PROCESSING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2620 uy moveto
+(GOMF_NUCLEASE_ACTIVITY, GOMF_NUCLEASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2600 uy moveto
+(GOBP_TRNA_PROCESSING, GOBP_TRNA_PROCESSING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2580 uy moveto
+(GOMF_CATALYTIC_ACTIVITY_ACTING_ON_A_TRNA, GOMF_CATALYTIC_ACTIVITY_ACTING_ON_A_TRNA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2560 uy moveto
+(GOMF_S_ADENOSYLMETHIONINE_DEPENDENT_METHYLTRANSFERASE_ACTIVITY, GOMF_S_ADENOSYLMETHIONINE_DEPENDENT_METHYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2540 uy moveto
+(GOBP_TRNA_MODIFICATION, GOBP_TRNA_MODIFICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2520 uy moveto
+(GSE17974_2H_VS_72H_UNTREATED_IN_VITRO_CD4_TCELL_UP, GSE17974_2H_VS_72H_UNTREATED_IN_VITRO_CD4_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2500 uy moveto
+(GOBP_RNA_PHOSPHODIESTER_BOND_HYDROLYSIS, GOBP_RNA_PHOSPHODIESTER_BOND_HYDROLYSIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2480 uy moveto
+(HP_POSTNATAL_MICROCEPHALY, HP_POSTNATAL_MICROCEPHALY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2460 uy moveto
+(GSE46606_DAY1_VS_DAY3_CD40L_IL2_IL5_STIMULATED_BCELL_DN, GSE46606_DAY1_VS_DAY3_CD40L_IL2_IL5_STIMULATED_BCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2440 uy moveto
+(GSE8678_IL7R_LOW_VS_HIGH_EFF_CD8_TCELL_DN, GSE8678_IL7R_LOW_VS_HIGH_EFF_CD8_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2420 uy moveto
+(GSE26669_CTRL_VS_COSTIM_BLOCK_MLR_CD4_TCELL_UP, GSE26669_CTRL_VS_COSTIM_BLOCK_MLR_CD4_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2400 uy moveto
+(HP_DEEPLY_SET_EYE, HP_DEEPLY_SET_EYE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2380 uy moveto
+(REACTOME_TRNA_PROCESSING_IN_THE_NUCLEUS, REACTOME_TRNA_PROCESSING_IN_THE_NUCLEUS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2360 uy moveto
+(GOBP_RNA_METHYLATION, GOBP_RNA_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2340 uy moveto
+(MYC_UP.V1_UP, MYC_UP.V1_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2320 uy moveto
+(GSE25087_TREG_VS_TCONV_FETUS_DN, GSE25087_TREG_VS_TCONV_FETUS_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2300 uy moveto
+(HP_MYOCLONIC_SEIZURE, HP_MYOCLONIC_SEIZURE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2280 uy moveto
+(MIR877_3P, MIR877_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2260 uy moveto
+(GOMF_RIBONUCLEASE_ACTIVITY, GOMF_RIBONUCLEASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2240 uy moveto
+(GOMF_ENDONUCLEASE_ACTIVITY, GOMF_ENDONUCLEASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2220 uy moveto
+(HP_EPILEPTIC_SPASM, HP_EPILEPTIC_SPASM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2200 uy moveto
+(RB_P107_DN.V1_DN, RB_P107_DN.V1_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2180 uy moveto
+(HP_GENERALIZED_ONSET_MOTOR_SEIZURE, HP_GENERALIZED_ONSET_MOTOR_SEIZURE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2160 uy moveto
+(GSE37301_MULTIPOTENT_PROGENITOR_VS_LYMPHOID_PRIMED_MPP_UP, GSE37301_MULTIPOTENT_PROGENITOR_VS_LYMPHOID_PRIMED_MPP_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2140 uy moveto
+(HP_HETEROTROPIA, HP_HETEROTROPIA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2120 uy moveto
+(HP_NARROW_FOREHEAD, HP_NARROW_FOREHEAD)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2100 uy moveto
+(HP_SEVERE_GLOBAL_DEVELOPMENTAL_DELAY, HP_SEVERE_GLOBAL_DEVELOPMENTAL_DELAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2080 uy moveto
+(GOMF_RNA_METHYLTRANSFERASE_ACTIVITY, GOMF_RNA_METHYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2060 uy moveto
+(GOMF_TRNA_BINDING, GOMF_TRNA_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2040 uy moveto
+(GOBP_MITOCHONDRIAL_RNA_METABOLIC_PROCESS, GOBP_MITOCHONDRIAL_RNA_METABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2020 uy moveto
+(HP_GASTROSTOMY_TUBE_FEEDING_IN_INFANCY, HP_GASTROSTOMY_TUBE_FEEDING_IN_INFANCY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 2007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 2000 uy moveto
+(REACTOME_TRNA_MODIFICATION_IN_THE_NUCLEUS_AND_CYTOSOL, REACTOME_TRNA_MODIFICATION_IN_THE_NUCLEUS_AND_CYTOSOL)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1980 uy moveto
+(HP_DISTAL_SENSORY_IMPAIRMENT, HP_DISTAL_SENSORY_IMPAIRMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1960 uy moveto
+(HP_LIMB_HYPERTONIA, HP_LIMB_HYPERTONIA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1940 uy moveto
+(HP_CNS_HYPOMYELINATION, HP_CNS_HYPOMYELINATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1920 uy moveto
+(GOBP_RNA_PHOSPHODIESTER_BOND_HYDROLYSIS_ENDONUCLEOLYTIC, GOBP_RNA_PHOSPHODIESTER_BOND_HYDROLYSIS_ENDONUCLEOLYTIC)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1900 uy moveto
+(GOBP_TRNA_METHYLATION, GOBP_TRNA_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1880 uy moveto
+(GSE34217_MIR17_92_OVEREXPRESS_VS_WT_ACT_CD8_TCELL_DN, GSE34217_MIR17_92_OVEREXPRESS_VS_WT_ACT_CD8_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1860 uy moveto
+(AACWWCAANK_UNKNOWN, AACWWCAANK_UNKNOWN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1840 uy moveto
+(HP_ABNORMAL_SUBARACHNOID_SPACE_MORPHOLOGY, HP_ABNORMAL_SUBARACHNOID_SPACE_MORPHOLOGY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1820 uy moveto
+(HP_CHRONIC_KIDNEY_DISEASE, HP_CHRONIC_KIDNEY_DISEASE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1800 uy moveto
+(HP_BILATERAL_SINGLE_TRANSVERSE_PALMAR_CREASES, HP_BILATERAL_SINGLE_TRANSVERSE_PALMAR_CREASES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1780 uy moveto
+(HP_NEPHROTIC_SYNDROME, HP_NEPHROTIC_SYNDROME)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1760 uy moveto
+(GOBP_RNA_POLYADENYLATION, GOBP_RNA_POLYADENYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1740 uy moveto
+(HP_WIDENED_SUBARACHNOID_SPACE, HP_WIDENED_SUBARACHNOID_SPACE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1720 uy moveto
+(HP_ESODEVIATION, HP_ESODEVIATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1700 uy moveto
+(HP_HYPOTELORISM, HP_HYPOTELORISM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1680 uy moveto
+(KEGG_AMINOACYL_TRNA_BIOSYNTHESIS, KEGG_AMINOACYL_TRNA_BIOSYNTHESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1660 uy moveto
+(GOMF_TRNA_METHYLTRANSFERASE_ACTIVITY, GOMF_TRNA_METHYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1640 uy moveto
+(GOMF_LIGASE_ACTIVITY_FORMING_CARBON_OXYGEN_BONDS, GOMF_LIGASE_ACTIVITY_FORMING_CARBON_OXYGEN_BONDS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1620 uy moveto
+(GOBP_NCRNA_CATABOLIC_PROCESS, GOBP_NCRNA_CATABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1600 uy moveto
+(HP_HYPOPLASIA_OF_THE_BRAINSTEM, HP_HYPOPLASIA_OF_THE_BRAINSTEM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1580 uy moveto
+(HP_INFECTION_RELATED_SEIZURE, HP_INFECTION_RELATED_SEIZURE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1560 uy moveto
+(HP_IMPAIRED_SMOOTH_PURSUIT, HP_IMPAIRED_SMOOTH_PURSUIT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1540 uy moveto
+(HP_KINETIC_TREMOR, HP_KINETIC_TREMOR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1520 uy moveto
+(HP_MULTIFOCAL_EPILEPTIFORM_DISCHARGES, HP_MULTIFOCAL_EPILEPTIFORM_DISCHARGES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1500 uy moveto
+(GOMF_ENDORIBONUCLEASE_ACTIVITY, GOMF_ENDORIBONUCLEASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1480 uy moveto
+(HP_ABNORMALITY_OF_OCULAR_SMOOTH_PURSUIT, HP_ABNORMALITY_OF_OCULAR_SMOOTH_PURSUIT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1460 uy moveto
+(HP_ABNORMAL_CIRCULATING_ALBUMIN_CONCENTRATION, HP_ABNORMAL_CIRCULATING_ALBUMIN_CONCENTRATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1440 uy moveto
+(HP_ABNORMALITY_OF_THE_INTERVERTEBRAL_DISK, HP_ABNORMALITY_OF_THE_INTERVERTEBRAL_DISK)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1420 uy moveto
+(GOCC_ENDORIBONUCLEASE_COMPLEX, GOCC_ENDORIBONUCLEASE_COMPLEX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1400 uy moveto
+(GOMF_TRANSFERASE_ACTIVITY_TRANSFERRING_ALKYL_OR_ARYL_OTHER_THAN_METHYL_GROUPS, GOMF_TRANSFERASE_ACTIVITY_TRANSFERRING_ALKYL_OR_ARYL_OTHER_THAN_METHYL_GROUPS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1380 uy moveto
+(HP_ORAL_PHARYNGEAL_DYSPHAGIA, HP_ORAL_PHARYNGEAL_DYSPHAGIA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1360 uy moveto
+(HP_BILATERAL_SENSORINEURAL_HEARING_IMPAIRMENT, HP_BILATERAL_SENSORINEURAL_HEARING_IMPAIRMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1340 uy moveto
+(GOBP_REGULATION_OF_MITOCHONDRIAL_GENE_EXPRESSION, GOBP_REGULATION_OF_MITOCHONDRIAL_GENE_EXPRESSION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1320 uy moveto
+(HP_INFANTILE_SPASMS, HP_INFANTILE_SPASMS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1300 uy moveto
+(HP_GENERALIZED_AMYOTROPHY, HP_GENERALIZED_AMYOTROPHY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1280 uy moveto
+(HP_NEPHROPATHY, HP_NEPHROPATHY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1260 uy moveto
+(HP_HYPOPITUITARISM, HP_HYPOPITUITARISM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1240 uy moveto
+(GSE3691_IFN_PRODUCING_KILLER_DC_VS_CONVENTIONAL_DC_SPLEEN_DN, GSE3691_IFN_PRODUCING_KILLER_DC_VS_CONVENTIONAL_DC_SPLEEN_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1220 uy moveto
+(ZNF708_TARGET_GENES, ZNF708_TARGET_GENES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1200 uy moveto
+(HP_PERIVENTRICULAR_LEUKOMALACIA, HP_PERIVENTRICULAR_LEUKOMALACIA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1180 uy moveto
+(MIR6854_5P, MIR6854_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1160 uy moveto
+(HP_RAGGED_RED_MUSCLE_FIBERS, HP_RAGGED_RED_MUSCLE_FIBERS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1140 uy moveto
+(GOBP_MRNA_MODIFICATION, GOBP_MRNA_MODIFICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1120 uy moveto
+(GOMF_CARBOXYLIC_ESTER_HYDROLASE_ACTIVITY, GOMF_CARBOXYLIC_ESTER_HYDROLASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1100 uy moveto
+(HP_ADRENAL_INSUFFICIENCY, HP_ADRENAL_INSUFFICIENCY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1080 uy moveto
+(MIR125A_3P, MIR125A_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1060 uy moveto
+(HP_HAMMERTOE, HP_HAMMERTOE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1040 uy moveto
+(MIR3667_5P, MIR3667_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1020 uy moveto
+(GSE3920_UNTREATED_VS_IFNG_TREATED_ENDOTHELIAL_CELL_UP, GSE3920_UNTREATED_VS_IFNG_TREATED_ENDOTHELIAL_CELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 1000 uy moveto
+(HP_ABNORMAL_GROWTH_HORMONE_LEVEL, HP_ABNORMAL_GROWTH_HORMONE_LEVEL)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 980 uy moveto
+(MIR325, MIR325)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 960 uy moveto
+(MAYBURD_RESPONSE_TO_L663536_UP, MAYBURD_RESPONSE_TO_L663536_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 940 uy moveto
+(HP_PRIMARY_ADRENAL_INSUFFICIENCY, HP_PRIMARY_ADRENAL_INSUFFICIENCY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 920 uy moveto
+(GOBP_MRNA_METHYLATION, GOBP_MRNA_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 900 uy moveto
+(SIX4_TARGET_GENES, SIX4_TARGET_GENES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 880 uy moveto
+(HP_STEPPAGE_GAIT, HP_STEPPAGE_GAIT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 860 uy moveto
+(GOMF_TRNA_GUANINE_METHYLTRANSFERASE_ACTIVITY, GOMF_TRNA_GUANINE_METHYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 840 uy moveto
+(REACTOME_RNA_POLYMERASE_III_TRANSCRIPTION_TERMINATION, REACTOME_RNA_POLYMERASE_III_TRANSCRIPTION_TERMINATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 820 uy moveto
+(ZNF292_TARGET_GENES, ZNF292_TARGET_GENES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 800 uy moveto
+(MIR1178_5P, MIR1178_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 780 uy moveto
+(HP_ABNORMALITY_OF_ADRENAL_PHYSIOLOGY, HP_ABNORMALITY_OF_ADRENAL_PHYSIOLOGY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 760 uy moveto
+(GOMF_DEAMINASE_ACTIVITY, GOMF_DEAMINASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 740 uy moveto
+(HP_SLENDER_BUILD, HP_SLENDER_BUILD)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 720 uy moveto
+(GOMF_MRNA_METHYLTRANSFERASE_ACTIVITY, GOMF_MRNA_METHYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 700 uy moveto
+(REACTOME_TRNA_MODIFICATION_IN_THE_MITOCHONDRION, REACTOME_TRNA_MODIFICATION_IN_THE_MITOCHONDRION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 680 uy moveto
+(HP_ATROPHY_DEGENERATION_AFFECTING_THE_BRAINSTEM, HP_ATROPHY_DEGENERATION_AFFECTING_THE_BRAINSTEM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 660 uy moveto
+(ZNF404_TARGET_GENES, ZNF404_TARGET_GENES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 640 uy moveto
+(HP_ANTENATAL_ONSET, HP_ANTENATAL_ONSET)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 620 uy moveto
+(HP_APLASIA_HYPOPLASIA_OF_THE_CEREBRAL_WHITE_MATTER, HP_APLASIA_HYPOPLASIA_OF_THE_CEREBRAL_WHITE_MATTER)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 600 uy moveto
+(CHESLER_BRAIN_HIGHEST_GENETIC_VARIANCE, CHESLER_BRAIN_HIGHEST_GENETIC_VARIANCE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 580 uy moveto
+(ZNF418_TARGET_GENES, ZNF418_TARGET_GENES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 560 uy moveto
+(HP_ACHILLES_TENDON_CONTRACTURE, HP_ACHILLES_TENDON_CONTRACTURE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 540 uy moveto
+(HP_HAND_MUSCLE_WEAKNESS, HP_HAND_MUSCLE_WEAKNESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 520 uy moveto
+(HP_GENERALIZED_LIMB_MUSCLE_ATROPHY, HP_GENERALIZED_LIMB_MUSCLE_ATROPHY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 500 uy moveto
+(HP_SPASTIC_ATAXIA, HP_SPASTIC_ATAXIA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 480 uy moveto
+(GOBP_RNA_SPLICING_VIA_ENDONUCLEOLYTIC_CLEAVAGE_AND_LIGATION, GOBP_RNA_SPLICING_VIA_ENDONUCLEOLYTIC_CLEAVAGE_AND_LIGATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 460 uy moveto
+(GOBP_REGULATION_OF_ATPASE_COUPLED_CALCIUM_TRANSMEMBRANE_TRANSPORTER_ACTIVITY, GOBP_REGULATION_OF_ATPASE_COUPLED_CALCIUM_TRANSMEMBRANE_TRANSPORTER_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 440 uy moveto
+(HP_MULTIFOCAL_SEIZURES, HP_MULTIFOCAL_SEIZURES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 420 uy moveto
+(GOMF_ADENOSINE_DEAMINASE_ACTIVITY, GOMF_ADENOSINE_DEAMINASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 400 uy moveto
+(CAFFAREL_RESPONSE_TO_THC_8HR_5_UP, CAFFAREL_RESPONSE_TO_THC_8HR_5_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 380 uy moveto
+(GOBP_PROTEIN_HETEROTETRAMERIZATION, GOBP_PROTEIN_HETEROTETRAMERIZATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 360 uy moveto
+(GOMF_TRNA_SPECIFIC_ADENOSINE_DEAMINASE_ACTIVITY, GOMF_TRNA_SPECIFIC_ADENOSINE_DEAMINASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 340 uy moveto
+(GOMF_PRIMARY_MIRNA_BINDING, GOMF_PRIMARY_MIRNA_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 320 uy moveto
+(GOBP_PROTEIN_HETEROOLIGOMERIZATION, GOBP_PROTEIN_HETEROOLIGOMERIZATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 300 uy moveto
+(HP_DELAYED_FINE_MOTOR_DEVELOPMENT, HP_DELAYED_FINE_MOTOR_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 280 uy moveto
+(MIR1281, MIR1281)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 260 uy moveto
+(HP_CONGENITAL_FINGER_FLEXION_CONTRACTURES, HP_CONGENITAL_FINGER_FLEXION_CONTRACTURES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 240 uy moveto
+(chr4q24, chr4q24)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 220 uy moveto
+(GOMF_CHEMOKINE_RECEPTOR_BINDING, GOMF_CHEMOKINE_RECEPTOR_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 200 uy moveto
+(HP_ABNORMALITY_OF_THE_ACHILLES_TENDON, HP_ABNORMALITY_OF_THE_ACHILLES_TENDON)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 180 uy moveto
+(GOMF_ARGININE_BINDING, GOMF_ARGININE_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 160 uy moveto
+(HP_DIMPLE_CHIN, HP_DIMPLE_CHIN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 140 uy moveto
+(MIR4315, MIR4315)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 120 uy moveto
+(ZNF697_TARGET_GENES, ZNF697_TARGET_GENES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 100 uy moveto
+(HP_OPTIC_DISC_HYPOPLASIA, HP_OPTIC_DISC_HYPOPLASIA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 80 uy moveto
+(GOMF_RNA_2_O_METHYLTRANSFERASE_ACTIVITY, GOMF_RNA_2_O_METHYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 60 uy moveto
+(GOMF_ENDONUCLEASE_ACTIVITY_ACTIVE_WITH_EITHER_RIBO_OR_DEOXYRIBONUCLEIC_ACIDS_AND_PRODUCING_3_PHOSPHOMONOESTERS, GOMF_ENDONUCLEASE_ACTIVITY_ACTIVE_WITH_EITHER_RIBO_OR_DEOXYRIBONUCLEIC_ACIDS_AND_PRODUCING_3_PHOSPHOMONOESTERS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+503 ux 1357 uy moveto
+546 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+553 ux 40 uy moveto
+(MATSUMIYA_PBMC_MODIFIED_VACCINIA_ANKARA_VACCINE_AGE_4_6MO_VACCINATED_VS_CANDIN_PLACEBO_BCG_PRIMED_28DY_UP, MATSUMIYA_PBMC_MODIFIED_VACCINIA_ANKARA_VACCINE_AGE_4_6MO_VACCINATED_VS_CANDIN_PLACEBO_BCG_PRIMED_28DY_UP)   show stroke 
+%%EOF

@@ -1,0 +1,576 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (hl60_72h_only_delta_exp.txt_PAGE/SUMMARY/GSE22589_HEALTHY_VS_HIV_AND_SIV_INFECTED_DC_DN.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 23:43:29 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1947 1155
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+819 ux 580 uy moveto
+(GSE22589_HEALTHY_VS_HIV_AND_SIV_INFECTED_DC_DN, GSE22589_HEALTHY_VS_HIV_AND_SIV_INFECTED_DC_DN)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 1147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 1140 uy moveto
+(GSE23695_CD57_POS_VS_NEG_NK_CELL_DN, GSE23695_CD57_POS_VS_NEG_NK_CELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 1120 uy moveto
+(GSE22103_UNSTIM_VS_GMCSF_AND_IFNG_STIM_NEUTROPHIL_UP, GSE22103_UNSTIM_VS_GMCSF_AND_IFNG_STIM_NEUTROPHIL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 1100 uy moveto
+(GSE22103_LPS_VS_GMCSF_AND_IFNG_STIM_NEUTROPHIL_UP, GSE22103_LPS_VS_GMCSF_AND_IFNG_STIM_NEUTROPHIL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 1080 uy moveto
+(GSE22103_LPS_VS_GMCSF_AND_IFNG_STIM_NEUTROPHIL_DN, GSE22103_LPS_VS_GMCSF_AND_IFNG_STIM_NEUTROPHIL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 1060 uy moveto
+(GSE6681_DELETED_FOXP3_VS_WT_TREG_DN, GSE6681_DELETED_FOXP3_VS_WT_TREG_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 1040 uy moveto
+(GSE7852_LN_VS_THYMUS_TREG_DN, GSE7852_LN_VS_THYMUS_TREG_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 1020 uy moveto
+(GSE15330_MEGAKARYOCYTE_ERYTHROID_VS_GRANULOCYTE_MONOCYTE_PROGENITOR_DN, GSE15330_MEGAKARYOCYTE_ERYTHROID_VS_GRANULOCYTE_MONOCYTE_PROGENITOR_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 1000 uy moveto
+(GSE5503_MLN_DC_VS_SPLEEN_DC_ACTIVATED_ALLOGENIC_TCELL_UP, GSE5503_MLN_DC_VS_SPLEEN_DC_ACTIVATED_ALLOGENIC_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 980 uy moveto
+(GSE21033_1H_VS_12H_POLYIC_STIM_DC_UP, GSE21033_1H_VS_12H_POLYIC_STIM_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 960 uy moveto
+(GSE37605_TREG_VS_TCONV_NOD_FOXP3_FUSION_GFP_DN, GSE37605_TREG_VS_TCONV_NOD_FOXP3_FUSION_GFP_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 940 uy moveto
+(MIR6128, MIR6128)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 920 uy moveto
+(MIR374A_3P, MIR374A_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 900 uy moveto
+(GSE37605_FOXP3_FUSION_GFP_VS_IRES_GFP_TREG_C57BL6_DN, GSE37605_FOXP3_FUSION_GFP_VS_IRES_GFP_TREG_C57BL6_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 880 uy moveto
+(GSE21033_3H_VS_12H_POLYIC_STIM_DC_UP, GSE21033_3H_VS_12H_POLYIC_STIM_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 860 uy moveto
+(GSE20500_RETINOIC_ACID_VS_RARA_ANTAGONIST_TREATED_CD4_TCELL_UP, GSE20500_RETINOIC_ACID_VS_RARA_ANTAGONIST_TREATED_CD4_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 840 uy moveto
+(JIANG_VHL_TARGETS, JIANG_VHL_TARGETS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 820 uy moveto
+(GCTTGAA_MIR498, GCTTGAA_MIR498)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 800 uy moveto
+(MIR4760_5P, MIR4760_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 780 uy moveto
+(RAF_UP.V1_DN, RAF_UP.V1_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 760 uy moveto
+(MIR4645_3P, MIR4645_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 740 uy moveto
+(YU_BAP1_TARGETS, YU_BAP1_TARGETS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 720 uy moveto
+(GOMF_POLYUBIQUITIN_MODIFICATION_DEPENDENT_PROTEIN_BINDING, GOMF_POLYUBIQUITIN_MODIFICATION_DEPENDENT_PROTEIN_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 700 uy moveto
+(MIR8061, MIR8061)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 680 uy moveto
+(MIR1976, MIR1976)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 660 uy moveto
+(GOBP_OLIGOSACCHARIDE_LIPID_INTERMEDIATE_BIOSYNTHETIC_PROCESS, GOBP_OLIGOSACCHARIDE_LIPID_INTERMEDIATE_BIOSYNTHETIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 640 uy moveto
+(GSE4590_PRE_BCELL_VS_SMALL_PRE_BCELL_DN, GSE4590_PRE_BCELL_VS_SMALL_PRE_BCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 620 uy moveto
+(HP_PATENT_FORAMEN_OVALE, HP_PATENT_FORAMEN_OVALE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 600 uy moveto
+(PSIP1_TARGET_GENES, PSIP1_TARGET_GENES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 580 uy moveto
+(GARGALOVIC_RESPONSE_TO_OXIDIZED_PHOSPHOLIPIDS_MAGENTA_UP, GARGALOVIC_RESPONSE_TO_OXIDIZED_PHOSPHOLIPIDS_MAGENTA_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 560 uy moveto
+(MIR3117_5P, MIR3117_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 540 uy moveto
+(GOBP_MALE_SEX_DIFFERENTIATION, GOBP_MALE_SEX_DIFFERENTIATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 520 uy moveto
+(MIR5588_5P, MIR5588_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 500 uy moveto
+(MIR4694_5P, MIR4694_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 480 uy moveto
+(MIR4720_5P, MIR4720_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 460 uy moveto
+(MIR6857_3P, MIR6857_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 440 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_CELL_SUBSTRATE_JUNCTION_ORGANIZATION, GOBP_POSITIVE_REGULATION_OF_CELL_SUBSTRATE_JUNCTION_ORGANIZATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 420 uy moveto
+(MIR4799_3P, MIR4799_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 400 uy moveto
+(COLIN_PILOCYTIC_ASTROCYTOMA_VS_GLIOBLASTOMA_DN, COLIN_PILOCYTIC_ASTROCYTOMA_VS_GLIOBLASTOMA_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 380 uy moveto
+(LXR_Q3, LXR_Q3)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 360 uy moveto
+(GOBP_CDP_DIACYLGLYCEROL_BIOSYNTHETIC_PROCESS, GOBP_CDP_DIACYLGLYCEROL_BIOSYNTHETIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 340 uy moveto
+(DESCARTES_MAIN_FETAL_EXTRAVILLOUS_TROPHOBLASTS, DESCARTES_MAIN_FETAL_EXTRAVILLOUS_TROPHOBLASTS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 320 uy moveto
+(MIR3657, MIR3657)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 300 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_TRANSFORMING_GROWTH_FACTOR_BETA_PRODUCTION, GOBP_POSITIVE_REGULATION_OF_TRANSFORMING_GROWTH_FACTOR_BETA_PRODUCTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 280 uy moveto
+(HOEK_NK_CELL_2011_2012_TIV_7D_VS_0DY_ADULT_7D_DN, HOEK_NK_CELL_2011_2012_TIV_7D_VS_0DY_ADULT_7D_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 260 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_RHO_PROTEIN_SIGNAL_TRANSDUCTION, GOBP_NEGATIVE_REGULATION_OF_RHO_PROTEIN_SIGNAL_TRANSDUCTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 240 uy moveto
+(GOBP_CAMERA_TYPE_EYE_MORPHOGENESIS, GOBP_CAMERA_TYPE_EYE_MORPHOGENESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 220 uy moveto
+(MIR376B_5P_MIR376C_5P, MIR376B_5P_MIR376C_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 200 uy moveto
+(MODULE_175, MODULE_175)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 180 uy moveto
+(GOBP_RESPONSE_TO_RETINOIC_ACID, GOBP_RESPONSE_TO_RETINOIC_ACID)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 160 uy moveto
+(GOBP_REGULATION_OF_KERATINOCYTE_MIGRATION, GOBP_REGULATION_OF_KERATINOCYTE_MIGRATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 140 uy moveto
+(MIR4796_5P, MIR4796_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 120 uy moveto
+(GOBP_EYE_MORPHOGENESIS, GOBP_EYE_MORPHOGENESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 100 uy moveto
+(GOBP_REGULATION_OF_VASCULAR_PERMEABILITY, GOBP_REGULATION_OF_VASCULAR_PERMEABILITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 80 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_VASCULAR_PERMEABILITY, GOBP_NEGATIVE_REGULATION_OF_VASCULAR_PERMEABILITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 60 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_HEAT_GENERATION, GOBP_POSITIVE_REGULATION_OF_HEAT_GENERATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+826 ux 587 uy moveto
+869 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+876 ux 40 uy moveto
+(HP_BROAD_NECK, HP_BROAD_NECK)   show stroke 
+%%EOF

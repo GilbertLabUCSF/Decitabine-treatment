@@ -1,0 +1,968 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (molm14_delta_exp.txt_PAGE/SUMMARY/MORF_RFC4.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 22:50:40 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 432 2132
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+190 ux 1070 uy moveto
+(MORF_RFC4, MORF_RFC4)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 2127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2120 uy moveto
+(MORF_PRKDC, MORF_PRKDC)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 2107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2100 uy moveto
+(MORF_HAT1, MORF_HAT1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 2087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2080 uy moveto
+(GNF2_RRM1, GNF2_RRM1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 2067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2060 uy moveto
+(MORF_PPP1CC, MORF_PPP1CC)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 2047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2040 uy moveto
+(MORF_CDC10, MORF_CDC10)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 2027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2020 uy moveto
+(GNF2_PA2G4, GNF2_PA2G4)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 2007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2000 uy moveto
+(GNF2_SMC4L1, GNF2_SMC4L1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1980 uy moveto
+(MORF_DNMT1, MORF_DNMT1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1960 uy moveto
+(GNF2_PCNA, GNF2_PCNA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1940 uy moveto
+(MORF_RRM1, MORF_RRM1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1920 uy moveto
+(GNF2_RAN, GNF2_RAN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1900 uy moveto
+(GNF2_CCNA2, GNF2_CCNA2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1880 uy moveto
+(GNF2_RFC4, GNF2_RFC4)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1860 uy moveto
+(GNF2_MCM5, GNF2_MCM5)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1840 uy moveto
+(GNF2_FEN1, GNF2_FEN1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1820 uy moveto
+(GNF2_MCM4, GNF2_MCM4)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1800 uy moveto
+(MORF_RAD54L, MORF_RAD54L)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1780 uy moveto
+(GNF2_CDC20, GNF2_CDC20)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1760 uy moveto
+(GNF2_CCNB2, GNF2_CCNB2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1740 uy moveto
+(GNF2_CENPF, GNF2_CENPF)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1720 uy moveto
+(MORF_PTPN11, MORF_PTPN11)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1700 uy moveto
+(MODULE_124, MODULE_124)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1680 uy moveto
+(MODULE_197, MODULE_197)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1660 uy moveto
+(GNF2_KPNB1, GNF2_KPNB1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1640 uy moveto
+(GNF2_XRCC5, GNF2_XRCC5)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1620 uy moveto
+(GNF2_CKS2, GNF2_CKS2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1600 uy moveto
+(MORF_MSH2, MORF_MSH2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1580 uy moveto
+(MORF_CDC16, MORF_CDC16)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1560 uy moveto
+(GNF2_CDC2, GNF2_CDC2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1540 uy moveto
+(GNF2_DEK, GNF2_DEK)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1520 uy moveto
+(MODULE_244, MODULE_244)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1500 uy moveto
+(GNF2_RFC3, GNF2_RFC3)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1480 uy moveto
+(GNF2_BUB1B, GNF2_BUB1B)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1460 uy moveto
+(MORF_FEN1, MORF_FEN1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1440 uy moveto
+(MORF_UNG, MORF_UNG)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1420 uy moveto
+(MORF_RAD23B, MORF_RAD23B)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1400 uy moveto
+(GNF2_CENPE, GNF2_CENPE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1380 uy moveto
+(MORF_BUB1B, MORF_BUB1B)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1360 uy moveto
+(GNF2_HMMR, GNF2_HMMR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1340 uy moveto
+(MORF_BUB1, MORF_BUB1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1320 uy moveto
+(GNF2_TTK, GNF2_TTK)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1300 uy moveto
+(GNF2_MLH1, GNF2_MLH1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1280 uy moveto
+(MORF_RPA2, MORF_RPA2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1260 uy moveto
+(MORF_CUL1, MORF_CUL1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1240 uy moveto
+(MORF_EIF4E, MORF_EIF4E)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1220 uy moveto
+(MORF_EI24, MORF_EI24)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1200 uy moveto
+(MORF_PAPSS1, MORF_PAPSS1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1180 uy moveto
+(GNF2_CKS1B, GNF2_CKS1B)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1160 uy moveto
+(GNF2_HAT1, GNF2_HAT1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1140 uy moveto
+(MORF_ESPL1, MORF_ESPL1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1120 uy moveto
+(MODULE_158, MODULE_158)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1100 uy moveto
+(GNF2_MSH2, GNF2_MSH2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1080 uy moveto
+(GNF2_SMC2L1, GNF2_SMC2L1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1060 uy moveto
+(GNF2_RRM2, GNF2_RRM2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1040 uy moveto
+(MORF_MAP2K2, MORF_MAP2K2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1020 uy moveto
+(MODULE_126, MODULE_126)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1000 uy moveto
+(MODULE_57, MODULE_57)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 980 uy moveto
+(MORF_RPA1, MORF_RPA1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 960 uy moveto
+(MORF_GSPT1, MORF_GSPT1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 940 uy moveto
+(MODULE_125, MODULE_125)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 920 uy moveto
+(GNF2_DENR, GNF2_DENR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 900 uy moveto
+(GNF2_ESPL1, GNF2_ESPL1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 880 uy moveto
+(MORF_DEAF1, MORF_DEAF1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 860 uy moveto
+(MORF_MTA1, MORF_MTA1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 840 uy moveto
+(MORF_RFC1, MORF_RFC1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 820 uy moveto
+(MODULE_152, MODULE_152)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 800 uy moveto
+(GNF2_NS, GNF2_NS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 780 uy moveto
+(MORF_BMI1, MORF_BMI1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 760 uy moveto
+(MORF_SP3, MORF_SP3)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 740 uy moveto
+(GNF2_MSH6, GNF2_MSH6)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 720 uy moveto
+(GNF2_ELAC2, GNF2_ELAC2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 700 uy moveto
+(GNF2_H2AFX, GNF2_H2AFX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 680 uy moveto
+(GNF2_BUB1, GNF2_BUB1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 660 uy moveto
+(MORF_CDK2, MORF_CDK2)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 640 uy moveto
+(GNF2_BUB3, GNF2_BUB3)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 620 uy moveto
+(MORF_PRDX3, MORF_PRDX3)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 600 uy moveto
+(GNF2_RPA1, GNF2_RPA1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 580 uy moveto
+(MORF_GMPS, MORF_GMPS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 560 uy moveto
+(MODULE_403, MODULE_403)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 540 uy moveto
+(MORF_RAB6A, MORF_RAB6A)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 520 uy moveto
+(MORF_USP5, MORF_USP5)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 500 uy moveto
+(MORF_PHB, MORF_PHB)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 480 uy moveto
+(MODULE_315, MODULE_315)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 460 uy moveto
+(GNF2_MKI67, GNF2_MKI67)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 440 uy moveto
+(GCM_TPR, GCM_TPR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 420 uy moveto
+(MODULE_337, MODULE_337)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 400 uy moveto
+(MODULE_189, MODULE_189)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 380 uy moveto
+(MODULE_133, MODULE_133)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 360 uy moveto
+(MODULE_110, MODULE_110)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 340 uy moveto
+(MODULE_160, MODULE_160)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 320 uy moveto
+(MODULE_56, MODULE_56)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 300 uy moveto
+(MODULE_35, MODULE_35)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 280 uy moveto
+(GCM_SMARCC1, GCM_SMARCC1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 260 uy moveto
+(MORF_IKBKG, MORF_IKBKG)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 240 uy moveto
+(MODULE_90, MODULE_90)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 220 uy moveto
+(MODULE_349, MODULE_349)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 200 uy moveto
+(MODULE_127, MODULE_127)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 180 uy moveto
+(MODULE_485, MODULE_485)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 160 uy moveto
+(MODULE_177, MODULE_177)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 140 uy moveto
+(MODULE_278, MODULE_278)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 120 uy moveto
+(GCM_AIP, GCM_AIP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 100 uy moveto
+(MODULE_321, MODULE_321)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 80 uy moveto
+(MODULE_544, MODULE_544)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 60 uy moveto
+(MODULE_481, MODULE_481)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1077 uy moveto
+240 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 40 uy moveto
+(MODULE_155, MODULE_155)   show stroke 
+%%EOF

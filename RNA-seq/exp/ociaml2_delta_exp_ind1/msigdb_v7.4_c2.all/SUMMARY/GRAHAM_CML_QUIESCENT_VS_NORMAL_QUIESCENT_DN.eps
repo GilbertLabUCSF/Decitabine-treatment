@@ -1,0 +1,400 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (ociaml2_delta_exp.txt_PAGE/SUMMARY/GRAHAM_CML_QUIESCENT_VS_NORMAL_QUIESCENT_DN.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 22:30:32 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1990 717
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+768 ux 360 uy moveto
+(GRAHAM_CML_QUIESCENT_VS_NORMAL_QUIESCENT_DN, GRAHAM_CML_QUIESCENT_VS_NORMAL_QUIESCENT_DN)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 700 uy moveto
+(KEGG_CELL_ADHESION_MOLECULES_CAMS, KEGG_CELL_ADHESION_MOLECULES_CAMS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 680 uy moveto
+(KEGG_LEISHMANIA_INFECTION, KEGG_LEISHMANIA_INFECTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 660 uy moveto
+(ODONNELL_TARGETS_OF_MYC_AND_TFRC_UP, ODONNELL_TARGETS_OF_MYC_AND_TFRC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 640 uy moveto
+(KIM_GLIS2_TARGETS_UP, KIM_GLIS2_TARGETS_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 620 uy moveto
+(BEIER_GLIOMA_STEM_CELL_DN, BEIER_GLIOMA_STEM_CELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 600 uy moveto
+(HADDAD_T_LYMPHOCYTE_AND_NK_PROGENITOR_UP, HADDAD_T_LYMPHOCYTE_AND_NK_PROGENITOR_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 580 uy moveto
+(DURAND_STROMA_NS_UP, DURAND_STROMA_NS_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 560 uy moveto
+(MORI_IMMATURE_B_LYMPHOCYTE_UP, MORI_IMMATURE_B_LYMPHOCYTE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 540 uy moveto
+(MOHANKUMAR_HOXA1_TARGETS_DN, MOHANKUMAR_HOXA1_TARGETS_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 520 uy moveto
+(PEDERSEN_METASTASIS_BY_ERBB2_ISOFORM_1, PEDERSEN_METASTASIS_BY_ERBB2_ISOFORM_1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 500 uy moveto
+(MORI_LARGE_PRE_BII_LYMPHOCYTE_DN, MORI_LARGE_PRE_BII_LYMPHOCYTE_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 480 uy moveto
+(ALCALAY_AML_BY_NPM1_LOCALIZATION_UP, ALCALAY_AML_BY_NPM1_LOCALIZATION_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 460 uy moveto
+(MARTINEZ_RESPONSE_TO_TRABECTEDIN, MARTINEZ_RESPONSE_TO_TRABECTEDIN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 440 uy moveto
+(RICKMAN_HEAD_AND_NECK_CANCER_D, RICKMAN_HEAD_AND_NECK_CANCER_D)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 420 uy moveto
+(FERRANDO_T_ALL_WITH_MLL_ENL_FUSION_UP, FERRANDO_T_ALL_WITH_MLL_ENL_FUSION_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 400 uy moveto
+(YU_MYC_TARGETS_DN, YU_MYC_TARGETS_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 380 uy moveto
+(GENTLES_LEUKEMIC_STEM_CELL_UP, GENTLES_LEUKEMIC_STEM_CELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 360 uy moveto
+(GAVIN_FOXP3_TARGETS_CLUSTER_P7, GAVIN_FOXP3_TARGETS_CLUSTER_P7)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 340 uy moveto
+(VALK_AML_WITH_EVI1, VALK_AML_WITH_EVI1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 320 uy moveto
+(KLEIN_PRIMARY_EFFUSION_LYMPHOMA_DN, KLEIN_PRIMARY_EFFUSION_LYMPHOMA_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 300 uy moveto
+(MORI_MATURE_B_LYMPHOCYTE_UP, MORI_MATURE_B_LYMPHOCYTE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 280 uy moveto
+(ROSS_ACUTE_MYELOID_LEUKEMIA_CBF, ROSS_ACUTE_MYELOID_LEUKEMIA_CBF)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 260 uy moveto
+(IVANOVA_HEMATOPOIESIS_STEM_CELL, IVANOVA_HEMATOPOIESIS_STEM_CELL)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 240 uy moveto
+(VALK_AML_CLUSTER_10, VALK_AML_CLUSTER_10)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 220 uy moveto
+(BIOCARTA_RACC_PATHWAY, BIOCARTA_RACC_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 200 uy moveto
+(BERENJENO_TRANSFORMED_BY_RHOA_REVERSIBLY_DN, BERENJENO_TRANSFORMED_BY_RHOA_REVERSIBLY_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 180 uy moveto
+(KUNINGER_IGF1_VS_PDGFB_TARGETS_DN, KUNINGER_IGF1_VS_PDGFB_TARGETS_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 160 uy moveto
+(LU_IL4_SIGNALING, LU_IL4_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 140 uy moveto
+(KIM_GERMINAL_CENTER_T_HELPER_DN, KIM_GERMINAL_CENTER_T_HELPER_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 120 uy moveto
+(HOFFMANN_SMALL_PRE_BII_TO_IMMATURE_B_LYMPHOCYTE_UP, HOFFMANN_SMALL_PRE_BII_TO_IMMATURE_B_LYMPHOCYTE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 100 uy moveto
+(REACTOME_POST_TRANSLATIONAL_MODIFICATION_SYNTHESIS_OF_GPI_ANCHORED_PROTEINS, REACTOME_POST_TRANSLATIONAL_MODIFICATION_SYNTHESIS_OF_GPI_ANCHORED_PROTEINS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 80 uy moveto
+(TORCHIA_TARGETS_OF_EWSR1_FLI1_FUSION_TOP20_UP, TORCHIA_TARGETS_OF_EWSR1_FLI1_FUSION_TOP20_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 60 uy moveto
+(SAFFORD_T_LYMPHOCYTE_ANERGY, SAFFORD_T_LYMPHOCYTE_ANERGY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+775 ux 367 uy moveto
+818 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+825 ux 40 uy moveto
+(JI_METASTASIS_REPRESSED_BY_STK11, JI_METASTASIS_REPRESSED_BY_STK11)   show stroke 
+%%EOF

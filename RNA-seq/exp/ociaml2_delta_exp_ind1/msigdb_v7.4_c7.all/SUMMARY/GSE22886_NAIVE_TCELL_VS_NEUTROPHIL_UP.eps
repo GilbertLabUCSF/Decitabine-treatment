@@ -1,0 +1,568 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (ociaml2_delta_exp.txt_PAGE/SUMMARY/GSE22886_NAIVE_TCELL_VS_NEUTROPHIL_UP.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 23:10:15 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 2127 1135
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+666 ux 570 uy moveto
+(GSE22886_NAIVE_TCELL_VS_NEUTROPHIL_UP, GSE22886_NAIVE_TCELL_VS_NEUTROPHIL_UP)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 1120 uy moveto
+(GSE22432_MULTIPOTENT_PROGENITOR_VS_PDC_DN, GSE22432_MULTIPOTENT_PROGENITOR_VS_PDC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 1100 uy moveto
+(GSE2706_UNSTIM_VS_8H_LPS_AND_R848_DC_UP, GSE2706_UNSTIM_VS_8H_LPS_AND_R848_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 1080 uy moveto
+(GSE22886_DAY1_VS_DAY7_MONOCYTE_IN_CULTURE_DN, GSE22886_DAY1_VS_DAY7_MONOCYTE_IN_CULTURE_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 1060 uy moveto
+(GSE3982_MAST_CELL_VS_NEUTROPHIL_UP, GSE3982_MAST_CELL_VS_NEUTROPHIL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 1040 uy moveto
+(GSE29618_PRE_VS_DAY7_POST_LAIV_FLU_VACCINE_PDC_DN, GSE29618_PRE_VS_DAY7_POST_LAIV_FLU_VACCINE_PDC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 1020 uy moveto
+(GSE41867_DAY8_VS_DAY15_LCMV_CLONE13_EFFECTOR_CD8_TCELL_DN, GSE41867_DAY8_VS_DAY15_LCMV_CLONE13_EFFECTOR_CD8_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 1000 uy moveto
+(GSE17322_CD103_POS_VS_CD11B_HIGH_LUNG_DC_DN, GSE17322_CD103_POS_VS_CD11B_HIGH_LUNG_DC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 980 uy moveto
+(GSE5542_UNTREATED_VS_IFNA_AND_IFNG_TREATED_EPITHELIAL_CELLS_24H_UP, GSE5542_UNTREATED_VS_IFNA_AND_IFNG_TREATED_EPITHELIAL_CELLS_24H_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 960 uy moveto
+(GSE12845_IGD_NEG_BLOOD_VS_NAIVE_TONSIL_BCELL_UP, GSE12845_IGD_NEG_BLOOD_VS_NAIVE_TONSIL_BCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 940 uy moveto
+(GSE360_HIGH_DOSE_B_MALAYI_VS_M_TUBERCULOSIS_DC_UP, GSE360_HIGH_DOSE_B_MALAYI_VS_M_TUBERCULOSIS_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 920 uy moveto
+(GSE22886_NAIVE_CD4_TCELL_VS_NEUTROPHIL_UP, GSE22886_NAIVE_CD4_TCELL_VS_NEUTROPHIL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 900 uy moveto
+(GSE17721_POLYIC_VS_PAM3CSK4_16H_BMDC_DN, GSE17721_POLYIC_VS_PAM3CSK4_16H_BMDC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 880 uy moveto
+(GSE25088_CTRL_VS_IL4_AND_ROSIGLITAZONE_STIM_STAT6_KO_MACROPHAGE_UP, GSE25088_CTRL_VS_IL4_AND_ROSIGLITAZONE_STIM_STAT6_KO_MACROPHAGE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 860 uy moveto
+(GSE2706_UNSTIM_VS_8H_LPS_DC_UP, GSE2706_UNSTIM_VS_8H_LPS_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 840 uy moveto
+(GSE16385_IL4_VS_ROSIGLITAZONE_STIM_MACROPHAGE_UP, GSE16385_IL4_VS_ROSIGLITAZONE_STIM_MACROPHAGE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 820 uy moveto
+(GSE6269_FLU_VS_STAPH_AUREUS_INF_PBMC_UP, GSE6269_FLU_VS_STAPH_AUREUS_INF_PBMC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 800 uy moveto
+(GSE17721_LPS_VS_POLYIC_16H_BMDC_UP, GSE17721_LPS_VS_POLYIC_16H_BMDC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 780 uy moveto
+(GSE3982_EOSINOPHIL_VS_NEUTROPHIL_UP, GSE3982_EOSINOPHIL_VS_NEUTROPHIL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 760 uy moveto
+(GSE24634_NAIVE_CD4_TCELL_VS_DAY7_IL4_CONV_TREG_UP, GSE24634_NAIVE_CD4_TCELL_VS_DAY7_IL4_CONV_TREG_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 740 uy moveto
+(GSE36476_CTRL_VS_TSST_ACT_16H_MEMORY_CD4_TCELL_YOUNG_UP, GSE36476_CTRL_VS_TSST_ACT_16H_MEMORY_CD4_TCELL_YOUNG_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 720 uy moveto
+(GSE25088_WT_VS_STAT6_KO_MACROPHAGE_UP, GSE25088_WT_VS_STAT6_KO_MACROPHAGE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 700 uy moveto
+(GSE17974_0.5H_VS_72H_IL4_AND_ANTI_IL12_ACT_CD4_TCELL_UP, GSE17974_0.5H_VS_72H_IL4_AND_ANTI_IL12_ACT_CD4_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 680 uy moveto
+(GSE16385_ROSIGLITAZONE_IL4_VS_IFNG_TNF_STIM_MACROPHAGE_UP, GSE16385_ROSIGLITAZONE_IL4_VS_IFNG_TNF_STIM_MACROPHAGE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 660 uy moveto
+(GSE29618_MONOCYTE_VS_PDC_DN, GSE29618_MONOCYTE_VS_PDC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 640 uy moveto
+(GSE3982_MAST_CELL_VS_MAC_UP, GSE3982_MAST_CELL_VS_MAC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 620 uy moveto
+(GSE5679_PPARG_LIGAND_ROSIGLITAZONE_VS_ROSIGLITAZONE_AND_RARA_AGONIST_AM580_TREATED_DC_UP, GSE5679_PPARG_LIGAND_ROSIGLITAZONE_VS_ROSIGLITAZONE_AND_RARA_AGONIST_AM580_TREATED_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 600 uy moveto
+(GSE14308_TH2_VS_INDUCED_TREG_DN, GSE14308_TH2_VS_INDUCED_TREG_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 580 uy moveto
+(GSE7509_UNSTIM_VS_FCGRIIB_STIM_MONOCYTE_UP, GSE7509_UNSTIM_VS_FCGRIIB_STIM_MONOCYTE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 560 uy moveto
+(GSE22611_NOD2_VS_CTRL_TRANSDUCED_HEK293T_CELL_UP, GSE22611_NOD2_VS_CTRL_TRANSDUCED_HEK293T_CELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 540 uy moveto
+(GSE11057_PBMC_VS_MEM_CD4_TCELL_DN, GSE11057_PBMC_VS_MEM_CD4_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 520 uy moveto
+(GSE360_DC_VS_MAC_UP, GSE360_DC_VS_MAC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 500 uy moveto
+(GSE11057_NAIVE_CD4_VS_PBMC_CD4_TCELL_UP, GSE11057_NAIVE_CD4_VS_PBMC_CD4_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 480 uy moveto
+(GSE11057_CD4_EFF_MEM_VS_PBMC_UP, GSE11057_CD4_EFF_MEM_VS_PBMC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 460 uy moveto
+(GSE33425_CD161_HIGH_VS_NEG_CD8_TCELL_DN, GSE33425_CD161_HIGH_VS_NEG_CD8_TCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 440 uy moveto
+(GSE3982_MAST_CELL_VS_DC_UP, GSE3982_MAST_CELL_VS_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 420 uy moveto
+(GSE17721_LPS_VS_CPG_1H_BMDC_DN, GSE17721_LPS_VS_CPG_1H_BMDC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 400 uy moveto
+(GSE17721_CTRL_VS_POLYIC_2H_BMDC_UP, GSE17721_CTRL_VS_POLYIC_2H_BMDC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 380 uy moveto
+(GSE22886_NAIVE_CD4_TCELL_VS_12H_ACT_TH2_UP, GSE22886_NAIVE_CD4_TCELL_VS_12H_ACT_TH2_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 360 uy moveto
+(GSE43955_1H_VS_60H_ACT_CD4_TCELL_UP, GSE43955_1H_VS_60H_ACT_CD4_TCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 340 uy moveto
+(GSE44732_UNSTIM_VS_IL27_STIM_IMATURE_DC_UP, GSE44732_UNSTIM_VS_IL27_STIM_IMATURE_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 320 uy moveto
+(GSE29618_PRE_VS_DAY7_POST_LAIV_FLU_VACCINE_BCELL_UP, GSE29618_PRE_VS_DAY7_POST_LAIV_FLU_VACCINE_BCELL_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 300 uy moveto
+(GSE42021_TREG_PLN_VS_CD24LO_TREG_THYMUS_UP, GSE42021_TREG_PLN_VS_CD24LO_TREG_THYMUS_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 280 uy moveto
+(GSE360_HIGH_VS_LOW_DOSE_B_MALAYI_DC_UP, GSE360_HIGH_VS_LOW_DOSE_B_MALAYI_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 260 uy moveto
+(GSE2585_CTEC_VS_THYMIC_MACROPHAGE_DN, GSE2585_CTEC_VS_THYMIC_MACROPHAGE_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 240 uy moveto
+(GSE17721_CTRL_VS_LPS_12H_BMDC_DN, GSE17721_CTRL_VS_LPS_12H_BMDC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 220 uy moveto
+(GSE26669_CD4_VS_CD8_TCELL_IN_MLR_DN, GSE26669_CD4_VS_CD8_TCELL_IN_MLR_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 200 uy moveto
+(GSE22886_NAIVE_CD4_TCELL_VS_MONOCYTE_UP, GSE22886_NAIVE_CD4_TCELL_VS_MONOCYTE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 180 uy moveto
+(GSE339_EX_VIVO_VS_IN_CULTURE_CD8POS_DC_DN, GSE339_EX_VIVO_VS_IN_CULTURE_CD8POS_DC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 160 uy moveto
+(GSE13547_CTRL_VS_ANTI_IGM_STIM_ZFX_KO_BCELL_12H_DN, GSE13547_CTRL_VS_ANTI_IGM_STIM_ZFX_KO_BCELL_12H_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 140 uy moveto
+(GSE12392_CD8A_POS_VS_NEG_SPLEEN_DC_UP, GSE12392_CD8A_POS_VS_NEG_SPLEEN_DC_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 120 uy moveto
+(GSE13411_NAIVE_VS_IGM_MEMORY_BCELL_DN, GSE13411_NAIVE_VS_IGM_MEMORY_BCELL_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 100 uy moveto
+(GSE5589_LPS_VS_LPS_AND_IL10_STIM_MACROPHAGE_45MIN_UP, GSE5589_LPS_VS_LPS_AND_IL10_STIM_MACROPHAGE_45MIN_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 80 uy moveto
+(GSE17721_CTRL_VS_CPG_6H_BMDC_DN, GSE17721_CTRL_VS_CPG_6H_BMDC_DN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 60 uy moveto
+(GSE22601_DOUBLE_NEGATIVE_VS_DOUBLE_POSITIVE_THYMOCYTE_UP, GSE22601_DOUBLE_NEGATIVE_VS_DOUBLE_POSITIVE_THYMOCYTE_UP)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+673 ux 577 uy moveto
+716 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+723 ux 40 uy moveto
+(GSE19941_UNSTIM_VS_LPS_STIM_IL10_KO_NFKBP50_KO_MACROPHAGE_DN, GSE19941_UNSTIM_VS_LPS_STIM_IL10_KO_NFKBP50_KO_MACROPHAGE_DN)   show stroke 
+%%EOF

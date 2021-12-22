@@ -1,0 +1,416 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (hl60_72h_delta_exp.txt_PAGE/SUMMARY/REACTOME_TRNA_PROCESSING.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 22:35:31 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1640 757
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+445 ux 380 uy moveto
+(REACTOME_TRNA_PROCESSING, REACTOME_TRNA_PROCESSING)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 740 uy moveto
+(REACTOME_TRANSCRIPTIONAL_REGULATION_BY_SMALL_RNAS, REACTOME_TRANSCRIPTIONAL_REGULATION_BY_SMALL_RNAS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 720 uy moveto
+(REACTOME_HCMV_LATE_EVENTS, REACTOME_HCMV_LATE_EVENTS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 700 uy moveto
+(REACTOME_HCMV_EARLY_EVENTS, REACTOME_HCMV_EARLY_EVENTS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 680 uy moveto
+(REACTOME_HCMV_INFECTION, REACTOME_HCMV_INFECTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 660 uy moveto
+(REACTOME_TRNA_MODIFICATION_IN_THE_NUCLEUS_AND_CYTOSOL, REACTOME_TRNA_MODIFICATION_IN_THE_NUCLEUS_AND_CYTOSOL)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 640 uy moveto
+(REACTOME_SNRNP_ASSEMBLY, REACTOME_SNRNP_ASSEMBLY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 620 uy moveto
+(REACTOME_TRNA_PROCESSING_IN_THE_NUCLEUS, REACTOME_TRNA_PROCESSING_IN_THE_NUCLEUS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 600 uy moveto
+(REACTOME_MITOTIC_SPINDLE_CHECKPOINT, REACTOME_MITOTIC_SPINDLE_CHECKPOINT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 580 uy moveto
+(REACTOME_SUMOYLATION_OF_UBIQUITINYLATION_PROTEINS, REACTOME_SUMOYLATION_OF_UBIQUITINYLATION_PROTEINS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 560 uy moveto
+(REACTOME_TRANSPORT_OF_MATURE_MRNAS_DERIVED_FROM_INTRONLESS_TRANSCRIPTS, REACTOME_TRANSPORT_OF_MATURE_MRNAS_DERIVED_FROM_INTRONLESS_TRANSCRIPTS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 540 uy moveto
+(REACTOME_GENE_SILENCING_BY_RNA, REACTOME_GENE_SILENCING_BY_RNA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 520 uy moveto
+(REACTOME_VIRAL_MESSENGER_RNA_SYNTHESIS, REACTOME_VIRAL_MESSENGER_RNA_SYNTHESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 500 uy moveto
+(REACTOME_TRANSPORT_OF_THE_SLBP_DEPENDANT_MATURE_MRNA, REACTOME_TRANSPORT_OF_THE_SLBP_DEPENDANT_MATURE_MRNA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 480 uy moveto
+(REACTOME_TRANSPORT_OF_MATURE_TRANSCRIPT_TO_CYTOPLASM, REACTOME_TRANSPORT_OF_MATURE_TRANSCRIPT_TO_CYTOPLASM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 460 uy moveto
+(REACTOME_SUMOYLATION_OF_SUMOYLATION_PROTEINS, REACTOME_SUMOYLATION_OF_SUMOYLATION_PROTEINS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 440 uy moveto
+(REACTOME_HIV_LIFE_CYCLE, REACTOME_HIV_LIFE_CYCLE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 420 uy moveto
+(REACTOME_NS1_MEDIATED_EFFECTS_ON_HOST_PATHWAYS, REACTOME_NS1_MEDIATED_EFFECTS_ON_HOST_PATHWAYS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 400 uy moveto
+(REACTOME_REGULATION_OF_GLUCOKINASE_BY_GLUCOKINASE_REGULATORY_PROTEIN, REACTOME_REGULATION_OF_GLUCOKINASE_BY_GLUCOKINASE_REGULATORY_PROTEIN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 380 uy moveto
+(REACTOME_SUMOYLATION_OF_DNA_REPLICATION_PROTEINS, REACTOME_SUMOYLATION_OF_DNA_REPLICATION_PROTEINS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 360 uy moveto
+(REACTOME_INTERACTIONS_OF_VPR_WITH_HOST_CELLULAR_PROTEINS, REACTOME_INTERACTIONS_OF_VPR_WITH_HOST_CELLULAR_PROTEINS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 340 uy moveto
+(REACTOME_HOST_INTERACTIONS_OF_HIV_FACTORS, REACTOME_HOST_INTERACTIONS_OF_HIV_FACTORS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 320 uy moveto
+(REACTOME_EXPORT_OF_VIRAL_RIBONUCLEOPROTEINS_FROM_NUCLEUS, REACTOME_EXPORT_OF_VIRAL_RIBONUCLEOPROTEINS_FROM_NUCLEUS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 300 uy moveto
+(REACTOME_CELLULAR_RESPONSE_TO_HEAT_STRESS, REACTOME_CELLULAR_RESPONSE_TO_HEAT_STRESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 280 uy moveto
+(REACTOME_NUCLEAR_PORE_COMPLEX_NPC_DISASSEMBLY, REACTOME_NUCLEAR_PORE_COMPLEX_NPC_DISASSEMBLY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 260 uy moveto
+(REACTOME_REGULATION_OF_HSF1_MEDIATED_HEAT_SHOCK_RESPONSE, REACTOME_REGULATION_OF_HSF1_MEDIATED_HEAT_SHOCK_RESPONSE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 240 uy moveto
+(REACTOME_NUCLEAR_IMPORT_OF_REV_PROTEIN, REACTOME_NUCLEAR_IMPORT_OF_REV_PROTEIN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 220 uy moveto
+(REACTOME_SUMOYLATION_OF_DNA_DAMAGE_RESPONSE_AND_REPAIR_PROTEINS, REACTOME_SUMOYLATION_OF_DNA_DAMAGE_RESPONSE_AND_REPAIR_PROTEINS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 200 uy moveto
+(REACTOME_MITOTIC_PROPHASE, REACTOME_MITOTIC_PROPHASE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 180 uy moveto
+(REACTOME_INTERACTIONS_OF_REV_WITH_HOST_CELLULAR_PROTEINS, REACTOME_INTERACTIONS_OF_REV_WITH_HOST_CELLULAR_PROTEINS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 160 uy moveto
+(REACTOME_RNA_POLYMERASE_II_TRANSCRIPTION_TERMINATION, REACTOME_RNA_POLYMERASE_II_TRANSCRIPTION_TERMINATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 140 uy moveto
+(REACTOME_NUCLEAR_ENVELOPE_BREAKDOWN, REACTOME_NUCLEAR_ENVELOPE_BREAKDOWN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 120 uy moveto
+(REACTOME_SUMOYLATION_OF_RNA_BINDING_PROTEINS, REACTOME_SUMOYLATION_OF_RNA_BINDING_PROTEINS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 100 uy moveto
+(REACTOME_PROCESSING_OF_CAPPED_INTRONLESS_PRE_MRNA, REACTOME_PROCESSING_OF_CAPPED_INTRONLESS_PRE_MRNA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 80 uy moveto
+(REACTOME_POSTMITOTIC_NUCLEAR_PORE_COMPLEX_NPC_REFORMATION, REACTOME_POSTMITOTIC_NUCLEAR_PORE_COMPLEX_NPC_REFORMATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 60 uy moveto
+(REACTOME_DISORDERS_OF_TRANSMEMBRANE_TRANSPORTERS, REACTOME_DISORDERS_OF_TRANSMEMBRANE_TRANSPORTERS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+452 ux 387 uy moveto
+495 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+502 ux 40 uy moveto
+(REACTOME_PROCESSING_OF_INTRONLESS_PRE_MRNAS, REACTOME_PROCESSING_OF_INTRONLESS_PRE_MRNAS)   show stroke 
+%%EOF

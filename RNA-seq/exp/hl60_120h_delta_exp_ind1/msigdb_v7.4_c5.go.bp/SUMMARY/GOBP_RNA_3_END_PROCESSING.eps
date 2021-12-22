@@ -1,0 +1,528 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (hl60_120h_delta_exp.txt_PAGE/SUMMARY/GOBP_RNA_3_END_PROCESSING.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 22:57:34 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1993 1036
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+462 ux 520 uy moveto
+(GOBP_RNA_3_END_PROCESSING, GOBP_RNA_3_END_PROCESSING)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 1020 uy moveto
+(GOBP_MRNA_3_END_PROCESSING, GOBP_MRNA_3_END_PROCESSING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 1000 uy moveto
+(GOBP_MATURATION_OF_5_8S_RRNA, GOBP_MATURATION_OF_5_8S_RRNA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 980 uy moveto
+(GOBP_HISTONE_METHYLATION, GOBP_HISTONE_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 960 uy moveto
+(GOBP_SPLICEOSOMAL_COMPLEX_ASSEMBLY, GOBP_SPLICEOSOMAL_COMPLEX_ASSEMBLY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 940 uy moveto
+(GOBP_RNA_PHOSPHODIESTER_BOND_HYDROLYSIS, GOBP_RNA_PHOSPHODIESTER_BOND_HYDROLYSIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 920 uy moveto
+(GOBP_CLEAVAGE_INVOLVED_IN_RRNA_PROCESSING, GOBP_CLEAVAGE_INVOLVED_IN_RRNA_PROCESSING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 900 uy moveto
+(GOBP_MATURATION_OF_5_8S_RRNA_FROM_TRICISTRONIC_RRNA_TRANSCRIPT_SSU_RRNA_5_8S_RRNA_LSU_RRNA, GOBP_MATURATION_OF_5_8S_RRNA_FROM_TRICISTRONIC_RRNA_TRANSCRIPT_SSU_RRNA_5_8S_RRNA_LSU_RRNA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 880 uy moveto
+(GOBP_TELOMERASE_RNA_LOCALIZATION, GOBP_TELOMERASE_RNA_LOCALIZATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 860 uy moveto
+(GOBP_REGULATION_OF_MRNA_SPLICING_VIA_SPLICEOSOME, GOBP_REGULATION_OF_MRNA_SPLICING_VIA_SPLICEOSOME)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 840 uy moveto
+(GOBP_TERMINATION_OF_RNA_POLYMERASE_II_TRANSCRIPTION, GOBP_TERMINATION_OF_RNA_POLYMERASE_II_TRANSCRIPTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 820 uy moveto
+(GOBP_RNA_POLYADENYLATION, GOBP_RNA_POLYADENYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 800 uy moveto
+(GOBP_PROTEIN_MONOUBIQUITINATION, GOBP_PROTEIN_MONOUBIQUITINATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 780 uy moveto
+(GOBP_ENDODERM_DEVELOPMENT, GOBP_ENDODERM_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 760 uy moveto
+(GOBP_ALTERNATIVE_MRNA_SPLICING_VIA_SPLICEOSOME, GOBP_ALTERNATIVE_MRNA_SPLICING_VIA_SPLICEOSOME)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 740 uy moveto
+(GOBP_ENDODERM_FORMATION, GOBP_ENDODERM_FORMATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 720 uy moveto
+(GOBP_REGULATION_OF_HISTONE_MODIFICATION, GOBP_REGULATION_OF_HISTONE_MODIFICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 700 uy moveto
+(GOBP_NUCLEAR_TRANSCRIBED_MRNA_CATABOLIC_PROCESS_EXONUCLEOLYTIC, GOBP_NUCLEAR_TRANSCRIBED_MRNA_CATABOLIC_PROCESS_EXONUCLEOLYTIC)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 680 uy moveto
+(GOBP_SNRNA_METABOLIC_PROCESS, GOBP_SNRNA_METABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 660 uy moveto
+(GOBP_PROTEIN_LOCALIZATION_TO_NUCLEOPLASM, GOBP_PROTEIN_LOCALIZATION_TO_NUCLEOPLASM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 640 uy moveto
+(GOBP_PROTEIN_LOCALIZATION_TO_NUCLEAR_BODY, GOBP_PROTEIN_LOCALIZATION_TO_NUCLEAR_BODY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 620 uy moveto
+(GOBP_ENDODERMAL_CELL_DIFFERENTIATION, GOBP_ENDODERMAL_CELL_DIFFERENTIATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 600 uy moveto
+(GOBP_RRNA_CATABOLIC_PROCESS, GOBP_RRNA_CATABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 580 uy moveto
+(GOBP_NCRNA_CATABOLIC_PROCESS, GOBP_NCRNA_CATABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 560 uy moveto
+(GOBP_REGULATION_OF_HISTONE_METHYLATION, GOBP_REGULATION_OF_HISTONE_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 540 uy moveto
+(GOBP_SNRNA_PROCESSING, GOBP_SNRNA_PROCESSING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 520 uy moveto
+(GOBP_MRNA_SPLICE_SITE_SELECTION, GOBP_MRNA_SPLICE_SITE_SELECTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 500 uy moveto
+(GOBP_HISTONE_MRNA_METABOLIC_PROCESS, GOBP_HISTONE_MRNA_METABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 480 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_MRNA_PROCESSING, GOBP_POSITIVE_REGULATION_OF_MRNA_PROCESSING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 460 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_HISTONE_METHYLATION, GOBP_POSITIVE_REGULATION_OF_HISTONE_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 440 uy moveto
+(GOBP_REGULATION_OF_ALTERNATIVE_MRNA_SPLICING_VIA_SPLICEOSOME, GOBP_REGULATION_OF_ALTERNATIVE_MRNA_SPLICING_VIA_SPLICEOSOME)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 420 uy moveto
+(GOBP_MRNA_CIS_SPLICING_VIA_SPLICEOSOME, GOBP_MRNA_CIS_SPLICING_VIA_SPLICEOSOME)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 400 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_MRNA_SPLICING_VIA_SPLICEOSOME, GOBP_NEGATIVE_REGULATION_OF_MRNA_SPLICING_VIA_SPLICEOSOME)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 380 uy moveto
+(GOBP_RNA_SPLICING_VIA_ENDONUCLEOLYTIC_CLEAVAGE_AND_LIGATION, GOBP_RNA_SPLICING_VIA_ENDONUCLEOLYTIC_CLEAVAGE_AND_LIGATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 360 uy moveto
+(GOBP_RNA_PHOSPHODIESTER_BOND_HYDROLYSIS_EXONUCLEOLYTIC, GOBP_RNA_PHOSPHODIESTER_BOND_HYDROLYSIS_EXONUCLEOLYTIC)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 340 uy moveto
+(GOBP_HISTONE_UBIQUITINATION, GOBP_HISTONE_UBIQUITINATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 320 uy moveto
+(GOBP_RNA_SURVEILLANCE, GOBP_RNA_SURVEILLANCE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 300 uy moveto
+(GOBP_MRNA_CLEAVAGE, GOBP_MRNA_CLEAVAGE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 280 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_RNA_CATABOLIC_PROCESS, GOBP_NEGATIVE_REGULATION_OF_RNA_CATABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 260 uy moveto
+(GOBP_SNO_S_RNA_3_END_PROCESSING, GOBP_SNO_S_RNA_3_END_PROCESSING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 240 uy moveto
+(GOBP_REGULATION_OF_TRANSLATIONAL_ELONGATION, GOBP_REGULATION_OF_TRANSLATIONAL_ELONGATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 220 uy moveto
+(GOBP_SNO_S_RNA_METABOLIC_PROCESS, GOBP_SNO_S_RNA_METABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 200 uy moveto
+(GOBP_NUCLEAR_TRANSCRIBED_MRNA_CATABOLIC_PROCESS_EXONUCLEOLYTIC_3_5, GOBP_NUCLEAR_TRANSCRIBED_MRNA_CATABOLIC_PROCESS_EXONUCLEOLYTIC_3_5)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 180 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_TRANSCRIPTION_ELONGATION_FROM_RNA_POLYMERASE_II_PROMOTER, GOBP_POSITIVE_REGULATION_OF_TRANSCRIPTION_ELONGATION_FROM_RNA_POLYMERASE_II_PROMOTER)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 160 uy moveto
+(GOBP_POLYADENYLATION_DEPENDENT_RNA_CATABOLIC_PROCESS, GOBP_POLYADENYLATION_DEPENDENT_RNA_CATABOLIC_PROCESS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 140 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_TELOMERASE_ACTIVITY, GOBP_POSITIVE_REGULATION_OF_TELOMERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 120 uy moveto
+(GOBP_SNRNA_MODIFICATION, GOBP_SNRNA_MODIFICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 100 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_MRNA_3_END_PROCESSING, GOBP_POSITIVE_REGULATION_OF_MRNA_3_END_PROCESSING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 80 uy moveto
+(GOBP_DNA_CATABOLIC_PROCESS_EXONUCLEOLYTIC, GOBP_DNA_CATABOLIC_PROCESS_EXONUCLEOLYTIC)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 60 uy moveto
+(GOBP_U4_SNRNA_3_END_PROCESSING, GOBP_U4_SNRNA_3_END_PROCESSING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+469 ux 527 uy moveto
+512 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+519 ux 40 uy moveto
+(GOBP_MRNA_CLEAVAGE_INVOLVED_IN_MRNA_PROCESSING, GOBP_MRNA_CLEAVAGE_INVOLVED_IN_MRNA_PROCESSING)   show stroke 
+%%EOF

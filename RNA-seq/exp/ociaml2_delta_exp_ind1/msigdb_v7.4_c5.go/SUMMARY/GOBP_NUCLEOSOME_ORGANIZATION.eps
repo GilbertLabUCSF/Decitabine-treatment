@@ -1,0 +1,544 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (ociaml2_delta_exp.txt_PAGE/SUMMARY/GOBP_NUCLEOSOME_ORGANIZATION.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 22:56:34 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1798 1075
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+513 ux 540 uy moveto
+(GOBP_NUCLEOSOME_ORGANIZATION, GOBP_NUCLEOSOME_ORGANIZATION)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 1060 uy moveto
+(GOBP_NON_RECOMBINATIONAL_REPAIR, GOBP_NON_RECOMBINATIONAL_REPAIR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 1040 uy moveto
+(GOBP_NUCLEOSOME_ASSEMBLY, GOBP_NUCLEOSOME_ASSEMBLY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 1020 uy moveto
+(GOBP_PEPTIDYL_LYSINE_ACETYLATION, GOBP_PEPTIDYL_LYSINE_ACETYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 1000 uy moveto
+(GOBP_PROTEIN_ACETYLATION, GOBP_PROTEIN_ACETYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 980 uy moveto
+(GOBP_PROTEIN_METHYLATION, GOBP_PROTEIN_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 960 uy moveto
+(GOBP_ATP_DEPENDENT_CHROMATIN_REMODELING, GOBP_ATP_DEPENDENT_CHROMATIN_REMODELING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 940 uy moveto
+(GOBP_CHROMATIN_ORGANIZATION_INVOLVED_IN_REGULATION_OF_TRANSCRIPTION, GOBP_CHROMATIN_ORGANIZATION_INVOLVED_IN_REGULATION_OF_TRANSCRIPTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 920 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_GENE_EXPRESSION_EPIGENETIC, GOBP_NEGATIVE_REGULATION_OF_GENE_EXPRESSION_EPIGENETIC)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 900 uy moveto
+(GOBP_HISTONE_METHYLATION, GOBP_HISTONE_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 880 uy moveto
+(GOBP_PEPTIDYL_LYSINE_METHYLATION, GOBP_PEPTIDYL_LYSINE_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 860 uy moveto
+(GOBP_DNA_REPLICATION_INDEPENDENT_NUCLEOSOME_ORGANIZATION, GOBP_DNA_REPLICATION_INDEPENDENT_NUCLEOSOME_ORGANIZATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 840 uy moveto
+(GOCC_SWI_SNF_SUPERFAMILY_TYPE_COMPLEX, GOCC_SWI_SNF_SUPERFAMILY_TYPE_COMPLEX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 820 uy moveto
+(GOBP_HISTONE_H3_ACETYLATION, GOBP_HISTONE_H3_ACETYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 800 uy moveto
+(GOBP_REGULATION_OF_DNA_RECOMBINATION, GOBP_REGULATION_OF_DNA_RECOMBINATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 780 uy moveto
+(GOBP_CHROMATIN_REMODELING_AT_CENTROMERE, GOBP_CHROMATIN_REMODELING_AT_CENTROMERE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 760 uy moveto
+(GOBP_HETEROCHROMATIN_ORGANIZATION, GOBP_HETEROCHROMATIN_ORGANIZATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 740 uy moveto
+(GOBP_ANTIMICROBIAL_HUMORAL_IMMUNE_RESPONSE_MEDIATED_BY_ANTIMICROBIAL_PEPTIDE, GOBP_ANTIMICROBIAL_HUMORAL_IMMUNE_RESPONSE_MEDIATED_BY_ANTIMICROBIAL_PEPTIDE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 720 uy moveto
+(GOMF_NUCLEOSOME_BINDING, GOMF_NUCLEOSOME_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 700 uy moveto
+(GOMF_NUCLEAR_HORMONE_RECEPTOR_BINDING, GOMF_NUCLEAR_HORMONE_RECEPTOR_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 680 uy moveto
+(GOCC_ATPASE_COMPLEX, GOCC_ATPASE_COMPLEX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 660 uy moveto
+(GOBP_RDNA_HETEROCHROMATIN_ASSEMBLY, GOBP_RDNA_HETEROCHROMATIN_ASSEMBLY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 640 uy moveto
+(GOBP_HISTONE_H4_ACETYLATION, GOBP_HISTONE_H4_ACETYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 620 uy moveto
+(GOBP_HISTONE_EXCHANGE, GOBP_HISTONE_EXCHANGE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 600 uy moveto
+(GOBP_HISTONE_H3_K9_MODIFICATION, GOBP_HISTONE_H3_K9_MODIFICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 580 uy moveto
+(GOMF_N_ACETYLTRANSFERASE_ACTIVITY, GOMF_N_ACETYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 560 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_DNA_RECOMBINATION, GOBP_NEGATIVE_REGULATION_OF_DNA_RECOMBINATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 540 uy moveto
+(GOBP_HISTONE_H3_K9_METHYLATION, GOBP_HISTONE_H3_K9_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 520 uy moveto
+(GOMF_ACETYLTRANSFERASE_ACTIVITY, GOMF_ACETYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 500 uy moveto
+(GOMF_PEPTIDE_N_ACETYLTRANSFERASE_ACTIVITY, GOMF_PEPTIDE_N_ACETYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 480 uy moveto
+(GOBP_RRNA_TRANSCRIPTION, GOBP_RRNA_TRANSCRIPTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 460 uy moveto
+(GOCC_HISTONE_DEACETYLASE_COMPLEX, GOCC_HISTONE_DEACETYLASE_COMPLEX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 440 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_HISTONE_METHYLATION, GOBP_POSITIVE_REGULATION_OF_HISTONE_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 420 uy moveto
+(GOCC_SWI_SNF_COMPLEX, GOCC_SWI_SNF_COMPLEX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 400 uy moveto
+(GOBP_DNA_REPLICATION_DEPENDENT_NUCLEOSOME_ORGANIZATION, GOBP_DNA_REPLICATION_DEPENDENT_NUCLEOSOME_ORGANIZATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 380 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_HISTONE_MODIFICATION, GOBP_NEGATIVE_REGULATION_OF_HISTONE_MODIFICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 360 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_CHROMATIN_ORGANIZATION, GOBP_NEGATIVE_REGULATION_OF_CHROMATIN_ORGANIZATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 340 uy moveto
+(GOMF_PEPTIDE_LYSINE_N_ACETYLTRANSFERASE_ACTIVITY, GOMF_PEPTIDE_LYSINE_N_ACETYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 320 uy moveto
+(GOBP_REGULATION_OF_HISTONE_H3_K9_METHYLATION, GOBP_REGULATION_OF_HISTONE_H3_K9_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 300 uy moveto
+(GOMF_3_5_DNA_HELICASE_ACTIVITY, GOMF_3_5_DNA_HELICASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 280 uy moveto
+(GOBP_CHROMATIN_SILENCING, GOBP_CHROMATIN_SILENCING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 260 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_HISTONE_METHYLATION, GOBP_NEGATIVE_REGULATION_OF_HISTONE_METHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 240 uy moveto
+(GOBP_PEPTIDYL_LYSINE_DIMETHYLATION, GOBP_PEPTIDYL_LYSINE_DIMETHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 220 uy moveto
+(GOMF_LYSINE_ACETYLATED_HISTONE_BINDING, GOMF_LYSINE_ACETYLATED_HISTONE_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 200 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_TRANSCRIPTION_BY_RNA_POLYMERASE_I, GOBP_POSITIVE_REGULATION_OF_TRANSCRIPTION_BY_RNA_POLYMERASE_I)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 180 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_GENE_SILENCING, GOBP_NEGATIVE_REGULATION_OF_GENE_SILENCING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 160 uy moveto
+(GOBP_DNA_METHYLATION_OR_DEMETHYLATION, GOBP_DNA_METHYLATION_OR_DEMETHYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 140 uy moveto
+(GOCC_EUCHROMATIN, GOCC_EUCHROMATIN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 120 uy moveto
+(GOMF_NUCLEAR_RECEPTOR_BINDING, GOMF_NUCLEAR_RECEPTOR_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 100 uy moveto
+(GOBP_DNA_UNWINDING_INVOLVED_IN_DNA_REPLICATION, GOBP_DNA_UNWINDING_INVOLVED_IN_DNA_REPLICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 80 uy moveto
+(GOBP_REGULATION_OF_PEPTIDYL_LYSINE_ACETYLATION, GOBP_REGULATION_OF_PEPTIDYL_LYSINE_ACETYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 60 uy moveto
+(GOMF_HISTONE_LYSINE_N_METHYLTRANSFERASE_ACTIVITY, GOMF_HISTONE_LYSINE_N_METHYLTRANSFERASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+520 ux 547 uy moveto
+563 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+570 ux 40 uy moveto
+(GOMF_N_ACYLTRANSFERASE_ACTIVITY, GOMF_N_ACYLTRANSFERASE_ACTIVITY)   show stroke 
+%%EOF

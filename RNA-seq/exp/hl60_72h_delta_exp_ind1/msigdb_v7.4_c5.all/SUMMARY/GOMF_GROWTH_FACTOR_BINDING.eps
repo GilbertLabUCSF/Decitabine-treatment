@@ -1,0 +1,800 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (hl60_72h_delta_exp.txt_PAGE/SUMMARY/GOMF_GROWTH_FACTOR_BINDING.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 22:50:04 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1499 1713
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+479 ux 860 uy moveto
+(GOMF_GROWTH_FACTOR_BINDING, GOMF_GROWTH_FACTOR_BINDING)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1700 uy moveto
+(GOMF_EXTRACELLULAR_MATRIX_STRUCTURAL_CONSTITUENT, GOMF_EXTRACELLULAR_MATRIX_STRUCTURAL_CONSTITUENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1680 uy moveto
+(GOBP_NERVE_DEVELOPMENT, GOBP_NERVE_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1660 uy moveto
+(GOMF_TRANSMEMBRANE_RECEPTOR_PROTEIN_KINASE_ACTIVITY, GOMF_TRANSMEMBRANE_RECEPTOR_PROTEIN_KINASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1640 uy moveto
+(GOBP_CARDIAC_CHAMBER_DEVELOPMENT, GOBP_CARDIAC_CHAMBER_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1620 uy moveto
+(GOMF_EXTRACELLULAR_MATRIX_BINDING, GOMF_EXTRACELLULAR_MATRIX_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1600 uy moveto
+(HP_ECTRODACTYLY, HP_ECTRODACTYLY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1580 uy moveto
+(GOBP_CARDIAC_SEPTUM_DEVELOPMENT, GOBP_CARDIAC_SEPTUM_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1560 uy moveto
+(HP_DELAYED_CRANIAL_SUTURE_CLOSURE, HP_DELAYED_CRANIAL_SUTURE_CLOSURE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1540 uy moveto
+(GOCC_BASEMENT_MEMBRANE, GOCC_BASEMENT_MEMBRANE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1520 uy moveto
+(GOMF_TRANSMEMBRANE_RECEPTOR_PROTEIN_TYROSINE_KINASE_ACTIVITY, GOMF_TRANSMEMBRANE_RECEPTOR_PROTEIN_TYROSINE_KINASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1500 uy moveto
+(HP_SKELETAL_DYSPLASIA, HP_SKELETAL_DYSPLASIA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1480 uy moveto
+(GOBP_MORPHOGENESIS_OF_A_BRANCHING_STRUCTURE, GOBP_MORPHOGENESIS_OF_A_BRANCHING_STRUCTURE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1460 uy moveto
+(GOBP_CARDIAC_VENTRICLE_DEVELOPMENT, GOBP_CARDIAC_VENTRICLE_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1440 uy moveto
+(GOBP_OUTFLOW_TRACT_SEPTUM_MORPHOGENESIS, GOBP_OUTFLOW_TRACT_SEPTUM_MORPHOGENESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1420 uy moveto
+(GOBP_CARDIAC_CHAMBER_MORPHOGENESIS, GOBP_CARDIAC_CHAMBER_MORPHOGENESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1400 uy moveto
+(GOMF_PROTEIN_TYROSINE_KINASE_ACTIVITY, GOMF_PROTEIN_TYROSINE_KINASE_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1380 uy moveto
+(HP_BROAD_THUMB, HP_BROAD_THUMB)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1360 uy moveto
+(GOMF_HORMONE_BINDING, GOMF_HORMONE_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1340 uy moveto
+(GOBP_CARDIAC_SEPTUM_MORPHOGENESIS, GOBP_CARDIAC_SEPTUM_MORPHOGENESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1320 uy moveto
+(HP_ABNORMALLY_LAX_OR_HYPEREXTENSIBLE_SKIN, HP_ABNORMALLY_LAX_OR_HYPEREXTENSIBLE_SKIN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1300 uy moveto
+(HP_PLATYSPONDYLY, HP_PLATYSPONDYLY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1280 uy moveto
+(GOMF_INSULIN_LIKE_GROWTH_FACTOR_BINDING, GOMF_INSULIN_LIKE_GROWTH_FACTOR_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1260 uy moveto
+(GOBP_AUTONOMIC_NERVOUS_SYSTEM_DEVELOPMENT, GOBP_AUTONOMIC_NERVOUS_SYSTEM_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1240 uy moveto
+(GOBP_HEART_VALVE_DEVELOPMENT, GOBP_HEART_VALVE_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1220 uy moveto
+(GOBP_PHARYNGEAL_SYSTEM_DEVELOPMENT, GOBP_PHARYNGEAL_SYSTEM_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1200 uy moveto
+(GOBP_CENTRAL_NERVOUS_SYSTEM_NEURON_DEVELOPMENT, GOBP_CENTRAL_NERVOUS_SYSTEM_NEURON_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1180 uy moveto
+(HP_BOWING_OF_THE_LEGS, HP_BOWING_OF_THE_LEGS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1160 uy moveto
+(GOBP_EMBRYONIC_SKELETAL_SYSTEM_DEVELOPMENT, GOBP_EMBRYONIC_SKELETAL_SYSTEM_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1140 uy moveto
+(GOBP_POSITIVE_REGULATION_OF_CELL_DIVISION, GOBP_POSITIVE_REGULATION_OF_CELL_DIVISION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1120 uy moveto
+(HP_SKIN_EROSION, HP_SKIN_EROSION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1100 uy moveto
+(GOMF_PEPTIDE_HORMONE_BINDING, GOMF_PEPTIDE_HORMONE_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1080 uy moveto
+(HP_ABNORMAL_FEMORAL_NECK_HEAD_MORPHOLOGY, HP_ABNORMAL_FEMORAL_NECK_HEAD_MORPHOLOGY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1060 uy moveto
+(HP_CAPILLARY_HEMANGIOMA, HP_CAPILLARY_HEMANGIOMA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1040 uy moveto
+(HP_XANTHOMATOSIS, HP_XANTHOMATOSIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1020 uy moveto
+(GOMF_CYTOKINE_BINDING, GOMF_CYTOKINE_BINDING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 1000 uy moveto
+(GOBP_GANGLION_DEVELOPMENT, GOBP_GANGLION_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 980 uy moveto
+(HP_VASCULAR_DILATATION, HP_VASCULAR_DILATATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 960 uy moveto
+(HP_SHORT_MIDDLE_PHALANX_OF_FINGER, HP_SHORT_MIDDLE_PHALANX_OF_FINGER)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 940 uy moveto
+(HP_DEVIATION_OF_THE_HALLUX, HP_DEVIATION_OF_THE_HALLUX)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 920 uy moveto
+(GOMF_RECEPTOR_ANTAGONIST_ACTIVITY, GOMF_RECEPTOR_ANTAGONIST_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 900 uy moveto
+(GOBP_LABYRINTHINE_LAYER_MORPHOGENESIS, GOBP_LABYRINTHINE_LAYER_MORPHOGENESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 880 uy moveto
+(HP_ABSENT_SEPTUM_PELLUCIDUM, HP_ABSENT_SEPTUM_PELLUCIDUM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 860 uy moveto
+(GOMF_RECEPTOR_INHIBITOR_ACTIVITY, GOMF_RECEPTOR_INHIBITOR_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 840 uy moveto
+(HP_VASCULAR_NEOPLASM, HP_VASCULAR_NEOPLASM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 820 uy moveto
+(GOBP_MUSCLE_ORGAN_MORPHOGENESIS, GOBP_MUSCLE_ORGAN_MORPHOGENESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 800 uy moveto
+(GOCC_COLLAGEN_TRIMER, GOCC_COLLAGEN_TRIMER)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 780 uy moveto
+(HP_DECREASED_SKULL_OSSIFICATION, HP_DECREASED_SKULL_OSSIFICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 760 uy moveto
+(GOBP_ANIMAL_ORGAN_FORMATION, GOBP_ANIMAL_ORGAN_FORMATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 740 uy moveto
+(HP_HIGH_MYOPIA, HP_HIGH_MYOPIA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 720 uy moveto
+(GOBP_VENTRICULAR_SEPTUM_DEVELOPMENT, GOBP_VENTRICULAR_SEPTUM_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 700 uy moveto
+(GOBP_GLOMERULUS_DEVELOPMENT, GOBP_GLOMERULUS_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 680 uy moveto
+(HP_HEMANGIOMATOSIS, HP_HEMANGIOMATOSIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 660 uy moveto
+(HP_SHORT_FOOT, HP_SHORT_FOOT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 640 uy moveto
+(HP_SKIN_NODULE, HP_SKIN_NODULE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 620 uy moveto
+(HP_JOINT_HYPERFLEXIBILITY, HP_JOINT_HYPERFLEXIBILITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 600 uy moveto
+(HP_BACK_PAIN, HP_BACK_PAIN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 580 uy moveto
+(GOBP_ODONTOGENESIS, GOBP_ODONTOGENESIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 560 uy moveto
+(HP_ABNORMALITY_OF_FONTANELLES, HP_ABNORMALITY_OF_FONTANELLES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 540 uy moveto
+(GOBP_ENDODERM_DEVELOPMENT, GOBP_ENDODERM_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 520 uy moveto
+(HP_BROAD_FINGER, HP_BROAD_FINGER)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 500 uy moveto
+(GOBP_NEURON_PROJECTION_ARBORIZATION, GOBP_NEURON_PROJECTION_ARBORIZATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 480 uy moveto
+(HP_CUTIS_LAXA, HP_CUTIS_LAXA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 460 uy moveto
+(GOBP_CHONDROCYTE_DIFFERENTIATION, GOBP_CHONDROCYTE_DIFFERENTIATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 440 uy moveto
+(HP_ABNORMALITY_OF_THE_SEPTUM_PELLUCIDUM, HP_ABNORMALITY_OF_THE_SEPTUM_PELLUCIDUM)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 420 uy moveto
+(HP_JOINT_SUBLUXATION, HP_JOINT_SUBLUXATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 400 uy moveto
+(HP_VISCERAL_ANGIOMATOSIS, HP_VISCERAL_ANGIOMATOSIS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 380 uy moveto
+(HP_ABNORMAL_MITRAL_VALVE_PHYSIOLOGY, HP_ABNORMAL_MITRAL_VALVE_PHYSIOLOGY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 360 uy moveto
+(GOMF_PROTEIN_HORMONE_RECEPTOR_ACTIVITY, GOMF_PROTEIN_HORMONE_RECEPTOR_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 340 uy moveto
+(GOBP_APPENDAGE_DEVELOPMENT, GOBP_APPENDAGE_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 320 uy moveto
+(GOMF_IMMUNE_RECEPTOR_ACTIVITY, GOMF_IMMUNE_RECEPTOR_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 300 uy moveto
+(HP_ABNORMALITY_OF_CARTILAGE_OF_EXTERNAL_EAR, HP_ABNORMALITY_OF_CARTILAGE_OF_EXTERNAL_EAR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 280 uy moveto
+(HP_ABNORMAL_MIDDLE_PHALANX_MORPHOLOGY_OF_THE_HAND, HP_ABNORMAL_MIDDLE_PHALANX_MORPHOLOGY_OF_THE_HAND)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 260 uy moveto
+(GOBP_NEGATIVE_REGULATION_OF_CELL_ACTIVATION, GOBP_NEGATIVE_REGULATION_OF_CELL_ACTIVATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 240 uy moveto
+(GOBP_ATRIAL_SEPTUM_DEVELOPMENT, GOBP_ATRIAL_SEPTUM_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 220 uy moveto
+(HP_ABNORMALITY_OF_SKULL_OSSIFICATION, HP_ABNORMALITY_OF_SKULL_OSSIFICATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 200 uy moveto
+(GOBP_ERBB2_SIGNALING_PATHWAY, GOBP_ERBB2_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 180 uy moveto
+(GOBP_ACTIVATION_OF_MAPKK_ACTIVITY, GOBP_ACTIVATION_OF_MAPKK_ACTIVITY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 160 uy moveto
+(HP_ABNORMAL_METATARSAL_MORPHOLOGY, HP_ABNORMAL_METATARSAL_MORPHOLOGY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 140 uy moveto
+(GOBP_ROOF_OF_MOUTH_DEVELOPMENT, GOBP_ROOF_OF_MOUTH_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 120 uy moveto
+(HP_ECHOLALIA, HP_ECHOLALIA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 100 uy moveto
+(GOBP_RESPIRATORY_SYSTEM_DEVELOPMENT, GOBP_RESPIRATORY_SYSTEM_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 80 uy moveto
+(HP_COXA_VARA, HP_COXA_VARA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 60 uy moveto
+(HP_ABNORMAL_NASOLACRIMAL_SYSTEM_MORPHOLOGY, HP_ABNORMAL_NASOLACRIMAL_SYSTEM_MORPHOLOGY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+486 ux 867 uy moveto
+529 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+536 ux 40 uy moveto
+(HP_ARTHRITIS, HP_ARTHRITIS)   show stroke 
+%%EOF

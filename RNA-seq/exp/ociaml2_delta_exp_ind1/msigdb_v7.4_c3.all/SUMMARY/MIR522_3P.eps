@@ -1,0 +1,952 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (ociaml2_delta_exp.txt_PAGE/SUMMARY/MIR522_3P.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 22:41:25 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 635 2092
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+190 ux 1050 uy moveto
+(MIR522_3P, MIR522_3P)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 2087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2080 uy moveto
+(MIR224_3P, MIR224_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 2067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2060 uy moveto
+(MIR520E_5P, MIR520E_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 2047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2040 uy moveto
+(MIR299_5P, MIR299_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 2027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2020 uy moveto
+(MIR4738_3P, MIR4738_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 2007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 2000 uy moveto
+(MIR183_3P, MIR183_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1980 uy moveto
+(MIR1825, MIR1825)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1960 uy moveto
+(MIR6830_5P, MIR6830_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1940 uy moveto
+(MIR26B_3P, MIR26B_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1920 uy moveto
+(MIR583, MIR583)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1900 uy moveto
+(MIR6131, MIR6131)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1880 uy moveto
+(MIR9851_3P, MIR9851_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1860 uy moveto
+(MIR6892_5P, MIR6892_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1840 uy moveto
+(MIR9500, MIR9500)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1820 uy moveto
+(MIR193A_3P_MIR193B_3P, MIR193A_3P_MIR193B_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1800 uy moveto
+(MIR1236_3P, MIR1236_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1780 uy moveto
+(MIR8062, MIR8062)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1760 uy moveto
+(MIR148A_5P, MIR148A_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1740 uy moveto
+(MIR133A_5P, MIR133A_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1720 uy moveto
+(MIR4704_5P, MIR4704_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1700 uy moveto
+(MIR6837_3P, MIR6837_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1680 uy moveto
+(MIR6782_3P, MIR6782_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1660 uy moveto
+(MIR130B_5P, MIR130B_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1640 uy moveto
+(MIR1285_5P, MIR1285_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1620 uy moveto
+(MIR590_5P, MIR590_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1600 uy moveto
+(MIR7850_5P, MIR7850_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1580 uy moveto
+(MIR4252, MIR4252)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1560 uy moveto
+(MIR21_5P, MIR21_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1540 uy moveto
+(MIR6505_5P, MIR6505_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1520 uy moveto
+(MIR578, MIR578)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1500 uy moveto
+(MIR4682, MIR4682)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1480 uy moveto
+(MIR3200_5P, MIR3200_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1460 uy moveto
+(MIR3194_3P, MIR3194_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1440 uy moveto
+(MIR6126, MIR6126)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1420 uy moveto
+(MIR4722_5P, MIR4722_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1400 uy moveto
+(MIR10401_5P, MIR10401_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1380 uy moveto
+(MIR6762_3P, MIR6762_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1360 uy moveto
+(MIR4452, MIR4452)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1340 uy moveto
+(MIR873_5P, MIR873_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1320 uy moveto
+(MIR376A_3P_MIR376B_3P, MIR376A_3P_MIR376B_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1300 uy moveto
+(MIR4760_5P, MIR4760_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1280 uy moveto
+(MIR6852_3P, MIR6852_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1260 uy moveto
+(MIR890, MIR890)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1240 uy moveto
+(MIR7854_3P, MIR7854_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1220 uy moveto
+(MIR1178_3P, MIR1178_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1200 uy moveto
+(MIR361_3P, MIR361_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1180 uy moveto
+(MIR1343_3P, MIR1343_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1160 uy moveto
+(MIR3622A_3P_MIR3622B_3P, MIR3622A_3P_MIR3622B_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1140 uy moveto
+(MIR367_5P, MIR367_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1120 uy moveto
+(MIR649, MIR649)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1100 uy moveto
+(MIR2116_5P, MIR2116_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1080 uy moveto
+(MIR920, MIR920)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1060 uy moveto
+(MIR4764_3P, MIR4764_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1040 uy moveto
+(MIR1229_3P, MIR1229_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1020 uy moveto
+(MIR7153_3P, MIR7153_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 1000 uy moveto
+(MIR769_5P, MIR769_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 980 uy moveto
+(MIR5591_5P, MIR5591_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 960 uy moveto
+(MIR1266_3P, MIR1266_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 940 uy moveto
+(MIR6726_5P, MIR6726_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 920 uy moveto
+(MIR10526_3P, MIR10526_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 900 uy moveto
+(MIR619_3P, MIR619_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 880 uy moveto
+(MIR4300, MIR4300)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 860 uy moveto
+(MIR5007_5P, MIR5007_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 840 uy moveto
+(MIR4428, MIR4428)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 820 uy moveto
+(MIR6888_3P, MIR6888_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 800 uy moveto
+(MIR4680_5P, MIR4680_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 780 uy moveto
+(MIR629_5P, MIR629_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 760 uy moveto
+(MIR4714_3P, MIR4714_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 740 uy moveto
+(MIR6759_5P, MIR6759_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 720 uy moveto
+(MIR4490, MIR4490)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 700 uy moveto
+(MIR943, MIR943)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 680 uy moveto
+(MIR4708_5P, MIR4708_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 660 uy moveto
+(MIR596, MIR596)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 640 uy moveto
+(MIR3201, MIR3201)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 620 uy moveto
+(MIR3150B_3P, MIR3150B_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 600 uy moveto
+(MIR6794_3P, MIR6794_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 580 uy moveto
+(MIR4657, MIR4657)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 560 uy moveto
+(MIR4715_5P, MIR4715_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 540 uy moveto
+(MIR5581_5P, MIR5581_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 520 uy moveto
+(MIR6748_5P, MIR6748_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 500 uy moveto
+(MIR4540, MIR4540)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 480 uy moveto
+(MIR7113_3P, MIR7113_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 460 uy moveto
+(MIR6823_3P, MIR6823_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 440 uy moveto
+(MIR4529_3P, MIR4529_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 420 uy moveto
+(MIR6835_5P, MIR6835_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 400 uy moveto
+(MIR6857_5P, MIR6857_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 380 uy moveto
+(MIR4791, MIR4791)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 360 uy moveto
+(MIR376A_5P, MIR376A_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 340 uy moveto
+(MIR8088, MIR8088)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 320 uy moveto
+(MIR3664_5P, MIR3664_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 300 uy moveto
+(MIR7114_3P, MIR7114_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 280 uy moveto
+(MIR432_3P, MIR432_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 260 uy moveto
+(MIR5092, MIR5092)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 240 uy moveto
+(CTGRYYYNATT_UNKNOWN, CTGRYYYNATT_UNKNOWN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 220 uy moveto
+(MIR6802_5P, MIR6802_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 200 uy moveto
+(MIR4732_5P, MIR4732_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 180 uy moveto
+(MIR4701_3P, MIR4701_3P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 160 uy moveto
+(MIR1245A, MIR1245A)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 140 uy moveto
+(MIR1262, MIR1262)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 120 uy moveto
+(MIR6736_5P, MIR6736_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 100 uy moveto
+(ADCYAP1_TARGET_GENES, ADCYAP1_TARGET_GENES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 80 uy moveto
+(MIR101_2_5P, MIR101_2_5P)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 60 uy moveto
+(ZNF530_TARGET_GENES, ZNF530_TARGET_GENES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+197 ux 1057 uy moveto
+240 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+247 ux 40 uy moveto
+(MIR4636, MIR4636)   show stroke 
+%%EOF

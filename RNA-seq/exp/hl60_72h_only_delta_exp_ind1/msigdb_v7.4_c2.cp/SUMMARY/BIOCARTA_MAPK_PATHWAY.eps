@@ -1,0 +1,816 @@
+%!PS-Adobe-3.0 EPSF-1.2
+%%Title: (hl60_72h_only_delta_exp.txt_PAGE/SUMMARY/BIOCARTA_MAPK_PATHWAY.eps)
+%%LanguageLevel: 1
+%%Creator: PostScript::Simple perl module version 0.07
+%%CreationDate: Tue Dec 21 22:34:51 2021
+%%For: aarab
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1700 1753
+%%EndComments
+%%BeginProlog
+/ll 1 def systemdict /languagelevel known {
+/ll languagelevel def } if
+%%BeginResource: PostScript::Simple
+/ux {72 mul 72.27 div} def
+/uy {72 mul 72.27 div} def
+/u {72 mul 72.27 div} def
+/STARTDIFFENC { mark } bind def
+/ENDDIFFENC { 
+
+% /NewEnc BaseEnc STARTDIFFENC number or glyphname ... ENDDIFFENC -
+	counttomark 2 add -1 roll 256 array copy
+	/TempEncode exch def
+	
+	% pointer for sequential encodings
+	/EncodePointer 0 def
+	{
+		% Get the bottom object
+		counttomark -1 roll
+		% Is it a mark?
+		dup type dup /marktype eq {
+			% End of encoding
+			pop pop exit
+		} {
+			/nametype eq {
+			% Insert the name at EncodePointer 
+
+			% and increment the pointer.
+			TempEncode EncodePointer 3 -1 roll put
+			/EncodePointer EncodePointer 1 add def
+			} {
+			% Set the EncodePointer to the number
+			/EncodePointer exch def
+			} ifelse
+		} ifelse
+	} loop	
+
+	TempEncode def
+} bind def
+
+% Define ISO Latin1 encoding if it doesnt exist
+/ISOLatin1Encoding where {
+%	(ISOLatin1 exists!) =
+	pop
+} {
+	(ISOLatin1 does not exist, creating...) =
+	/ISOLatin1Encoding StandardEncoding STARTDIFFENC
+		144 /dotlessi /grave /acute /circumflex /tilde 
+		/macron /breve /dotaccent /dieresis /.notdef /ring 
+		/cedilla /.notdef /hungarumlaut /ogonek /caron /space 
+		/exclamdown /cent /sterling /currency /yen /brokenbar 
+		/section /dieresis /copyright /ordfeminine 
+		/guillemotleft /logicalnot /hyphen /registered 
+		/macron /degree /plusminus /twosuperior 
+		/threesuperior /acute /mu /paragraph /periodcentered 
+		/cedilla /onesuperior /ordmasculine /guillemotright 
+		/onequarter /onehalf /threequarters /questiondown 
+		/Agrave /Aacute /Acircumflex /Atilde /Adieresis 
+		/Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex 
+		/Edieresis /Igrave /Iacute /Icircumflex /Idieresis 
+		/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde 
+		/Odieresis /multiply /Oslash /Ugrave /Uacute 
+		/Ucircumflex /Udieresis /Yacute /Thorn /germandbls 
+		/agrave /aacute /acircumflex /atilde /adieresis 
+		/aring /ae /ccedilla /egrave /eacute /ecircumflex 
+		/edieresis /igrave /iacute /icircumflex /idieresis 
+		/eth /ntilde /ograve /oacute /ocircumflex /otilde 
+		/odieresis /divide /oslash /ugrave /uacute 
+		/ucircumflex /udieresis /yacute /thorn /ydieresis
+	ENDDIFFENC
+} ifelse
+
+% Name: Re-encode Font
+% Description: Creates a new font using the named encoding. 
+
+/REENCODEFONT { % /Newfont NewEncoding /Oldfont
+	findfont dup length 4 add dict
+	begin
+		{ % forall
+			1 index /FID ne 
+			2 index /UniqueID ne and
+			2 index /XUID ne and
+			{ def } { pop pop } ifelse
+		} forall
+		/Encoding exch def
+		% defs for DPS
+		/BitmapWidths false def
+		/ExactSize 0 def
+		/InBetweenSize 0 def
+		/TransformedChar 0 def
+		currentdict
+	end
+	definefont pop
+} bind def
+
+% Reencode the std fonts: 
+/Courier-iso ISOLatin1Encoding /Courier REENCODEFONT
+/Courier-Bold-iso ISOLatin1Encoding /Courier-Bold REENCODEFONT
+/Courier-BoldOblique-iso ISOLatin1Encoding /Courier-BoldOblique REENCODEFONT
+/Courier-Oblique-iso ISOLatin1Encoding /Courier-Oblique REENCODEFONT
+/Helvetica-iso ISOLatin1Encoding /Helvetica REENCODEFONT
+/Helvetica-Bold-iso ISOLatin1Encoding /Helvetica-Bold REENCODEFONT
+/Helvetica-BoldOblique-iso ISOLatin1Encoding /Helvetica-BoldOblique REENCODEFONT
+/Helvetica-Oblique-iso ISOLatin1Encoding /Helvetica-Oblique REENCODEFONT
+/Times-Roman-iso ISOLatin1Encoding /Times-Roman REENCODEFONT
+/Times-Bold-iso ISOLatin1Encoding /Times-Bold REENCODEFONT
+/Times-BoldItalic-iso ISOLatin1Encoding /Times-BoldItalic REENCODEFONT
+/Times-Italic-iso ISOLatin1Encoding /Times-Italic REENCODEFONT
+/Symbol-iso ISOLatin1Encoding /Symbol REENCODEFONT
+%%EndResource
+%%EndProlog
+1 u setlinewidth
+0 0 0 setrgbcolor
+/Garamond-bold findfont 17 scalefont setfont
+newpath
+394 ux 880 uy moveto
+(BIOCARTA_MAPK_PATHWAY, BIOCARTA_MAPK_PATHWAY)   dup stringwidth pop neg 0 rmoveto show 
+/Garamond findfont 14 scalefont setfont
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1740 uy moveto
+(REACTOME_TOLL_LIKE_RECEPTOR_9_TLR9_CASCADE, REACTOME_TOLL_LIKE_RECEPTOR_9_TLR9_CASCADE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1720 uy moveto
+(PID_MTOR_4PATHWAY, PID_MTOR_4PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1700 uy moveto
+(WP_PROLACTIN_SIGNALING_PATHWAY, WP_PROLACTIN_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1680 uy moveto
+(REACTOME_TOLL_LIKE_RECEPTOR_TLR1_TLR2_CASCADE, REACTOME_TOLL_LIKE_RECEPTOR_TLR1_TLR2_CASCADE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1660 uy moveto
+(WP_B_CELL_RECEPTOR_SIGNALING_PATHWAY, WP_B_CELL_RECEPTOR_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1640 uy moveto
+(WP_LEPTIN_SIGNALING_PATHWAY, WP_LEPTIN_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1620 uy moveto
+(KEGG_LEISHMANIA_INFECTION, KEGG_LEISHMANIA_INFECTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1600 uy moveto
+(WP_HOSTPATHOGEN_INTERACTION_OF_HUMAN_CORONA_VIRUSES_MAPK_SIGNALING, WP_HOSTPATHOGEN_INTERACTION_OF_HUMAN_CORONA_VIRUSES_MAPK_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1580 uy moveto
+(WP_STRUCTURAL_PATHWAY_OF_INTERLEUKIN_1_IL1, WP_STRUCTURAL_PATHWAY_OF_INTERLEUKIN_1_IL1)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1560 uy moveto
+(SA_B_CELL_RECEPTOR_COMPLEXES, SA_B_CELL_RECEPTOR_COMPLEXES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1540 uy moveto
+(WP_SEROTONIN_RECEPTOR_467_AND_NR3C_SIGNALING, WP_SEROTONIN_RECEPTOR_467_AND_NR3C_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1520 uy moveto
+(BIOCARTA_HCMV_PATHWAY, BIOCARTA_HCMV_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1500 uy moveto
+(PID_IL6_7_PATHWAY, PID_IL6_7_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1480 uy moveto
+(WP_SIGNALING_OF_HEPATOCYTE_GROWTH_FACTOR_RECEPTOR, WP_SIGNALING_OF_HEPATOCYTE_GROWTH_FACTOR_RECEPTOR)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1460 uy moveto
+(KEGG_RENAL_CELL_CARCINOMA, KEGG_RENAL_CELL_CARCINOMA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1440 uy moveto
+(PID_ANGIOPOIETIN_RECEPTOR_PATHWAY, PID_ANGIOPOIETIN_RECEPTOR_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1420 uy moveto
+(BIOCARTA_P38MAPK_PATHWAY, BIOCARTA_P38MAPK_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1400 uy moveto
+(PID_IL23_PATHWAY, PID_IL23_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1380 uy moveto
+(REACTOME_TRAF6_MEDIATED_NF_KB_ACTIVATION, REACTOME_TRAF6_MEDIATED_NF_KB_ACTIVATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1360 uy moveto
+(BIOCARTA_MET_PATHWAY, BIOCARTA_MET_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1340 uy moveto
+(PID_FCER1_PATHWAY, PID_FCER1_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1320 uy moveto
+(WP_INTERACTIONS_BETWEEN_IMMUNE_CELLS_AND_MICRORNAS_IN_TUMOR_MICROENVIRONMENT, WP_INTERACTIONS_BETWEEN_IMMUNE_CELLS_AND_MICRORNAS_IN_TUMOR_MICROENVIRONMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1300 uy moveto
+(REACTOME_CREB_PHOSPHORYLATION, REACTOME_CREB_PHOSPHORYLATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1280 uy moveto
+(WP_P38_MAPK_SIGNALING_PATHWAY, WP_P38_MAPK_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1260 uy moveto
+(REACTOME_SIGNALING_BY_ERYTHROPOIETIN, REACTOME_SIGNALING_BY_ERYTHROPOIETIN)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1240 uy moveto
+(WP_ESTROGEN_SIGNALING_PATHWAY, WP_ESTROGEN_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1220 uy moveto
+(BIOCARTA_PDGF_PATHWAY, BIOCARTA_PDGF_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1200 uy moveto
+(PID_P38_ALPHA_BETA_PATHWAY, PID_P38_ALPHA_BETA_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1180 uy moveto
+(WP_ATM_SIGNALING_NETWORK_IN_DEVELOPMENT_AND_DISEASE, WP_ATM_SIGNALING_NETWORK_IN_DEVELOPMENT_AND_DISEASE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1160 uy moveto
+(REACTOME_RHO_GTPASES_ACTIVATE_PAKS, REACTOME_RHO_GTPASES_ACTIVATE_PAKS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1140 uy moveto
+(PID_RET_PATHWAY, PID_RET_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1120 uy moveto
+(REACTOME_SEMAPHORIN_INTERACTIONS, REACTOME_SEMAPHORIN_INTERACTIONS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1100 uy moveto
+(REACTOME_TIE2_SIGNALING, REACTOME_TIE2_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1087 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1080 uy moveto
+(REACTOME_CD209_DC_SIGN_SIGNALING, REACTOME_CD209_DC_SIGN_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1067 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1060 uy moveto
+(WP_MITOCHONDRIAL_GENE_EXPRESSION, WP_MITOCHONDRIAL_GENE_EXPRESSION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1047 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1040 uy moveto
+(REACTOME_KSRP_KHSRP_BINDS_AND_DESTABILIZES_MRNA, REACTOME_KSRP_KHSRP_BINDS_AND_DESTABILIZES_MRNA)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1027 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1020 uy moveto
+(BIOCARTA_TPO_PATHWAY, BIOCARTA_TPO_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 1007 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 1000 uy moveto
+(BIOCARTA_NGF_PATHWAY, BIOCARTA_NGF_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 987 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 980 uy moveto
+(REACTOME_RHO_GTPASES_ACTIVATE_WASPS_AND_WAVES, REACTOME_RHO_GTPASES_ACTIVATE_WASPS_AND_WAVES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 967 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 960 uy moveto
+(PID_LYMPH_ANGIOGENESIS_PATHWAY, PID_LYMPH_ANGIOGENESIS_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 947 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 940 uy moveto
+(PID_P38_ALPHA_BETA_DOWNSTREAM_PATHWAY, PID_P38_ALPHA_BETA_DOWNSTREAM_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 927 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 920 uy moveto
+(REACTOME_RUNX2_REGULATES_BONE_DEVELOPMENT, REACTOME_RUNX2_REGULATES_BONE_DEVELOPMENT)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 907 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 900 uy moveto
+(PID_AVB3_OPN_PATHWAY, PID_AVB3_OPN_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 887 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 880 uy moveto
+(REACTOME_TRANSCRIPTIONAL_REGULATION_OF_WHITE_ADIPOCYTE_DIFFERENTIATION, REACTOME_TRANSCRIPTIONAL_REGULATION_OF_WHITE_ADIPOCYTE_DIFFERENTIATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 867 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 860 uy moveto
+(WP_IL1_SIGNALING_PATHWAY, WP_IL1_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 847 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 840 uy moveto
+(REACTOME_SIGNALING_BY_CYTOSOLIC_FGFR1_FUSION_MUTANTS, REACTOME_SIGNALING_BY_CYTOSOLIC_FGFR1_FUSION_MUTANTS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 827 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 820 uy moveto
+(REACTOME_MAPK_TARGETS_NUCLEAR_EVENTS_MEDIATED_BY_MAP_KINASES, REACTOME_MAPK_TARGETS_NUCLEAR_EVENTS_MEDIATED_BY_MAP_KINASES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 807 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 800 uy moveto
+(REACTOME_SIGNALING_BY_PDGF, REACTOME_SIGNALING_BY_PDGF)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 787 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 780 uy moveto
+(BIOCARTA_INFLAM_PATHWAY, BIOCARTA_INFLAM_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 767 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 760 uy moveto
+(REACTOME_DAP12_SIGNALING, REACTOME_DAP12_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 747 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 740 uy moveto
+(REACTOME_SIGNALING_BY_FLT3_FUSION_PROTEINS, REACTOME_SIGNALING_BY_FLT3_FUSION_PROTEINS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 727 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 720 uy moveto
+(WP_MAPK_AND_NFKB_SIGNALLING_PATHWAYS_INHIBITED_BY_YERSINIA_YOPJ, WP_MAPK_AND_NFKB_SIGNALLING_PATHWAYS_INHIBITED_BY_YERSINIA_YOPJ)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 707 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 700 uy moveto
+(BIOCARTA_IFNG_PATHWAY, BIOCARTA_IFNG_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 687 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 680 uy moveto
+(REACTOME_SIGNALING_BY_NTRK3_TRKC, REACTOME_SIGNALING_BY_NTRK3_TRKC)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 667 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 660 uy moveto
+(BIOCARTA_IGF1_PATHWAY, BIOCARTA_IGF1_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 647 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 640 uy moveto
+(BIOCARTA_INSULIN_PATHWAY, BIOCARTA_INSULIN_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 627 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 620 uy moveto
+(BIOCARTA_NKCELLS_PATHWAY, BIOCARTA_NKCELLS_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 607 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 600 uy moveto
+(REACTOME_SIGNALING_BY_FLT3_ITD_AND_TKD_MUTANTS, REACTOME_SIGNALING_BY_FLT3_ITD_AND_TKD_MUTANTS)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 587 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 580 uy moveto
+(REACTOME_RUNX2_REGULATES_OSTEOBLAST_DIFFERENTIATION, REACTOME_RUNX2_REGULATES_OSTEOBLAST_DIFFERENTIATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 567 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 560 uy moveto
+(PID_GLYPICAN_1PATHWAY, PID_GLYPICAN_1PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 547 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 540 uy moveto
+(BIOCARTA_EPO_PATHWAY, BIOCARTA_EPO_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 527 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 520 uy moveto
+(BIOCARTA_ATM_PATHWAY, BIOCARTA_ATM_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 507 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 500 uy moveto
+(KEGG_LEUKOCYTE_TRANSENDOTHELIAL_MIGRATION, KEGG_LEUKOCYTE_TRANSENDOTHELIAL_MIGRATION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 487 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 480 uy moveto
+(WP_IL4_SIGNALING_PATHWAY, WP_IL4_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 467 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 460 uy moveto
+(PID_IL27_PATHWAY, PID_IL27_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 447 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 440 uy moveto
+(REACTOME_SMOOTH_MUSCLE_CONTRACTION, REACTOME_SMOOTH_MUSCLE_CONTRACTION)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 427 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 420 uy moveto
+(REACTOME_SIGNALING_BY_FGFR1_IN_DISEASE, REACTOME_SIGNALING_BY_FGFR1_IN_DISEASE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 407 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 400 uy moveto
+(REACTOME_RHOH_GTPASE_CYCLE, REACTOME_RHOH_GTPASE_CYCLE)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 387 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 380 uy moveto
+(WP_BDNFTRKB_SIGNALING, WP_BDNFTRKB_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 367 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 360 uy moveto
+(BIOCARTA_41BB_PATHWAY, BIOCARTA_41BB_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 347 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 340 uy moveto
+(PID_P38_MKK3_6PATHWAY, PID_P38_MKK3_6PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 327 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 320 uy moveto
+(REACTOME_RHO_GTPASES_ACTIVATE_NADPH_OXIDASES, REACTOME_RHO_GTPASES_ACTIVATE_NADPH_OXIDASES)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 307 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 300 uy moveto
+(PID_CD40_PATHWAY, PID_CD40_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 287 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 280 uy moveto
+(PID_GMCSF_PATHWAY, PID_GMCSF_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 267 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 260 uy moveto
+(BIOCARTA_CD40_PATHWAY, BIOCARTA_CD40_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 247 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 240 uy moveto
+(BIOCARTA_STRESS_PATHWAY, BIOCARTA_STRESS_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 227 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 220 uy moveto
+(WP_MAPK_PATHWAY_IN_CONGENITAL_THYROID_CANCER, WP_MAPK_PATHWAY_IN_CONGENITAL_THYROID_CANCER)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 207 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 200 uy moveto
+(REACTOME_ONCOGENIC_MAPK_SIGNALING, REACTOME_ONCOGENIC_MAPK_SIGNALING)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 187 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 180 uy moveto
+(WP_PDGFRBETA_PATHWAY, WP_PDGFRBETA_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 167 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 160 uy moveto
+(WP_PDGF_PATHWAY, WP_PDGF_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 147 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 140 uy moveto
+(BIOCARTA_GATA3_PATHWAY, BIOCARTA_GATA3_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 127 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 120 uy moveto
+(BIOCARTA_HBX_PATHWAY, BIOCARTA_HBX_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 107 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 100 uy moveto
+(REACTOME_IKBA_VARIANT_LEADS_TO_EDA_ID, REACTOME_IKBA_VARIANT_LEADS_TO_EDA_ID)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 87 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 80 uy moveto
+(WP_G13_SIGNALING_PATHWAY, WP_G13_SIGNALING_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 67 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 60 uy moveto
+(PID_RXR_VDR_PATHWAY, PID_RXR_VDR_PATHWAY)   show stroke 
+0.8 0 0 setrgbcolor
+newpath
+401 ux 887 uy moveto
+444 ux 47 uy lineto stroke
+0 0 0 setrgbcolor
+newpath
+451 ux 40 uy moveto
+(WP_TYPE_II_DIABETES_MELLITUS, WP_TYPE_II_DIABETES_MELLITUS)   show stroke 
+%%EOF
