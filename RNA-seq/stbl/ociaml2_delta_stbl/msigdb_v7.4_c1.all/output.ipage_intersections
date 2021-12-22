@@ -1,12 +1,12 @@
 Group	Cluster	Identifiers
-chr3p14 chr3p14	0	FLNB	APPL1	DENND6A
-chr3p14 chr3p14	1
-chr3p14 chr3p14	2
-chr3p14 chr3p14	3
-chr3p14 chr3p14	4	PXK
-chr3p14 chr3p14	5	UBA3	ATXN7	SUCLG2	CCDC66
-chr3p14 chr3p14	6
-chr3p14 chr3p14	7
-chr3p14 chr3p14	8
-chr3p14 chr3p14	9
-chr3p14 chr3p14	10
+chr3q13 chr3q13	0
+chr3q13 chr3q13	1
+chr3q13 chr3q13	2
+chr3q13 chr3q13	3
+chr3q13 chr3q13	4
+chr3q13 chr3q13	5	ATG3
+chr3q13 chr3q13	6	CD47
+chr3q13 chr3q13	7
+chr3q13 chr3q13	8	GSK3B	NAA50	EAF2
+chr3q13 chr3q13	9
+chr3q13 chr3q13	10	TIMMDC1	BBX	ALCAM	IQCB1	HCLS1

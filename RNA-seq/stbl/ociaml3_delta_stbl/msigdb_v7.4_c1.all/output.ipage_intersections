@@ -1,23 +1,23 @@
 Group	Cluster	Identifiers
-chr2q11 chr2q11	0
-chr2q11 chr2q11	1	RPL31	TMEM131	SNRNP200	MRPS5	EIF5B
-chr2q11 chr2q11	2	REV1
-chr2q11 chr2q11	3
-chr2q11 chr2q11	4
-chr2q11 chr2q11	5
-chr2q11 chr2q11	6	NCAPH
-chr2q11 chr2q11	7	INPP4A	TBC1D8
-chr2q11 chr2q11	8
-chr2q11 chr2q11	9
-chr2q11 chr2q11	10
-chr6q22 chr6q22	0
-chr6q22 chr6q22	1
-chr6q22 chr6q22	2	KPNA5
-chr6q22 chr6q22	3	NUS1
-chr6q22 chr6q22	4
-chr6q22 chr6q22	5
-chr6q22 chr6q22	6	GOPC	ECHDC1	HDDC2	RNF217	NT5DC1
-chr6q22 chr6q22	7
-chr6q22 chr6q22	8
-chr6q22 chr6q22	9
-chr6q22 chr6q22	10	RNF146
+chr4q24 chr4q24	0
+chr4q24 chr4q24	1
+chr4q24 chr4q24	2
+chr4q24 chr4q24	3
+chr4q24 chr4q24	4	TBCK
+chr4q24 chr4q24	5
+chr4q24 chr4q24	6
+chr4q24 chr4q24	7	NFKB1
+chr4q24 chr4q24	8
+chr4q24 chr4q24	9	UBE2D3	CENPE	PPP3CA	AIMP1
+chr4q24 chr4q24	10	MANBA	PPA2	GSTCD	SLC39A8
+chr1q31 chr1q31	0
+chr1q31 chr1q31	1
+chr1q31 chr1q31	2
+chr1q31 chr1q31	3
+chr1q31 chr1q31	4
+chr1q31 chr1q31	5
+chr1q31 chr1q31	6	ASPM	UCHL5
+chr1q31 chr1q31	7
+chr1q31 chr1q31	8	TPR	PTPRC	PLA2G4A	NEK7	DENND1B
+chr1q31 chr1q31	9	CDC73
+chr1q31 chr1q31	10
