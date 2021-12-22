@@ -78,9 +78,9 @@ def find_top(df,value, value_thr, stat, stat_thr, drop_dup=False,silent=False):
     return up, dn
 
 
-def raw_dict(cells):
-    data = dict(((c,{}) for c in cells))
-    return data
+# def raw_dict(cells):
+#     data = dict(((c,{}) for c in cells))
+#     return data
 
 def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Projects/Decitabine-treatment/'):
     '''Read data into Pandas dataframes'''
@@ -90,48 +90,39 @@ def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Projects/Dec
     data = None
     # Teated vs. non-treated complete result files
     if comparisons==True:
+        data = dict()
         comparisons = [
             # HL-60 meRIP-seq - logFC
             'meRIP-seq/hl60_delta_mtyl_table.txt' ,
             # HL-60 Ribo-seq - lnTE
             'Ribo-seq/hl60_delta_te_table.txt' ,
-            # HL-60 RNA-seq 
-            # RNA experssion - log2FC
-            'RNA-seq/hl60-exp/hl60_delta_exp_table.txt',
-            # RNA stability  - logFC
-            'RNA-seq/hl60-stbl/hl60_delta_stbl_table.txt',
-            ## 5 other AML cell lines RNA-seq
-            # RNA experssion - log2FC
-            'RNA-seq/other-exp/kg1_delta_exp_table.txt', 'RNA-seq/other-exp/molm14_delta_exp_table.txt',
-            'RNA-seq/other-exp/ociaml2_delta_exp_table.txt', 'RNA-seq/other-exp/ociaml3_delta_exp_table.txt',
-            'RNA-seq/other-exp/thp1_delta_exp_table.txt',
-            # RNA stability - logFC
-            'RNA-seq/other-stbl/kg1_delta_stbl_table.txt', 'RNA-seq/other-stbl/molm14_delta_stbl_table.txt',
-            'RNA-seq/other-stbl/ociaml2_delta_stbl_table.txt', 'RNA-seq/other-stbl/ociaml3_delta_stbl_table.txt',
-            'RNA-seq/other-stbl/thp1_delta_stbl_table.txt'
+            # x6 cell lines RNA experssion - log2FC
+            'RNA-seq/exp/delta_exp_table.txt',
+            # x6 cell lines RNA stability  - log2FC
+            'RNA-seq/stbl/delta_stbl_table.txt',
         ]
-        # extract cell line name experiment name 
-        names = [c.split('/')[-1].replace('.txt','').replace('_table','') for c in comparisons]
-        cells = [names[i].split('_')[0] for i,x in enumerate(comparisons)]
-        experiments = [names[i].replace(cells[i]+'_', '') for i,x in enumerate(comparisons)]
-
-        data = raw_dict(cells)
-
+        
+        # extract experiment name 
+        names = [
+            c.split('/')[-1].replace('.txt','').replace('_table','').replace('hl60_','') 
+            for c in comparisons
+        ]
+        
+        # read data and write into dictionary 
         tables = [pd.read_csv(x, sep = '\t') for x in comparisons]
         for i,x in enumerate(comparisons): 
-            cel = cells[i]
-            exp = experiments[i]
-            # read data and write into dictionary 
-            data [cel][exp] = tables[i]
-
-        data['hl60']['delta_te'] = data['hl60']['delta_te'][
+            data [names[i]] = tables[i]
+        data['delta_te'] = data['delta_te'][
             ['gene_id','gene_name','Estimate_treatmentDRUG','fdr_Pr...z.._treatmentDRUG']
         ].set_index('gene_id')
-        data['hl60']['delta_mtyl'] = data['hl60']['delta_mtyl'][['ensembl','name','logFC','p_value']]
-        data['hl60']['delta_mtyl'].columns = ['gene_id','gene_name','logFC','pval']
+        data['delta_mtyl'] = data['delta_mtyl'][['ensembl','name','logFC','p_value']]
+        data['delta_mtyl'].columns = ['gene_id','gene_name','logFC','pval']
 
     # include CRISPR screening scores 
     if screens==True:
+        if data == None:
+            data = dict()
+
         screens = [
         'CRISPRi-screen/hl60_exp1/DAC_processing_output_genetable_collapsed.txt',
         'CRISPRi-screen/hl60_exp2/DAC_processing_output_genetable_collapsed.txt',
@@ -140,104 +131,66 @@ def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Projects/Dec
         'CRISPRi-screen/molm13_exp/GSK_processing_output_genetable_collapsed.txt'
         ]
 
-        labels = [itemgetter(0,1,2)(f.replace('CRISPRi-screen/','').replace('/','_').split('_')) for f in screens] 
-        cells = set([l[0] for l in labels])
-        
-        if data == None:
-            data = raw_dict(cells)
+        labels = [
+            itemgetter(0,1,2)(f.replace('CRISPRi-screen/','').replace('/','_').split('_')) 
+            for f in screens
+        ]
         
         for i,x  in enumerate(labels):
             cell, exp, drug = x
             for score in ['rho','gamma']:
-                data[cell]['_'.join([exp, drug, score])] = read_genetable_collapsed (screens[i],score)
+                data['_'.join([cell, exp, drug, score])] = read_genetable_collapsed (screens[i],score)
     os.chdir(cwd)
     
     return data
 
 
-# def merge_stbl_data(data=None):
-#     # Extract and merge experssion data for 6 AML cell lines:
-#     if data==None:
-#         data = load_data(comparisons=True)
-#     S_gene_names = data['hl60']['delta_stbl'].set_index('ensembl_id')[['gene_name']]
-#     S1 = data['hl60']['delta_stbl'].set_index('ensembl_id')[['logFC_120h','P.Value_120h']].rename(columns={
-#         'logFC_120h':'logFC',
-#         'P.Value_120h':'pval'}).add_prefix('hl60.')
-#     S2, S3, S4, S5, S6 = [
-#         data[cell_line]['delta_stbl'].set_index('ensembl_id').loc[
-#             S1.index,
-#             ['logFC','P.Value']].rename(columns={'P.Value':'pval'}).add_prefix(cell_line+'.') 
-#         for cell_line in data if cell_line != 'hl60']
-
-#     stbl_df = pd.concat((S_gene_names, S1,S2,S3,S4,S5,S6),axis=1)
-#     # stbl_df.to_csv('delta_stability.txt',sep='\t')
-#     return stbl_df
-    
-    
-def merge_exp_data(data=None):    
-    # Extract and merge experssion data for 6 AML cell lines:
-    if data==None:
-        data = load_data(comparisons=True)
-    E_gene_names = data['hl60']['delta_exp'].set_index('gene_id')[['gene_name']]
-    # Using 72h HL60 RNA-seq samples (based on experiment design) 
-    E1 = data['hl60']['delta_exp'].set_index('gene_id')[
-        ['log2FC_72h','pval_72h']].rename(columns={"log2FC_72h": "log2FC", "pval_72h": "pval"}).add_prefix('hl60.')
-    E2, E3, E4, E5, E6 = [
-        data[cell_line]['delta_exp'].set_index('gene_id').loc[
-            E1.index,
-            ['log2FoldChange','pvalue']].rename(columns={'log2FoldChange':'log2FC','pvalue':'pval'}
-        ).add_prefix(cell_line+'.') for cell_line in data if cell_line != 'hl60']
-    
-    exp_df = pd.concat((E_gene_names, E1,E2,E3,E4,E5,E6),axis=1)
-    # exp_df.to_csv('delta_expression.txt',sep='\t')
-    return exp_df
-
-
-# def set_Top_Stbl(fc_thr, pv_thr, cell_lines='hl60',data=None):
-#     print ('Subset Top Stbl data frame:')
-#     stbl_df = merge_stbl_data(data).set_index('gene_name')
-#     cell_lines = cell_lines.split(',')
-    
-#     out = []
-#     for cl in cell_lines:
-#         dic = {}
-#         dic['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
-#         df = stbl_df.filter(like=cl)
-    
-#         dic['up'], dic['down'] = find_top(df, f'{cl}.logFC', fc_thr,f'{cl}.pval', pv_thr)
-    
-#         print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}) in {cl} cell line')
-#         out.append(dic)
-#     if len(out) == 1: 
-#         return out[0]
-#     else: 
-#         return out
-
-
-def set_Top_Exp(fc_thr, pv_thr, cell_lines='hl60',data=None):
-    
+def set_Top_Exp(fc_thr, pv_thr, data=None,comp='hl60_72h_only'):
     print ('Subset Top Exp data frame:')
-    exp_df = merge_exp_data(data).set_index('gene_name')
-    cell_lines = cell_lines.split(',')
+    fc = f'{comp}_log2FC'
+    pv  = f'{comp}_pvalue'
     
-    out = []
-    for cl in cell_lines:
-        dic = {}
-        dic['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
-        df = exp_df.filter(like=cl)
+    out = {}
+    out['up'], out['down'] = find_top(
+        data['delta_exp'].loc[:,['gene_name',fc,pv]], 
+        fc, fc_thr,pv, pv_thr)
+    out['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
+    print (f'({comp})')
+    print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}')
+
+    return out 
+
+
+def set_Top_Stbl(fc_thr, pv_thr, data=None,comp='hl60_72h'):
+    print ('Subset Top Stbl data frame:')
+    fc = f'{comp}_log2FC'
+    pv  = f'{comp}_pvalue'
     
-        dic['up'], dic['down'] = find_top(
-            df, 
-            f'{cl}.log2FC', fc_thr,
-            f'{cl}.pval', pv_thr
-        )
+    out = {}
+    out['up'], out['down'] = find_top(
+        data['delta_stbl'].loc[:,['gene_name',fc,pv]], 
+        fc, fc_thr,pv, pv_thr)
+    out['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
+    print (f'({comp})')
+    print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}')
+
+    return out 
+
+
+def two_sided_mtyl(delta_mtyl, fcthr=1,pvthr=0.01):
+    '''Read meRIP-seq data into two data frames'''
+    ### hyper_methylation gene list
+    # subset by threshold 
+    hyper = delta_mtyl.iloc[
+        np.where([(l and p) for l,p in zip(delta_mtyl.logFC >= fcthr,delta_mtyl.p_value < pvthr)])
+    ]
+    ### hypo_methylation gene list
+    # subset by threshold 
+    hypo = delta_mtyl.iloc[
+        np.where([(l and p) for l,p in zip(delta_mtyl.logFC <= -(fcthr),delta_mtyl.p_value < pvthr)])
+    ]
     
-        print (f'(fc_thr={fc_thr}, pv_thr={pv_thr}) in {cl} cell line')
-        out.append(dic)
-    if len(out) == 1: 
-        return out[0]
-    else: 
-        return out
+    return hyper, hypo
 
 
 # RNA methylation    
@@ -248,7 +201,7 @@ def set_Top_Mtyl(fc_thr,pv_thr,data=None):
     out = {}
     out['threshold'] = [['fc_thr',fc_thr],['pv_thr',pv_thr]]
     out['up'], out['down'] = find_top(
-        data['hl60']['delta_mtyl'], 
+        data['delta_mtyl'], 
         'logFC', fc_thr, 'pval', pv_thr, drop_dup=True
     )
     
@@ -266,7 +219,7 @@ def set_Top_TE(te_thr,fdr_thr,data=None):
     out['threshold'] = [['te_thr',te_thr],['fdr_thr',fdr_thr]]
 
     out['up'], out['down'] = find_top(
-        data['hl60']['delta_te'], 'Estimate_treatmentDRUG', te_thr, 'fdr_Pr...z.._treatmentDRUG', fdr_thr
+        data['delta_te'], 'Estimate_treatmentDRUG', te_thr, 'fdr_Pr...z.._treatmentDRUG', fdr_thr
     )
     
     print (f'(te_thr={te_thr}, fdr_thr={fdr_thr})' )
@@ -274,38 +227,60 @@ def set_Top_TE(te_thr,fdr_thr,data=None):
     return out 
 
 
-def merge_screen_data(cell, score, data=None):
+def merge_screen_data(cells, exps, drugs, scores, data=None):
     if data==None:
         data = load_data(screens=True)
+
     # find uniq gene names 
-    genes = [data[cell][i].index.tolist() for i in data[cell].keys() if score in i]
+    genes = []
+    for key in data.keys():
+        c, e, d, s = key.split('_')
+        if c in cells and d in drugs and e in exps and s in scores:
+            genes.append(
+                data[key].index.tolist() 
+            )
     
     genes = set(genes[0]).intersection(*genes[1:])
+    
     # merge data frames 
-    dfs = [data[cell][i].loc[genes,:].rename(columns={
-        f'{score} score': f'{cell} {i} score'.replace(' ','_'), 'Mann-Whitney p-value': f'{cell} {i} p-value'.replace(' ','_')
-    }).astype(float)
-           for i in data[cell].keys() if score in i]
+    dfs = []
+    for key in data.keys():
+        c, e, d, s = key.split('_')
+        if c in cells and d in drugs and e in exps and s in scores:
+            dfs.append(data[key].loc[genes,:].rename(
+                columns={
+                    f'{s} score': f'{key} score'#.replace(' ','_')
+                    , 
+                    'Mann-Whitney p-value': f'{key} pvalue'#.replace(' ','_')
+                }).astype(float))
+
     score_df = pd.concat(dfs, axis=1)
     return score_df
 
+
 # Rho score
-def set_Top_Rho(sc_thr,pv_thr,cell_line='hl60', data=None):
+def set_Top_Rho(sc_thr,pv_thr,cells='hl60', exps='exp1', drugs='DAC', data=None):
     print ('Subset Top Rho data frame:')
     if data==None:
         data = load_data(screens=True)
     
     dfs = []
-    if cell_line=='molm13': 
-        dfs.append(merge_screen_data('molm13','rho',data=data).filter(like='DAC').astype(float))
-    if cell_line=='hl60':
-        dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp1').astype(float))
-        dfs.append(merge_screen_data('hl60','rho',data=data).filter(like='DAC').filter(like='exp2').astype(float))
+    
+    for key in data.keys():
+        c, e, d, score = key.split('_')
+        if c in cells and d in drugs and e in exps and score == 'rho':
+            print (f'({c} / {e} / {d})')
+            dfs.append(
+                merge_screen_data(c, e, d, score, data)
+            )
 
     top = []
     for df in dfs: 
         score,pval = df.columns
         up,dn = find_top (df,score,sc_thr,pval,pv_thr,silent=True)
+        print (f'(sc_thr={sc_thr}, pv_thr={pv_thr})')
+        print ('up: ', up.shape[0])
+        print ('down:', dn.shape[0])
         top.append([up,dn])
     
     up_genes = [up.index.tolist() for up,_ in top]
@@ -319,23 +294,8 @@ def set_Top_Rho(sc_thr,pv_thr,cell_line='hl60', data=None):
     out = {}
     out['threshold'] = [['sc_thr',sc_thr],['pv_thr',pv_thr]]
     out['up'], out['down']  = up, dn
-    print ('up: ', up.shape[0])
-    print ('down:', dn.shape[0])
 
-    print (f'(sc_thr={sc_thr}, pv_thr={pv_thr}) in {cell_line} cell line')
     return out 
-
-
-def two_sided_mtyl(delta_mtyl, fcthr=1,pvthr=0.01):
-    '''Read meRIP-seq data into two data frames'''
-    ### hyper_methylation gene list
-    # subset by threshold 
-    hyper = delta_mtyl.iloc[np.where([(l and p) for l,p in zip(delta_mtyl.logFC >= fcthr,delta_mtyl.p_value < pvthr)])]
-    ### hypo_methylation gene list
-    # subset by threshold 
-    hypo = delta_mtyl.iloc[np.where([(l and p) for l,p in zip(delta_mtyl.logFC <= -(fcthr),delta_mtyl.p_value < pvthr)])]
-    
-    return hyper, hypo
 
 
 def plot_corr(df,title,vmin=None,vmax=None,sub=111):
