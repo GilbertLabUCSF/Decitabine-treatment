@@ -1,0 +1,8 @@
+18557c3a5232130705f84640a48bca0a  fastq/hl60_combination_1.fastq.gz
+54067684eb59c1ca2cb095fcff7ac281  fastq/hl60_combination_2.fastq.gz
+85d4f35d59387366d3988235e17eb83d  fastq/hl60_decitabine_1.fastq.gz
+d60e6758079f6aab4b0524ab29efe38b  fastq/hl60_decitabine_2.fastq.gz
+a44035feed87a8739e5f321117e91b27  fastq/hl60_dmso_1.fastq.gz
+edbc662009bdaa0569ed81c50fcd4651  fastq/hl60_dmso_2.fastq.gz
+120f462692b479b4a073d0b8e5d8b03b  fastq/hl60_rg3039_1.fastq.gz
+f49e1a1ba9e2149839581fb0904a8a05  fastq/hl60_rg3039_2.fastq.gz
