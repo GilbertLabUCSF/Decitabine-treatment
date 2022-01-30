@@ -1,0 +1,138 @@
+Starting QoRTs v1.3.6 (Compiled Tue Sep 25 11:21:46 EDT 2018)
+Starting time: (Wed Jan 26 06:29:41 PST 2022)
+INPUT_COMMAND(QC)
+  INPUT_ARG(infile)=bam/ociaml3_u_1.sort.bam
+  INPUT_ARG(gtffile)=/data_gilbert/home/aarab/genomes/hg38/gencode.v34/gencode.v34.annotation.gtf
+  INPUT_ARG(outdir)=iso/rawCts/ociaml3_u_1/
+  INPUT_ARG(stranded)=true
+  INPUT_ARG(singleEnded)=true
+  INPUT_ARG(nameSorted)=true
+Creating Directory: iso/rawCts/ociaml3_u_1/
+Created Log File: iso/rawCts/ociaml3_u_1//QC.lHc9ITgOwF0S.log
+Starting QC
+[Time: 2022-01-26 06:29:41] [Mem usage: [35MB / 2147MB]] [Elapsed Time: 00:00:00.0000]
+QoRTs is Running in single-end mode.
+Note: read-sorting is irrelevant in single-ended mode.
+No parameter --genomeFA found.
+Running functions: CigarOpDistribution, GCDistribution, GeneCalcs, JunctionCalcs, NVC, 
+        QualityScoreDistribution, StrandCheck, chromCounts, 
+        cigarLocusCounts, readLengthDistro, writeBiotypeCounts, 
+        writeClippedNVC, writeDESeq, writeDEXSeq, writeGeneBody, 
+        writeGeneCounts, writeGenewiseGeneBody, 
+        writeJunctionSeqCounts, writeKnownSplices, 
+        writeNovelSplices, writeSpliceExon
+Checking first 10000 reads. Checking SAM file for formatting errors...
+   Stats on the first 10000 reads:
+        Num Reads Primary Map:    4923
+        Num Reads Paired-ended:   0
+        Num Reads mapped pair:    0
+        Num Pair names found:     0
+        Num Pairs matched:        0
+        Read Seq length:          51 to 51
+        Unclipped Read length:    51 to 51
+        Final maxReadLength:      51
+        maxPhredScore:            41
+        minPhredScore:            2
+Done checking first 10000 reads. No major problems detected!
+SAMRecord Reader Generated. Read length: 51.
+[Time: 2022-01-26 06:29:43] [Mem usage: [351MB / 2759MB]] [Elapsed Time: 00:00:01.0938]
+> Init GeneCalcs Utility
+> Init NVC utility
+> Init CigarOpDistribution Utility
+> Init QualityScoreDistribution Utility
+> Init GC counts Utility
+> Init JunctionCalcs utility
+Compiling flat feature annotation, internally in memory...
+FlatteningGtf: starting...(2022-01-26 06:30:27)
+    FlatteningGtf: gtf file read complete.(2022-01-26 06:31:32)
+    FlatteningGtf: Splice Junction Map read.(2022-01-26 06:31:34)
+    FlatteningGtf: gene Sets generated.(2022-01-26 06:31:36)
+    FlatteningGtf: Aggregate Sets built.
+    FlatteningGtf: Compiling Aggregate Info . . . (2022-01-26 06:31:36)
+    FlatteningGtf: Finished Compiling Aggregate Info. (2022-01-26 06:31:36)
+    FlatteningGtf: Iterating through the step-vector...(2022-01-26 06:31:36)
+    FlatteningGtf: Adding the aggregate genes themselves...(2022-01-26 06:31:38)
+    FlatteningGtf: Iterating through the splice junctions...(2022-01-26 06:31:39)
+    FlatteningGtf: Sorting the aggregate genes...(2022-01-26 06:31:41)
+    FlatteningGtf: Folding the FlatGtfLine iterator...(2022-01-26 06:31:41)
+    FlatteningGtf: Features Built.(2022-01-26 06:31:41)
+Internal flat feature annotation compiled!
+length of knownSpliceMap after instantiation: 383654
+length of knownCountMap after instantiation: 383654
+> Init StrandCheck Utility
+> Init chromCount Utility
+> Init qcCigarLocusCounts Utility
+> Init MinorUtils Utility
+QC Utilities Generated!
+[Time: 2022-01-26 06:31:45] [Mem usage: [2605MB / 9GB]] [Elapsed Time: 00:02:04.0319]
+helper_calculateGeneAssignmentMap_strict. Found: 60669 genes in the supplied annotation.
+helper_calculateGeneAssignmentMap_strict. Found: 6594 genes with ambiguous segments.
+helper_calculateGeneAssignmentMap_strict. Found: 54075 genes after first-pass filtering
+making makeGeneIntervalMap for geneBody calculations. Found: 54075 acceptable genes for gene-body analysis.
+..........[1000000 Read-Pairs processed] [Time: 2022-01-26 06:32:48] 
+..........[2000000 Read-Pairs processed] [Time: 2022-01-26 06:33:19] 
+..........[3000000 Read-Pairs processed] [Time: 2022-01-26 06:33:49] 
+..........[4000000 Read-Pairs processed] [Time: 2022-01-26 06:34:20] 
+..........[5000000 Read-Pairs processed] [Time: 2022-01-26 06:34:49] 
+..........[6000000 Read-Pairs processed] [Time: 2022-01-26 06:35:19] 
+..........[7000000 Read-Pairs processed] [Time: 2022-01-26 06:35:49] 
+..........[8000000 Read-Pairs processed] [Time: 2022-01-26 06:36:19] 
+..........[9000000 Read-Pairs processed] [Time: 2022-01-26 06:36:50] 
+..........[10000000 Read-Pairs processed] [Time: 2022-01-26 06:37:20] 
+..........[11000000 Read-Pairs processed] [Time: 2022-01-26 06:37:51] 
+..........[12000000 Read-Pairs processed] [Time: 2022-01-26 06:38:21] 
+..........[13000000 Read-Pairs processed] [Time: 2022-01-26 06:38:51] 
+..........[14000000 Read-Pairs processed] [Time: 2022-01-26 06:39:22] 
+..........[15000000 Read-Pairs processed] [Time: 2022-01-26 06:39:52] 
+..........[16000000 Read-Pairs processed] [Time: 2022-01-26 06:40:23] 
+..........[17000000 Read-Pairs processed] [Time: 2022-01-26 06:40:53] 
+..........[18000000 Read-Pairs processed] [Time: 2022-01-26 06:41:23] 
+..........[19000000 Read-Pairs processed] [Time: 2022-01-26 06:41:54] 
+......
+Finished reading SAM. Read: 19670412 reads/read-pairs.
+Finished reading SAM. Used: 15660227 reads/read-pairs.
+[Time: 2022-01-26 06:42:14] [Mem usage: [6GB / 9GB]] [Elapsed Time: 00:12:32.0989]
+> Read Stats:
+>   READ_PAIR_OK                   15660227
+>   TOTAL_READ_PAIRS               19670412
+>   DROPPED_NOT_PROPER_PAIR        -1
+>   DROPPED_READ_FAILS_VENDOR_QC   0
+>   DROPPED_MARKED_NOT_VALID       0
+>   DROPPED_CHROMS_MISMATCH        -1
+>   DROPPED_PAIR_STRANDS_MISMATCH  -1
+>   DROPPED_IGNORED_CHROMOSOME     0
+>   DROPPED_NOT_UNIQUE_ALIGNMENT   4010185
+>   DROPPED_NO_ALN_BLOCKS   0
+>   DROPPED_NOT_MARKED_RG   -1
+Pre-alignment read count unknown (Set --seqReadCt or --rawfastq)
+Writing Output...
+DEBUG NOTE: IncludeGenesSet.size: 54075
+DEBUG NOTE: sortedReadCountSeq.size: 17502
+DEBUG NOTE: coverageThresholds: 8751;13126;15751;17502
+DEBUG NOTE: coverageSpans: [(0,8751);(8751,13126);(13126,15751);(15751,17502)]
+DEBUG NOTE:	[1.bottomHalf][0.5] = [0,8751]
+DEBUG NOTE:	[2.upperMidQuartile][0.75] = [8751,13126]
+DEBUG NOTE:	[3.75to90][0.9] = [13126,15751]
+DEBUG NOTE:	[4.high][1.0] = [15751,17502]
+      (DEBUG) Generating Biotype Map [2022-01-26 06:42:16]
+      (DEBUG) Extracted gene BioType using key "gene_biotype".
+              Found 0 types: []
+      (DEBUG) Finished Biotype Map [2022-01-26 06:43:32]
+length of knownCountMap after run: 383654
+WARNING: The data appears to be follow the fr_secondStrand rule, but
+         QoRTs ran in fr_firstStrand mode!
+      Are you sure that the data follows the fr_firstStrand rule?
+      Under the fr_firstStrand rule, the first read aligns to the strand
+      opposite the original RNA transcript, and the second read aligns to
+      the same strand as the original RNA transcript.
+      If the data follows the fr_secondStrand rule, you should probably
+      re-run QoRTs with the "--stranded" and "--stranded_fr_secondstrand" options.
+QoRTs completed WITH WARNINGS! See log for details.
+Done.
+Time spent on setup:           00:02:04.0319
+Time spent on SAM iteration:   00:10:28.0670
+                               (0.5321020559542254 minutes per million read-pairs)
+                               (0.6683598307142461 minutes per million read-pairs used)
+Time spent on file output:     00:01:27.0691
+Total runtime:                 00:14:00.0680
+Done. (Wed Jan 26 06:43:42 PST 2022)

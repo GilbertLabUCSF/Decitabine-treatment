@@ -1,0 +1,150 @@
+Starting QoRTs v1.3.6 (Compiled Tue Sep 25 11:21:46 EDT 2018)
+Starting time: (Wed Jan 26 09:17:16 PST 2022)
+INPUT_COMMAND(QC)
+  INPUT_ARG(infile)=bam/hl60_120h_u_1.sort.bam
+  INPUT_ARG(gtffile)=/data_gilbert/home/aarab/genomes/hg38/gencode.v34/gencode.v34.annotation.gtf
+  INPUT_ARG(outdir)=iso/rawCts/hl60_120h_u_1/
+  INPUT_ARG(fr_secondStrand)=true
+  INPUT_ARG(singleEnded)=true
+  INPUT_ARG(nameSorted)=true
+Created Log File: iso/rawCts/hl60_120h_u_1//QC.uOSCTS7ZLkQc.log
+Warning: run-in-progress file "iso/rawCts/hl60_120h_u_1//QC.QORTS_RUNNING" already exists. Is there another QoRTs job running?
+Starting QC
+[Time: 2022-01-26 09:17:16] [Mem usage: [33MB / 2147MB]] [Elapsed Time: 00:00:00.0000]
+Deleting old "QORTS_COMPLETED_OK" file.
+QoRTs is Running in single-end mode.
+Note: read-sorting is irrelevant in single-ended mode.
+No parameter --genomeFA found.
+Running functions: CigarOpDistribution, GCDistribution, GeneCalcs, JunctionCalcs, NVC, 
+        QualityScoreDistribution, StrandCheck, chromCounts, 
+        cigarLocusCounts, readLengthDistro, writeBiotypeCounts, 
+        writeClippedNVC, writeDESeq, writeDEXSeq, writeGeneBody, 
+        writeGeneCounts, writeGenewiseGeneBody, 
+        writeJunctionSeqCounts, writeKnownSplices, 
+        writeNovelSplices, writeSpliceExon
+Checking first 10000 reads. Checking SAM file for formatting errors...
+   Stats on the first 10000 reads:
+        Num Reads Primary Map:    2408
+        Num Reads Paired-ended:   0
+        Num Reads mapped pair:    0
+        Num Pair names found:     0
+        Num Pairs matched:        0
+        Read Seq length:          51 to 51
+        Unclipped Read length:    51 to 51
+        Final maxReadLength:      51
+        maxPhredScore:            41
+        minPhredScore:            2
+Done checking first 10000 reads. WARNINGS FOUND!
+SAMRecord Reader Generated. Read length: 51.
+[Time: 2022-01-26 09:17:18] [Mem usage: [133MB / 2768MB]] [Elapsed Time: 00:00:01.0573]
+> Init GeneCalcs Utility
+> Init NVC utility
+> Init CigarOpDistribution Utility
+> Init QualityScoreDistribution Utility
+> Init GC counts Utility
+> Init JunctionCalcs utility
+Compiling flat feature annotation, internally in memory...
+FlatteningGtf: starting...(2022-01-26 09:18:44)
+    FlatteningGtf: gtf file read complete.(2022-01-26 09:19:50)
+    FlatteningGtf: Splice Junction Map read.(2022-01-26 09:19:52)
+    FlatteningGtf: gene Sets generated.(2022-01-26 09:19:55)
+    FlatteningGtf: Aggregate Sets built.
+    FlatteningGtf: Compiling Aggregate Info . . . (2022-01-26 09:19:55)
+    FlatteningGtf: Finished Compiling Aggregate Info. (2022-01-26 09:19:55)
+    FlatteningGtf: Iterating through the step-vector...(2022-01-26 09:19:55)
+    FlatteningGtf: Adding the aggregate genes themselves...(2022-01-26 09:19:57)
+    FlatteningGtf: Iterating through the splice junctions...(2022-01-26 09:19:57)
+    FlatteningGtf: Sorting the aggregate genes...(2022-01-26 09:20:00)
+    FlatteningGtf: Folding the FlatGtfLine iterator...(2022-01-26 09:20:00)
+    FlatteningGtf: Features Built.(2022-01-26 09:20:00)
+Internal flat feature annotation compiled!
+length of knownSpliceMap after instantiation: 383646
+length of knownCountMap after instantiation: 383646
+> Init StrandCheck Utility
+> Init chromCount Utility
+> Init qcCigarLocusCounts Utility
+> Init MinorUtils Utility
+QC Utilities Generated!
+[Time: 2022-01-26 09:20:05] [Mem usage: [4752MB / 8GB]] [Elapsed Time: 00:02:48.0597]
+helper_calculateGeneAssignmentMap_strict. Found: 60669 genes in the supplied annotation.
+helper_calculateGeneAssignmentMap_strict. Found: 18307 genes with ambiguous segments.
+helper_calculateGeneAssignmentMap_strict. Found: 42362 genes after first-pass filtering
+making makeGeneIntervalMap for geneBody calculations. Found: 42362 acceptable genes for gene-body analysis.
+..........[1000000 Read-Pairs processed] [Time: 2022-01-26 09:21:05] 
+..........[2000000 Read-Pairs processed] [Time: 2022-01-26 09:21:31] 
+..........[3000000 Read-Pairs processed] [Time: 2022-01-26 09:21:58] 
+..........[4000000 Read-Pairs processed] [Time: 2022-01-26 09:22:24] 
+..........[5000000 Read-Pairs processed] [Time: 2022-01-26 09:22:51] 
+..........[6000000 Read-Pairs processed] [Time: 2022-01-26 09:23:17] 
+..........[7000000 Read-Pairs processed] [Time: 2022-01-26 09:23:44] 
+..........[8000000 Read-Pairs processed] [Time: 2022-01-26 09:24:10] 
+..........[9000000 Read-Pairs processed] [Time: 2022-01-26 09:24:36] 
+..........[10000000 Read-Pairs processed] [Time: 2022-01-26 09:25:02] 
+..........[11000000 Read-Pairs processed] [Time: 2022-01-26 09:25:29] 
+..........[12000000 Read-Pairs processed] [Time: 2022-01-26 09:25:55] 
+..........[13000000 Read-Pairs processed] [Time: 2022-01-26 09:26:22] 
+..........[14000000 Read-Pairs processed] [Time: 2022-01-26 09:26:48] 
+..........[15000000 Read-Pairs processed] [Time: 2022-01-26 09:27:14] 
+..........[16000000 Read-Pairs processed] [Time: 2022-01-26 09:27:40] 
+..........[17000000 Read-Pairs processed] [Time: 2022-01-26 09:28:06] 
+..........[18000000 Read-Pairs processed] [Time: 2022-01-26 09:28:32] 
+..........[19000000 Read-Pairs processed] [Time: 2022-01-26 09:28:59] 
+..........[20000000 Read-Pairs processed] [Time: 2022-01-26 09:29:25] 
+..........[21000000 Read-Pairs processed] [Time: 2022-01-26 09:29:51] 
+..........[22000000 Read-Pairs processed] [Time: 2022-01-26 09:30:17] 
+..........[23000000 Read-Pairs processed] [Time: 2022-01-26 09:30:43] 
+..........[24000000 Read-Pairs processed] [Time: 2022-01-26 09:31:10] 
+..........[25000000 Read-Pairs processed] [Time: 2022-01-26 09:31:35] 
+..........[26000000 Read-Pairs processed] [Time: 2022-01-26 09:32:01] 
+..........[27000000 Read-Pairs processed] [Time: 2022-01-26 09:32:27] 
+..........[28000000 Read-Pairs processed] [Time: 2022-01-26 09:32:54] 
+..........[29000000 Read-Pairs processed] [Time: 2022-01-26 09:33:20] 
+..........[30000000 Read-Pairs processed] [Time: 2022-01-26 09:33:46] 
+..........[31000000 Read-Pairs processed] [Time: 2022-01-26 09:34:12] 
+..........[32000000 Read-Pairs processed] [Time: 2022-01-26 09:34:38] 
+..........[33000000 Read-Pairs processed] [Time: 2022-01-26 09:35:04] 
+..........[34000000 Read-Pairs processed] [Time: 2022-01-26 09:35:30] 
+..........[35000000 Read-Pairs processed] [Time: 2022-01-26 09:35:56] 
+........
+Finished reading SAM. Read: 35863267 reads/read-pairs.
+Finished reading SAM. Used: 16884445 reads/read-pairs.
+[Time: 2022-01-26 09:36:18] [Mem usage: [10GB / 12GB]] [Elapsed Time: 00:19:02.0020]
+> Read Stats:
+>   READ_PAIR_OK                   16884445
+>   TOTAL_READ_PAIRS               35863267
+>   DROPPED_NOT_PROPER_PAIR        -1
+>   DROPPED_READ_FAILS_VENDOR_QC   0
+>   DROPPED_MARKED_NOT_VALID       0
+>   DROPPED_CHROMS_MISMATCH        -1
+>   DROPPED_PAIR_STRANDS_MISMATCH  -1
+>   DROPPED_IGNORED_CHROMOSOME     0
+>   DROPPED_NOT_UNIQUE_ALIGNMENT   18978822
+>   DROPPED_NO_ALN_BLOCKS   0
+>   DROPPED_NOT_MARKED_RG   -1
+Pre-alignment read count unknown (Set --seqReadCt or --rawfastq)
+Writing Output...
+DEBUG NOTE: IncludeGenesSet.size: 42362
+DEBUG NOTE: sortedReadCountSeq.size: 13687
+DEBUG NOTE: coverageThresholds: 6843;10265;12318;13687
+DEBUG NOTE: coverageSpans: [(0,6843);(6843,10265);(10265,12318);(12318,13687)]
+DEBUG NOTE:	[1.bottomHalf][0.5] = [0,6843]
+DEBUG NOTE:	[2.upperMidQuartile][0.75] = [6843,10265]
+DEBUG NOTE:	[3.75to90][0.9] = [10265,12318]
+DEBUG NOTE:	[4.high][1.0] = [12318,13687]
+      (DEBUG) Generating Biotype Map [2022-01-26 09:36:19]
+      (DEBUG) Extracted gene BioType using key "gene_biotype".
+              Found 0 types: []
+      (DEBUG) Finished Biotype Map [2022-01-26 09:37:38]
+length of knownCountMap after run: 383646
+WARNING: The data appears to be STRANDED, following the fr_secondStrand rule.
+         Are you sure this isn't stranded data? If it is stranded, then you should probably
+         re-run QoRTs with the "--stranded" and "--stranded_fr_secondstrand" options!
+QoRTs completed WITH WARNINGS! See log for details.
+Done.
+Time spent on setup:           00:02:48.0598
+Time spent on SAM iteration:   00:16:13.0422
+                               (0.4521804069513986 minutes per million read-pairs)
+                               (0.960450086850155 minutes per million read-pairs used)
+Time spent on file output:     00:01:29.0300
+Total runtime:                 00:20:31.0320
+Done. (Wed Jan 26 09:37:48 PST 2022)
