@@ -1,0 +1,118 @@
+Starting QoRTs v1.3.6 (Compiled Tue Sep 25 11:21:46 EDT 2018)
+Starting time: (Wed Jan 26 21:30:38 PST 2022)
+INPUT_COMMAND(QC)
+  INPUT_ARG(infile)=bam/thp1_u_2.sort.bam
+  INPUT_ARG(gtffile)=/data_gilbert/home/aarab/genomes/hg38/gencode.v34/gencode.v34.annotation.gtf
+  INPUT_ARG(outdir)=iso/rawCts/thp1_u_2/
+  INPUT_ARG(fr_secondStrand)=true
+  INPUT_ARG(singleEnded)=true
+  INPUT_ARG(nameSorted)=true
+Created Log File: iso/rawCts/thp1_u_2//QC.WbhNdXNO5431.log
+Warning: run-in-progress file "iso/rawCts/thp1_u_2//QC.QORTS_RUNNING" already exists. Is there another QoRTs job running?
+Starting QC
+[Time: 2022-01-26 21:30:38] [Mem usage: [35MB / 2147MB]] [Elapsed Time: 00:00:00.0000]
+Deleting old "QORTS_COMPLETED_OK" file.
+QoRTs is Running in single-end mode.
+Note: read-sorting is irrelevant in single-ended mode.
+No parameter --genomeFA found.
+Running functions: CigarOpDistribution, GCDistribution, GeneCalcs, JunctionCalcs, NVC, 
+        QualityScoreDistribution, StrandCheck, chromCounts, 
+        cigarLocusCounts, readLengthDistro, writeBiotypeCounts, 
+        writeClippedNVC, writeDESeq, writeDEXSeq, writeGeneBody, 
+        writeGeneCounts, writeGenewiseGeneBody, 
+        writeJunctionSeqCounts, writeKnownSplices, 
+        writeNovelSplices, writeSpliceExon
+Checking first 10000 reads. Checking SAM file for formatting errors...
+   Stats on the first 10000 reads:
+        Num Reads Primary Map:    2386
+        Num Reads Paired-ended:   0
+        Num Reads mapped pair:    0
+        Num Pair names found:     0
+        Num Pairs matched:        0
+        Read Seq length:          51 to 51
+        Unclipped Read length:    51 to 51
+        Final maxReadLength:      51
+        maxPhredScore:            41
+        minPhredScore:            12
+Done checking first 10000 reads. WARNINGS FOUND!
+SAMRecord Reader Generated. Read length: 51.
+[Time: 2022-01-26 21:30:39] [Mem usage: [405MB / 2818MB]] [Elapsed Time: 00:00:01.0378]
+> Init GeneCalcs Utility
+> Init NVC utility
+> Init CigarOpDistribution Utility
+> Init QualityScoreDistribution Utility
+> Init GC counts Utility
+> Init JunctionCalcs utility
+Compiling flat feature annotation, internally in memory...
+FlatteningGtf: starting...(2022-01-26 21:32:04)
+    FlatteningGtf: gtf file read complete.(2022-01-26 21:33:08)
+    FlatteningGtf: Splice Junction Map read.(2022-01-26 21:33:11)
+    FlatteningGtf: gene Sets generated.(2022-01-26 21:33:13)
+    FlatteningGtf: Aggregate Sets built.
+    FlatteningGtf: Compiling Aggregate Info . . . (2022-01-26 21:33:13)
+    FlatteningGtf: Finished Compiling Aggregate Info. (2022-01-26 21:33:13)
+    FlatteningGtf: Iterating through the step-vector...(2022-01-26 21:33:13)
+    FlatteningGtf: Adding the aggregate genes themselves...(2022-01-26 21:33:16)
+    FlatteningGtf: Iterating through the splice junctions...(2022-01-26 21:33:16)
+    FlatteningGtf: Sorting the aggregate genes...(2022-01-26 21:33:18)
+    FlatteningGtf: Folding the FlatGtfLine iterator...(2022-01-26 21:33:18)
+    FlatteningGtf: Features Built.(2022-01-26 21:33:18)
+Internal flat feature annotation compiled!
+length of knownSpliceMap after instantiation: 383646
+length of knownCountMap after instantiation: 383646
+> Init StrandCheck Utility
+> Init chromCount Utility
+> Init qcCigarLocusCounts Utility
+> Init MinorUtils Utility
+QC Utilities Generated!
+[Time: 2022-01-26 21:33:23] [Mem usage: [4575MB / 9GB]] [Elapsed Time: 00:02:44.0838]
+helper_calculateGeneAssignmentMap_strict. Found: 60669 genes in the supplied annotation.
+helper_calculateGeneAssignmentMap_strict. Found: 18307 genes with ambiguous segments.
+helper_calculateGeneAssignmentMap_strict. Found: 42362 genes after first-pass filtering
+making makeGeneIntervalMap for geneBody calculations. Found: 42362 acceptable genes for gene-body analysis.
+..........[1000000 Read-Pairs processed] [Time: 2022-01-26 21:34:32] 
+..........[2000000 Read-Pairs processed] [Time: 2022-01-26 21:35:08] 
+..........[3000000 Read-Pairs processed] [Time: 2022-01-26 21:35:42] 
+.....
+Finished reading SAM. Read: 3520937 reads/read-pairs.
+Finished reading SAM. Used: 2564693 reads/read-pairs.
+[Time: 2022-01-26 21:36:00] [Mem usage: [6GB / 13GB]] [Elapsed Time: 00:05:22.0384]
+> Read Stats:
+>   READ_PAIR_OK                   2564693
+>   TOTAL_READ_PAIRS               3520937
+>   DROPPED_NOT_PROPER_PAIR        -1
+>   DROPPED_READ_FAILS_VENDOR_QC   0
+>   DROPPED_MARKED_NOT_VALID       0
+>   DROPPED_CHROMS_MISMATCH        -1
+>   DROPPED_PAIR_STRANDS_MISMATCH  -1
+>   DROPPED_IGNORED_CHROMOSOME     0
+>   DROPPED_NOT_UNIQUE_ALIGNMENT   956244
+>   DROPPED_NO_ALN_BLOCKS   0
+>   DROPPED_NOT_MARKED_RG   -1
+Pre-alignment read count unknown (Set --seqReadCt or --rawfastq)
+Writing Output...
+DEBUG NOTE: IncludeGenesSet.size: 42362
+DEBUG NOTE: sortedReadCountSeq.size: 11022
+DEBUG NOTE: coverageThresholds: 5511;8266;9919;11022
+DEBUG NOTE: coverageSpans: [(0,5511);(5511,8266);(8266,9919);(9919,11022)]
+DEBUG NOTE:	[1.bottomHalf][0.5] = [0,5511]
+DEBUG NOTE:	[2.upperMidQuartile][0.75] = [5511,8266]
+DEBUG NOTE:	[3.75to90][0.9] = [8266,9919]
+DEBUG NOTE:	[4.high][1.0] = [9919,11022]
+      (DEBUG) Generating Biotype Map [2022-01-26 21:36:02]
+      (DEBUG) Extracted gene BioType using key "gene_biotype".
+              Found 0 types: []
+      (DEBUG) Finished Biotype Map [2022-01-26 21:37:21]
+length of knownCountMap after run: 383646
+WARNING: The data appears to be STRANDED, following the fr_secondStrand rule.
+         Are you sure this isn't stranded data? If it is stranded, then you should probably
+         re-run QoRTs with the "--stranded" and "--stranded_fr_secondstrand" options!
+QoRTs completed WITH WARNINGS! See log for details.
+Done.
+Time spent on setup:           00:02:44.0838
+Time spent on SAM iteration:   00:02:37.0546
+                               (0.7431733844333672 minutes per million read-pairs)
+                               (1.020265063563813 minutes per million read-pairs used)
+Time spent on file output:     00:01:26.0385
+Total runtime:                 00:06:48.0769
+Done. (Wed Jan 26 21:37:27 PST 2022)

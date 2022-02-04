@@ -1,0 +1,85 @@
+FIELD	COUNT	DESC
+Stranded_Rule_Code	0	Code for the strandedness rule used. 0 if data is unstranded, 1 if data is fr_firstStrand, 2 if data is fr_secondStrand.
+READ_PAIR_OK	16704434	Number of reads or read-pairs that pass initial filters and are processed by QoRTs.
+TOTAL_READ_PAIRS	23155364	Total number of reads or read-pairs found in the input file.
+DROPPED_NOT_PROPER_PAIR	-1	Number of reads or read-pairs dropped because the 'not proper pair' SAM flag is raised.
+DROPPED_READ_FAILS_VENDOR_QC	0	Number of reads or read-pairs that have the 'failed vendor QC' SAM flag raised.
+DROPPED_MARKED_NOT_VALID	0	Number of reads or read-pairs dropped because marked 'not valid'
+DROPPED_CHROMS_MISMATCH	-1	Number of read-pairs dropped because the paired reads align to different chromosomes
+DROPPED_PAIR_STRANDS_MISMATCH	-1	Number of read-pairs dropped because the paired reads align to inconsistent strands
+DROPPED_IGNORED_CHROMOSOME	0	Number of reads or read-pairs dropped because they align to chromosomes marked for ignoring
+DROPPED_NOT_UNIQUE_ALIGNMENT	6450930	Number of reads or read-pairs dropped because they are not uniquely aligned to single genomic locus
+DROPPED_NO_ALN_BLOCKS	0	Number of reads or read-pairs dropped because they do not have any alignment blocks (despite being marked as aligned)
+DROPPED_NOT_MARKED_RG	-1	Number of reads or read-pairs dropped because they are not in the correct read group (or -1 if read-group filtering is not on)
+KEPT_NOT_UNIQUE_ALIGNMENT	0	Number of reads or read-pairs kept despite not being uniquely aligned.
+minObservedReadLength	51	The base-pair length of the smallest read
+maxObservedReadLength	51	The base-pair length of the largest read
+maxLegalPhredScore	41	The largest observed PHRED score.
+IS_SINGLE_END	1	0 if data is paired-ended, 1 if data is single-ended
+PREALIGNMENT_READ_CT	-1	The number of reads found pre-alignment. Can be set using --seqReadCt or --rawfastq. -1 if unknown.
+BENCHMARK_MinutesOnSamIteration	14.02	The number of minutes spent on the SAM iteration step.
+BENCHMARK_MinutesPerMillionReads	0.61	The number of minutes per million reads spent on the SAM iteration step
+BENCHMARK_MinutesPerMillionGoodReads	0.84	The number of minutes per million reads that passed the initial filtering step.
+ReadPairs_AmbigGene	878539	Number of reads or read-pairs that map to a genomic area that includes regions covered by more than one gene.
+ReadPairs_UniqueGene	12360419	Number of reads or read-pairs that map to a genomic area covered by exactly one gene
+ReadPairs_UniqueGene_CDS	7741960	Number of reads or read-pairs that map to a genomic area covered by exactly one gene, and intersect at least partially with the coding region of that gene.
+ReadPairs_UniqueGene_UTR	4618459	Number of reads or read-pairs that map to a genomic area covered by exactly one gene, but that only cover the UTR (non-coding) regions.
+ReadPairs_NoGene	3465476	Number of reads or read-pairs that are not assigned to any gene.
+ReadPairs_NoGene_Intron	3155007	Number of reads or read-pairs that are not assigned to any gene, and that occur within an intronic region of one or more genes.
+ReadPairs_NoGene_OneKbFromGene	81548	Number of reads or read-pairs that are not assigned to any gene, and that are within 1kb from one or more genes.
+ReadPairs_NoGene_TenKbFromGene	149344	Number of reads or read-pairs that are not assigned to any gene, and that are within 10kb from one or more genes.
+ReadPairs_NoGene_MiddleOfNowhere	79577	Number of reads or read-pairs that are not assigned to any gene, and that are more than 10kb from the nearest gene
+Genes_Total	60669	Number of known genes
+Genes_WithZeroCounts	34921	Number of genes with zero observed reads
+Genes_WithNonzeroCounts	25748	Number of genes with 1 or more observed reads
+AVG_GC	0.48896488450395176	Average GC fraction across all reads
+AggregateGenes	48934	Number of aggregate genes
+AggregateGenes_NoReads	28339	Number of aggregate genes with 0 observed reads
+AggregateGenes_WithReads	20595	Number of aggregate genes with 1 or more observed reads
+SpliceLoci	394926	Number of splice loci observed
+SpliceLoci_Known	383646	Number of known splice loci
+SpliceLoci_Known_NoReads	274408	Number of known splice loci with 0 observed reads
+SpliceLoci_Known_FewReads	39906	Number of known splice loci with 1-3 observed reads
+SpliceLoci_Known_ManyReads	69332	Number of known splice loci with 4+ observed reads
+SpliceLoci_Novel	11280	Number of novel splice loci observed
+SpliceLoci_Novel_FewReads	10891	Number of novel splice loci observed with 1-3 observed reads
+SpliceLoci_Novel_ManyReads	389	Number of novel splice loci observed with 4+ observed reads
+SpliceEvents	2240294	Number of observed splicing events (each read or read-pair that maps across a splice junction is a splice 'event')
+SpliceEvents_KnownLoci	2223848	Number of splice events covering known SJ loci
+SpliceEvents_KnownLociWithFewReads	69181	Number of splice events covering low-coverage known SJ loci
+SpliceEvents_KnownLociWithManyReads	2154667	Number of splice events covering high-coverage known SJ loci
+SpliceEvents_NovelLoci	16446	Number of splice events covering noverl SJ loci
+SpliceEvents_NovelLociWithFewReads	13080	Number of splice events covering low-coverage novel SJ loci
+SpliceEvents_NovelLociWithManyReads	3366	Number of splice events covering high-coverage novel SJ loci
+StrandTest_frFirstStrand	491027	Number of reads or read-pairs that match the fr_FirstStrand strandedness rule
+StrandTest_frSecondStrand	12341257	Number of reads or read-pairs that match the fr_secondstrand strandedness rule
+StrandTest_ambig_genesFountOnBothStrands	406674	Number of reads or read-pairs where the strandedness is ambiguous due to there being genes on both strands
+StrandTest_ambig_noGenes	3465476	Number of reads or read-pairs where the strandedness is ambiguous due to there being no known genes.
+StrandTest_ambig_other	0	Numebr of reads or read-pairs where the strandedness is ambiguous due to other reasons
+StrandTest_STRANDEDNESS_MATCHES_INFERRED	0	1 if the strandedness appears to match the strandedness mode, 0 otherwise.
+NumberOfChromosomesCovered	71	Number of chromosomes with 1 or more aligned reads.
+deletionLoci	21270	Number of observed deletion loci
+insertionLoci	20242	Number of observed insertion loci
+deletionEventCt	31356	Number of times deletions are observed in a read
+insertionEventCt	33573	Number of times insertions are observed in a read
+highCoverageDeletionLoci	248	Number of high-coverage deletion loci.
+highCoverageInsertionLoci	336	Number of high-coverage insertion loci
+NumReadsAtMaxReadLength_R1	16704434	Number of read-1 reads at the max length.
+NumReadsAtMaxReadLength_R2	0	Number of read-2 reads at the max length.
+NumReadsTruncated_R1	0	Number of read-1 reads that are not at the max length.
+NumReadsTruncated_R2	0	Number of read-2 reads that are not at the max length.
+NumReadsTruncated_25pct_R1	0	Number of read-1 reads that are truncated to less than 25% of the max length
+NumReadsTruncated_25pct_R2	0	Number of read-2 reads that are truncated to less than 25% of the max length
+NumReadsTruncated_50pct_R1	0	Number of read-1 reads that are truncated to less than 50% of the max length
+NumReadsTruncated_50pct_R2	0	Number of read-2 reads that are truncated to less than 50% of the max length
+NumReadsTruncated_75pct_R1	0	Number of read-1 reads that are truncated to less than 75% of the max length
+NumReadsTruncated_75pct_R2	0	Number of read-2 reads that are truncated to less than 75% of the max length
+READ_LENGTH	51	The read length.
+COMPLETED_WITHOUT_WARNING	0	0 if complete without throwing any warnings. 1 if warnings were thrown.
+QoRTs_initTimeStamp	1643241210438	Time stamp for when QoRTs QC began.
+QoRTs_samDoneTimeStamp	1643242219677	Time stamp for when QoRTs QC finished SAM iteration.
+QoRTs_majorVer	1	QoRTs major version number
+QoRTs_minorVer	3	QoRTs minor version number
+QoRTs_patchVer	6	QoRTs patch version number
+QoRTs_compileTimeStamp	1537888906	The timestamp for when the version of QoRTs was built.
+COMPLETED_WITHOUT_ERROR	1	1 if QoRTs completed without errors. If QoRTs encountered an error, this file should not exist.

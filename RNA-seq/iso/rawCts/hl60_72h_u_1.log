@@ -1,0 +1,91 @@
+Starting QoRTs v1.3.6 (Compiled Tue Sep 25 11:21:46 EDT 2018)
+Starting time: (Wed Jan 26 12:08:54 PST 2022)
+INPUT_COMMAND(QC)
+  INPUT_ARG(infile)=bam/hl60_72h_u_1.sort.bam
+  INPUT_ARG(gtffile)=/data_gilbert/home/aarab/genomes/hg38/gencode.v34/gencode.v34.annotation.gtf
+  INPUT_ARG(outdir)=iso/rawCts/hl60_72h_u_1/
+  INPUT_ARG(fr_secondStrand)=true
+  INPUT_ARG(singleEnded)=true
+  INPUT_ARG(nameSorted)=true
+Created Log File: iso/rawCts/hl60_72h_u_1//QC.IDE2h81Wj3aF.log
+Warning: run-in-progress file "iso/rawCts/hl60_72h_u_1//QC.QORTS_RUNNING" already exists. Is there another QoRTs job running?
+Starting QC
+[Time: 2022-01-26 12:08:54] [Mem usage: [33MB / 2147MB]] [Elapsed Time: 00:00:00.0001]
+Deleting old "QORTS_COMPLETED_OK" file.
+QoRTs is Running in single-end mode.
+Note: read-sorting is irrelevant in single-ended mode.
+Running functions: CigarOpDistribution, GCDistribution, GeneCalcs, JunctionCalcs, NVC, 
+        QualityScoreDistribution, StrandCheck, chromCounts, 
+        cigarLocusCounts, readLengthDistro, writeBiotypeCounts, 
+        writeClippedNVC, writeDESeq, writeDEXSeq, writeGeneBody, 
+        writeGeneCounts, writeGenewiseGeneBody, 
+        writeJunctionSeqCounts, writeKnownSplices, 
+        writeNovelSplices, writeSpliceExon
+Checking first 10000 reads. Checking SAM file for formatting errors...
+Done checking first 10000 reads. WARNINGS FOUND!
+SAMRecord Reader Generated. Read length: 51.
+[Time: 2022-01-26 12:08:55] [Mem usage: [221MB / 3028MB]] [Elapsed Time: 00:00:01.0394]
+Compiling flat feature annotation, internally in memory...
+Internal flat feature annotation compiled!
+QC Utilities Generated!
+[Time: 2022-01-26 12:11:37] [Mem usage: [5GB / 9GB]] [Elapsed Time: 00:02:43.0656]
+..........[1000000 Read-Pairs processed] [Time: 2022-01-26 12:12:50] 
+..........[2000000 Read-Pairs processed] [Time: 2022-01-26 12:13:31] 
+..........[3000000 Read-Pairs processed] [Time: 2022-01-26 12:14:11] 
+..........[4000000 Read-Pairs processed] [Time: 2022-01-26 12:14:51] 
+..........[5000000 Read-Pairs processed] [Time: 2022-01-26 12:15:31] 
+..........[6000000 Read-Pairs processed] [Time: 2022-01-26 12:16:12] 
+..........[7000000 Read-Pairs processed] [Time: 2022-01-26 12:16:52] 
+..........[8000000 Read-Pairs processed] [Time: 2022-01-26 12:17:32] 
+..........[9000000 Read-Pairs processed] [Time: 2022-01-26 12:18:12] 
+..........[10000000 Read-Pairs processed] [Time: 2022-01-26 12:18:52] 
+..........[11000000 Read-Pairs processed] [Time: 2022-01-26 12:19:32] 
+..........[12000000 Read-Pairs processed] [Time: 2022-01-26 12:20:13] 
+..........[13000000 Read-Pairs processed] [Time: 2022-01-26 12:20:53] 
+..........[14000000 Read-Pairs processed] [Time: 2022-01-26 12:21:33] 
+..........[15000000 Read-Pairs processed] [Time: 2022-01-26 12:22:13] 
+..........[16000000 Read-Pairs processed] [Time: 2022-01-26 12:22:54] 
+..........[17000000 Read-Pairs processed] [Time: 2022-01-26 12:23:34] 
+..........[18000000 Read-Pairs processed] [Time: 2022-01-26 12:24:14] 
+..........[19000000 Read-Pairs processed] [Time: 2022-01-26 12:24:54] 
+..........[20000000 Read-Pairs processed] [Time: 2022-01-26 12:25:34] 
+..........[21000000 Read-Pairs processed] [Time: 2022-01-26 12:26:14] 
+..........[22000000 Read-Pairs processed] [Time: 2022-01-26 12:26:54] 
+..........[23000000 Read-Pairs processed] [Time: 2022-01-26 12:27:35] 
+..........[24000000 Read-Pairs processed] [Time: 2022-01-26 12:28:15] 
+..........[25000000 Read-Pairs processed] [Time: 2022-01-26 12:28:55] 
+..........[26000000 Read-Pairs processed] [Time: 2022-01-26 12:29:35] 
+..........[27000000 Read-Pairs processed] [Time: 2022-01-26 12:30:15] 
+..........[28000000 Read-Pairs processed] [Time: 2022-01-26 12:30:55] 
+..........[29000000 Read-Pairs processed] [Time: 2022-01-26 12:31:40] 
+..........[30000000 Read-Pairs processed] [Time: 2022-01-26 12:32:27] 
+..
+Finished reading SAM. Read: 30236910 reads/read-pairs.
+Finished reading SAM. Used: 25031176 reads/read-pairs.
+[Time: 2022-01-26 12:32:38] [Mem usage: [5GB / 9GB]] [Elapsed Time: 00:23:44.0133]
+> Read Stats:
+>   READ_PAIR_OK                   25031176
+>   TOTAL_READ_PAIRS               30236910
+>   DROPPED_NOT_PROPER_PAIR        -1
+>   DROPPED_READ_FAILS_VENDOR_QC   0
+>   DROPPED_MARKED_NOT_VALID       0
+>   DROPPED_CHROMS_MISMATCH        -1
+>   DROPPED_PAIR_STRANDS_MISMATCH  -1
+>   DROPPED_IGNORED_CHROMOSOME     0
+>   DROPPED_NOT_UNIQUE_ALIGNMENT   5205734
+>   DROPPED_NO_ALN_BLOCKS   0
+>   DROPPED_NOT_MARKED_RG   -1
+Pre-alignment read count unknown (Set --seqReadCt or --rawfastq)
+Writing Output...
+WARNING: The data appears to be STRANDED, following the fr_secondStrand rule.
+         Are you sure this isn't stranded data? If it is stranded, then you should probably
+         re-run QoRTs with the "--stranded" and "--stranded_fr_secondstrand" options!
+QoRTs completed WITH WARNINGS! See log for details.
+Done.
+Time spent on setup:           00:02:43.0656
+Time spent on SAM iteration:   00:21:00.0477
+                               (0.6945154117930701 minutes per million read-pairs)
+                               (0.8389537910643912 minutes per million read-pairs used)
+Time spent on file output:     00:01:33.0526
+Total runtime:                 00:25:17.0659
+Done. (Wed Jan 26 12:34:11 PST 2022)

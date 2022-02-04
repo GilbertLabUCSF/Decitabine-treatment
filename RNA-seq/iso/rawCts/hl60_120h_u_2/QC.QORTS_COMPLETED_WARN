@@ -1,0 +1,8 @@
+# Note: if this file EXISTS, then QoRTs QC completed WITH WARNINGS. Warning messages follow:
+Warning: run-in-progress file "iso/rawCts/hl60_120h_u_2//QC.QORTS_RUNNING" already exists. Is there another QoRTs job running?
+WARNING: QoRTs is unable to infer the strandedness from the data!
+         This isn't a problem per-se, since QoRTs requires that strandedness
+         mode be set manually. However, it might be indicative that something
+         is very wrong with your dataset and/or transcript annotation.
+QoRTs completed WITH WARNINGS! See log for details.
+

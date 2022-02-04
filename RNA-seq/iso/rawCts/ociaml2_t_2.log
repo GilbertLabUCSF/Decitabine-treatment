@@ -1,0 +1,65 @@
+Starting QoRTs v1.3.6 (Compiled Tue Sep 25 11:21:46 EDT 2018)
+Starting time: (Wed Jan 26 17:01:22 PST 2022)
+INPUT_COMMAND(QC)
+  INPUT_ARG(infile)=bam/ociaml2_t_2.sort.bam
+  INPUT_ARG(gtffile)=/data_gilbert/home/aarab/genomes/hg38/gencode.v34/gencode.v34.annotation.gtf
+  INPUT_ARG(outdir)=iso/rawCts/ociaml2_t_2/
+  INPUT_ARG(fr_secondStrand)=true
+  INPUT_ARG(singleEnded)=true
+  INPUT_ARG(nameSorted)=true
+Created Log File: iso/rawCts/ociaml2_t_2//QC.dyLuB3fkUA1v.log
+Warning: run-in-progress file "iso/rawCts/ociaml2_t_2//QC.QORTS_RUNNING" already exists. Is there another QoRTs job running?
+Starting QC
+[Time: 2022-01-26 17:01:23] [Mem usage: [33MB / 2147MB]] [Elapsed Time: 00:00:00.0000]
+Deleting old "QORTS_COMPLETED_OK" file.
+QoRTs is Running in single-end mode.
+Note: read-sorting is irrelevant in single-ended mode.
+Running functions: CigarOpDistribution, GCDistribution, GeneCalcs, JunctionCalcs, NVC, 
+        QualityScoreDistribution, StrandCheck, chromCounts, 
+        cigarLocusCounts, readLengthDistro, writeBiotypeCounts, 
+        writeClippedNVC, writeDESeq, writeDEXSeq, writeGeneBody, 
+        writeGeneCounts, writeGenewiseGeneBody, 
+        writeJunctionSeqCounts, writeKnownSplices, 
+        writeNovelSplices, writeSpliceExon
+Checking first 10000 reads. Checking SAM file for formatting errors...
+Done checking first 10000 reads. WARNINGS FOUND!
+SAMRecord Reader Generated. Read length: 51.
+[Time: 2022-01-26 17:01:24] [Mem usage: [42MB / 2751MB]] [Elapsed Time: 00:00:01.0410]
+Compiling flat feature annotation, internally in memory...
+Internal flat feature annotation compiled!
+QC Utilities Generated!
+[Time: 2022-01-26 17:04:09] [Mem usage: [3108MB / 9GB]] [Elapsed Time: 00:02:46.0842]
+..........[1000000 Read-Pairs processed] [Time: 2022-01-26 17:05:19] 
+..........[2000000 Read-Pairs processed] [Time: 2022-01-26 17:05:57] 
+..........[3000000 Read-Pairs processed] [Time: 2022-01-26 17:06:33] 
+..........[4000000 Read-Pairs processed] [Time: 2022-01-26 17:07:08] 
+...
+Finished reading SAM. Read: 4350471 reads/read-pairs.
+Finished reading SAM. Used: 3078109 reads/read-pairs.
+[Time: 2022-01-26 17:07:21] [Mem usage: [4533MB / 9GB]] [Elapsed Time: 00:05:58.0970]
+> Read Stats:
+>   READ_PAIR_OK                   3078109
+>   TOTAL_READ_PAIRS               4350471
+>   DROPPED_NOT_PROPER_PAIR        -1
+>   DROPPED_READ_FAILS_VENDOR_QC   0
+>   DROPPED_MARKED_NOT_VALID       0
+>   DROPPED_CHROMS_MISMATCH        -1
+>   DROPPED_PAIR_STRANDS_MISMATCH  -1
+>   DROPPED_IGNORED_CHROMOSOME     0
+>   DROPPED_NOT_UNIQUE_ALIGNMENT   1272362
+>   DROPPED_NO_ALN_BLOCKS   0
+>   DROPPED_NOT_MARKED_RG   -1
+Pre-alignment read count unknown (Set --seqReadCt or --rawfastq)
+Writing Output...
+WARNING: The data appears to be STRANDED, following the fr_secondStrand rule.
+         Are you sure this isn't stranded data? If it is stranded, then you should probably
+         re-run QoRTs with the "--stranded" and "--stranded_fr_secondstrand" options!
+QoRTs completed WITH WARNINGS! See log for details.
+Done.
+Time spent on setup:           00:02:46.0842
+Time spent on SAM iteration:   00:03:12.0128
+                               (0.7355525413225373 minutes per million read-pairs)
+                               (1.0395993124350047 minutes per million read-pairs used)
+Time spent on file output:     00:01:24.0371
+Total runtime:                 00:07:23.0341
+Done. (Wed Jan 26 17:08:46 PST 2022)
