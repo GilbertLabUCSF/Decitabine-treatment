@@ -18,7 +18,7 @@ for f in `ls -d $PAGEDIR/PAGE_DATA/ANNOTATIONS/${pattern}`; do
         echo 'This result exist!';
     else
         # Run iPAGE 
-        perl $PAGEDIR/page.pl --expfile=$expfile --species=$base --exptype=continuous --ebins=11 --nodups=1 --independence=0; 
+        perl $PAGEDIR/page.pl --expfile=$expfile --species=$base --exptype=continuous --ebins=11 --nodups=1;
         # --independence=0; option for comparing results between multiple smaples.
         wait
 

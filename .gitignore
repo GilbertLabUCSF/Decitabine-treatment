@@ -19,8 +19,13 @@ meRIP-seq/exomepeak/
 RNA-seq/scallop-genome/
 RNA-seq/stbl-counts/
 RNA-seq/stbl-output/
-Ribo-seq/Ribolog/
+RNA-seq/miso/
+
+Ribo-seq/Archive/
+
 CRISPRi-screen/*/process_screen_output/
+
+SLAM-seq/slamdunk_output/
 
 *__pycache__/
 *.ipynb_checkpoints/
