@@ -1,8 +1,9 @@
-JOBDIR=$1
+PDIR=$1
 FASTQDIR=$2
 INDEX=$3
+JOBS=$4
 
-cd $JOBDIR
+cd $PDIR
 mkdir -p ./quants/
 
 for f in $FASTQDIR/*fastq.gz; do 
@@ -10,5 +11,5 @@ for f in $FASTQDIR/*fastq.gz; do
 	samp=${samp/.fastq.gz/}; 
 	echo "Processing sample ${samp}"; 
 	salmon quant -i $INDEX \
- 	-l A -r $f -p 18 --validateMappings -o ./quants/$samp; 
+ 	-l A -r $f -p $JOBS --validateMappings -o ./quants/$samp; 
 done
