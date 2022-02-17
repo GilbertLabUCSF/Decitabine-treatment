@@ -1,10 +1,34 @@
 import os 
 import pandas as pd 
 import numpy as np 
-from operator import itemgetter
+import seaborn as sns
 import matplotlib.pyplot as plt
+from adjustText import adjust_text
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+from operator import itemgetter
 
+def cleanAxes(axis, top=False, right=False, bottom=True, left=True):
+    # adapted from http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_03_statistical_graphs.ipynb    
+    axis.spines['top'].set_visible(top)
+    axis.spines['right'].set_visible(right)
+    axis.spines['left'].set_visible(left)
+    axis.spines['bottom'].set_visible(bottom)
 
+    #turn off all ticks
+    axis.yaxis.set_ticks_position('none')
+    axis.xaxis.set_ticks_position('none')
+
+    #now re-enable visibles
+    if top:
+        axis.xaxis.tick_top()
+    if bottom:
+        axis.xaxis.tick_bottom()
+    if left:
+        axis.yaxis.tick_left()
+    if right:
+        axis.yaxis.tick_right()
+
+        
 def make_score_df(screen, score, rep='ave_Rep1_Rep2'):
     '''
     Make dataframe for given score from CRISPR screening Excel file 
