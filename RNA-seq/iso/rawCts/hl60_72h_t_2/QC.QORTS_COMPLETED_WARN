@@ -1,7 +1,0 @@
-# Note: if this file EXISTS, then QoRTs QC completed WITH WARNINGS. Warning messages follow:
-Warning: run-in-progress file "iso/rawCts/hl60_72h_t_2//QC.QORTS_RUNNING" already exists. Is there another QoRTs job running?
-WARNING: The data appears to be STRANDED, following the fr_secondStrand rule.
-         Are you sure this isn't stranded data? If it is stranded, then you should probably
-         re-run QoRTs with the "--stranded" and "--stranded_fr_secondstrand" options!
-QoRTs completed WITH WARNINGS! See log for details.
-
