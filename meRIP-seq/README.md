@@ -27,4 +27,20 @@ __Results from [`FIRE`](https://github.com/goodarzilab/FIRE)__ shown above indic
 
 # Drug-induced methylation enrichment analysis 
 https://github.com/goodarzilab/PAGE
-[coming soon]
+
+
+<table>
+  <tr>
+    <td><img src=RNA-mtyl-geneset-enrichment-Chr.pdf title="Gene Sets: MSigDB-C1" width='500px'>
+  <tr>
+<table>
+<table>
+  <tr>
+    <td><img src=RNA-mtyl-geneset-enrichment-GOandKEGG.pdf title="Gene Sets: MSigDB-C2&5, GO and KEGG" width='250px'>
+  <tr>
+<table>
+<table>
+  <tr>
+    <td><img src=RNA-mtyl-geneset-enrichment-miR.pdf title="Gene Sets: MSigDB-C3, miR" width='250px'>
+  <tr>
+<table>
