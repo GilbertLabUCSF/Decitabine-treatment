@@ -33,6 +33,40 @@ theme_Publication <- function(base_size=18,legend.position = "bottom"){
 }
 
 
+plot_scatter <- function(df,x_lab,y_lab){
+    m = df[,c(x_lab,y_lab)]
+    colnames(m) <- c('x','y')
+    
+    dens <- kde2d(df[,x_lab], df[,y_lab])
+    gr <- data.frame(with(dens, expand.grid(x,y)), as.vector(dens$z))
+
+    names(gr) <- c("xgr","ygr",'zgr')
+
+    colfunc <- colorRampPalette(c(rep("slateblue1", each=10), rep("slateblue3", each=20), rep("slateblue4", each=1)))
+
+    s<-cor.test(df[,x_lab], df[,y_lab], method="pearson")
+    # https://stackoverflow.com/questions/25367943/extract-verbatim-p-value-from-cor-test
+    pv = ifelse(s$p.value==0,-log(2.2e-16,base=10),-log(s$p.value,base=10))
+    ann <- sprintf("Rho = %.3g\n-log10(P) = %.4g", s$estimate, pv)
+
+    mod <- loess(zgr~xgr*ygr, data=gr)
+
+    m$pointdens <- predict(mod, newdata=data.frame(xgr=x, ygr=y))
+
+    m %>% ggplot(aes(x=x,y=y, color=pointdens)) + 
+        geom_point(size=1, alpha=0.4,show.legend = FALSE) +
+        geom_smooth(method=lm,level=0.9999999, size=1, se=FALSE) +
+        scale_colour_gradientn(colours=colfunc(30),guide = "none") +
+        xlab(x_lab) + ylab(y_lab) +
+        annotate("text", x=0,y=0, label=ann,size=8)+
+        theme_bw(30) + 
+        theme(panel.background = element_rect(colour = "black")) + 
+        theme(panel.background = element_rect(colour = "black"), panel.grid.minor = element_blank()) +
+        labs(colour="") -> p
+    return (p)
+}
+
+
 scale_fill_Publication <- function(...){
     suppressMessages(suppressWarnings(library (scales)))
     discrete_scale("fill","Publication",manual_pal(values = c("#386cb0","#fdb462","#7fc97f","#ef3b2c","#662506","#a6cee3","#fb9a99","#984ea3","#ffff33")), ...)
