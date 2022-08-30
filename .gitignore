@@ -20,12 +20,15 @@ RNA-seq/scallop-genome/
 RNA-seq/stbl-counts/
 RNA-seq/stbl-output/
 RNA-seq/miso/
+RNA-seq/suppa
 
 Ribo-seq/Archive/
 
 CRISPRi-screen/*/process_screen_output/
 
 SLAM-seq/slamdunk_output/
+
+DAC-rg3039/RNA-seq/diffexp/
 
 *__pycache__/
 *.ipynb_checkpoints/
