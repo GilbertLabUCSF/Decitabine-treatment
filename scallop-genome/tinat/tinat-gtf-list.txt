@@ -1,5 +1,0 @@
-hg19/hg19.knownGene.gtf
-tinat/DAC+SB_TINATs.gtf
-tinat/DAC_TINATs.gtf
-tinat/SB939_TINATs.gtf
-
