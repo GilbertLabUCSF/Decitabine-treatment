@@ -1,5 +1,6 @@
 *.bam
 *fastq.gz
+*.rds
 *bam/
 *fastq/
 *counts/
