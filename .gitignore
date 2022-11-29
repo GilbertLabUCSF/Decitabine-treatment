@@ -8,30 +8,31 @@
 */*_delta_*/*/
 *_GENESET/
 
-combined_analysis/mtyl_enrichment/*_GENESET
-combined_analysis/mtyl_enrichment/*.log
-meRIP-seq/arxiv/
-meRIP-seq/radar/
-meRIP-seq/meRIP-multiqc_data/
-meRIP-seq/fire/
-meRIP-seq/fire-old/
-meRIP-seq/exomepeak/
+DAC/combined_analysis/mtyl_enrichment/*_GENESET
+DAC/combined_analysis/mtyl_enrichment/*.log
+DAC/meRIP-seq/arxiv/
+DAC/meRIP-seq/radar/
+DAC/meRIP-seq/meRIP-multiqc_data/
+DAC/meRIP-seq/fire/
+DAC/meRIP-seq/fire-old/
+DAC/meRIP-seq/exomepeak/
 
-RNA-seq/scallop-genome/
-RNA-seq/stbl-counts/
-RNA-seq/stbl-output/
-RNA-seq/miso/
-RNA-seq/suppa
+DAC/RNA-seq/scallop-genome/
+DAC/RNA-seq/stbl-counts/
+DAC/RNA-seq/stbl-output/
+DAC/RNA-seq/miso/
+DAC/RNA-seq/suppa
 
-Ribo-seq/Archive/
+DAC/Ribo-seq/Archive
 
-CRISPRi-screen/*/process_screen_output/
+DAC/CRISPRi-screen/*/process_screen_output/
 
-SLAM-seq/slamdunk_output/
+DAC/SLAM-seq/slamdunk_output/
 
 DAC-rg3039/RNA-seq/diffexp/
+DAC-rg3039/synergy/ctg/
+DAC-rg3039/synergy/compusyn
 
 *__pycache__/
 *.ipynb_checkpoints/
 *.DS_Store
-
