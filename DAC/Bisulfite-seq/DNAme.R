@@ -21,7 +21,7 @@ plot_hyperhypo <- function (res, meth.diff.cutoff, qvalue.cutoff, title='',
                 abs(meth.diff) >= meth.diff.cutoff, 
                 qvalue < qvalue.cutoff), 
             aes(x = meth.diff, y = -log10(qvalue)), 
-            size = size, alpha = alpha, shape = 21, 
+            size = size, alpha = alpha,
             color = colors_values[2],
             fill = colors_values[2]) + 
 
@@ -31,7 +31,7 @@ plot_hyperhypo <- function (res, meth.diff.cutoff, qvalue.cutoff, title='',
                 (qvalue >= qvalue.cutoff)), 
             aes(x = meth.diff, y = -log10(qvalue)), 
             size = 1, alpha = alpha, 
-            shape = 21, color = colors_values[1], 
+            color = colors_values[1], 
             fill = colors_values[1]) + 
         
         geom_rug(
