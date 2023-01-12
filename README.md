@@ -1,4 +1,18 @@
-<!-- 
-I'll include a task list here to explain what I've done and what we can do with them. 
-https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-in-github-markdown-table 
--->
+[![DOI:10.1101/2022.12.14.518457](http://img.shields.io/badge/DOI-10.1101/2022.12.14.518457-B31B1B.svg)](https://www.biorxiv.org/content/early/2022/12/14/2022.12.14.518457)
+
+___
+### Citation
+```
+@article {Ge2022.12.14.518457,
+    author = {Ge, Alex Y. and Arab, Abolfazl and Dai, Raymond and Navickas, Albertas and Fish, Lisa and Garcia, Kristle and Asgharian, Hosseinali and Goodarzi, Hani and Gilbert, Luke A.},
+    title = {A multiomics approach reveals RNA dynamics promote cellular sensitivity to DNA hypomethylation},
+    elocation-id = {2022.12.14.518457},
+    year = {2022},
+    doi = {10.1101/2022.12.14.518457},
+    publisher = {Cold Spring Harbor Laboratory},
+    abstract = {The search for new approaches in cancer therapy requires a mechanistic understanding of cancer vulnerabilities and anti-cancer drug mechanisms of action. Problematically, some effective therapeutics target cancer vulnerabilities that we do not understand and have poorly defined mechanisms of anti-cancer activity. One such drug is decitabine, which is a frontline therapeutic approved for the treatment of high-risk acute myeloid leukemia (AML). Decitabine is thought to kill cancer cells selectively via inhibition of DNA methyltransferase enzymes, but the genes and mechanisms involved remain unclear. Here, we apply an integrated multiomics and CRISPR functional genomics approach to identify genes and processes associated with response to decitabine in AML cells. Our integrated multiomics approach reveals RNA dynamics are key regulators of DNA hypomethylation induced cell death. Specifically, regulation of RNA decapping, splicing and RNA methylation emerge as critical regulators of decitabine killing. Our results provide insights into the mechanisms of decitabine anti-cancer activity in treatment of AML and identify combination therapies which could potentiate decitabine anti-cancer activity.Competing Interest StatementA.Y.G. and A.A. declare no competing interests. L.A.G has filed patents on CRISPR functional genomics, has worked with the UCSF/UC Berkeley/GSK Laboratory for Genomics Research on DNMT1 inhibitors and is a co-founder of Chroma Medicine.},
+    URL = {https://www.biorxiv.org/content/early/2022/12/14/2022.12.14.518457},
+    eprint = {https://www.biorxiv.org/content/early/2022/12/14/2022.12.14.518457.full.pdf},
+    journal = {bioRxiv}
+  }
+```
