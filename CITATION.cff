@@ -1,5 +1,5 @@
 cff-version: 1.3.0
-message: If you use this software, please cite it using these metadata.
+message: If you use scripts from this repository, please cite following papers.
 title: A multiomics approach reveals RNA dynamics promote cellular sensitivity to DNA hypomethylation
 authors:
   - given-names: Alex Y.
