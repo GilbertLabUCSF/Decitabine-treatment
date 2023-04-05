@@ -1,32 +1,41 @@
 cff-version: 1.3.0
-message: If you use this code, please cite the following publications.
-
-citation-1:
-  authors:
-    - Ge, Alex Y.
-    - Arab, Abolfazl
-    - Dai, Raymond
-    - Navickas, Albertas
-    - Fish, Lisa
-    - Garcia, Kristle
-    - Asgharian, Hosseinali
-    - Goodarzi, Hani
-    - Gilbert, Luke A.
-  title: A multiomics approach reveals RNA dynamics promote cellular sensitivity to DNA hypomethylation
-  year: 2022
-  doi: 10.1101/2022.12.14.518457
-  publisher: Cold Spring Harbor Laboratory
-  url: https://www.biorxiv.org/content/early/2022/12/14/2022.12.14.518457
-  abstract: The search for new approaches in cancer therapy requires a mechanistic understanding of cancer vulnerabilities and anti-cancer drug mechanisms of action. Problematically, some effective therapeutics target cancer vulnerabilities that we do not understand and have poorly defined mechanisms of anti-cancer activity. One such drug is decitabine, which is a frontline therapeutic approved for the treatment of high-risk acute myeloid leukemia (AML). Decitabine is thought to kill cancer cells selectively via inhibition of DNA methyltransferase enzymes, but the genes and mechanisms involved remain unclear. Here, we apply an integrated multiomics and CRISPR functional genomics approach to identify genes and processes associated with response to decitabine in AML cells. Our integrated multiomics approach reveals RNA dynamics are key regulators of DNA hypomethylation induced cell death. Specifically, regulation of RNA decapping, splicing and RNA methylation emerge as critical regulators of decitabine killing. Our results provide insights into the mechanisms of decitabine anti-cancer activity in treatment of AML and identify combination therapies which could potentiate decitabine anti-cancer activity.
-
-citation-2:
-  authors:
-    - Smith, John
-    - Johnson, Jane
-  title: A new approach to cancer therapy
-  year: 2021
-  doi: 10.1000/123456789
-  publisher: Journal of Cancer Therapy
-  url: https://www.journalofcancertherapy.com/article/123456789/
-  abstract: This study introduces a new approach to cancer therapy that targets specific cancer cells while leaving healthy cells unharmed. Our results show promising potential for future cancer treatments.
-
+message: If you use this software, please cite it using these metadata.
+title: A multiomics approach reveals RNA dynamics promote cellular sensitivity to DNA hypomethylation
+authors:
+  - given-names: Alex Y.
+    family-names: Ge
+  - given-names: Abolfazl
+    family-names: Arab
+  - given-names: Raymond
+    family-names: Dai
+  - given-names: Albertas
+    family-names: Navickas
+  - given-names: Lisa
+    family-names: Fish
+  - given-names: Kristle
+    family-names: Garcia
+  - given-names: Hosseinali
+    family-names: Asgharian
+  - given-names: Hani
+    family-names: Goodarzi
+  - given-names: Luke A.
+    family-names: Gilbert
+version: ''
+abstract: |-
+  The search for new approaches in cancer therapy requires a mechanistic understanding of cancer vulnerabilities and anti-cancer drug mechanisms of action. Problematically, some effective therapeutics target cancer vulnerabilities that we do not understand and have poorly defined mechanisms of anti-cancer activity. One such drug is decitabine, which is a frontline therapeutic approved for the treatment of high-risk acute myeloid leukemia (AML). Decitabine is thought to kill cancer cells selectively via inhibition of DNA methyltransferase enzymes, but the genes and mechanisms involved remain unclear. Here, we apply an integrated multiomics and CRISPR functional genomics approach to identify genes and processes associated with response to decitabine in AML cells. Our integrated multiomics approach reveals RNA dynamics are key regulators of DNA hypomethylation induced cell death. Specifically, regulation of RNA decapping, splicing and RNA methylation emerge as critical regulators of decitabine killing. Our results provide insights into the mechanisms of decitabine anti-cancer activity in treatment of AML and identify combination therapies which could potentiate decitabine anti-cancer activity.
+keywords:
+  - RNA dynamics
+  - DNA hypomethylation
+  - cancer therapy
+  - decitabine
+  - acute myeloid leukemia
+  - multiomics
+  - CRISPR functional genomics
+  - RNA decapping
+  - splicing
+  - RNA methylation
+license: ''
+doi: 10.1101/2022.12.14.518457
+repository-code: ''
+url: https://www.biorxiv.org/content/early/2022/12/14/2022.12.14.518457
+citation-style: apa
