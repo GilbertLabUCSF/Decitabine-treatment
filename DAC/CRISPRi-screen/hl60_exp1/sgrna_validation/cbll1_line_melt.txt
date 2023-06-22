@@ -1,0 +1,19 @@
+time	sgrna	rep1	rep2	mean	sd
+0	CBLL1 sg1	1	1	1	0
+0	CBLL1 sg2	1	1	1	0
+0	non-targeting sgRNA	1	1	1	0
+3	CBLL1 sg1	1.06	1.07	1.06	0.00
+3	CBLL1 sg2	1.01	1.05	1.03	0.03
+3	non-targeting sgRNA	1.08	1.00	1.04	0.06
+6	CBLL1 sg1	1.00	1.00	1.00	0.01
+6	CBLL1 sg2	1.03	0.97	1.00	0.04
+6	non-targeting sgRNA	1.00	1.00	1.00	0.00
+9	CBLL1 sg1	1.73	1.69	1.71	0.03
+9	CBLL1 sg2	1.23	1.25	1.24	0.02
+9	non-targeting sgRNA	1.09	1.05	1.07	0.03
+12	CBLL1 sg1	2.01	2.03	2.02	0.02
+12	CBLL1 sg2	1.21	1.19	1.20	0.01
+12	non-targeting sgRNA	1.05	1.01	1.03	0.03
+15	CBLL1 sg1	2.18	2.19	2.18	0.01
+15	CBLL1 sg2	1.25	1.22	1.24	0.02
+15	non-targeting sgRNA	1.12	1.05	1.09	0.05

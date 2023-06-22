@@ -1,0 +1,10 @@
+time	sgrna	mean	sd
+0	PTEN sg1	1	0
+0	PTEN sg2	1	0
+0	non-targeting sgRNA	1	0
+7	PTEN sg1	0.46	0.00
+7	PTEN sg2	0.44	0.02
+7	non-targeting sgRNA	1.14	0.03
+14	PTEN sg1	0.27	0.01
+14	PTEN sg2	0.35	0.01
+14	non-targeting sgRNA	0.93	0.03

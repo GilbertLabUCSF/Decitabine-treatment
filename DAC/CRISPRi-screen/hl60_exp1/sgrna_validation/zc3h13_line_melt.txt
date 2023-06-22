@@ -1,0 +1,19 @@
+time	sgrna	rep1	rep2	mean	sd
+0	ZC3H13 sg1	1.00	1.00	1.00	0.00
+0	ZC3H13 sg2	1.00	1.00	1.00	0.00
+0	non-targeting sgRNA	1.00	1.00	1.00	0.00
+3	ZC3H13 sg1	1.01	1.00	1.00	0.00
+3	ZC3H13 sg2	0.98	0.98	0.98	0.00
+3	non-targeting sgRNA	1.08	1.00	1.04	0.06
+6	ZC3H13 sg1	1.00	1.00	1.00	0.00
+6	ZC3H13 sg2	1.00	1.00	1.00	0.00
+6	non-targeting sgRNA	1.00	1.00	1.00	0.00
+9	ZC3H13 sg1	1.55	1.45	1.50	0.07
+9	ZC3H13 sg2	1.44	1.38	1.41	0.04
+9	non-targeting sgRNA	1.09	1.05	1.07	0.03
+12	ZC3H13 sg1	1.80	1.65	1.72	0.10
+12	ZC3H13 sg2	1.92	1.58	1.75	0.24
+12	non-targeting sgRNA	1.05	1.01	1.03	0.03
+15	ZC3H13 sg1	2.08	1.79	1.93	0.20
+15	ZC3H13 sg2	2.27	1.69	1.98	0.41
+15	non-targeting sgRNA	1.12	1.05	1.09	0.05

@@ -1,0 +1,19 @@
+time	sgrna	rep1	rep2	mean	sd
+0	YTHDF2 sg1	1	1	1	0
+0	YTHDF2 sg2	1	1	1	0
+0	non-targeting sgRNA	1	1	1	0
+3	YTHDF2 sg1	1.17	1.17	1.17	0.00
+3	YTHDF2 sg2	1.14	1.12	1.13	0.02
+3	non-targeting sgRNA	1.08	1.00	1.04	0.06
+6	YTHDF2 sg1	1.01	0.99	1.00	0.01
+6	YTHDF2 sg2	0.99	1.01	1.00	0.02
+6	non-targeting sgRNA	1.00	1.00	1.00	0.00
+9	YTHDF2 sg1	1.96	1.99	1.98	0.02
+9	YTHDF2 sg2	1.58	1.60	1.59	0.02
+9	non-targeting sgRNA	1.09	1.05	1.07	0.03
+12	YTHDF2 sg1	2.29	2.32	2.31	0.02
+12	YTHDF2 sg2	1.73	1.85	1.79	0.09
+12	non-targeting sgRNA	1.05	1.01	1.03	0.03
+15	YTHDF2 sg1	2.34	2.50	2.42	0.12
+15	YTHDF2 sg2	1.91	2.01	1.96	0.07
+15	non-targeting sgRNA	1.12	1.05	1.09	0.05

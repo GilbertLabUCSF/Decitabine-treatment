@@ -1,0 +1,10 @@
+time	sgrna	mean	sd
+0	DCK sg1	1	0
+0	DCK sg2	1	0
+0	non-targeting sgRNA	1	0
+7	DCK sg1	3.83	0.08
+7	DCK sg2	3.9	0.05
+7	non-targeting sgRNA	0.87	0.02
+14	DCK sg1	12.24	0.2
+14	DCK sg2	12.41	0.07
+14	non-targeting sgRNA	0.87	0.03

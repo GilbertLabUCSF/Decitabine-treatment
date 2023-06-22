@@ -1,0 +1,10 @@
+time	sgrna	rep1	rep2	mean	sd
+0	DCP2 sg1	1	1	1	0
+0	DCP2 sg2	1	1	1	0
+0	non-targeting sgRNA	1	1	1	0
+7	DCP2 sg1	0.52	0.43	0.47	0.06
+7	DCP2 sg2	0.37	0.61	0.49	0.17
+7	non-targeting sgRNA	1.14	1	1.07	0.11
+15	DCP2 sg1	0.1	0.21	0.15	0.08
+15	DCP2 sg2	0.13	0.16	0.14	0.02
+15	non-targeting sgRNA	1.16	1.08	1.12	0.06

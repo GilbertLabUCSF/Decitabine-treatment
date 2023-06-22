@@ -1,0 +1,10 @@
+time	sgrna	rep1	rep2	mean	sd
+0	SCAF8 sg1	1	1	1	0
+0	SCAF8 sg2	1	1	1	0
+0	non-targeting sgRNA	1	1	1	0
+7	SCAF8 sg1	0.2	0.2	0.2	0
+7	SCAF8 sg2	0.16	0.39	0.28	0.17
+7	non-targeting sgRNA	1.14	1	1.07	0.11
+15	SCAF8 sg1	0	0.13	0.06	0.09
+15	SCAF8 sg2	0.06	0	0.03	0.05
+15	non-targeting sgRNA	1.16	1.08	1.12	0.06
