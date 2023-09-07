@@ -106,7 +106,7 @@ def find_top(df,value, value_thr, stat, stat_thr, drop_dup=False,silent=False):
 #     data = dict(((c,{}) for c in cells))
 #     return data
 
-def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Projects/Decitabine-treatment/'):
+def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/AML/Decitabine-treatment/'):
     '''Read data into Pandas dataframes'''
     cwd = os.getcwd()
     os.chdir(wd)
@@ -148,22 +148,17 @@ def load_data(comparisons=False, screens=False, wd='/rumi/shams/abe/Projects/Dec
             data = dict()
 
         screens = [
-        'CRISPRi-screen/hl60_exp1/DAC_processing_output_genetable_collapsed.txt',
-        'CRISPRi-screen/hl60_exp2/DAC_processing_output_genetable_collapsed.txt',
-        'CRISPRi-screen/hl60_exp2/GSK_processing_output_genetable_collapsed.txt',
-        'CRISPRi-screen/molm13_exp/DAC_processing_output_genetable_collapsed.txt',
-        'CRISPRi-screen/molm13_exp/GSK_processing_output_genetable_collapsed.txt'
-        ]
-
-        labels = [
-            itemgetter(0,1,2)(f.replace('CRISPRi-screen/','').replace('/','_').split('_')) 
-            for f in screens
+        'CRISPRi-screen/hl60_exp1/genetable_collapsed.txt',
+        'CRISPRi-screen/molm13_exp/genetable_collapsed.txt',
+        'CRISPRi-screen/molm13_exp/genetable_collapsed.txt',
+        'CRISPRi-screen/skm1_exp/genetable_collapsed.txt',
         ]
         
-        for i,x  in enumerate(labels):
-            cell, exp, drug = x
-            for score in ['rho','gamma']:
-                data['_'.join([cell, exp, drug, score])] = read_genetable_collapsed (screens[i],score)
+        labels = [f.split('/')[1] for f in screens]
+        
+        for i,label in enumerate(labels):
+            for score in ['rho','gamma','tau']:
+                data[f'{label}_{score}'] = read_genetable_collapsed (screens[i],score)
     os.chdir(cwd)
     
     return data
@@ -251,26 +246,26 @@ def set_Top_TE(te_thr,fdr_thr,data=None):
     return out 
 
 
-def merge_screen_data(cells, exps, drugs, scores, data=None):
+def merge_screen_data(cells, exps, scores, data=None):
     if data==None:
         data = load_data(screens=True)
 
     # find uniq gene names 
     genes = []
     for key in data.keys():
-        c, e, d, s = key.split('_')
-        if c in cells and d in drugs and e in exps and s in scores:
+        c, e, s = key.split('_')
+        if c in cells and e in exps and s in scores:
             genes.append(
                 data[key].index.tolist() 
             )
     
-    genes = set(genes[0]).intersection(*genes[1:])
+    genes = list(set(genes[0]).intersection(*genes[1:]))
     
     # merge data frames 
     dfs = []
     for key in data.keys():
-        c, e, d, s = key.split('_')
-        if c in cells and d in drugs and e in exps and s in scores:
+        c, e, s = key.split('_')
+        if c in cells and e in exps and s in scores:
             dfs.append(data[key].loc[genes,:].rename(
                 columns={
                     f'{s} score': f'{key} score'#.replace(' ','_')
@@ -283,7 +278,7 @@ def merge_screen_data(cells, exps, drugs, scores, data=None):
 
 
 # Rho score
-def set_Top_Rho(sc_thr,pv_thr,cells='hl60', exps='exp1', drugs='DAC', data=None):
+def set_Top_Rho(sc_thr,pv_thr,cells='hl60', exps='exp1', data=None):
     print ('Subset Top Rho data frame:')
     if data==None:
         data = load_data(screens=True)
@@ -291,11 +286,11 @@ def set_Top_Rho(sc_thr,pv_thr,cells='hl60', exps='exp1', drugs='DAC', data=None)
     dfs = []
     
     for key in data.keys():
-        c, e, d, score = key.split('_')
-        if c in cells and d in drugs and e in exps and score == 'rho':
-            print (f'({c} / {e} / {d})')
+        c, e, score = key.split('_')
+        if c in cells and e in exps and score == 'rho':
+            print (f'({c} / {e})')
             dfs.append(
-                merge_screen_data(c, e, d, score, data)
+                merge_screen_data(c, e, score, data)
             )
 
     top = []
@@ -308,9 +303,9 @@ def set_Top_Rho(sc_thr,pv_thr,cells='hl60', exps='exp1', drugs='DAC', data=None)
         top.append([up,dn])
     
     up_genes = [up.index.tolist() for up,_ in top]
-    up_genes = set(up_genes[0]).intersection(*up_genes[1:])
+    up_genes = list(set(up_genes[0]).intersection(*up_genes[1:]))
     dn_genes = [dn.index.tolist() for _,dn in top]
-    dn_genes = set(dn_genes[0]).intersection(*dn_genes[1:])
+    dn_genes = list(set(dn_genes[0]).intersection(*dn_genes[1:]))
     
     up = pd.concat([df.loc[up_genes,:] for df in dfs],axis=1)
     dn = pd.concat([df.loc[dn_genes,:] for df in dfs],axis=1)
