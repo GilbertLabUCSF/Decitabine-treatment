@@ -58,4 +58,10 @@ List of notebooks and scripts used for the analysis in the manuscript is as foll
 
 ```
 ___
+List of other repositories developed as part of this project:
+- Integrated methods for meRIP-seq data analysis – https://github.com/abearab/imRIP
+- Pathway analysis using PAGE algorithm and downstream analysis – https://github.com/abearab/pager
+- Scripts for mapping NGS reads to HERVs – https://github.com/abearab/HERVs
+
+___
 This repo has been developed in Gilbert and Goodarzi labs at UCSF (2019-2022) by [Abolfazl Arab](https://github.com/abearab) and incldue some original/revised codes from  Alex Y. Ge,  Hosseinali Asgharian, and Hani Goodarzi.
