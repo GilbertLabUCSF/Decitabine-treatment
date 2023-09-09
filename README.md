@@ -66,4 +66,4 @@ List of reproducible pipelines and other repositories developed as part of this 
 - Scripts for mapping NGS reads to HERVs – https://github.com/abearab/HERVs
 
 ___
-This repo has been developed in Gilbert and Goodarzi labs at UCSF (2019-2022) by [Abolfazl Arab](https://github.com/abearab) and incldue some original/revised codes from  Alex Y. Ge,  Hosseinali Asgharian, and Hani Goodarzi.
+This repo has been developed in Gilbert at UCSF and Arc Institute by [Abolfazl Arab](https://github.com/abearab), in collaboration with Goodarzi lab at UCSF. This also incldue some original/revised codes from  Alex Y. Ge,  Hosseinali Asgharian, and Hani Goodarzi.
