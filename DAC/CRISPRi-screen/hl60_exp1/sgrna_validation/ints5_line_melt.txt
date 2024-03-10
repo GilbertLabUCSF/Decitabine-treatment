@@ -2,9 +2,9 @@ time	sgrna	mean	sd
 0	INTS5 sg1	1	0
 0	INTS5 sg2	1	0
 0	non-targeting sgRNA	1	0
-7	INTS5 sg1	0.432	0.041
-7	INTS5 sg2	0.635	0.014
-7	non-targeting sgRNA	0.985	0.035
-14	INTS5 sg1	0.268	0.042
-14	INTS5 sg2	0.338	0.110
-14	non-targeting sgRNA	1.037	0.042
+7	INTS5 sg1	0.569	0.044
+7	INTS5 sg2	0.643	0.015
+7	non-targeting sgRNA	0.971	0.065
+14	INTS5 sg1	0.412	0.100
+14	INTS5 sg2	0.425	0.016
+14	non-targeting sgRNA	1.010	0.023

@@ -2,9 +2,9 @@ time	sgrna	mean	sd
 0	SQLE sg1	1	0
 0	SQLE sg2	1	0
 0	non-targeting sgRNA	1	0
-7	SQLE sg1	0.518	0.048
-7	SQLE sg2	0.588	0.009
-7	non-targeting sgRNA	0.985	0.035
-14	SQLE sg1	0.295	0.050
-14	SQLE sg2	0.397	0.021
-14	non-targeting sgRNA	1.037	0.042
+7	SQLE sg1	0.631	0.091
+7	SQLE sg2	0.636	0.089
+7	non-targeting sgRNA	0.971	0.065
+14	SQLE sg1	0.371	0.069
+14	SQLE sg2	0.419	0.057
+14	non-targeting sgRNA	1.010	0.023
