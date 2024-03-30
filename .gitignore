@@ -1,16 +1,19 @@
 *.bam
 *fastq.gz
-*.rds
+**.rds
 *bam/
 *fastq/
 *counts/
 *quants/
 */*_delta_*/*/
 *_GENESET/
+**page/
+**logs/
 
 DAC/combined_analysis/mtyl_enrichment/*_GENESET
 DAC/combined_analysis/mtyl_enrichment/*.log
 DAC/meRIP-seq/arxiv/
+DAC/meRIP-seq/align
 DAC/meRIP-seq/radar/
 DAC/meRIP-seq/meRIP-multiqc_data/
 DAC/meRIP-seq/fire/
@@ -32,6 +35,7 @@ DAC/SLAM-seq/slamdunk_output/
 DAC-rg3039/RNA-seq/diffexp/
 DAC-rg3039/synergy/ctg/
 DAC-rg3039/synergy/compusyn
+DAC-rg3039/RNA-seq/herv/quant_*
 
 *__pycache__/
 *.ipynb_checkpoints/
