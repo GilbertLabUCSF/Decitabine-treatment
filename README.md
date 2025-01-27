@@ -1,8 +1,8 @@
 **A multiomics approach reveals RNA dynamics promote cellular sensitivity to DNA hypomethylation**
 
-This repository contains all the scripts necessary for producing the results of the manuscript, for which a preprint is available at:
+This repository contains all the scripts necessary for producing the results of the manuscript:
 
-[![DOI:10.1101/2022.12.14.518457](http://img.shields.io/badge/DOI-10.1101/2022.12.14.518457-B31B1B.svg)](https://www.biorxiv.org/content/early/2022/12/14/2022.12.14.518457)
+[![DOI: 10.1038/s41598-024-77314-9](http://img.shields.io/badge/manuscript-Scientific_Reports-green.svg)](https://www.nature.com/articles/s41598-024-77314-9)
 
 Raw data is also available at:
 
